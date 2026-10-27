@@ -61,13 +61,15 @@ Most districts run reports by hand because nobody has had the time to set up the
 ::src Lewis County :: A Missouri partner district's technology coordinator has already asked its consortium to obtain the NDPA with CHSS, so the NDPA commitment is stated here up front.
 ::src Conversation :: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." That is the record behind "will also sign the NDPA." The Exhibit E general offer has no record yet and is not promised here (Decisions, O12).
 ::src District lens :: "Do not label an incomplete list 'only the data needed.'" The list now matches Exhibit D-1's Required elements exactly and names the screeners.
-::src Luke's decision :: See Decisions, M9 and M18.
+::src Luke's decision :: See Decisions, M9, M18, and M19.
+::src District lens :: A California district technology and privacy lead (10/27 call) reads every partner agreement for four things "with no gray area": auto-renewals, what happens when data is compromised, destruction at the end of the contract, and selling or advertising to third parties. The four are now each a bullet on this page.
 
 SIS integration is governed by a data sharing agreement with your district and designed to meet FERPA and your state's student privacy requirements. CHSS provides its own privacy and security appendix and will also sign the National Data Privacy Agreement (NDPA) in your state's version if your district prefers it. Your student data remains your district's property, and your district decides who can see it.
 
 - **Only the data needed.** CHSS receives student ID, name, grade level and enrollment dates, course enrollments, course marks and credits by grading period, GPA, and attendance. Nothing else is required. Responses to the short belonging and skills screeners your team administers, after you approve the questions, are held under the same terms.
 - **Used for one purpose.** Identifiable student information supports ninth grade success work in your schools and nothing else. CHSS keeps only de-identified and aggregate results to evaluate and improve the program.
 - **Deleted when you say so.** When the partnership ends, or whenever you ask, identifiable data is destroyed and we certify it.
+- **No automatic renewal.** The data partnership ends with the agreement. Continuing it takes a new signature, not silence.
 
 ## Who sees what
 ::src James's collateral :: Table structure and the school-team row are James's. His draft says CHSS coaches and staff see "aggregate data only"; that row changes here and must change in his one-pager, because a coach watching a student-level screen is seeing identifiable records.

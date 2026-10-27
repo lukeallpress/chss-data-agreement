@@ -27,7 +27,8 @@ Answer each as **true today**, **true by [date]**, or **no**:
 15. Whether a Navigator tenant can run without student names, and which features would be off. (O9)
 16. The December pilot: which schools, under which agreement, with what data. (O1)
 17. Integration support: what "support until the feed passes acceptance" costs in staff time, and who staffs it. (6.9, O11)
-18. Part C is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
+18. Be ready to demo Navigator to a district's technology or privacy lead and answer the four questions they ask of any AI feature: is the model CHSS's own or a third party's; exactly what goes into the prompt; who at CHSS, the provider, or any maintenance contractor can see inputs and outputs; and what the agent does with the output. (A.12(i); a California district lead asks exactly these and says vendors are often surprised to be asked.)
+19. Part C is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
 
 ## For Jonah: decisions and commitments
 ::src Conversation :: Jonah (10/26) listed the standard terms to include: deletion on termination, storage location, audits, insurance levels. The items below are the ones that go beyond that list or cost money.
@@ -58,6 +59,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 2. Whether coaches can do the job with in-session view only, or need a standing login. (M1)
 3. Which longitudinal analyses need row-level de-identified records rather than aggregate results. (O10)
 4. Whether any Navigator feature depends on discipline data. (M3)
+5. Arizona: a belonging screener with items about emotional state or well-being may not be administrable in Arizona at all (Arizona districts cannot run Panorama or ask students how they feel), while California districts run such surveys several times a year. Plan for the Services to run without the Belonging Screener where a district declines it. (6.7)
 
 ## For James: collateral and the current emails
 ::src James's collateral :: The Navigator one-pager says CHSS coaches and staff see "aggregate data only."
@@ -67,7 +69,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 3. **The 70 percent Kid Talk claim** (your 10/23 email: "when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal"). Before it appears in anything a board sees: what is the comparison group, how many schools, which years, and how was fidelity measured? Is it a correlation or a controlled result? Until then the case-making says "associated with" and cites "CHSS partner data," and the number carries a footnote with the method. (O16)
 4. Hold the Missouri reply until counsel confirms O12; if it goes sooner, drop the Exhibit E sentence.
 5. Ask Columbus for a 45-minute slot Nov 2 to 4 with the CTO and their data-agreement reviewer; send the data summary, the file specification outline, the security page, and the screener instruments ahead of it.
-6. Ask San Diego which instrument they use with outside partners that receive student-level data, without guessing the answer.
+6. Ask San Diego which instrument they use with outside partners that receive student-level data, without guessing the answer. Ask specifically whether SDUSD routes partner data agreements through CITE's data privacy services (CITE, California IT in Education, hosts the California Student Privacy Alliance and the California NDPA; many California districts outsource redlining to it), and expect purchasing and business services to review the MOU alongside the CTO. A California district lead's advice for a partner with its own strong appendix: expect to be asked to sign the state agreement too, and say yes.
 
 :::details Paste-ready email blocks for James
 ### Reply to the Missouri district's technology coordinator

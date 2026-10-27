@@ -73,8 +73,9 @@ Demian confirms current practice for coaches and technical staff. If not current
 ::src State law :: Arizona A.R.S. § 15-104 requires prior written parental consent for mental health screening in schools, and § 15-117 exempts § 15-104 screenings from its separate survey regime. The Department of Education's August 26, 2026 letter treats behavioral health screeners that probe emotional or psychological states as requiring written consent; PPRA opt-out is not a substitute.
 ::src Emily's email :: The agreement must cover the Belonging and Skills screeners.
 ::src District lens :: A privacy officer will not approve "notice, opt-out, or consent" without the instruments in hand.
+::src District lens :: A California district technology and privacy lead (10/27 call): California districts run Panorama wellness surveys several times a year, with parent notification now required on gender-identity items; Arizona districts cannot run them at all. The agreement now lets a district decline a screener and keeps the Services running without it.
 
-Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. **Documents:** District commitments 6.7; Appendix A.15, A.17.
+Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. Plan for Arizona districts to decline the Belonging Screener. **Documents:** District commitments 6.7; Appendix A.15, A.17.
 :::
 
 :::why O7
@@ -159,6 +160,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src District lens :: A privacy officer's first objection to an earlier draft: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure." A CTO's follow-up: the platform cannot log who looks at a shared screen, so the session record replaces a logging claim it could not keep.
 ::src Conversation :: Jonah (10/26) wanted the less intrusive approach with screen-share and one consistent protocol; James wanted to ask for access and fall back; Luke: the coach already hears names in every kid talk, so the agreement "operationalizes" a threshold already crossed.
 ::src AFUHSD precedent :: Teach For America (2026): the district accepted the partner coach seeing student data as the only partner viewer, acknowledged as a FERPA school official.
+::src District lens :: A California district technology and privacy lead (10/27 call): outside partners who support students get data "we pull for them," no credentials, always under an executed agreement; identifiable versus de-identified for a coach "is not a huge difference" once an agreement is in place; personnel physically in classrooms may need volunteer clearance or fingerprinting regardless. Option B is the common pattern, not an invention.
 
 **What would reverse it:** Tara saying coaches cannot do the job without their own login, in which case Option A becomes the default and Option B the fallback. The clause supports either.
 
@@ -183,6 +185,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src FERPA :: 34 C.F.R. § 99.31(b)(1); § 99.31(b)(2) allows coded student-level data only for education research with a code not based on personal information.
 ::src SDPC NDPA :: Article IV.5: use of de-identified data survives termination; no re-identification; transfer only under written no-re-identification terms with LEA consent; LEA approval before any publication naming it.
 ::src District lens :: Replacing an ID and suppressing small cells does not by itself prevent identification through rare combinations or repeated releases; the operative clause has to require the review the decision page promised.
+::src District lens :: A California district technology and privacy lead (10/27 call) confirmed de-identified retention after termination is acceptable "as long as we can't trace it back," provided the agreement states it explicitly; her district de-identifies with its own assessment-office key for a county partner.
 ::src Luke's decision :: Appendix A.10 now requires a documented reasonable-determination review before any De-identified Data is retained or released, covering direct and indirect identifiers, other reasonably available information, repeated-release risk, and complementary suppression, with the record available to the district on request. Row-level retention itself is subject to O10.
 
 ### M6. Where the NDPA is signed, it controls; Appendix A always applies
@@ -206,7 +209,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ### M9. Minimum dataset
 ::src Emily's email :: "What is the minimum practical dataset we should request initially versus additional data we might pursue later?"
 ::src AFUHSD precedent :: District data teams strike elements they cannot produce accurately (AFUHSD feeder DSA, 2025).
-::src Luke's decision :: Required: ID, name, grade level and enrollment dates, course enrollments, marks and credits by term, GPA, attendance. Everything else optional. The case-making's "only the data needed" list now matches this exactly and names the screeners.
+::src Luke's decision :: Required: ID, name, grade level and enrollment dates, course enrollments, marks and credits by term, GPA, attendance. Everything else optional, and the most protected categories are marked sensitive and never requested by default (M20). The case-making's "only the data needed" list now matches this exactly and names the screeners.
 
 ### M10. Breach notice at seventy-two hours, broad trigger, district controls family notice
 ::src SDPC NDPA :: Arizona NDPA v1.2 Article V.4: notification "within seventy-two (72) hours of confirmation of the incident, unless notification within this time limit would disrupt investigation."
@@ -250,3 +253,12 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src James's MOU draft :: Section Seven: "the amount due from District under this Agreement is $0."
 ::src District lens :: "The amount due to CHSS may be $0, but we are contributing staff time and may incur SIS-vendor or integration costs."
 ::src Luke's decision :: The headline is "$0 due to CHSS," never "costs nothing," and the staff-effort paragraph sits directly under it. Who pays a SIS vendor's export or API fee under Tier 3 is a note for Jonah, not a decision in this register.
+
+### M19. No automatic renewal of the data provisions
+::src District lens :: A California district technology and privacy lead (10/27 call) reads every agreement for four things "with no gray area": auto-renewals, what happens when data is compromised, destruction at the end of the contract, and selling or advertising to third parties. The other three were already in the drafts; auto-renewal was not addressed.
+::src James's MOU draft :: Section Four: no financial commitment beyond Year 1; any continued services "shall be documented in a separate written agreement signed by both Parties."
+::src Luke's decision :: The data provisions and Appendix A end with the Agreement's term and never renew by silence; continuing data sharing takes a new signature. Stated in A.16, in the conforming edits, and as a bullet in the case-making. It costs CHSS nothing and removes a standard finding from every district's checklist.
+
+### M20. Sensitive elements are never requested by default
+::src District lens :: The same California lead ranks meal status, special education status, and graduation date as the most protected categories and recently refused a partner's request for meal data with the district attorney's backing.
+::src Luke's decision :: IEP/504 status and free or reduced-price meal status are split out of the optional demographics row in Exhibit D-1, labeled "Optional, sensitive," marked not needed for Navigator, and never requested unless the District elects to provide them. Reversed only if Tara shows a Navigator feature that needs them.
