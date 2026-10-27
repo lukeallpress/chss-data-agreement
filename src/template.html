@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CHSS Data Agreement Drafts</title>
+<meta name="description" content="Working drafts of the data partnership language for the Center for High School Success accelerator agreement, with the source of each section.">
+<style>
+  :root {
+    --ink: #111418;
+    --ink-2: #3a3f47;
+    --ink-3: #6b7280;
+    --rule: #e5e7eb;
+    --rule-2: #cbd0d8;
+    --bg: #ffffff;
+    --bg-2: #f7f8fa;
+    --accent: #1f4e8c;
+    --accent-bg: #eef3fa;
+    --draft: #b45309;
+    --draft-bg: #fff7ed;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --measure: 72ch;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0; color: var(--ink); background: var(--bg);
+    font-family: var(--serif); font-size: 17px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); }
+  code { font-family: var(--mono); font-size: 0.9em; background: var(--bg-2); padding: 0 .25em; border-radius: 3px; }
+
+  /* Pinned header */
+  .top {
+    position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96);
+    backdrop-filter: saturate(1.2) blur(6px); border-bottom: 1px solid var(--rule);
+    font-family: var(--sans);
+  }
+  .top-inner { max-width: 1040px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
+  .brand { font-weight: 600; font-size: 14px; letter-spacing: .01em; color: var(--ink); white-space: nowrap; }
+  .brand small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab {
+    appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-2);
+    font: 500 14px/1 var(--sans); padding: 10px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  }
+  .tab:hover { border-color: var(--accent); color: var(--accent); }
+  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .draftflag {
+    margin-left: auto; font: 600 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase;
+    color: var(--draft); background: var(--draft-bg); border: 1px solid #fdba74; padding: 6px 9px; border-radius: 4px; white-space: nowrap;
+  }
+
+  /* Document body */
+  main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 80px; }
+  .doc { max-width: var(--measure); }
+  .doc h1 { font-family: var(--serif); font-weight: 600; font-size: 1.9rem; line-height: 1.2; margin: 0 0 .2em; letter-spacing: -.01em; }
+  .doc h1 + p.sub, .doc p.sub { font-family: var(--sans); color: var(--ink-3); font-size: 14px; margin: 0 0 1.6em; }
+  .doc h2 { font-size: 1.28rem; font-weight: 600; margin: 0; line-height: 1.3; }
+  .doc h3 { font-size: 1.06rem; font-weight: 600; margin: 0; line-height: 1.35; }
+  .sec { margin: 1.9em 0 0; }
+  .sec.lvl3 { margin-top: 1.3em; }
+  .sec-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+  .sec-head h2, .sec-head h3 { flex: 1 1 auto; }
+  .doc p { margin: .7em 0; }
+  .doc ul, .doc ol { margin: .5em 0 .9em; padding-left: 1.4em; }
+  .doc li { margin: .28em 0; }
+  .doc blockquote {
+    margin: 1em 0; padding: .6em 1em; border-left: 3px solid var(--rule-2); background: var(--bg-2); border-radius: 0 6px 6px 0;
+  }
+  .doc blockquote p { margin: .4em 0; }
+  .doc table { border-collapse: collapse; width: 100%; margin: .9em 0 1.2em; font-size: 15px; font-family: var(--sans); }
+  .doc th, .doc td { border: 1px solid var(--rule); padding: 8px 10px; vertical-align: top; text-align: left; }
+  .doc th { background: var(--bg-2); font-weight: 600; }
+  .doc hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+  .doc .note { font-family: var(--sans); font-size: 14px; color: var(--ink-3); }
+
+  /* Source button + popover */
+  .srcwrap { position: relative; flex: 0 0 auto; margin-top: 2px; }
+  .srcbtn {
+    appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-3);
+    font: 500 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase;
+    padding: 6px 9px; border-radius: 999px; cursor: pointer;
+  }
+  .srcbtn:hover, .srcbtn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  .srcbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .pop {
+    display: none; position: absolute; right: 0; top: calc(100% + 8px); z-index: 10;
+    width: min(440px, calc(100vw - 32px)); background: #fff; border: 1px solid var(--rule-2);
+    border-radius: 10px; box-shadow: 0 12px 32px rgba(17,20,24,.14); padding: 12px 14px 10px;
+    font-family: var(--sans); font-size: 13.5px; line-height: 1.45; color: var(--ink-2);
+  }
+  .srcwrap.open .pop, .srcwrap:hover .pop, .srcwrap:focus-within .pop { display: block; }
+  .pop-h { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
+  .pop ul { list-style: none; margin: 0; padding: 0; }
+  .pop li { margin: 0 0 8px; padding-left: 0; }
+  .pop li:last-child { margin-bottom: 0; }
+  .tag {
+    display: inline-block; font-size: 10.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+    padding: 2px 7px; border-radius: 4px; margin-right: 6px; vertical-align: 1px; white-space: nowrap;
+  }
+  .src-luke { background: #e8f1ff; color: #1f4e8c; }
+  .src-call { background: #ecfdf5; color: #065f46; }
+  .src-james { background: #fdf2f8; color: #9d174d; }
+  .src-emily { background: #f5f3ff; color: #5b21b6; }
+  .src-law { background: #fef3c7; color: #92400e; }
+  .src-sdpc { background: #e0f2fe; color: #075985; }
+  .src-district { background: #f1f5f9; color: #334155; }
+  .src-afdpa { background: #ecfeff; color: #155e75; }
+  .src-choice { background: #f3f4f6; color: #374151; }
+  .src-other { background: #f3f4f6; color: #374151; }
+
+  /* Legend */
+  .legend { font-family: var(--sans); font-size: 13px; color: var(--ink-3); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; margin: 0 0 26px; max-width: var(--measure); }
+  .legend .tag { margin: 2px 6px 2px 0; }
+
+  @media (max-width: 720px) {
+    body { font-size: 16px; }
+    .top-inner { padding: 8px 12px; }
+    .draftflag { order: -1; margin-left: 0; }
+    .sec-head { flex-direction: column; gap: 6px; }
+    .srcwrap { align-self: flex-start; }
+    .pop { right: auto; left: 0; }
+  }
+  @media print {
+    .top, .srcbtn, .legend { display: none !important; }
+    .pop { display: block !important; position: static; box-shadow: none; border: 1px solid #ccc; margin: 6px 0 10px; }
+    .doc[hidden] { display: block !important; page-break-before: always; }
+    body { font-size: 11pt; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">CHSS data agreement drafts<small>Center for High School Success · National 9th Grade Success Accelerator</small></div>
+    <nav class="tabs" role="tablist" aria-label="Deliverables">
+      <!--TABS-->
+    </nav>
+    <span class="draftflag" id="draftflag">Draft v0.2 · Oct 27, 2026</span>
+  </div>
+</header>
+<main>
+  <div class="legend">
+    <strong style="color:var(--ink-2)">How to read this.</strong> Three working drafts for the accelerator agreement. Every section has a <span class="tag src-choice" style="margin:0 2px">Source</span> button on the right; hover or tap it to see where the language came from:
+    <span class="tag src-luke">Luke's experience</span><span class="tag src-call">Conversation</span><span class="tag src-james">James's collateral</span><span class="tag src-emily">Emily's architecture</span><span class="tag src-law">FERPA / PPRA / state law</span><span class="tag src-sdpc">SDPC NDPA</span><span class="tag src-district">District agreements</span><span class="tag src-afdpa">af-dpa knowledge base</span><span class="tag src-choice">Drafting choice</span>.
+    Working drafts for discussion among the CHSS team and partner districts. Not legal advice; counsel reviews before anything is signed.
+  </div>
+  <!--PANELS-->
+</main>
+<script>
+(function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  var docs = Array.prototype.slice.call(document.querySelectorAll('.doc'));
+  function show(key, push) {
+    var found = docs.some(function (d) { return d.dataset.doc === key; });
+    if (!found) key = docs[0].dataset.doc;
+    docs.forEach(function (d) { d.hidden = d.dataset.doc !== key; });
+    tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.doc === key ? 'true' : 'false'); });
+    if (push) { try { history.replaceState(null, '', '#' + key); } catch (e) {} }
+    window.scrollTo({ top: 0 });
+  }
+  tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.doc, true); }); });
+  window.addEventListener('hashchange', function () { show(location.hash.replace('#', ''), false); });
+  show(location.hash.replace('#', '') || docs[0].dataset.doc, false);
+
+  // Source popovers: hover shows (CSS); click toggles sticky-open; Esc / outside click closes.
+  var wraps = Array.prototype.slice.call(document.querySelectorAll('.srcwrap'));
+  function closeAll(except) {
+    wraps.forEach(function (w) {
+      if (w !== except) { w.classList.remove('open'); w.querySelector('.srcbtn').setAttribute('aria-expanded', 'false'); }
+    });
+  }
+  wraps.forEach(function (w) {
+    var b = w.querySelector('.srcbtn');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = !w.classList.contains('open');
+      closeAll(w);
+      w.classList.toggle('open', open);
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+  document.addEventListener('click', function () { closeAll(null); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(null); });
+})();
+</script>
+</body>
+</html>
