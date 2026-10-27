@@ -14,14 +14,15 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | O2 | Liability cap, indemnity, and breach-cost carve-out in Agreement Section Eight | Jonah | Stand counsel | Before Columbus review | **Gate** before signature | |
 | O3 | AI model provider: name, tier, data-use terms, no-training attestation, zero-retention arrangement | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
 | O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Part C) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
-| O5 | Background checks and annual privacy training for every person with access to Student Data: coaches under both options, technical staff | Demian, James | Jonah | Before any coach sees student-level data | **Gate** before signature | |
+| O5 | Background checks and annual privacy training for every person with access to Student Data: coaching staff and technical staff | Demian, James | Jonah | Before any coach sees student-level data | **Gate** before signature | |
 | O6 | Screener consent classification, item by item, and the district authorization form | Tara, Stand counsel | Jonah | Before any screener runs in a new district | **Gate** for screeners | |
 | O7 | Insurance limits actually held; self-insurance posture | Demian, Stand counsel | Jonah | Before signature | **Gate** before signature | |
 | O8 | Stand for Children Leadership Center, Inc. as the 501(c)(3) signatory; no-advocacy clause acceptable | Stand counsel | Jonah | Before external distribution | **Gate** before external distribution | |
 | O9 | Whether a Navigator tenant can run without student names (pseudonymous election) | Emily | Jonah, Tara | Before Columbus review | Bracket | |
 | O10 | Row-level de-identified retention is needed for the evaluation design, and the retained-data inventory | Tara, Jonah | Stand counsel | Before Columbus review | Bracket | |
 | O11 | Integration support through acceptance plus maintenance: staffing and hours | Jonah | Emily | Before external distribution | Bracket | |
-| O12 | Exhibit E general offer in every state, and signing NDPA standard clauses without redline | Stand counsel | Jonah | Before the Missouri reply and before external distribution | **Gate** for the Exhibit E promise | |
+| O12 | Exhibit E general offer in every state, and signing NDPA standard clauses without redline | Stand counsel | Jonah | Before the Missouri reply and before external distribution | **Gate** for the Exhibit E promise | In principle 10/27: Jonah and Emily agreed to prepare to sign NDPA version 1 with Exhibit E. Counsel's review of the text still pending. |
+| O17 | Emily's bullets binding coaching-staff access to the school level and to screening and intervention purposes, to replace or refine Section 5.4 | Emily | Jonah, Tara | Before external distribution | Bracket | |
 | O13 | Deletion runbook across Salesforce, Azure/Fabric, Power BI, backups, subprocessors, within sixty days | Emily | Jonah | Before signature | **Gate** before signature | |
 | O14 | Complete subprocessor list and U.S. region for every tenant | Emily | Jonah | Before signature | **Gate** before signature | |
 | O15 | One delivery cadence rule for Year 1: weekly required, with Tier 2 as a dated interim exception | Jonah, Emily | Tara | Before external distribution | Bracket | |
@@ -123,6 +124,12 @@ The agreement now promises support until the feed passes acceptance, plus mainte
 Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** District commitments 5.2; Appendix Part A; Notes.
 :::
 
+:::why O17
+::src Conversation :: Emily (10/27): the Navigator serves "many personas having access to it," so platform-login language in the access clause was "problematic" and should be struck; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. She will send bullets; Jonah asked that they be copied to him and Tara.
+
+Section 5.4 is already rewritten to that shape. When Emily's bullets arrive, they either confirm the clause or replace its purpose language. **Evidence:** Emily's bullets. **Documents:** District commitments 5.4; case-making "Who sees what"; Part C.
+:::
+
 :::why O13
 ::src SDPC NDPA :: Sixty days from written request; v2: sixty days from termination.
 ::src District lens :: "Demonstrate deletion across the full platform," including backups and subprocessors.
@@ -154,15 +161,16 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 
 ## Decisions made
 
-### M1. Option B is "in-session view," not "aggregate only"
-::src Luke's decision :: A coach who watches the team lead's student-level screen is receiving identifiable education records. Calling that "aggregate only" was wrong, and it was the one legal error in the earlier draft. Option B now means: no standing login; student-level data seen only in a live session with the team lead; the coach is a school official under the agreement, trained, under confidentiality; CHSS keeps a session record (coach, school, team lead, date, purpose). Option A means a standing, logged login. Both are honest. James's one-pager, which says "aggregate data only," has to change to match.
+### M1. Coaching staff have standing access, bound to the school and the purpose
+::src Conversation :: CHSS leadership decision, 10/27 call. Jonah: "we could just do the first option." Tara asked how the access clause fits the Navigator's personas; Emily: strike the login language, bind access to the school level and to screening and intervention purposes, and she will send bullets. Luke's recommendation on the call: coaches already discuss students by name, so de-identified or aggregate-only claims are not defensible; standing access lets a coach prepare, and a district comfortable with in-session viewing will almost always accept standing access too.
+::src Luke's decision :: Before the call, the drafts carried two options. The in-session alternative existed because an earlier draft had called coach access "aggregate only," which was wrong: a coach who watches the team lead's student-level screen is receiving identifiable records. With one option adopted, Section 5.4 now reads: CHSS coaching staff assigned to a school may access that school's student-level records solely for screening, intervention planning, and the team's meetings, as school officials, trained, logged, and the District may limit or revoke access at any time, including to meetings only. That last sentence preserves the in-session posture for any district that insists, without presenting it as a competing option. James's one-pager, which says "aggregate data only," has to change to match.
 ::src FERPA :: "Disclosure" under 34 C.F.R. § 99.3 means permitting access to or release of PII by any means, including oral and visual; the school official exception (§ 99.31(a)(1)(i)(B)) authorizes the access when its conditions are met, whether or not the recipient holds credentials.
 ::src District lens :: A privacy officer's first objection to an earlier draft: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure." A CTO's follow-up: the platform cannot log who looks at a shared screen, so the session record replaces a logging claim it could not keep.
 ::src Conversation :: Jonah (10/26) wanted the less intrusive approach with screen-share and one consistent protocol; James wanted to ask for access and fall back; Luke: the coach already hears names in every kid talk, so the agreement "operationalizes" a threshold already crossed.
 ::src AFUHSD precedent :: Teach For America (2026): the district accepted the partner coach seeing student data as the only partner viewer, acknowledged as a FERPA school official.
 ::src District lens :: A California district technology and privacy lead (10/27 call): outside partners who support students get data "we pull for them," no credentials, always under an executed agreement; identifiable versus de-identified for a coach "is not a huge difference" once an agreement is in place; personnel physically in classrooms may need volunteer clearance or fingerprinting regardless. Option B is the common pattern, not an invention.
 
-**What would reverse it:** Tara saying coaches cannot do the job without their own login, in which case Option A becomes the default and Option B the fallback. The clause supports either.
+**What would reverse it:** a first-cohort district refusing standing access in review, in which case that district elects "meetings with the School Team only" on Exhibit D-3 and nothing else in the agreement changes.
 
 ### M2. Identifiable data flows; the feed is not de-identified
 ::src James's MOU draft :: Current Section Six says "de-identified individual student data."
@@ -193,6 +201,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src Conversation :: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." The commitment to sign districts' agreements, including the NDPA, has a record. Exhibit E does not yet (O12).
 ::src District lens :: "If we sign both, 'the document the district signed controls' does not tell us which document controls." And: "Which custom AI, insurance, screener, and security commitments survive when we elect the NDPA?"
 ::src Luke's decision :: One mechanical rule, stated the same way in 5.2, Part A, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
+::src Conversation :: 10/27 call: Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year term, with Exhibit E, and asked for the shortest route through the consortium and realistic timelines. That research is on the Notes tab.
 
 ### M7. Three delivery tiers, described honestly
 ::src Emily's architecture :: v1 ingests files by SFTP or secure upload; no vendor API.

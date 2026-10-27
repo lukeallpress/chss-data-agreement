@@ -28,6 +28,7 @@ DOCS = [
     ("chss",      "CHSS commitment",      "03-chss-commitment.md",      "deliverable", "chss-privacy-security-commitment"),
     ("notes",     "Notes",                "04-notes-for-james.md",      "note",        None),
     ("decisions", "Decisions",            "05-decisions.md",            "note",        None),
+    ("changelog", "Changelog",            "06-changelog.md",            "note",        None),
 ]
 
 LABEL_CLASS = {
@@ -599,7 +600,7 @@ def main():
         (notetabs if group == "note" else tabs).append(t)
 
     vlist = versions_list(ver)
-    vitems = []
+    vitems = ['<li><a href="#changelog">What changed (changelog)</a></li>']
     for v in vlist:
         label = f"v{v}" + (" (current)" if v == ver else "")
         href = "./" if v == ver else f"versions/v{v}/"

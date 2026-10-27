@@ -45,7 +45,8 @@ The CHSS Data Privacy and Security Appendix (Appendix A) applies to all handling
 - **Cohort** means the ninth grade students enrolled at a participating school in a school year in which the Services are provided.
 
 ### 5.4 Who may see student-level data
-::src Luke's decision :: Option B is "in-session view," not "aggregate only." A coach who watches the team lead's student-level screen is receiving identifiable records; an earlier draft called that "aggregate only," which was wrong. See Decisions, M1.
+::src Conversation :: CHSS leadership decision, 10/27 call (Jonah, Tara, Emily, with Luke): one option, standing access, because coaches already discuss students by name and standing access lets them prepare for meetings. Emily: strike platform-login language, since Navigator serves many personas with different access; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. Emily to send bullets refining the school-level binding. The earlier in-session alternative is retired as a drafted option and survives only as a limit the District may impose by notice.
+::src Luke's decision :: See Decisions, M1, as revised 10/27.
 ::src FERPA :: "Disclosure" (34 C.F.R. § 99.3) means permitting access to or release of PII by any means, including oral, written, or electronic; the school official exception (§ 99.31(a)(1)(i)(B)) authorizes the access when its conditions are met, whether or not the recipient holds credentials. § 99.31(a)(1)(ii): the institution must use reasonable methods to ensure school officials access only records in which they have a legitimate educational interest.
 ::src District lens :: A privacy officer's first objection to an earlier draft: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure." And a CTO's: "Somebody must administer Salesforce, troubleshoot imports, and investigate incidents." Both are answered below.
 ::src Conversation :: 10/26: Jonah wanted the less intrusive approach with screen-share and one consistent protocol; James: ask for A and let their lawyers say no; Luke: the coach already hears names in every kid talk, so the agreement "operationalizes" a threshold the district has already crossed, and the Phoenix Union experience with Teach For America mentors was six months of fingerprint and onboarding fights.
@@ -56,11 +57,7 @@ School Team members designated by the District may view student-level records, i
 
 CHSS program, research, and leadership staff, and Organization staff, may view only De-identified Data and Aggregate Data, except that CHSS technical and security personnel designated under Appendix A.7 may access Student Data on a minimum-necessary basis to administer the platform, resolve data-feed problems, and investigate incidents, with every such access logged.
 
-**Coaches.** In both options the Coach assigned to a participating school is a CHSS employee acting as a school official under Section 5.1, bound by Appendix A, trained annually in FERPA and privacy, under a confidentiality obligation, and subject to the personnel requirements in Appendix A.7. The District may revoke a Coach's access at any time by written notice. *One of the following applies; the District's election is recorded in Exhibit D-3.*
-
-> **Option A (standing access).** The Coach holds a Navigator login and may view student-level records, including names, for the schools the Coach supports, with every access logged.
-
-> **Option B (in-session view; default).** The Coach holds no Navigator login and no standing access to student-level records. The Coach views student-level records, including names, only during a coaching session, on the screen of a School Team member who is logged into Navigator, and does not retain, copy, or record them. Outside sessions the Coach works from Aggregate Data. CHSS keeps a record of each such session (Coach, school, School Team member, date, purpose) and provides it to the District on request; Navigator's own logs record the School Team member's access. The District may elect by written notice to convert a Coach to Option A for a school.
+**CHSS coaching staff.** The Coach assigned to a participating school, and CHSS staff who directly support that school's screening and intervention work, may access student-level records, including names, for that school only, solely to prepare for and conduct ninth grade success team meetings, screening review, intervention planning, and progress monitoring with the School Team, and for no other purpose. Each such person is a CHSS employee acting as a school official under Section 5.1, bound by Appendix A, trained annually in FERPA and privacy, under a confidentiality obligation, and subject to the personnel requirements in Appendix A.7. Every access to student-level records is logged under Appendix A.7. The District may limit or revoke any individual's access at any time by written notice, including limiting a Coach to viewing student-level records only during meetings with the School Team.
 
 ### 5.5 Permitted use and restrictions
 ::src James's MOU draft :: Builds on the current Section Five "Permitted Use and Restrictions" (use solely to perform services and evaluation; access limited to those performing work; no third-party disclosure).
@@ -209,12 +206,12 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 | Tier 3: SIS vendor connection (where available) | The SIS vendor provides a read-only API or scheduled export directly to CHSS. | CHSS and the vendor configure it; the District authorizes it. | Nightly |
 
 ## Exhibit D-3: District elections and contacts
-::src Drafting choice :: Collects every per-district choice in one place so the body of the agreement is identical for every district, which is what makes an Exhibit E general offer under the NDPA workable later.
+::src Drafting choice :: Collects every per-district choice in one place so the body of the agreement is identical for every district, which is what makes an Exhibit E general offer under the NDPA workable later. The former Option A/B election became a "limits, if any" line on 10/27 when CHSS adopted standing access as the single model.
 
 | Item | District election |
 |---|---|
 | Privacy instrument (5.2) | ☐ Appendix A only ☐ Appendix A plus state NDPA ☐ Appendix A plus NDPA Exhibit E acceptance |
-| Coach access (5.4) | ☐ Option A (standing access) ☐ Option B (in-session view) |
+| Limits on CHSS coaching staff access (5.4), if any | ☐ None beyond Section 5.4 ☐ Meetings with the School Team only ☐ Other: [ ] |
 | Delivery tier (6.5) | ☐ Tier 1 ☐ Tier 2 interim, cadence: [ ], Tier 1 target date: [ ] ☐ Tier 3 |
 | Cohort tracking beyond ninth grade (6.3) | ☐ Yes ☐ Ninth grade only |
 | Optional elements provided (D-1) | [list] |

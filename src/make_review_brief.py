@@ -20,6 +20,7 @@ DOCS = [
     ("C", "CHSS commitment to privacy and security: NDPA posture, Appendix A, system specifications", "03-chss-commitment.md"),
     ("D", "Notes (CHSS-internal working page: claims each person must confirm, then paste-ready email blocks)", "04-notes-for-james.md"),
     ("E", "Decisions (register of open decisions with owners and gates, then decisions made)", "05-decisions.md"),
+    ("F", "Changelog (what changed in each version and why)", "06-changelog.md"),
 ]
 
 ver, date = [l.strip() for l in (ROOT / "VERSION").read_text().strip().splitlines()[:2]]
