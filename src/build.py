@@ -21,7 +21,7 @@ DOCS = [
     ("case",      "Case-making",          "01-case-making.md",          "deliverable"),
     ("district",  "District commitments", "02-district-commitments.md", "deliverable"),
     ("chss",      "CHSS commitment",      "03-chss-commitment.md",      "deliverable"),
-    ("james",     "Notes for James",      "04-notes-for-james.md",      "note"),
+    ("james",     "Notes",                "04-notes-for-james.md",      "note"),
     ("decisions", "Decisions",            "05-decisions.md",            "note"),
 ]
 

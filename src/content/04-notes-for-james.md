@@ -1,4 +1,4 @@
-# Notes for James's emails
+# Notes
 ::src Conversation :: James (10/23 and 10/26) is the one writing to districts right now: a Missouri partner district's technology coordinator, the Columbus City CTO for the first review, and San Diego for the second. These are paste-ready paragraphs and asks, in his voice, consistent with the drafts on the other tabs.
 ::src Drafting choice :: Written for a technology coordinator or CTO reader: short, concrete, no legal citations. The agreement drafts carry the citations.
 

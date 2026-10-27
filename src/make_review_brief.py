@@ -18,7 +18,7 @@ DOCS = [
     ("A", "Case-making (goes up front; audience: superintendent, head of academics, board)", "01-case-making.md"),
     ("B", "District commitments: replacement Sections Five and Six of the Agreement for Services", "02-district-commitments.md"),
     ("C", "CHSS commitment to privacy and security: NDPA posture, Appendix A, system specifications", "03-chss-commitment.md"),
-    ("D", "Notes for James's emails (CHSS-internal working page)", "04-notes-for-james.md"),
+    ("D", "Notes (CHSS-internal working page: paste-ready blocks for current district emails)", "04-notes-for-james.md"),
     ("E", "Decision points and justification (CHSS-internal working page)", "05-decisions.md"),
 ]
 
