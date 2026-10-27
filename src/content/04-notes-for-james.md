@@ -110,7 +110,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 2. **The December pilot and the August 2027 start.** Confirm that the January cohort commits to readiness in Year 0 and live data in Year 1, and that the pilot is existing partners on existing agreements. (O1)
 3. **Integration support through acceptance,** not two sessions. It is the honest version of the "support you to do something" offer, and it is a cost line. (O11)
 4. **Signing any state NDPA and Exhibit E** as a standing commitment. (O12)
-5. **Option B as default** (in-session view) with Option A on district election, or the reverse after Tara weighs in. (M1)
+5. **Coaching-staff access** was decided on 10/27: standing access to the school's students, bound to screening and intervention purposes, no platform-login language. Emily's bullets refining the school-level binding are the only open piece. (M1, O17)
 6. **Row-level de-identified retention** for the longitudinal work, with the review process that goes with it. (O10)
 7. **One cadence rule for Year 1.** Weekly once live; Tier 2 districts on a dated interim cadence not less than monthly. Confirm CHSS will hold that line, or the Friday-to-Tuesday promise comes out of the case. (O15)
 
