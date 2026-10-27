@@ -44,6 +44,9 @@ LABEL_CLASS = {
     "Lewis County": "src-district",
     "af-dpa": "src-afdpa",
     "Drafting choice": "src-choice",
+    "District lens": "src-district",
+    "Luke's decision": "src-luke",
+    "Needs CHSS confirmation": "src-other",
 }
 
 HOWTO = (
@@ -55,7 +58,7 @@ HOWTO = (
     '<p><span class="tag src-luke">Luke\'s experience</span><span class="tag src-call">Conversation</span>'
     '<span class="tag src-james">James\'s collateral</span><span class="tag src-emily">Emily\'s architecture</span>'
     '<span class="tag src-law">FERPA / PPRA / state law</span><span class="tag src-sdpc">SDPC NDPA</span>'
-    '<span class="tag src-district">District agreements</span><span class="tag src-afdpa">af-dpa knowledge base</span>'
+    '<span class="tag src-district">District agreements / district lens</span><span class="tag src-afdpa">af-dpa knowledge base</span><span class="tag src-luke">Luke\'s decision</span>'
     '<span class="tag src-choice">Drafting choice</span></p>'
     '<p>For discussion among the CHSS team and partner districts. Not legal advice; counsel reviews before anything is signed.</p>'
     '</div></div>'
@@ -144,6 +147,17 @@ def convert(md):
             close_lists(); i += 1; continue
         if ln.strip() == "---":
             close_lists(); out.append("<hr>"); i += 1; continue
+        md = re.match(r"^:::details\s+(.*)$", ln)
+        if md:
+            close_lists()
+            out.append(f'<details class="fold"><summary>{inline(md.group(1).strip())}</summary><div class="fold-body">')
+            i += 1
+            continue
+        if ln.strip() == ":::":
+            close_lists()
+            out.append("</div></details>")
+            i += 1
+            continue
         if ln.startswith("|"):
             close_lists()
             rows = []
@@ -180,7 +194,7 @@ def convert(md):
             continue
         p = [ln.strip()]
         i += 1
-        while i < len(lines) and lines[i].strip() and not re.match(r"^(#{1,3} |::src |- |\d+\. |\| |> |---$)", lines[i]):
+        while i < len(lines) and lines[i].strip() and not re.match(r"^(#{1,3} |::src |- |\d+\. |\| |> |---$|:::)", lines[i]):
             p.append(lines[i].strip()); i += 1
         close_lists()
         emit_block(f"<p>{inline(' '.join(p))}</p>")

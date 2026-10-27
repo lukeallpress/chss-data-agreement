@@ -115,6 +115,15 @@
   .doc th, .doc td { border: 1px solid var(--rule); padding: 8px 10px; vertical-align: top; text-align: left; }
   .doc th { background: var(--bg-2); font-weight: 600; }
   .doc hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+  .doc details.fold { border: 1px solid var(--rule); border-radius: 8px; margin: 1em 0; background: var(--bg-2); }
+  .doc details.fold > summary { cursor: pointer; padding: 10px 14px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink-2); list-style: none; }
+  .doc details.fold > summary::-webkit-details-marker { display: none; }
+  .doc details.fold > summary::before { content: "▸ "; color: var(--ink-3); }
+  .doc details.fold[open] > summary::before { content: "▾ "; }
+  .doc details.fold > .fold-body { padding: 0 14px 10px; background: #fff; border-top: 1px solid var(--rule); border-radius: 0 0 8px 8px; }
+  .doc .status { display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; margin-right: 6px; }
+  .doc .status.open { background: #fff7ed; color: #b45309; border: 1px solid #fdba74; }
+  .doc .status.made { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
 
   /* ---------- Popover ---------- */
   .srcwrap { position: relative; }

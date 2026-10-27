@@ -5,8 +5,10 @@
 Syncing your Student Information System (SIS) with CHSS Navigator gives your ninth grade team timely, accurate data through clear visualizations and a dashboard that updates automatically. Your team can analyze, discuss, and intervene in minutes, without running reports, downloading files, and entering formulas. Most districts don't have a ninth grade dashboard like this, or the time and budget to build one. CHSS builds and maintains it for you.
 
 ## The cost of doing it by hand
-::src James's collateral :: Verbatim from James's draft, including the three-step routine and the 20-to-30-minute figure.
+::src James's collateral :: Verbatim from James's draft, including the three-step routine and the 20-to-30-minute figure. His "no emails, no manual pulls, no file transfers" is reworded: SFTP is a file transfer, so the honest claim is that nothing is manual once the automated feed runs.
 ::src Conversation :: James (10/23): "we waste 20 minutes in every coaching session running the Synergy report, exporting, opening, entering a bunch of Excel formulas." Only 20 of 178 partner schools had submitted Q1 data as of 10/23.
+::src James's collateral :: The Kid Talk figure is from James's 10/23 email: "Our own data shows us that when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal." Internal CHSS data; James to confirm it may be cited externally and how it was measured.
+::src District lens :: A superintendent reading v0.2 saw a credible value proposition and no evidence; one defensible result is what moves "fine" to "we want this."
 
 Without an integration, almost every coaching session starts the same way:
 
@@ -16,7 +18,9 @@ Without an integration, almost every coaching session starts the same way:
 
 That routine eats 20 to 30 minutes of a 60-minute session. Half the hour goes to clerical work instead of kids, and the data is often a full grading period old by the time anyone acts on it.
 
-District staff carry a burden too. Each quarter, CHSS asks a district data specialist to pull a large download and upload it to a secure location. That takes time from your most technical people, and the data is months old by the time it's used. SIS integration makes all of it automatic: no emails, no manual pulls, no file transfers.
+District staff carry a burden too. Each quarter, CHSS asks a district data specialist to pull a large download and upload it to a secure location. That takes time from your most technical people, and the data is months old by the time it's used. Once your automated feed is running, none of that is manual: no emails, no one running reports for CHSS, no one handling files by hand.
+
+This matters because the protocol depends on it. CHSS's own partner data shows that teams who run the Kid Talk protocol with fidelity are more than 70 percent more likely to hit their on-track goal, and a Kid Talk only works with current data in front of the team.
 
 ## What SIS integration gives your team
 ::src James's collateral :: First five bullets are James's.
@@ -36,13 +40,19 @@ Student data flows securely from your SIS into CHSS Navigator, where CHSS builds
 ::src Conversation :: The "support you to do something" reframe from the 10/19 call. Jonah: "instead of being seen as 'we're asking you to pretty please do something,' we're actually offering support." Luke: the first question to any district is whether its SIS data lands in a warehouse it owns every night; most who do "are doing the fun stuff."
 ::src Luke's experience :: Setting up SchooLinks and other nightly feeds at AFUHSD: once automated, "I don't think about it at all anymore"; a failure notice arrives if the receiving server is down.
 ::src AFUHSD precedent :: The executed-copy promise comes from the ASU-Helios thread (Mar 2026), where neither the assistant superintendent, the deputy superintendent, finance, nor the data team could find the district's own signed DSA a few years on.
+::src James's MOU draft :: Section Seven: "Year 0 and Year 1 services are fully subsidized; the amount due from District under this Agreement is $0." The strongest fact in the package, previously absent from the case.
+::src District lens :: A superintendent's worry in v0.2: committing staff to "a technically demanding project that the case-making describes as nearly effortless." The staff-effort paragraph and "support until acceptance" answer that directly. "You own your data" was read as boilerplate; it is now a path, not a promise.
+::src Conversation :: Jonah (10/26) on the start date: January "gives us the four or five months of let's get this set up before students start." Year 0 is readiness; live data begins with Year 1 in August 2027.
 
 Most districts run reports by hand because nobody has had the time to set up the alternative. The integration work we do together changes that:
 
-- **We set it up with you.** CHSS technical staff meet with your data team, map your SIS exports to the Navigator format, and set up the automated feed. For most districts this is two working sessions.
-- **You own your data.** If your district doesn't already keep a nightly copy of its SIS data in a place you control, we'll help you get there. Once you have it, every future partner, dashboard, and analysis gets easier, not just ours.
+- **It costs your district nothing.** The accelerator, the dashboard, and the integration work are fully subsidized for Year 0 and Year 1. The district's cost under the agreement is $0.
+- **We set it up with you, and stay until it works.** CHSS technical staff meet with your data team, map your SIS exports to the Navigator format, and set up the feed. We stay with it until the feed passes acceptance, and we come back when your SIS, grading scale, or term structure changes. Most districts need two to four working sessions over a few weeks; your data person runs the export, we handle the mapping and the monitoring.
+- **A path to owning your data.** If your district doesn't already keep a nightly copy of its SIS data in a place you control, the feed we build together is a first step, and we'll point you at the routes other districts have taken. Once you have it, every future partner, dashboard, and analysis gets easier, not just ours.
 - **Nothing to remember.** Once the feed runs, no one on your staff runs a report for CHSS again. If a transfer fails, our system notices and we follow up.
 - **Clean records.** You get an executed copy of every agreement, indexed, and a reminder before anything expires.
+
+**What we ask of your staff, honestly.** A technical contact and a privacy contact named in the first two weeks. One onboarding call with both. The hours above to stand up the feed, more if your district needs the scheduled-upload route for a while. Nothing from your teachers beyond the ninth grade team work the accelerator already asks for. Data for your ninth grade cohort starts flowing in August 2027; the months before that are for getting the feed and the agreement in place.
 
 ## Built to protect student privacy
 ::src James's collateral :: Opening sentence and "your student data remains your district's property" are James's.
@@ -57,16 +67,19 @@ SIS integration is governed by a data sharing agreement with your district and d
 - **Deleted when you say so.** When the partnership ends, or whenever you ask, identifiable data is destroyed and we certify it.
 
 ## Who sees what
-::src James's collateral :: Table structure and the school-team row are James's. His draft already states that CHSS coaches and staff see "aggregate data only."
-::src Conversation :: The coach row is the open A/B question from 10/26. Jonah leaned toward the "less intrusive approach" with screen-share; James wanted to ask for access and fall back. Both options are shown here; the agreement draft carries the clause language for each.
-::src Luke's experience :: AFUHSD's Teach For America agreement (2025–26) accepted the partner's coach seeing student-level data on the basis that the coach is the only partner viewer and is acknowledged as a FERPA school official. The same district's first ask in 2025 was to strip student names while keeping the linking key the partner needed.
+::src James's collateral :: Table structure and the school-team row are James's. His draft says CHSS coaches and staff see "aggregate data only"; that row changes here and must change in his one-pager, because a coach watching a student-level screen is seeing identifiable records.
+::src FERPA :: "Disclosure" under 34 C.F.R. § 99.3 includes permitting access by any means, oral and visual included. The school official exception authorizes it when its conditions are met; a login is not what makes it a disclosure.
+::src Conversation :: Jonah (10/26) leaned toward the "less intrusive approach" with the team lead screen-sharing; James wanted to ask for access and fall back. Option B keeps Jonah's approach and describes it accurately.
+::src Luke's experience :: AFUHSD's Teach For America agreement (2025–26) accepted the partner's coach seeing student-level data on the basis that the coach is the only partner viewer and is acknowledged as a FERPA school official.
+::src Luke's decision :: Option B is "in-session view," not "aggregate only." See Decisions, M1.
 
 Student names live in Navigator for one reason: so the educators responsible for a student know who needs support and can act. Role-based permissions decide who can see them.
 
 | Who | What they see | Why |
 |---|---|---|
 | Your school team (individual logins) | Student-level records: names, course performance, attendance | To identify students, build intervention plans, and monitor progress kid by kid |
-| CHSS coaches | **Option B (default):** aggregate data only: on-track rate, course failures, attendance by group. In coaching sessions, your team lead shares the screen. **Option A (district may elect):** student-level view for the schools they coach, under the same agreement and training as your staff, with every access logged. | To coach your team and measure impact |
+| CHSS coaches | **Option B (default):** no login of their own. They see student-level data only in coaching sessions, alongside your team lead on your team lead's screen, under the same agreement, training, and confidentiality as your staff. Outside sessions they work from aggregate views: on-track rate, course failures, attendance by group. **Option A (district may elect):** their own login to the schools they coach, with every access logged. | To coach your team and measure impact |
 | CHSS program and research staff | De-identified and aggregate data only | To evaluate and improve the program across the network |
+| CHSS technical staff who run the platform | Minimum-necessary, logged access to administer the system and investigate incidents; never for program or research use | To keep the platform running and secure |
 
 Records are matched using a consistent unique student identifier, so Navigator stays accurate as students change classes, schedules, and schools.
