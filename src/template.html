@@ -124,6 +124,31 @@
   .doc .status { display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; margin-right: 6px; }
   .doc .status.open { background: #fff7ed; color: #b45309; border: 1px solid #fdba74; }
   .doc .status.made { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
+  /* inner headings (inside collapsible blocks) */
+  .doc .sec-head.inner { margin: 1.1em 0 .2em; }
+  .doc .sec-head.inner h4, .doc .sec-head.inner h5 { font-size: 1rem; font-weight: 600; margin: 0; }
+  /* download row under a deliverable title */
+  .dlrow { display: flex; align-items: center; gap: 6px; margin: 6px 0 4px; font-family: var(--sans); }
+  .dl-l { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin-right: 4px; }
+  .dl { appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-2); text-decoration: none;
+        font: 600 12px/1 var(--sans); padding: 7px 11px; border-radius: 6px; box-shadow: 0 1px 0 rgba(17,20,24,.04); }
+  .dl:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  /* decisions register: person filter and row details */
+  .regfilter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: .6em 0 .8em; font-family: var(--sans); }
+  .regfilter-l { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); margin-right: 4px; }
+  .chip { appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-2); font: 600 12.5px/1 var(--sans);
+          padding: 7px 12px; border-radius: 6px; cursor: pointer; }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tablewrap { overflow-x: auto; max-width: none !important; }
+  .doc table.register { font-size: 14px; }
+  .doc table.register td:nth-child(1) { white-space: nowrap; font-weight: 600; }
+  .doc table.register tr[hidden] { display: none; }
+  .regwrap { position: relative; display: inline; }
+  .regwrap .pillbtn.why { margin-left: 6px; padding: 3px 7px; font-size: 10px; vertical-align: 1px; }
+  .regwrap .pop { left: 0; top: calc(100% + 6px); width: min(520px, calc(100vw - 40px)); text-transform: none; letter-spacing: 0; font-weight: 400; }
+  .regwrap .pop p { margin: 0 0 8px; }
+  .regwrap:hover .pop, .regwrap.open .pop { display: block; }
 
   /* ---------- Popover ---------- */
   .srcwrap { position: relative; }
@@ -212,7 +237,7 @@
   show(location.hash.replace('#', '') || docs[0].dataset.doc, false);
 
   // Popovers: hover shows (CSS); click toggles sticky-open; Esc / outside click closes.
-  var wraps = Array.prototype.slice.call(document.querySelectorAll('.srcwrap'));
+  var wraps = Array.prototype.slice.call(document.querySelectorAll('.srcwrap, .regwrap'));
   function closeAll(except) {
     wraps.forEach(function (w) {
       if (w !== except) { w.classList.remove('open'); w.querySelector('.pillbtn').setAttribute('aria-expanded', 'false'); }
@@ -230,6 +255,22 @@
     w.addEventListener('click', function (e) { e.stopPropagation(); });
   });
   document.addEventListener('click', function () { closeAll(null); });
+  // Decisions register: person filter
+  Array.prototype.slice.call(document.querySelectorAll('.regfilter')).forEach(function (bar) {
+    var table = document.getElementById(bar.dataset.register);
+    if (!table) return;
+    var chips = Array.prototype.slice.call(bar.querySelectorAll('.chip'));
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        chips.forEach(function (x) { x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
+        var who = c.dataset.who;
+        Array.prototype.slice.call(table.querySelectorAll('tbody tr')).forEach(function (tr) {
+          var list = (tr.dataset.who || '').split(' ');
+          tr.hidden = !(who === 'all' || list.indexOf(who) !== -1);
+        });
+      });
+    });
+  });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(null); });
 })();
 </script>

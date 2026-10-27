@@ -20,7 +20,7 @@ That routine eats 20 to 30 minutes of a 60-minute session. Half the hour goes to
 
 District staff carry a burden too. Each quarter, CHSS asks a district data specialist to pull a large download and upload it to a secure location. That takes time from your most technical people, and the data is months old by the time it's used. Once your automated feed is running, none of that is manual: no emails, no one running reports for CHSS, no one handling files by hand.
 
-This matters because the protocol depends on it. CHSS's own partner data shows that teams who run the Kid Talk protocol with fidelity are more than 70 percent more likely to hit their on-track goal, and a Kid Talk only works with current data in front of the team.
+This matters because the protocol depends on it. In CHSS partner data, running the Kid Talk protocol with fidelity is associated with a more than 70 percent higher likelihood of hitting the school's on-track goal, and a Kid Talk only works with current data in front of the team. [Method and comparison group to be footnoted once validated.]
 
 ## What SIS integration gives your team
 ::src James's collateral :: First five bullets are James's.
@@ -29,7 +29,7 @@ This matters because the protocol depends on it. CHSS's own partner data shows t
 Student data flows securely from your SIS into CHSS Navigator, where CHSS builds the ninth grade dashboards your team uses. Teams stop building the data and start using it.
 
 - **Time back for kids.** The 20 to 30 minutes once spent preparing data goes back to talking about students.
-- **Current data.** Friday's data for Tuesday's conversation, not last quarter's.
+- **Current data.** Weekly updates once your feed is live: Friday's data for Tuesday's conversation, not last quarter's.
 - **Accurate data.** No manual exports or formulas means no copy errors or broken spreadsheets.
 - **Faster action.** Teams spot students failing one or two courses and plan support in the same meeting.
 - **Visible progress.** Teams can see whether each intervention is working and adjust before the next grading period.
@@ -46,7 +46,7 @@ Student data flows securely from your SIS into CHSS Navigator, where CHSS builds
 
 Most districts run reports by hand because nobody has had the time to set up the alternative. The integration work we do together changes that:
 
-- **It costs your district nothing.** The accelerator, the dashboard, and the integration work are fully subsidized for Year 0 and Year 1. The district's cost under the agreement is $0.
+- **$0 due to CHSS.** The accelerator, the dashboard, and the integration work are fully subsidized for Year 0 and Year 1. The amount due from your district under the agreement is $0. What it asks of your staff is stated honestly below.
 - **We set it up with you, and stay until it works.** CHSS technical staff meet with your data team, map your SIS exports to the Navigator format, and set up the feed. We stay with it until the feed passes acceptance, and we come back when your SIS, grading scale, or term structure changes. Most districts need two to four working sessions over a few weeks; your data person runs the export, we handle the mapping and the monitoring.
 - **A path to owning your data.** If your district doesn't already keep a nightly copy of its SIS data in a place you control, the feed we build together is a first step, and we'll point you at the routes other districts have taken. Once you have it, every future partner, dashboard, and analysis gets easier, not just ours.
 - **Nothing to remember.** Once the feed runs, no one on your staff runs a report for CHSS again. If a transfer fails, our system notices and we follow up.
@@ -59,10 +59,13 @@ Most districts run reports by hand because nobody has had the time to set up the
 ::src Drafting choice :: Discipline removed from "only the data needed." James's draft and Emily's architecture both list it; Tara (10/19) said behavior data is rarely received and isn't needed for on-track; Luke (10/26) called discipline "the most tightly held thing." It stays available as an optional element in the agreement.
 ::src Drafting choice :: "Used for one purpose" now carries a second sentence disclosing de-identified evaluation, so the longitudinal work is never a surprise. James's original ("and nothing else") silently excluded it.
 ::src Lewis County :: A Missouri partner district's technology coordinator has already asked its consortium to obtain the NDPA with CHSS, so the NDPA commitment is stated here up front.
+::src Conversation :: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." That is the record behind "will also sign the NDPA." The Exhibit E general offer has no record yet and is not promised here (Decisions, O12).
+::src District lens :: "Do not label an incomplete list 'only the data needed.'" The list now matches Exhibit D-1's Required elements exactly and names the screeners.
+::src Luke's decision :: See Decisions, M9 and M18.
 
-SIS integration is governed by a data sharing agreement with your district and designed to meet FERPA and your state's student privacy requirements. CHSS will sign the National Data Privacy Agreement (NDPA), including your state's version, or provide its own appendix written to the same standard. Your student data remains your district's property, and your district decides who can see it.
+SIS integration is governed by a data sharing agreement with your district and designed to meet FERPA and your state's student privacy requirements. CHSS provides its own privacy and security appendix and will also sign the National Data Privacy Agreement (NDPA) in your state's version if your district prefers it. Your student data remains your district's property, and your district decides who can see it.
 
-- **Only the data needed.** CHSS receives student ID, name, grade level, course grades and credits, and attendance.
+- **Only the data needed.** CHSS receives student ID, name, grade level and enrollment dates, course enrollments, course marks and credits by grading period, GPA, and attendance. Nothing else is required. Responses to the short belonging and skills screeners your team administers, after you approve the questions, are held under the same terms.
 - **Used for one purpose.** Identifiable student information supports ninth grade success work in your schools and nothing else. CHSS keeps only de-identified and aggregate results to evaluate and improve the program.
 - **Deleted when you say so.** When the partnership ends, or whenever you ask, identifiable data is destroyed and we certify it.
 

@@ -24,9 +24,11 @@ In providing the Services, CHSS and Organization act as a "school official" with
 ::src SDPC NDPA :: The NDPA is the Student Data Privacy Consortium's national agreement; state alliances publish versions with a state exhibit. AFUHSD signs vendors onto the Arizona Standard Version 1.2.
 ::src District lens :: Counsel's objection to an earlier draft: "If we sign both documents, 'the document the district signed controls' does not tell us which document controls." Now one rule, stated the same way here and in Appendix A.18: the state NDPA controls.
 ::src af-dpa :: knowledge/sdpc/exhibit-e-general-offer.md: Exhibit E extends a signed NDPA's privacy terms to any other district in the same state that accepts and delivers notice; it runs three years from the provider's signature.
+::src District lens :: "Section 5.2 allows the NDPA instead of or in addition to Appendix A, but the election form no longer offers 'both.' Which custom commitments survive when we elect the NDPA?" Now one model: Appendix A always applies; the NDPA controls on conflict; the custom commitments are listed as surviving supplements.
+::src Conversation :: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." The commitment to sign districts' agreements, including the NDPA, has a record. The Exhibit E general offer is referenced here only as something the District may accept where it exists (Decisions, O12).
 ::src Luke's decision :: See Decisions, M6.
 
-All handling of student data under this Agreement is governed by the CHSS Data Privacy and Security Appendix (Appendix A). At the District's election, the Parties will instead, or in addition, execute the Student Data Privacy Consortium's National Data Privacy Agreement (NDPA) in the version adopted in the District's state. Where the NDPA has been executed, the NDPA and its state exhibits control over Appendix A and over any other provision of this Agreement concerning student data. Where a district in the same state has already executed the NDPA with CHSS, the District may instead accept CHSS's General Offer of Privacy Terms (NDPA Exhibit E) and deliver notice of acceptance, with the same effect. If Appendix A conflicts with the body of this Agreement, Appendix A controls as to student data.
+The CHSS Data Privacy and Security Appendix (Appendix A) applies to all handling of student data under this Agreement in every case. At the District's election, recorded in Exhibit D-3, the Parties will also execute the Student Data Privacy Consortium's National Data Privacy Agreement (NDPA) in the version adopted in the District's state, or, where CHSS has executed the NDPA with another district in the same state and signed a General Offer of Privacy Terms (NDPA Exhibit E), the District may accept that offer and deliver notice of acceptance. Where the NDPA has been executed or Exhibit E accepted, the NDPA and its state exhibits control as to any conflict with Appendix A or with any other provision of this Agreement concerning student data, and Appendix A continues to apply as a supplement for every matter the NDPA does not address, including Sections A.4(d) and (f), A.6, A.8, A.12, A.14, A.15, and A.16. If Appendix A conflicts with the body of this Agreement, Appendix A controls as to student data.
 
 ### 5.3 Definitions
 ::src FERPA :: De-identified Data tracks 34 C.F.R. § 99.31(b)(1): records may be released without consent after removal of all personally identifiable information, provided the institution has made a reasonable determination that a student's identity is not personally identifiable, taking into account other reasonably available information.
@@ -57,7 +59,7 @@ CHSS program, research, and leadership staff, and Organization staff, may view o
 
 > **Option A (standing access).** The Coach holds a Navigator login and may view student-level records, including names, for the schools the Coach supports, with every access logged.
 
-> **Option B (in-session view; default).** The Coach holds no Navigator login and no standing access to student-level records. The Coach views student-level records, including names, only during a coaching session, on the screen of a School Team member who is logged into Navigator, and does not retain, copy, or record them. Outside sessions the Coach works from Aggregate Data. The District may elect by written notice to convert a Coach to Option A for a school.
+> **Option B (in-session view; default).** The Coach holds no Navigator login and no standing access to student-level records. The Coach views student-level records, including names, only during a coaching session, on the screen of a School Team member who is logged into Navigator, and does not retain, copy, or record them. Outside sessions the Coach works from Aggregate Data. CHSS keeps a record of each such session (Coach, school, School Team member, date, purpose) and provides it to the District on request; Navigator's own logs record the School Team member's access. The District may elect by written notice to convert a Coach to Option A for a school.
 
 ### 5.5 Permitted use and restrictions
 ::src James's MOU draft :: Builds on the current Section Five "Permitted Use and Restrictions" (use solely to perform services and evaluation; access limited to those performing work; no third-party disclosure).
@@ -95,7 +97,7 @@ Successful implementation requires timely access to actionable data that allows 
 ::src Conversation :: 10/23 (James and Luke) and 10/26 (all): verbal yeses came from superintendents and heads of academics, not CTOs; James met one CTO so far. The contact designation and the onboarding call are the mechanism that forces the CTO/privacy conversation before data moves.
 ::src James's MOU draft :: The current draft already has a "District Data/IT Liaison" block; this subsection makes naming that person a dated obligation and adds the privacy contact.
 
-Within fifteen business days after signature, the District will designate (a) a technical contact responsible for the data feed, (b) a privacy contact (data privacy officer, technology director, or counsel) responsible for Appendix A, and (c) a program contact for each participating school, and will record them in Exhibit D-3. CHSS will schedule an onboarding call that includes the technical and privacy contacts before any Student Data is transferred.
+The District designates, in Exhibit D-3 at the time it accepts a place in the Accelerator, (a) a technical contact responsible for the data feed, (b) a privacy contact (data privacy officer, technology director, or counsel) responsible for Appendix A, and (c) a program contact for each participating school, and will confirm or replace them within fifteen business days after this Agreement is executed. CHSS will schedule an onboarding call that includes the technical and privacy contacts before this Agreement is routed for signature, and no Student Data is transferred before execution.
 
 ### 6.2 Data provided by the District
 ::src James's MOU draft :: The current element list (demographics, course enrollment and master schedule, credits, course performance and GPA, attendance, behavior and discipline "as permitted," summer school, other agreed indicators) is kept, re-sorted into required and optional in Exhibit D-1.
@@ -122,10 +124,11 @@ Each record will include the District's student identifier (and the state studen
 ### 6.5 Delivery method and cadence
 ::src Emily's architecture :: v1 of the CHSS data platform ingests periodic files (Excel, CSV, TXT) by SFTP or secure upload, "quarterly/semester or more frequent." No vendor API in v1.
 ::src Conversation :: Luke's ranking (10/19): SIS vendor feed direct to CHSS first, district SFTP second, Clever/ClassLink last ("this isn't OneRoster data"). Luke (10/23): a menu from "run these five reports and a Python cleanup script" up to a nightly automated export.
-::src James's MOU draft :: The current draft's "within two weeks after the end of each marking period" is kept as the floor; weekly is the target because the coaching model needs Friday's data on Tuesday.
+::src James's MOU draft :: The current draft's "within two weeks after the end of each marking period" survives only as the end-of-year and summer-school rule; weekly is the Year 1 standard because the coaching model needs Friday's data on Tuesday.
+::src District lens :: "Is weekly delivery required, preferred, or only the Tier 1 target?" One rule now: weekly once live; Tier 2 is a dated interim exception with an approved cadence. Pending CHSS confirmation (Decisions, O15).
 ::src James's MOU draft :: The current Section Three already obligates the District to "make grades, attendance, and other agreed-upon key indicators available at least weekly." This subsection is how that happens.
 
-The District will choose one of the delivery tiers in Exhibit D-2. The target for every District is Tier 1 (automated feed) by the end of technical onboarding. Tier 2 (scheduled secure upload) is acceptable for a District that cannot yet automate, with CHSS support to move to Tier 1 when ready. Whatever the tier, the District will provide an initial load at onboarding and updates no later than two weeks after the end of each marking period, the school year, and summer school; weekly updates during the school year are strongly preferred so that coaching conversations use current data.
+The District will choose one of the delivery tiers in Exhibit D-2. The target for every District is Tier 1 (automated feed) before the feed goes live. Once the feed is live for Year 1, the District will provide updates weekly during the school year, and a final update within two weeks after the end of the school year and of summer school. A District that cannot yet automate may use Tier 2 (scheduled secure upload) as an interim arrangement, recorded in Exhibit D-3 with an approved cadence not less than monthly and a target date for Tier 1, with CHSS support to get there. [Cadence rule pending CHSS confirmation; Decisions O15.]
 
 ### 6.6 Changes affecting the feed
 ::src Luke's experience :: Running district feeds to outside partners: SIS vendor changes, grading-scale changes, and term-structure changes are what break them.
@@ -198,7 +201,7 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 | Tier | How it works | Who does what | Cadence |
 |---|---|---|---|
 | Tier 1: Automated feed (target) | The District's SIS or data warehouse exports the specified files on a schedule and transfers them to CHSS by SFTP. | CHSS provides the specification, credentials, and setup support. The District schedules the job. | Nightly or weekly |
-| Tier 2: Scheduled secure upload (floor) | District staff run the specified reports and upload them to the CHSS secure portal, using a CHSS-provided cleanup script where needed. | CHSS provides the report list for the District's SIS and the script. The District uploads on schedule. | Every marking period at minimum; monthly preferred |
+| Tier 2: Scheduled secure upload (interim) | District staff run the specified reports and upload them to the CHSS secure portal, using a CHSS-provided cleanup script where needed. | CHSS provides the report list for the District's SIS and the script. The District uploads on the approved cadence. | Approved interim cadence, not less than monthly, with a dated target for Tier 1 |
 | Tier 3: SIS vendor connection (where available) | The SIS vendor provides a read-only API or scheduled export directly to CHSS. | CHSS and the vendor configure it; the District authorizes it. | Nightly |
 
 ## Exhibit D-3: District elections and contacts
@@ -206,9 +209,9 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 
 | Item | District election |
 |---|---|
-| Privacy instrument (5.2) | ☐ Appendix A ☐ State NDPA ☐ NDPA Exhibit E acceptance |
+| Privacy instrument (5.2) | ☐ Appendix A only ☐ Appendix A plus state NDPA ☐ Appendix A plus NDPA Exhibit E acceptance |
 | Coach access (5.4) | ☐ Option A (standing access) ☐ Option B (in-session view) |
-| Delivery tier (6.5) | ☐ Tier 1 ☐ Tier 2 ☐ Tier 3 |
+| Delivery tier (6.5) | ☐ Tier 1 ☐ Tier 2 interim, cadence: [ ], Tier 1 target date: [ ] ☐ Tier 3 |
 | Cohort tracking beyond ninth grade (6.3) | ☐ Yes ☐ Ninth grade only |
 | Optional elements provided (D-1) | [list] |
 | Third parties approved to receive Student Data under Appendix A.4(f) | ☐ None ☐ [recipient, data shared] |
@@ -220,8 +223,8 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 
 | When | What |
 |---|---|
-| Dec 15 | Acceptance announced. |
-| By mid-Jan | District names technical, privacy, and program contacts (6.1); onboarding call with the technical and privacy contacts. |
+| Dec 15 | Acceptance announced; the District names its technical, privacy, and program contacts as part of acceptance (6.1). |
+| By mid-Jan | Onboarding call with the technical and privacy contacts; contacts confirmed. |
 | Jan–Mar | Agreement and Appendix A (or NDPA) routed and executed, including board approval where required. Delivery tier elected; specification mapped. No Student Data moves yet. |
 | After execution | Optional test load of current-year data; validation report; corrections. |
 | By [30 days before Year 1 instruction] | Acceptance test passed: a full load of the Required elements, validated, with dashboards reviewed by the School Team. |

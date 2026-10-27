@@ -18,8 +18,8 @@ DOCS = [
     ("A", "Case-making (goes up front; audience: superintendent, head of academics, board)", "01-case-making.md"),
     ("B", "District commitments: replacement Sections Five and Six of the Agreement for Services", "02-district-commitments.md"),
     ("C", "CHSS commitment to privacy and security: NDPA posture, Appendix A, system specifications", "03-chss-commitment.md"),
-    ("D", "Notes (CHSS-internal working page: paste-ready blocks for current district emails)", "04-notes-for-james.md"),
-    ("E", "Decision points and justification (CHSS-internal working page)", "05-decisions.md"),
+    ("D", "Notes (CHSS-internal working page: claims each person must confirm, then paste-ready email blocks)", "04-notes-for-james.md"),
+    ("E", "Decisions (register of open decisions with owners and gates, then decisions made)", "05-decisions.md"),
 ]
 
 ver, date = [l.strip() for l in (ROOT / "VERSION").read_text().strip().splitlines()[:2]]
@@ -161,6 +161,14 @@ def convert_doc(letter, title, fn):
     text = (ROOT / "content" / fn).read_text()
     out = [f"# Page {letter}. {title}\n"]
     for ln in text.splitlines():
+        mw = re.match(r"^:::why\s+(\S+)", ln)
+        if mw:
+            out.append(f"**Details for {mw.group(1)}:**"); continue
+        md_ = re.match(r"^:::details\s+(.*)$", ln)
+        if md_:
+            out.append("#### " + md_.group(1).strip()); continue
+        if ln.strip() in (":::register", ":::"):
+            continue
         m = re.match(r"^::src (.+?) :: (.*)$", ln)
         if m:
             out.append(f"    Source [{m.group(1)}]: {m.group(2)}")

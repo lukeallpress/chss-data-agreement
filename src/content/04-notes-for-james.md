@@ -27,7 +27,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 15. Whether a Navigator tenant can run without student names, and which features would be off. (O9)
 16. The December pilot: which schools, under which agreement, with what data. (O1)
 17. Integration support: what "support until the feed passes acceptance" costs in staff time, and who staffs it. (6.9, O11)
-18. The `[AI model provider]` and `[First assessment scheduled for completion by: date]` brackets in Part C are the only placeholders; everything else in Part C is claimed in the present tense and must be true or re-tensed.
+18. Part C is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
 
 ## For Jonah: decisions and commitments
 ::src Conversation :: Jonah (10/26) listed the standard terms to include: deletion on termination, storage location, audits, insurance levels. The items below are the ones that go beyond that list or cost money.
@@ -38,6 +38,9 @@ Answer each as **true today**, **true by [date]**, or **no**:
 4. **Signing any state NDPA and Exhibit E** as a standing commitment. (O12)
 5. **Option B as default** (in-session view) with Option A on district election, or the reverse after Tara weighs in. (M1)
 6. **Row-level de-identified retention** for the longitudinal work, with the review process that goes with it. (O10)
+7. **One cadence rule for Year 1.** Weekly once live; Tier 2 districts on a dated interim cadence not less than monthly. Confirm CHSS will hold that line, or the Friday-to-Tuesday promise comes out of the case. (O15)
+
+**A note, not a decision: vendor and API fees.** Under Tier 3 a SIS vendor may charge for an API or a scheduled export. The agreement is silent on who pays. The case-making says "$0 due to CHSS," which stays true either way, but a district procurement office will ask. Decide whether CHSS absorbs those fees, the district does, or Tier 3 is offered only where the vendor charges nothing, and we will add one sentence to 6.5.
 
 ## For Demian and counsel: people, money, entity
 ::src District lens :: "If the appendix says every person with access passes a background check and completes annual training, show me the policy and the roster."
@@ -61,9 +64,10 @@ Answer each as **true today**, **true by [date]**, or **no**:
 
 1. Change the one-pager's "Who sees what" row to match Option B as now defined: coaches hold no standing login and see student-level data only alongside your team. "Aggregate data only" is no longer accurate.
 2. Replace "no emails, no manual pulls, no file transfers" with "no manual file handling once your automated feed is running."
-3. Hold the Missouri reply until counsel confirms O12; if it goes sooner, drop the Exhibit E sentence.
-4. Ask Columbus for a 45-minute slot Nov 2 to 4 with the CTO and their data-agreement reviewer; send the data summary, the file specification outline, the security page, and the screener instruments ahead of it.
-5. Ask San Diego which instrument they use with outside partners that receive student-level data, without guessing the answer.
+3. **The 70 percent Kid Talk claim** (your 10/23 email: "when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal"). Before it appears in anything a board sees: what is the comparison group, how many schools, which years, and how was fidelity measured? Is it a correlation or a controlled result? Until then the case-making says "associated with" and cites "CHSS partner data," and the number carries a footnote with the method. (O16)
+4. Hold the Missouri reply until counsel confirms O12; if it goes sooner, drop the Exhibit E sentence.
+5. Ask Columbus for a 45-minute slot Nov 2 to 4 with the CTO and their data-agreement reviewer; send the data summary, the file specification outline, the security page, and the screener instruments ahead of it.
+6. Ask San Diego which instrument they use with outside partners that receive student-level data, without guessing the answer.
 
 :::details Paste-ready email blocks for James
 ### Reply to the Missouri district's technology coordinator
@@ -81,7 +85,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 ### The one-paragraph data summary for any district
 ::src James's collateral :: Mirrors "Only the data needed" and "Who sees what," with discipline optional, the screeners named, and Option B stated accurately.
 
-> Here is what the integration involves, in plain terms. Your district sends us a file for each ninth grade cohort with student ID, name, grade level, course enrollments, course marks and credits by grading period, GPA, and attendance. Most districts set up an automated weekly export to our secure SFTP; if that is not possible yet, a scheduled upload each grading period works and we will help you automate it. Your school team sees student-level dashboards with names. Our coach has no login of their own and sees student-level data only in sessions with your team lead, unless you choose to give them more. Our program and research staff never see identifiable data. We also administer short belonging and skills screeners through your team, with your approval of the questions and whatever parent notice or consent your policy and state law require. Identifiable data is deleted when the partnership ends or whenever you ask; we keep only de-identified and aggregate results to evaluate the program. The full terms are in our data privacy appendix, or we will sign your state's NDPA, whichever you prefer.
+> Here is what the integration involves, in plain terms. Your district sends us a file for each ninth grade cohort with student ID, name, grade level and enrollment dates, course enrollments, course marks and credits by grading period, GPA, and attendance. The goal is an automated weekly export to our secure SFTP, which we set up with your data team; if that is not possible yet, a scheduled upload on an agreed interim cadence works while we help you automate it. Your school team sees student-level dashboards with names. Our coach has no login of their own and sees student-level data only in sessions with your team lead, unless you choose to give them more. Our program and research staff never see identifiable data. We also administer short belonging and skills screeners through your team, after you have reviewed and approved the questions and certified that any parent notice or consent your policy and state law require is in place. Identifiable data is deleted when the partnership ends or whenever you ask; we keep only de-identified and aggregate results to evaluate the program. The full terms are in our data privacy appendix, and we will also sign your state's NDPA if you prefer.
 
 ### Asks for the Columbus City CTO review
 ::src Columbus City DSA :: Their Student Data Sharing Agreement (revised 3/17/2025) is the strictest document in hand.
