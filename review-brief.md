@@ -1,7 +1,7 @@
-# Adversarial review brief: CHSS data agreement drafts, v0.4 (Oct 26, 2026)
+# Adversarial review brief: CHSS data agreement drafts, v1.0 (Oct 26, 2026)
 
 Live page with the same content and per-section source popovers: https://lukeallpress.github.io/chss-data-agreement/
-Generated 2026-10-26 from the site source. Everything after the
+Generated 2026-10-27 from the site source. Everything after the
 instructions is the full text of the five pages, with each section's provenance shown as
 an indented *Source* note so you can judge the reasoning, not just the words.
 
