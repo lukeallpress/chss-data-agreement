@@ -11,7 +11,7 @@ import pathlib, re, datetime
 ROOT = pathlib.Path(__file__).parent
 SITE = ROOT.parent
 OUT_DELIV = SITE.parent / "06-adversarial-review-brief.md"
-OUT_LOCAL = ROOT / "review-brief.md"
+OUT_LOCAL = SITE / "review-brief.md"
 LIVE = "https://lukeallpress.github.io/chss-data-agreement/"
 
 DOCS = [
