@@ -46,16 +46,25 @@
     font-family: var(--sans);
   }
   .top-inner { max-width: 1120px; margin: 0 auto; padding: 12px 20px 0; }
-  .row1 { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
-  .brand { font-weight: 650; font-size: 15px; letter-spacing: .005em; color: var(--ink); line-height: 1.25; }
+  /* row1 uses the same column grid as the documents so the draft tag lines up with the Source pills */
+  .row1 { display: grid; grid-template-columns: minmax(0, var(--measure)) var(--srccol); column-gap: var(--gutter); align-items: start; }
+  .brand { grid-column: 1; font-weight: 650; font-size: 15px; letter-spacing: .005em; color: var(--ink); line-height: 1.25; }
   .brand small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12.5px; margin-top: 2px; }
-  .row1-right { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
-  .draftflag {
-    font: 600 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase;
-    color: var(--draft); background: var(--draft-bg); border: 1px solid #fdba74; padding: 7px 9px; border-radius: 4px; white-space: nowrap;
+  .draftwrap { grid-column: 2; justify-self: start; margin-top: 2px; }
+  .pillbtn.draftflag {
+    font-weight: 600; letter-spacing: .08em; color: var(--draft); background: var(--draft-bg); border-color: #fdba74; border-radius: 4px; padding: 7px 9px;
   }
-  .row2 { display: flex; gap: 8px; padding: 10px 0 10px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .pillbtn.draftflag:hover, .pillbtn.draftflag[aria-expanded="true"] { background: #ffedd5; color: var(--draft); border-color: #fb923c; }
+  .draftwrap .pop { width: 240px; }
+  .draftwrap .pop ul { list-style: none; margin: 0; padding: 0; }
+  .draftwrap .pop li { margin: 0 0 6px; }
+  .draftwrap .pop a { text-decoration: none; }
+  .row2 { display: flex; align-items: center; padding: 10px 0 10px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .row2::-webkit-scrollbar { display: none; }
+  .tabgroup { display: flex; gap: 8px; }
+  .tabgroup.notes { margin-left: 36px; padding-left: 36px; border-left: 1px solid var(--rule); }
+  .tabgroup.notes .tab { color: var(--ink-3); }
+  .tabgroup.notes .tab[aria-selected="true"] { color: #fff; }
   .tab {
     appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-2);
     font: 600 13.5px/1 var(--sans); padding: 10px 16px; border-radius: 6px; cursor: pointer; white-space: nowrap;
@@ -90,8 +99,11 @@
   }
   .sec-head > h2, .sec-head > h3 { grid-column: 1; }
   .sec-head > .srcwrap { grid-column: 2; justify-self: start; margin-top: 3px; }
-  .titlewrap { display: grid; grid-template-columns: minmax(0, var(--measure)) var(--srccol); column-gap: var(--gutter); align-items: start; max-width: none !important; }
+  .titlewrap, .firstwrap { display: grid; grid-template-columns: minmax(0, var(--measure)) var(--srccol); column-gap: var(--gutter); align-items: start; max-width: none !important; }
+  .titlewrap > h1 { grid-column: 1; }
   .titlewrap > .srcwrap { grid-column: 2; justify-self: start; margin-top: 10px; }
+  .firstwrap > :first-child { grid-column: 1; }
+  .firstwrap > .srcwrap { grid-column: 2; justify-self: start; margin-top: calc(.7em + 4px); }
   .doc p { margin: .7em 0; }
   .doc ul, .doc ol { margin: .5em 0 .9em; padding-left: 1.4em; }
   .doc li { margin: .28em 0; }
@@ -118,7 +130,6 @@
   .pop li { margin: 0 0 8px; }
   .pop li:last-child { margin-bottom: 0; }
   .pop p { margin: 0 0 8px; }
-  .row1-right .pop { left: auto; right: 0; }
   .tag {
     display: inline-block; font-size: 10.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
     padding: 2px 7px; border-radius: 4px; margin-right: 6px; vertical-align: 1px; white-space: nowrap;
@@ -137,21 +148,21 @@
 
   /* Source column popovers: open rightward where there is room, else slide left over the text */
   @media (max-width: 1180px) {
-    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop { left: auto; right: 0; }
+    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop, .firstwrap > .srcwrap .pop, .draftwrap .pop { left: auto; right: 0; }
   }
   @media (max-width: 760px) {
     body { font-size: 16px; }
     .top-inner { padding: 10px 14px 0; }
-    .row1 { flex-wrap: wrap; }
-    .sec-head, .titlewrap { grid-template-columns: 1fr; row-gap: 6px; }
-    .sec-head > .srcwrap, .titlewrap > .srcwrap { grid-column: 1; margin-top: 0; }
-    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop { left: 0; right: auto; }
+    .row1, .sec-head, .titlewrap, .firstwrap { grid-template-columns: 1fr; row-gap: 6px; }
+    .draftwrap, .sec-head > .srcwrap, .titlewrap > .srcwrap, .firstwrap > .srcwrap { grid-column: 1; margin-top: 0; }
+    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop, .firstwrap > .srcwrap .pop, .draftwrap .pop { left: 0; right: auto; }
+    .tabgroup.notes { margin-left: 16px; padding-left: 16px; }
   }
   @media print {
     .top, .pillbtn { display: none !important; }
     .pop { display: block !important; position: static; box-shadow: none; border: 1px solid #ccc; margin: 6px 0 10px; width: auto; }
     .doc[hidden] { display: block !important; page-break-before: always; }
-    .sec-head, .titlewrap { grid-template-columns: 1fr; }
+    .sec-head, .titlewrap, .firstwrap { grid-template-columns: 1fr; }
     body { font-size: 11pt; }
   }
 </style>
@@ -161,21 +172,14 @@
   <div class="top-inner">
     <div class="row1">
       <div class="brand">CHSS data agreement drafts<small>Center for High School Success · National 9th Grade Success Accelerator</small></div>
-      <div class="row1-right">
-        <div class="srcwrap legend">
-          <button class="pillbtn" type="button" aria-expanded="false" aria-label="How to read this page">How to read this</button>
-          <div class="pop" role="dialog">
-            <div class="pop-h">How to read this</div>
-            <p>Three working drafts for the accelerator agreement. Every section has a <span class="tag src-choice">Source</span> pill in the right-hand column; hover or tap it to see where the language came from.</p>
-            <p><span class="tag src-luke">Luke's experience</span><span class="tag src-call">Conversation</span><span class="tag src-james">James's collateral</span><span class="tag src-emily">Emily's architecture</span><span class="tag src-law">FERPA / PPRA / state law</span><span class="tag src-sdpc">SDPC NDPA</span><span class="tag src-district">District agreements</span><span class="tag src-afdpa">af-dpa knowledge base</span><span class="tag src-choice">Drafting choice</span></p>
-            <p>Working drafts for discussion among the CHSS team and partner districts. Not legal advice; counsel reviews before anything is signed.</p>
-          </div>
-        </div>
-        <span class="draftflag" id="draftflag">Draft v0.2 · Oct 27, 2026</span>
+      <div class="srcwrap draftwrap">
+        <button class="pillbtn draftflag" type="button" aria-expanded="false" aria-label="Version history">Draft v{{VERSION}} · {{DATE}}</button>
+        <div class="pop" role="dialog"><div class="pop-h">Versions</div><ul><!--VERSIONS--></ul></div>
       </div>
     </div>
-    <nav class="row2" role="tablist" aria-label="Deliverables">
-      <!--TABS-->
+    <nav class="row2" role="tablist" aria-label="Pages">
+      <div class="tabgroup deliverables"><!--TABS--></div>
+      <div class="tabgroup notes"><!--NOTETABS--></div>
     </nav>
   </div>
 </header>
