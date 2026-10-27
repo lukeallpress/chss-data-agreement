@@ -6,6 +6,9 @@
 <meta name="robots" content="noindex, nofollow">
 <title>CHSS Data Agreement Drafts</title>
 <meta name="description" content="Working drafts of the data partnership language for the Center for High School Success accelerator agreement, with the source of each section.">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <style>
   :root {
     --ink: #111418;
@@ -22,7 +25,9 @@
     --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
     --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    --measure: 72ch;
+    --measure: 70ch;     /* text column */
+    --gutter: 36px;      /* breathing room before the source column */
+    --srccol: 96px;      /* source column width */
   }
   * { box-sizing: border-box; }
   html { background: var(--bg); }
@@ -34,40 +39,58 @@
   a { color: var(--accent); }
   code { font-family: var(--mono); font-size: 0.9em; background: var(--bg-2); padding: 0 .25em; border-radius: 3px; }
 
-  /* Pinned header */
+  /* ---------- Pinned header: title row, then selector row ---------- */
   .top {
-    position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96);
+    position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.97);
     backdrop-filter: saturate(1.2) blur(6px); border-bottom: 1px solid var(--rule);
     font-family: var(--sans);
   }
-  .top-inner { max-width: 1040px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; }
-  .brand { font-weight: 600; font-size: 14px; letter-spacing: .01em; color: var(--ink); white-space: nowrap; }
-  .brand small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12px; }
-  .tabs { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-  .tabs::-webkit-scrollbar { display: none; }
+  .top-inner { max-width: 1120px; margin: 0 auto; padding: 12px 20px 0; }
+  .row1 { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  .brand { font-weight: 650; font-size: 15px; letter-spacing: .005em; color: var(--ink); line-height: 1.25; }
+  .brand small { display: block; font-weight: 400; color: var(--ink-3); font-size: 12.5px; margin-top: 2px; }
+  .row1-right { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+  .draftflag {
+    font: 600 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase;
+    color: var(--draft); background: var(--draft-bg); border: 1px solid #fdba74; padding: 7px 9px; border-radius: 4px; white-space: nowrap;
+  }
+  .row2 { display: flex; gap: 8px; padding: 10px 0 10px; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .row2::-webkit-scrollbar { display: none; }
   .tab {
     appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-2);
-    font: 500 14px/1 var(--sans); padding: 10px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+    font: 600 13.5px/1 var(--sans); padding: 10px 16px; border-radius: 6px; cursor: pointer; white-space: nowrap;
+    box-shadow: 0 1px 0 rgba(17,20,24,.04);
   }
-  .tab:hover { border-color: var(--accent); color: var(--accent); }
-  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tab:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  .tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; box-shadow: none; }
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .draftflag {
-    margin-left: auto; font: 600 11px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase;
-    color: var(--draft); background: var(--draft-bg); border: 1px solid #fdba74; padding: 6px 9px; border-radius: 4px; white-space: nowrap;
-  }
 
-  /* Document body */
-  main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 80px; }
-  .doc { max-width: var(--measure); }
+  /* ---------- Pill buttons (Source, How to read this) ---------- */
+  .pillbtn {
+    appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-3);
+    font: 500 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase;
+    padding: 6px 10px; border-radius: 999px; cursor: pointer; white-space: nowrap;
+  }
+  .pillbtn:hover, .pillbtn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  .pillbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ---------- Document layout: text column + source column ---------- */
+  main { max-width: 1120px; margin: 0 auto; padding: 30px 20px 90px; }
+  .doc { display: block; }
+  .doc > *:not(.sec), .sec > *:not(.sec-head) { max-width: var(--measure); }
   .doc h1 { font-family: var(--serif); font-weight: 600; font-size: 1.9rem; line-height: 1.2; margin: 0 0 .2em; letter-spacing: -.01em; }
-  .doc h1 + p.sub, .doc p.sub { font-family: var(--sans); color: var(--ink-3); font-size: 14px; margin: 0 0 1.6em; }
   .doc h2 { font-size: 1.28rem; font-weight: 600; margin: 0; line-height: 1.3; }
   .doc h3 { font-size: 1.06rem; font-weight: 600; margin: 0; line-height: 1.35; }
   .sec { margin: 1.9em 0 0; }
   .sec.lvl3 { margin-top: 1.3em; }
-  .sec-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
-  .sec-head h2, .sec-head h3 { flex: 1 1 auto; }
+  .sec-head {
+    display: grid; grid-template-columns: minmax(0, var(--measure)) var(--srccol);
+    column-gap: var(--gutter); align-items: start;
+  }
+  .sec-head > h2, .sec-head > h3 { grid-column: 1; }
+  .sec-head > .srcwrap { grid-column: 2; justify-self: start; margin-top: 3px; }
+  .titlewrap { display: grid; grid-template-columns: minmax(0, var(--measure)) var(--srccol); column-gap: var(--gutter); align-items: start; max-width: none !important; }
+  .titlewrap > .srcwrap { grid-column: 2; justify-self: start; margin-top: 10px; }
   .doc p { margin: .7em 0; }
   .doc ul, .doc ol { margin: .5em 0 .9em; padding-left: 1.4em; }
   .doc li { margin: .28em 0; }
@@ -79,28 +102,22 @@
   .doc th, .doc td { border: 1px solid var(--rule); padding: 8px 10px; vertical-align: top; text-align: left; }
   .doc th { background: var(--bg-2); font-weight: 600; }
   .doc hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
-  .doc .note { font-family: var(--sans); font-size: 14px; color: var(--ink-3); }
 
-  /* Source button + popover */
-  .srcwrap { position: relative; flex: 0 0 auto; margin-top: 2px; }
-  .srcbtn {
-    appearance: none; border: 1px solid var(--rule-2); background: #fff; color: var(--ink-3);
-    font: 500 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase;
-    padding: 6px 9px; border-radius: 999px; cursor: pointer;
-  }
-  .srcbtn:hover, .srcbtn[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
-  .srcbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  /* ---------- Popover ---------- */
+  .srcwrap { position: relative; }
   .pop {
-    display: none; position: absolute; right: 0; top: calc(100% + 8px); z-index: 10;
-    width: min(440px, calc(100vw - 32px)); background: #fff; border: 1px solid var(--rule-2);
+    display: none; position: absolute; z-index: 10; top: calc(100% + 8px); left: 0;
+    width: min(460px, calc(100vw - 40px)); background: #fff; border: 1px solid var(--rule-2);
     border-radius: 10px; box-shadow: 0 12px 32px rgba(17,20,24,.14); padding: 12px 14px 10px;
-    font-family: var(--sans); font-size: 13.5px; line-height: 1.45; color: var(--ink-2);
+    font-family: var(--sans); font-size: 13.5px; line-height: 1.45; color: var(--ink-2); text-transform: none; letter-spacing: 0;
   }
   .srcwrap.open .pop, .srcwrap:hover .pop, .srcwrap:focus-within .pop { display: block; }
   .pop-h { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
   .pop ul { list-style: none; margin: 0; padding: 0; }
-  .pop li { margin: 0 0 8px; padding-left: 0; }
+  .pop li { margin: 0 0 8px; }
   .pop li:last-child { margin-bottom: 0; }
+  .pop p { margin: 0 0 8px; }
+  .row1-right .pop { left: auto; right: 0; }
   .tag {
     display: inline-block; font-size: 10.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
     padding: 2px 7px; border-radius: 4px; margin-right: 6px; vertical-align: 1px; white-space: nowrap;
@@ -115,23 +132,25 @@
   .src-afdpa { background: #ecfeff; color: #155e75; }
   .src-choice { background: #f3f4f6; color: #374151; }
   .src-other { background: #f3f4f6; color: #374151; }
-
-  /* Legend */
-  .legend { font-family: var(--sans); font-size: 13px; color: var(--ink-3); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; margin: 0 0 26px; max-width: var(--measure); }
   .legend .tag { margin: 2px 6px 2px 0; }
 
-  @media (max-width: 720px) {
+  /* Source column popovers: open rightward where there is room, else slide left over the text */
+  @media (max-width: 1180px) {
+    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop { left: auto; right: 0; }
+  }
+  @media (max-width: 760px) {
     body { font-size: 16px; }
-    .top-inner { padding: 8px 12px; }
-    .draftflag { order: -1; margin-left: 0; }
-    .sec-head { flex-direction: column; gap: 6px; }
-    .srcwrap { align-self: flex-start; }
-    .pop { right: auto; left: 0; }
+    .top-inner { padding: 10px 14px 0; }
+    .row1 { flex-wrap: wrap; }
+    .sec-head, .titlewrap { grid-template-columns: 1fr; row-gap: 6px; }
+    .sec-head > .srcwrap, .titlewrap > .srcwrap { grid-column: 1; margin-top: 0; }
+    .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop { left: 0; right: auto; }
   }
   @media print {
-    .top, .srcbtn, .legend { display: none !important; }
-    .pop { display: block !important; position: static; box-shadow: none; border: 1px solid #ccc; margin: 6px 0 10px; }
+    .top, .pillbtn { display: none !important; }
+    .pop { display: block !important; position: static; box-shadow: none; border: 1px solid #ccc; margin: 6px 0 10px; width: auto; }
     .doc[hidden] { display: block !important; page-break-before: always; }
+    .sec-head, .titlewrap { grid-template-columns: 1fr; }
     body { font-size: 11pt; }
   }
 </style>
@@ -139,19 +158,27 @@
 <body>
 <header class="top">
   <div class="top-inner">
-    <div class="brand">CHSS data agreement drafts<small>Center for High School Success · National 9th Grade Success Accelerator</small></div>
-    <nav class="tabs" role="tablist" aria-label="Deliverables">
+    <div class="row1">
+      <div class="brand">CHSS data agreement drafts<small>Center for High School Success · National 9th Grade Success Accelerator</small></div>
+      <div class="row1-right">
+        <div class="srcwrap legend">
+          <button class="pillbtn" type="button" aria-expanded="false" aria-label="How to read this page">How to read this</button>
+          <div class="pop" role="dialog">
+            <div class="pop-h">How to read this</div>
+            <p>Three working drafts for the accelerator agreement. Every section has a <span class="tag src-choice">Source</span> pill in the right-hand column; hover or tap it to see where the language came from.</p>
+            <p><span class="tag src-luke">Luke's experience</span><span class="tag src-call">Conversation</span><span class="tag src-james">James's collateral</span><span class="tag src-emily">Emily's architecture</span><span class="tag src-law">FERPA / PPRA / state law</span><span class="tag src-sdpc">SDPC NDPA</span><span class="tag src-district">District agreements</span><span class="tag src-afdpa">af-dpa knowledge base</span><span class="tag src-choice">Drafting choice</span></p>
+            <p>Working drafts for discussion among the CHSS team and partner districts. Not legal advice; counsel reviews before anything is signed.</p>
+          </div>
+        </div>
+        <span class="draftflag" id="draftflag">Draft v0.2 · Oct 27, 2026</span>
+      </div>
+    </div>
+    <nav class="row2" role="tablist" aria-label="Deliverables">
       <!--TABS-->
     </nav>
-    <span class="draftflag" id="draftflag">Draft v0.2 · Oct 27, 2026</span>
   </div>
 </header>
 <main>
-  <div class="legend">
-    <strong style="color:var(--ink-2)">How to read this.</strong> Three working drafts for the accelerator agreement. Every section has a <span class="tag src-choice" style="margin:0 2px">Source</span> button on the right; hover or tap it to see where the language came from:
-    <span class="tag src-luke">Luke's experience</span><span class="tag src-call">Conversation</span><span class="tag src-james">James's collateral</span><span class="tag src-emily">Emily's architecture</span><span class="tag src-law">FERPA / PPRA / state law</span><span class="tag src-sdpc">SDPC NDPA</span><span class="tag src-district">District agreements</span><span class="tag src-afdpa">af-dpa knowledge base</span><span class="tag src-choice">Drafting choice</span>.
-    Working drafts for discussion among the CHSS team and partner districts. Not legal advice; counsel reviews before anything is signed.
-  </div>
   <!--PANELS-->
 </main>
 <script>
@@ -170,15 +197,15 @@
   window.addEventListener('hashchange', function () { show(location.hash.replace('#', ''), false); });
   show(location.hash.replace('#', '') || docs[0].dataset.doc, false);
 
-  // Source popovers: hover shows (CSS); click toggles sticky-open; Esc / outside click closes.
+  // Popovers: hover shows (CSS); click toggles sticky-open; Esc / outside click closes.
   var wraps = Array.prototype.slice.call(document.querySelectorAll('.srcwrap'));
   function closeAll(except) {
     wraps.forEach(function (w) {
-      if (w !== except) { w.classList.remove('open'); w.querySelector('.srcbtn').setAttribute('aria-expanded', 'false'); }
+      if (w !== except) { w.classList.remove('open'); w.querySelector('.pillbtn').setAttribute('aria-expanded', 'false'); }
     });
   }
   wraps.forEach(function (w) {
-    var b = w.querySelector('.srcbtn');
+    var b = w.querySelector('.pillbtn');
     b.addEventListener('click', function (e) {
       e.stopPropagation();
       var open = !w.classList.contains('open');
@@ -186,6 +213,7 @@
       w.classList.toggle('open', open);
       b.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
+    w.addEventListener('click', function (e) { e.stopPropagation(); });
   });
   document.addEventListener('click', function () { closeAll(null); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(null); });

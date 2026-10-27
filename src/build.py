@@ -51,7 +51,7 @@ def render_sources(srcs):
     for label, text in srcs:
         cls = LABEL_CLASS.get(label, "src-other")
         items.append(f'<li><span class="tag {cls}">{html.escape(label)}</span> {inline(text)}</li>')
-    return ('<div class="srcwrap"><button class="srcbtn" type="button" aria-expanded="false" '
+    return ('<div class="srcwrap"><button class="pillbtn" type="button" aria-expanded="false" '
             'aria-label="Where this language came from">Source</button>'
             f'<div class="pop" role="dialog"><div class="pop-h">Where this came from</div><ul>{"".join(items)}</ul></div></div>')
 
@@ -82,9 +82,7 @@ def convert(md):
             sec_open = True
             out.append(f'<div class="sec-head"><h{level}>{inline(text)}</h{level}>{render_sources(srcs)}</div>')
         else:
-            out.append(f'<h1>{inline(text)}</h1>')
-            if srcs:
-                out.append(render_sources(srcs))
+            out.append(f'<div class="titlewrap"><h1>{inline(text)}</h1>{render_sources(srcs)}</div>')
         pending = None
 
     while i < len(lines):
