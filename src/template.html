@@ -140,7 +140,7 @@
           padding: 7px 12px; border-radius: 6px; cursor: pointer; }
   .chip:hover { border-color: var(--accent); color: var(--accent); }
   .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .tablewrap { overflow-x: auto; max-width: none !important; }
+  .tablewrap { max-width: none !important; overflow: visible; }   /* no clipping, so row popovers can extend past the table */
   .doc table.register { font-size: 14px; }
   .doc table.register td:nth-child(1) { white-space: nowrap; font-weight: 600; }
   .doc table.register tr[hidden] { display: none; }
@@ -191,6 +191,8 @@
     .draftwrap, .sec-head > .srcwrap, .titlewrap > .srcwrap, .firstwrap > .srcwrap { grid-column: 1; margin-top: 0; }
     .sec-head > .srcwrap .pop, .titlewrap > .srcwrap .pop, .firstwrap > .srcwrap .pop, .draftwrap .pop { left: 0; right: auto; }
     .tabgroup.notes { margin-left: 16px; padding-left: 16px; }
+    .tablewrap { overflow-x: auto; }
+    .regwrap .pop { position: fixed; left: 16px; right: 16px; top: auto; width: auto; max-height: 60vh; overflow: auto; }
   }
   @media print {
     .top, .pillbtn { display: none !important; }
