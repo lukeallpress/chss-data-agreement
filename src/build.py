@@ -414,21 +414,29 @@ def make_pdf(html_text, out_pdf, chrome_app, workdir):
     src.write_text(html_text)
     if out_pdf.exists():
         out_pdf.unlink()
+    profile = workdir / f"profile-{out_pdf.stem}"     # fresh profile per PDF: Chrome locks a profile per instance
     cmd = ["open", "-n", "-W", "-a", chrome_app, "--args", "--headless=new", "--disable-gpu", "--no-first-run",
            "--no-default-browser-check", "--use-mock-keychain", "--password-store=basic", "--disable-extensions",
-           f"--user-data-dir={workdir / 'profile'}", "--no-pdf-header-footer",
+           f"--user-data-dir={profile}", "--no-pdf-header-footer",
            f"--print-to-pdf={out_pdf}", src.as_uri()]
     proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    deadline = time.time() + 60
+    # Chrome writes the PDF then lingers; stop waiting once the file size has been stable for a second.
+    deadline, last, stable = time.time() + 60, -1, 0
     while time.time() < deadline:
-        if out_pdf.exists() and out_pdf.stat().st_size > 0:
-            time.sleep(0.5)
-            break
+        size = out_pdf.stat().st_size if out_pdf.exists() else 0
+        if size > 0 and size == last:
+            stable += 1
+            if stable >= 2:
+                break
+        else:
+            stable = 0
+        last = size
         time.sleep(0.5)
     try:
-        proc.wait(timeout=5)
+        proc.wait(timeout=3)
     except subprocess.TimeoutExpired:
         proc.kill()
+    subprocess.run(["pkill", "-9", "-f", str(profile)], capture_output=True)
     if not (out_pdf.exists() and out_pdf.stat().st_size > 0):
         raise RuntimeError("no PDF produced within 60s")
 
