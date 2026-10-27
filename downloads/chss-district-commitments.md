@@ -219,9 +219,11 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 | Cohort tracking beyond ninth grade (6.3) | ☐ Yes ☐ Ninth grade only |
 | Optional elements provided (D-1) | [list] |
 | Third parties approved to receive Student Data under Appendix A.4(f) | ☐ None ☐ [recipient, data shared] |
-| Technical contact | [name, title, email, phone] |
-| Privacy contact | [name, title, email, phone] |
-| Program contact(s) | [name, school] |
+| District technical contact | [name, title, email, phone] |
+| District privacy contact | [name, title, email, phone] |
+| District program contact(s) | [name, school] |
+| CHSS privacy officer (Appendix A.7) | [name, title, email, phone] |
+| CHSS security officer (Appendix A.7) | [name, title, email, phone] |
 
 **Onboarding milestones (January cohort)**
 

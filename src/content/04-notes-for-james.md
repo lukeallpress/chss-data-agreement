@@ -51,6 +51,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 3. Stand for Children Leadership Center, Inc. is the correct 501(c)(3) signatory, and the no-advocacy clause in A.4(d) is acceptable as written. (O8)
 4. Stand will sign the NDPA's standard clauses without redline, in any state. (O12)
 5. The Section Eight liability language and the Appendix A promises are reconciled before Columbus sees the package. (O2)
+6. Name CHSS's privacy officer and security officer. California law requires the contract to designate responsible individuals, and Exhibit D-3 now has two lines for them. Emily is the obvious security officer; the privacy officer can be Emily, Demian, or counsel, but it has to be a person. (A.7)
 
 ## For Tara: screeners and the evaluation design
 ::src State law :: Arizona A.R.S. § 15-104 (written parental consent for mental health screening); Department of Education letter of August 26, 2026 on behavioral health screeners.
