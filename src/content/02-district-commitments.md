@@ -22,7 +22,7 @@ In providing the Services, CHSS and Organization act as a "school official" with
 ### 5.2 Governing privacy terms
 ::src Lewis County :: A partner district in Missouri has already routed CHSS through its consortium (TEC via MOREnet) and the SDPC Resource Registry to obtain the NDPA. Districts in Arizona, Ohio, California, Massachusetts, Utah, and Missouri have state NDPA versions; this clause lets each district choose its instrument without renegotiating.
 ::src SDPC NDPA :: The NDPA is the Student Data Privacy Consortium's national agreement; state alliances publish versions with a state exhibit. AFUHSD signs vendors onto the Arizona Standard Version 1.2.
-::src District lens :: Counsel's objection to v0.2: "If we sign both documents, 'the document the district signed controls' does not tell us which document controls." Now one rule, stated the same way here and in Appendix A.18: the state NDPA controls.
+::src District lens :: Counsel's objection to an earlier draft: "If we sign both documents, 'the document the district signed controls' does not tell us which document controls." Now one rule, stated the same way here and in Appendix A.18: the state NDPA controls.
 ::src af-dpa :: knowledge/sdpc/exhibit-e-general-offer.md: Exhibit E extends a signed NDPA's privacy terms to any other district in the same state that accepts and delivers notice; it runs three years from the provider's signature.
 ::src Luke's decision :: See Decisions, M6.
 
@@ -43,9 +43,9 @@ All handling of student data under this Agreement is governed by the CHSS Data P
 - **Cohort** means the ninth grade students enrolled at a participating school in a school year in which the Services are provided.
 
 ### 5.4 Who may see student-level data
-::src Luke's decision :: Option B is "in-session view," not "aggregate only." A coach who watches the team lead's student-level screen is receiving identifiable records; v0.2 called that "aggregate only," which was wrong. See Decisions, M1.
+::src Luke's decision :: Option B is "in-session view," not "aggregate only." A coach who watches the team lead's student-level screen is receiving identifiable records; an earlier draft called that "aggregate only," which was wrong. See Decisions, M1.
 ::src FERPA :: "Disclosure" (34 C.F.R. § 99.3) means permitting access to or release of PII by any means, including oral, written, or electronic; the school official exception (§ 99.31(a)(1)(i)(B)) authorizes the access when its conditions are met, whether or not the recipient holds credentials. § 99.31(a)(1)(ii): the institution must use reasonable methods to ensure school officials access only records in which they have a legitimate educational interest.
-::src District lens :: A privacy officer's first objection to v0.2: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure." And a CTO's: "Somebody must administer Salesforce, troubleshoot imports, and investigate incidents." Both are answered below.
+::src District lens :: A privacy officer's first objection to an earlier draft: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure." And a CTO's: "Somebody must administer Salesforce, troubleshoot imports, and investigate incidents." Both are answered below.
 ::src Conversation :: 10/26: Jonah wanted the less intrusive approach with screen-share and one consistent protocol; James: ask for A and let their lawyers say no; Luke: the coach already hears names in every kid talk, so the agreement "operationalizes" a threshold the district has already crossed, and the Phoenix Union experience with Teach For America mentors was six months of fingerprint and onboarding fights.
 ::src AFUHSD precedent :: Luke's review of the renewed TFA template (Feb 2026): "as long as it's just the Coach that's going to see the data then it's covering it, acknowledging them as FERPA proxies." One named role, acknowledged as a school official, is the basis for both options.
 

@@ -1,5 +1,6 @@
 # Decisions
 ::src Conversation :: Jonah (10/26): "we just need to have a little bit more of a calculus"; a small number of people decide. This page is the register: what is still open and who owns it, then the calls already made and why, so each can be defended or reversed on the record.
+::src Drafting choice :: Source notes never refer to internal draft numbers; a change is described as a change from "an earlier draft." Version history lives in the header pill only.
 ::src Drafting choice :: Two lists. **Open decisions** come first: each names an owner, an approver, what evidence settles it, which documents it touches, and whether the package can go to a district before it is settled. **Decisions made** follow, with the reasoning and what would reverse them. Sources on each entry carry the legal basis and the district perspective that shaped it.
 
 Nothing in the drafts goes to a district until every open decision marked **gate** is closed. The rest can travel with a bracket.
@@ -82,9 +83,9 @@ Nothing in the drafts goes to a district until every open decision marked **gate
 ## Decisions made
 
 ### M1. Option B is "in-session view," not "aggregate only"
-::src Luke's decision :: A coach who watches the team lead's student-level screen is receiving identifiable education records. Calling that "aggregate only" was wrong, and it was the one legal error in v0.2. Option B now means: no standing login; student-level data seen only in a live session with the team lead; the coach is a school official under the agreement, trained, under confidentiality. Option A means a standing, logged login. Both are honest. James's one-pager, which says "aggregate data only," has to change to match.
+::src Luke's decision :: A coach who watches the team lead's student-level screen is receiving identifiable education records. Calling that "aggregate only" was wrong, and it was the one legal error in the earlier draft. Option B now means: no standing login; student-level data seen only in a live session with the team lead; the coach is a school official under the agreement, trained, under confidentiality. Option A means a standing, logged login. Both are honest. James's one-pager, which says "aggregate data only," has to change to match.
 ::src FERPA :: "Disclosure" under 34 C.F.R. § 99.3 means permitting access to or the release of PII by any means, including oral and visual; the school official exception (§ 99.31(a)(1)(i)(B)) authorizes the access when its conditions are met, whether or not the recipient holds credentials.
-::src District lens :: A privacy officer's first objection to v0.2: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure."
+::src District lens :: A privacy officer's first objection to an earlier draft: "You say the coach cannot see student-level data, then arrange for the coach to watch the student-level dashboard on a shared screen. That is still disclosure."
 ::src Conversation :: Jonah (10/26) wanted the less intrusive approach with screen-share and one consistent protocol; James wanted to ask for access and fall back; Luke: the coach already hears names in every kid talk, so the agreement "operationalizes" a threshold already crossed.
 ::src AFUHSD precedent :: Teach For America (2026): the district accepted the partner coach seeing student data as the only partner viewer, acknowledged as a FERPA school official.
 

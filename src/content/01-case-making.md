@@ -8,7 +8,7 @@ Syncing your Student Information System (SIS) with CHSS Navigator gives your nin
 ::src James's collateral :: Verbatim from James's draft, including the three-step routine and the 20-to-30-minute figure. His "no emails, no manual pulls, no file transfers" is reworded: SFTP is a file transfer, so the honest claim is that nothing is manual once the automated feed runs.
 ::src Conversation :: James (10/23): "we waste 20 minutes in every coaching session running the Synergy report, exporting, opening, entering a bunch of Excel formulas." Only 20 of 178 partner schools had submitted Q1 data as of 10/23.
 ::src James's collateral :: The Kid Talk figure is from James's 10/23 email: "Our own data shows us that when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal." Internal CHSS data; James to confirm it may be cited externally and how it was measured.
-::src District lens :: A superintendent reading v0.2 saw a credible value proposition and no evidence; one defensible result is what moves "fine" to "we want this."
+::src District lens :: A superintendent reading an earlier draft saw a credible value proposition and no evidence; one defensible result is what moves "fine" to "we want this."
 
 Without an integration, almost every coaching session starts the same way:
 
@@ -41,7 +41,7 @@ Student data flows securely from your SIS into CHSS Navigator, where CHSS builds
 ::src Luke's experience :: Setting up SchooLinks and other nightly feeds at AFUHSD: once automated, "I don't think about it at all anymore"; a failure notice arrives if the receiving server is down.
 ::src AFUHSD precedent :: The executed-copy promise comes from the ASU-Helios thread (Mar 2026), where neither the assistant superintendent, the deputy superintendent, finance, nor the data team could find the district's own signed DSA a few years on.
 ::src James's MOU draft :: Section Seven: "Year 0 and Year 1 services are fully subsidized; the amount due from District under this Agreement is $0." The strongest fact in the package, previously absent from the case.
-::src District lens :: A superintendent's worry in v0.2: committing staff to "a technically demanding project that the case-making describes as nearly effortless." The staff-effort paragraph and "support until acceptance" answer that directly. "You own your data" was read as boilerplate; it is now a path, not a promise.
+::src District lens :: A superintendent's worry about an earlier draft: committing staff to "a technically demanding project that the case-making describes as nearly effortless." The staff-effort paragraph and "support until acceptance" answer that directly. "You own your data" was read as boilerplate; it is now a path, not a promise.
 ::src Conversation :: Jonah (10/26) on the start date: January "gives us the four or five months of let's get this set up before students start." Year 0 is readiness; live data begins with Year 1 in August 2027.
 
 Most districts run reports by hand because nobody has had the time to set up the alternative. The integration work we do together changes that:
