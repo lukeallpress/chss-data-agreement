@@ -85,7 +85,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 | Exhibit F, cybersecurity framework | NIST Cybersecurity Framework recommended; New York requires alignment with it (O20) | Emily | Open |
 | Schedule 1, four questions incl. accessibility documentation link | An accessibility conformance report for Navigator (O19) | Emily | **Long pole** |
 | Exhibit I, teacher data | Applicable: staff names, work emails, usernames, roles, teacher of record | Emily | Draft below |
-| Exhibit K, Data Security and Privacy Plan URL | A published plan; Appendix A and Part C supply most of it (O18) | Luke drafts, Emily confirms | **Long pole** |
+| Exhibit K, Data Security and Privacy Plan URL | Drafted on the Privacy plan tab from Appendix A and Part C; needs Emily's confirmation, officer names, and a CHSS URL (O18) | Emily confirms, CHSS hosts | Draft ready |
 | Counsel's read | Standard clauses plus all eighteen state Exhibit Gs; not to redline, to know the obligations | Stand counsel | Open |
 
 **Draft Exhibit A.** Written to cover everything CHSS does with student data, because in six of the eighteen states nothing outside Exhibit A is permitted.
@@ -109,7 +109,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 3. **Background checks become contractual** for any CHSS employee with direct contact with students. Coaches in classrooms or administering screeners likely count (O5).
 4. **The audit right is real.** Each subscribing district may audit once a year; New York can require an independent audit at CHSS's expense. Appendix A.13 now says the NDPA's audit clause governs where it is signed.
 5. **Deletion and de-identified evaluation already fit.** Sixty days satisfies the standard clause and New York's ninety; the de-identified carve-out is in the standard clause itself.
-6. **Three builds follow:** the Data Security and Privacy Plan (O18), an accessibility conformance report (O19), and an Exhibit F framework CHSS can truthfully claim alignment with, with New Hampshire's control list or a certification behind it (O20).
+6. **Three builds follow:** the Data Security and Privacy Plan (O18, now drafted on the Privacy plan tab), an accessibility conformance report (O19), and an Exhibit F framework CHSS can truthfully claim alignment with, with New Hampshire's control list or a certification behind it (O20).
 
 :::details Paste-ready reply for James to TEC
 > Thank you for sending this and for the clear instructions. We are reviewing the agreement with our counsel and our technology office and expect to return it completed within two to three weeks. One question on Exhibit A: should we describe the services the agreement covers, list services excluded from coverage, or both?

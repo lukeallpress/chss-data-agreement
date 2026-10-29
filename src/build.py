@@ -26,6 +26,7 @@ DOCS = [
     ("case",      "Case-making",          "01-case-making.md",          "deliverable", "chss-case-making"),
     ("district",  "District commitments", "02-district-commitments.md", "deliverable", "chss-district-commitments"),
     ("chss",      "CHSS commitment",      "03-chss-commitment.md",      "deliverable", "chss-privacy-security-commitment"),
+    ("plan",      "Privacy plan",         "07-privacy-plan.md",         "deliverable", "chss-data-security-privacy-plan"),
     ("notes",     "Notes",                "04-notes-for-james.md",      "note",        None),
     ("decisions", "Decisions",            "05-decisions.md",            "note",        None),
     ("changelog", "Changelog",            "06-changelog.md",            "note",        None),

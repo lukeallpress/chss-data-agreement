@@ -3,6 +3,13 @@
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
 
+## v1.5, Oct 29, 2026
+::src State law :: New York Education Law § 2-d and 8 NYCRR Part 121 require a published data security and privacy plan; TEC's multi-state NDPA cites it by URL in Exhibit K.
+
+- **New deliverable: the Data Security and Privacy Plan**, drafted for CHSS to confirm and publish. Structured to New York's seven required elements, with the Parents' Bill of Rights supplemental information as a ready-to-attach table. Every commitment is drawn from Appendix A and Part C; placeholders mark the officer names, the AI provider, the framework, the assessment date, and the URL. PDF, Word, and Markdown downloads.
+- Two commitments are stated for the first time: training before access, not only at hire, and destruction following NIST SP 800-88.
+- O18 and the Exhibit K row on Notes updated to "draft ready."
+
 ## v1.4, Oct 29, 2026
 ::src Lewis County :: TEC's 10/29 request to CHSS: its 18-state multi-state NDPA, with Lewis County C-1 as the originating district, and James's question "are we ready to fill this out?"
 

@@ -27,7 +27,7 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | O14 | Complete subprocessor list and U.S. region for every tenant | Emily | Jonah | Before signature | **Gate** before signature | |
 | O15 | One delivery cadence rule for Year 1: weekly required, with Tier 2 as a dated interim exception | Jonah, Emily | Tara | Before external distribution | Bracket | |
 | O16 | The Kid Talk outcome claim: calculation, denominator, period, sample, and permitted wording | James, Tara | Jonah | Before the case-making goes to any district | **Gate** for the claim | |
-| O18 | Data Security and Privacy Plan published at a CHSS URL (TEC Exhibit K; New York Education Law § 2-d) | Emily (Luke drafts) | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
+| O18 | Data Security and Privacy Plan published at a CHSS URL (TEC Exhibit K; New York Education Law § 2-d) | Emily (Luke drafts) | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | Draft written 10/29 (Privacy plan tab). Emily confirms each statement; CHSS names its officers and posts it at a CHSS URL. |
 | O19 | Accessibility documentation for Navigator (TEC Schedule 1) | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
 | O20 | Exhibit F cybersecurity framework CHSS can claim alignment with, and New Hampshire's control list or a certification | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
 :::
