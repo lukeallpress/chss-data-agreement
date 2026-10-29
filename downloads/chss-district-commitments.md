@@ -174,6 +174,7 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 ::src James's collateral :: James's "only the data needed" list (student ID, name, grade level, course grades, attendance, discipline) with discipline moved to Optional.
 ::src Emily's architecture :: Input categories on the platform diagram: student information, grades, attendance, discipline, other optional (assessments, state tests, program participation).
 ::src Conversation :: Luke (10/19): attendance, discipline, EL, and IEP data "don't belong in rostering tools"; discipline is the element most likely to draw objections.
+::src SDPC NDPA :: The NDPA's Exhibit B asks the provider to list every element "used, stored, or collected," including data the service itself creates; New Hampshire's terms add teacher data, scheduled in Exhibit I. The last two rows make D-1 match what CHSS will declare on the NDPA.
 ::src District lens :: A California district technology and privacy lead (10/27 call) ranks free or reduced-price meal status, special education status, and graduation date as "protected and then free-and-reduced-lunch protected," and recently refused a grant partner's request for meal data with the district attorney's backing; name, email, and ID are a lower tier. The sensitive elements are now labeled as such and never requested by default.
 
 | Element | Required / Optional | Notes |
@@ -193,6 +194,8 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 | Assessments, state test scores, program participation | Optional | |
 | Date of birth | Optional | Only where identifiers are unavailable for matching |
 | Screening Data (Belonging, Skills) | Collected by CHSS under 6.7 | |
+| Data created in the Services: intervention plans and records, team meeting notes, on-track and risk flags, software-generated suggestions | Created by School Team and CHSS users | Student Data for all purposes of this Agreement and Appendix A |
+| Staff data: names, work email, role, school, Navigator username; teacher of record where provided | Required for Navigator users | Protected under Appendix A the same way as Student Data; listed as teacher data in NDPA Exhibit I where applicable |
 
 ## Exhibit D-2: Delivery tiers
 ::src Emily's architecture :: Tier 1 and Tier 2 are the two inputs the v1 platform supports (SFTP; secure file upload).

@@ -21,12 +21,15 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | O9 | Whether a Navigator tenant can run without student names (pseudonymous election) | Emily | Jonah, Tara | Before Columbus review | Bracket | |
 | O10 | Row-level de-identified retention is needed for the evaluation design, and the retained-data inventory | Tara, Jonah | Stand counsel | Before Columbus review | Bracket | |
 | O11 | Integration support through acceptance plus maintenance: staffing and hours | Jonah | Emily | Before external distribution | Bracket | |
-| O12 | Exhibit E general offer in every state, and signing NDPA standard clauses without redline | Stand counsel | Jonah | Before the Missouri reply and before external distribution | **Gate** for the Exhibit E promise | In principle 10/27: Jonah and Emily agreed to prepare to sign NDPA version 1 with Exhibit E. Counsel's review of the text still pending. |
+| O12 | Exhibit E general offer, and signing NDPA standard clauses without redline, starting with TEC's 18-state agreement | Stand counsel | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | In principle 10/27 (version 1 with Exhibit E). TEC's 18-state form received 10/29. Counsel's read of the standard clauses and eighteen state exhibits pending. |
 | O17 | Emily's bullets binding coaching-staff access to the school level and to screening and intervention purposes, to replace or refine Section 5.4 | Emily | Jonah, Tara | Before external distribution | Bracket | |
 | O13 | Deletion runbook across Salesforce, Azure/Fabric, Power BI, backups, subprocessors, within sixty days | Emily | Jonah | Before signature | **Gate** before signature | |
 | O14 | Complete subprocessor list and U.S. region for every tenant | Emily | Jonah | Before signature | **Gate** before signature | |
 | O15 | One delivery cadence rule for Year 1: weekly required, with Tier 2 as a dated interim exception | Jonah, Emily | Tara | Before external distribution | Bracket | |
 | O16 | The Kid Talk outcome claim: calculation, denominator, period, sample, and permitted wording | James, Tara | Jonah | Before the case-making goes to any district | **Gate** for the claim | |
+| O18 | Data Security and Privacy Plan published at a CHSS URL (TEC Exhibit K; New York Education Law § 2-d) | Emily (Luke drafts) | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
+| O19 | Accessibility documentation for Navigator (TEC Schedule 1) | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
+| O20 | Exhibit F cybersecurity framework CHSS can claim alignment with, and New Hampshire's control list or a certification | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
 :::
 
 :::why O1
@@ -124,6 +127,27 @@ The agreement now promises support until the feed passes acceptance, plus mainte
 Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** District commitments 5.2; Appendix Part A; Notes.
 :::
 
+:::why O18
+::src State law :: New York Education Law § 2-d and 8 NYCRR Part 121 require a third-party contractor to maintain a data security and privacy plan; the TEC multi-state NDPA's New York terms incorporate the plan by its URL in Exhibit K and require it to cover: applicable legal requirements; operational safeguards; compliance with the district's Parents' Bill of Rights; training of employees and subprocessors; subprocessor obligations; incident management with prompt notice; and return, deletion, and destruction.
+::src Lewis County :: TEC's 10/29 request: "provide a URL (or an attachment) to your Data Security and Privacy Plan ... A privacy policy is sufficient if it describes equivalent data security practices."
+
+Appendix A and Part C already contain nearly every element. Luke drafts the plan from them; Emily confirms every statement is true; CHSS posts it at a stable URL. **Evidence:** the URL. **Documents:** TEC Exhibit K; Appendix A.
+:::
+
+:::why O19
+::src Lewis County :: TEC's 10/29 request: complete Schedule 1's four questions, including "a link to your Accessibility Documentation or provide an attachment."
+::src Case law / guidance :: The U.S. Department of Justice's 2024 rule under ADA Title II sets WCAG 2.1 Level AA as the standard for state and local government web content, which is why districts now ask every provider for accessibility documentation.
+
+An accessibility conformance report (often a VPAT) for Navigator: Salesforce publishes one for its platform; CHSS needs one for its own pages and dashboards, with a remediation plan for any gaps. **Evidence:** the report or its URL. **Documents:** TEC Schedule 1.
+:::
+
+:::why O20
+::src SDPC NDPA :: Article V.3: the provider "shall implement an adequate Cybersecurity Framework based on one of the nationally recognized standards set forth in Exhibit F"; the published list includes the NIST Cybersecurity Framework, NIST SP 800-53 and 800-171, the ISO 27000 series, the Secure Controls Framework, CIS Controls, and CMMC.
+::src State law :: New York's terms require alignment with the NIST Cybersecurity Framework. New Hampshire's terms require either twenty-three listed controls (access limits, logon limits, audit logs, unique user accountability, baseline configurations, media sanitization under NIST SP 800-88, boundary protection, deny-by-default traffic, encryption at rest, flaw remediation, anti-malware, and others) or annual evidence of certification under NIST SP 800-171, NIST SP 800-53 low baseline, FedRAMP, ISO 27001, CIS IG1, SOC 2 Type 2, or PCI DSS.
+
+Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Part C.
+:::
+
 :::why O17
 ::src Conversation :: Emily (10/27): the Navigator serves "many personas having access to it," so platform-login language in the access clause was "problematic" and should be struck; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. She will send bullets; Jonah asked that they be copied to him and Tara.
 
@@ -202,6 +226,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src District lens :: "If we sign both, 'the document the district signed controls' does not tell us which document controls." And: "Which custom AI, insurance, screener, and security commitments survive when we elect the NDPA?"
 ::src Luke's decision :: One mechanical rule, stated the same way in 5.2, Part A, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
 ::src Conversation :: 10/27 call: Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year term, with Exhibit E, and asked for the shortest route through the consortium and realistic timelines. That research is on the Notes tab.
+::src Lewis County :: 10/29: TEC sent its 18-state multi-state NDPA (version 1.0 family) with Lewis County as the originating district. One signature with Exhibit E covers Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington. The precedence rule here is unchanged; the NDPA simply becomes the primary instrument for most districts.
 
 ### M7. Three delivery tiers, described honestly
 ::src Emily's architecture :: v1 ingests files by SFTP or secure upload; no vendor API.
@@ -228,7 +253,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ### M11. Audit evidence on a menu
 ::src Columbus City DSA :: Annual third-party audits of security operations.
 ::src af-dpa :: NDPA v1.2 gives the LEA an audit right; the Utah evidence menu (self-assessment, questionnaire, SOC 2 or SOC 3, on-site by agreement).
-::src Luke's decision :: Annual independent assessment and pen test (dates per O4); districts choose the form of evidence once a year; cooperation with an audit where state law requires.
+::src Luke's decision :: Annual independent assessment and pen test (dates per O4); districts choose the form of evidence once a year; cooperation with an audit where state law requires. Where the NDPA is signed, its Article V.2 audit right applies instead of the menu: each district may audit once a year on ten business days' notice, and New York's State Chief Privacy Officer may require an independent audit at CHSS's expense or accept a SOC report issued within the prior twelve months.
 
 ### M12. District remedies: immediate suspension, subprocessor objection, termination effect
 ::src District lens :: "If there is an active security problem, I cannot wait through a thirty-day cure period." "If we object to a subprocessor and your team cannot resolve it, the new provider still takes effect." "If we terminate only the data provisions, what happens to the rest of the Services?"

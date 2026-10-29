@@ -32,6 +32,11 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 | G18 | Per-load validation report (rejected files, rejected rows, warnings); failure notice within one business day; acceptance test | 6.9, D-3 | Ingestion validation; monitoring and alerting; acceptance procedure | | | |
 | G19 | Screener collection opens only after district authorization and consent certification; instruments versioned | 6.7; A.15 | Feature gate per district; instrument versioning | | | |
 | G20 | A Navigator tenant can run without student names (if a district requires it) | O9 | Platform answer: yes, no, or with which features off | | | |
+| G21 | Published Data Security and Privacy Plan at a CHSS URL | NY Education Law § 2-d; 8 NYCRR Part 121; TEC NDPA Exhibit K | Plan document covering requirements, safeguards, Parents' Bill of Rights compliance, training, subprocessors, incidents, disposition | | | |
+| G22 | Accessibility conformance report for Navigator (WCAG 2.1 AA) | TEC NDPA Schedule 1 | Salesforce platform VPAT plus a report for CHSS's custom pages; remediation plan | | | |
+| G23 | A named cybersecurity framework CHSS can claim alignment with; New Hampshire's 23 controls or an annual certification | TEC NDPA Exhibit F; NH Exhibit G; NY Exhibit G (NIST CSF) | Framework mapping; control evidence or certification | | | |
+| G24 | Teacher and staff data protected like student data | NH Exhibit G and Exhibit I | Inventory of staff data in Navigator; same controls | | | |
+| G25 | Criminal background checks for every employee with direct contact with students | MA, ME, NH, NY, RI, VT Exhibit Gs; A.7 | HR policy; roster of who has student contact | | | |
 
 ## For Emily: technical claims to confirm
 ::src Emily's architecture :: Every platform fact in Appendix A and Part C is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
@@ -59,48 +64,88 @@ Answer each as **true today**, **true by [date]**, or **no**:
 18. Be ready to demo Navigator to a district's technology or privacy lead and answer the four questions they ask of any AI feature: is the model CHSS's own or a third party's; exactly what goes into the prompt; who at CHSS, the provider, or any maintenance contractor can see inputs and outputs; and what the agent does with the output. (A.12(i); a California district lead asks exactly these and says vendors are often surprised to be asked.)
 19. Part C is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
 
-## The NDPA: what CHSS signs, in what order
-::src Conversation :: 10/27 call. Jonah: "point us to the shortest distance ... how many of these places we have to apply to." Emily: what is the turnaround for a vendor "application," and does the national consortium give a bigger umbrella than the states? Jonah and Emily agreed to prepare to sign version 1 with Exhibit E.
-::src SDPC NDPA :: The Student Data Privacy Consortium (SDPC) is a special interest group of the Access 4 Learning (A4L) Community. Its National Data Privacy Agreement (NDPA) is published in state versions through state alliances; signed agreements and their Exhibit Es are posted in the SDPC Resource Registry. Version 1 state agreements (Arizona, Missouri, Florida, Illinois, Ohio, Oregon, Washington, Tennessee, and others) carry a fixed three-year term, and Exhibit E expires three years from the original signature; version 2 (2024) is in use in some states (Utah's current form is UT-NDPA-V2.1) and remains in effect while the provider holds data. Vendor membership in the A4L Community is annual, priced on gross revenue, and gives Registry access and a "Signatory Badge" for unmodified NDPAs; it is not required to sign.
-::src af-dpa :: knowledge/sdpc/registry-and-membership-2026-10-26.md and exhibit-e-general-offer.md: "you do not have to be a member of the Community to sign the NDPA," but "at least one signing party must be a member"; Registry rows are created by districts; the originating district uploads the signed agreement and a standalone Exhibit E; Registry search is members-only since 2022; a subscribing district accepts Exhibit E through the Registry's "Auto Exhibit E Creator" or by signing the PDF and must deliver notice of acceptance; cross-state acceptance is not valid; a vendor-modified originating agreement is not usable for Exhibit E.
-::src District lens :: A Missouri partner district's technology coordinator has already routed CHSS through its consortium (TEC via MOREnet). A California district privacy lead (10/27) outsources negotiation to CITE, which hosts the California alliance.
+## The NDPA: one signature, eighteen states
+::src Lewis County :: On 10/29 TEC's SDPA coordinator, who represents the Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington alliances of the Student Data Privacy Consortium, sent CHSS the multi-state NDPA as a fillable PDF, with Lewis County C-1 as the originating district. CHSS signs once; TEC has Lewis County countersign; CHSS is posted as "Approved for Use" on the alliance databases; any district in those eighteen states subscribes by completing Exhibit E, which TEC forwards. "You only need to review and sign the DPA once regardless of the number of participating districts."
+::src SDPC NDPA :: Read against a published agreement from the same family: MA-ME-NH-NY-RI-VT-NDPA, Standard Version 1.0, executed 2023–24. Version 1.0: three-year term; Exhibit E expires three years from the original signature; Article I.1 makes the provider a school official; Article IV.5 permits de-identified use "to demonstrate the effectiveness of the Services," surviving termination; Article IV.6, disposition within sixty days of request; Article V.2, an annual LEA audit right on ten business days' notice; Article V.3, the provider implements a framework listed in Exhibit F; Article V.4, breach notice within seventy-two hours, and the LEA notifies families.
+::src State law :: The state Exhibit Gs in that family add, among other things: in Massachusetts, Maine, New Hampshire, Rhode Island, Vermont, and New York, use is limited to the Exhibit A services ("or stated in the Service Agreement" is deleted) and "all employees of the Provider who will have direct contact with students shall pass criminal background checks"; in New Hampshire, a list of twenty-three security controls or an annual certification under NIST SP 800-171, NIST SP 800-53, FedRAMP, ISO 27001, CIS IG1, SOC 2 Type 2, or PCI DSS, plus protection of teacher data (Exhibit I); in New York, Education Law § 2-d and 8 NYCRR Part 121: a published Data Security and Privacy Plan (Exhibit K), the district's Parents' Bill of Rights (Exhibit J), NIST Cybersecurity Framework alignment, storage in the United States or Canada, ninety-day disposition, provider-paid parent notification for breaches it causes, and an independent audit if the State's Chief Privacy Officer requires one. New York's definition of "Provider" expressly includes a nonprofit "educational partnership organization" receiving student data.
+::src Conversation :: 10/27 call: Jonah and Emily agreed to prepare to sign version 1 with Exhibit E. 10/29: James to Luke and Emily, "how this guides our own thinking," and to all, "are we ready to fill this out?"
 
-**There is no application.** A provider does not apply to the SDPC or to a state alliance. A district starts it: the district (or its consortium, as Lewis County's did) asks the provider to sign the state's NDPA. The provider signs; the district uploads the signed agreement and, if the provider signed it, a standalone Exhibit E to the Registry. That row is what every other district in the state sees. Turnaround is therefore the district's, not the consortium's: a willing provider can sign the same day it receives the form; the slow part is the district's own routing and, where required, its board.
+**What this changes.** One signature with Exhibit E covers eighteen states for three years. Ohio is among them, so Columbus can subscribe rather than negotiate. The states left for separate signatures in the first cohort are California, Arizona, Utah, and any other state not on the list. The NDPA becomes the primary instrument for most districts; Appendix A rides alongside as the supplement, which is what Section 5.2 already says.
 
-**The shortest path, in order.**
+**Are we ready to fill it out? Not yet. About two weeks, if four things move this week.** Most of the content exists in these drafts. Two documents do not: the Data Security and Privacy Plan and an accessibility report.
 
-1. **Counsel reads the standard clauses once.** Start with the national NDPA Standard Version 1 and one state version (Arizona v1.2 is a good specimen, since it carries an AI questionnaire; Missouri's is the one arriving first). The standard clauses cannot be redlined; the only CHSS-specific content is Exhibit A (services), Exhibit B (data elements, which Exhibit D-1 of the Agreement already answers), the subprocessor list, and Exhibit E. Decide now that CHSS will sign unmodified; a vendor-modified agreement cannot carry Exhibit E for other districts.
-2. **Sign Missouri first, with Exhibit E, when TEC sends it.** That is already in motion. Ask TEC to upload the standalone Exhibit E alongside the agreement so the row is usable by every other Missouri district.
-3. **Then one signature per state as the first district in each state arrives:** Ohio for Columbus, California for San Diego, and so on. Each signature with Exhibit E covers the rest of that state for three years. Expect about ten states for the January cohort plus the existing partners, so about ten signatures, not seventy-five.
-4. **Join A4L as a vendor member** (annual, revenue-based dues) so Emily can see the Registry, see which districts have subscribed, and manage Exhibit E acceptances. Not required to sign, but it is how CHSS will know who has piggybacked. Fill in the Registry profile once with the subprocessor list and the data elements.
-5. **Prefer version 1 where the state offers it,** for the three-year review cycle Jonah wants; sign version 2 where that is what the state alliance uses (Utah, for example). The Appendix A terms were drafted to sit alongside either.
+| TEC asks for | Where the answer comes from | Owner | Status |
+|---|---|---|---|
+| Designated representative (p. 3) | CHSS privacy officer, Appendix A.7 and Exhibit D-3 | Jonah, Demian | Name needed |
+| Signature (p. 3) | Authorized signer for the correct legal entity (O8) | Stand counsel | Open |
+| Exhibit A, description of services | Draft below; binding scope in six states. Ask TEC what "exclude services" means | Luke drafts, Jonah approves | Draft ready |
+| Exhibit B, schedule of student data | Mapped from Exhibit D-1 below; four rows for Emily | Emily | Mostly ready |
+| Exhibit D | Leave blank | — | Done |
+| Exhibit E, general offer and receiving email | Counsel's yes (O12); a role mailbox for incoming Exhibit Es | Stand counsel, Emily | Open |
+| Exhibit F, cybersecurity framework | NIST Cybersecurity Framework recommended; New York requires alignment with it (O20) | Emily | Open |
+| Schedule 1, four questions incl. accessibility documentation link | An accessibility conformance report for Navigator (O19) | Emily | **Long pole** |
+| Exhibit I, teacher data | Applicable: staff names, work emails, usernames, roles, teacher of record | Emily | Draft below |
+| Exhibit K, Data Security and Privacy Plan URL | A published plan; Appendix A and Part C supply most of it (O18) | Luke drafts, Emily confirms | **Long pole** |
+| Counsel's read | Standard clauses plus all eighteen state Exhibit Gs; not to redline, to know the obligations | Stand counsel | Open |
 
-**What the national consortium does and does not give you.** The national agreement is the template; every state alliance publishes its own version because state law requires it, and the state version is what a district signs. There is no single national signature that covers all states. The umbrella is the Registry and the shared standard clauses, which is why one unmodified signature per state is enough.
+**Draft Exhibit A.** Written to cover everything CHSS does with student data, because in six of the eighteen states nothing outside Exhibit A is permitted.
 
-**Which versions are in play for the first cohort** (confirm each on the SDPC alliance page before signing): Arizona, AZ-NDPA v1.2 with Exhibit G; California, CA-NDPA (currently v1.x via the California Student Privacy Alliance hosted by CITE) with California's Exhibit G; Ohio, OH-NDPA v1 with Exhibit E; Missouri, MO-NDPA v1 (TEC and MOREnet); Massachusetts, MA-NDPA (The Education Cooperative); Utah, UT-NDPA v2.1.
+> The Center for High School Success (CHSS), a program of Stand for Children Leadership Center, Inc., provides ninth grade success coaching and implementation support to participating high schools. To deliver these services, CHSS receives student data from the LEA's student information system and provides: (1) dashboards that calculate and display ninth grade on-track indicators, course performance, credits, and attendance for the school's ninth grade team, and that continue to follow each ninth grade cohort's progress in later grades; (2) the CHSS Navigator platform, in which school staff and CHSS coaching staff identify students needing support, plan and record interventions, and monitor progress, including software-generated intervention suggestions that educators review before use; (3) administration of the CHSS Belonging and Skills screeners, only with the LEA's approval of the instruments; (4) coaching and professional learning for the ninth grade team; and (5) evaluation of program effectiveness using de-identified and aggregate data. CHSS provides no student-facing accounts other than for screener administration and does not use student data for advertising, marketing, or any activity of an advocacy or political affiliate.
 
-**Realistic timeline.** Counsel's read of the standard clauses: a week. Missouri signature: the day TEC sends it. Each later state: as fast as the first district routes it, typically two to six weeks including a board where one is required. Registry membership: an online form and an invoice.
+**Exhibit B, mapped from Exhibit D-1.**
 
-:::details Paste-ready email to Jonah and Emily with the NDPA links
-> Subject: NDPA packet: what to read, what to sign first
+- **Check:** student school enrollment; grade level; year of graduation (cohort); student scheduled courses; teacher names (only where teacher of record is provided); student school (daily) and class attendance; student course grades, course data, and grades or performance scores; local ID number; state ID number; student first and last name; student responses to surveys or questionnaires (the screeners).
+- **Check, noting "only if the LEA elects to provide":** conduct or behavioral data; gender; ethnicity or race; language information; English language learner information; low-income status; student disability information; specialized education services (IEP or 504).
+- **Emily to answer:** IP addresses and cookies (staff users, and students if screeners run in a CHSS tool); metadata on user interaction; provider-assigned student ID (Navigator's internal ID and the de-identification token); student app username and passwords (only if screeners require a student login).
+- **Other:** credits attempted and earned; cumulative GPA; enrollment entry and exit dates; summer school enrollment and outcomes; data created in the Service (intervention plans and records, team meeting notes, on-track and risk flags, software-generated suggestions).
+- **Leave unchecked:** medical alerts, living situation, transportation, parent or guardian contact, ID, and name, student contact information, student work, online communications, place of birth; date of birth unless a district needs it for matching.
+
+**Exhibit I, teacher data.** Check: teacher app username; local (district) ID where teacher of record is provided; personal email only if staff use a personal address (expect work email instead, listed under Other); application use statistics; IP addresses for staff logins (Emily). Other: work email, role, school assignment.
+
+**How it guides our thinking.** Six points for James and Emily.
+
+1. **Exhibit A is the contract's scope in strict states.** Screeners, intervention suggestions, and cohort follow-up are written into it for that reason.
+2. **Version 1.0 settles the version question:** a fixed three-year term, which is the review cycle Jonah wanted.
+3. **Background checks become contractual** for any CHSS employee with direct contact with students. Coaches in classrooms or administering screeners likely count (O5).
+4. **The audit right is real.** Each subscribing district may audit once a year; New York can require an independent audit at CHSS's expense. Appendix A.13 now says the NDPA's audit clause governs where it is signed.
+5. **Deletion and de-identified evaluation already fit.** Sixty days satisfies the standard clause and New York's ninety; the de-identified carve-out is in the standard clause itself.
+6. **Three builds follow:** the Data Security and Privacy Plan (O18), an accessibility conformance report (O19), and an Exhibit F framework CHSS can truthfully claim alignment with, with New Hampshire's control list or a certification behind it (O20).
+
+:::details Paste-ready reply for James to TEC
+> Thank you for sending this and for the clear instructions. We are reviewing the agreement with our counsel and our technology office and expect to return it completed within two to three weeks. One question on Exhibit A: should we describe the services the agreement covers, list services excluded from coverage, or both?
+:::
+
+:::details Paste-ready email to Jonah and Emily: the TEC agreement and what we need
+> Subject: TEC's 18-state NDPA: what it means and what we need this week
 >
 > Jonah, Emily,
 >
-> Here is the shortest path through the Student Data Privacy Consortium, as promised.
+> TEC sent the multi-state NDPA this morning, with Lewis County as the originating district. It covers eighteen states, including Ohio, New York, Massachusetts, Illinois, and Missouri. We sign once with Exhibit E; any district in those states then subscribes without a new negotiation. Columbus can come in through Ohio.
 >
-> There is no application. A district (or its consortium) sends us its state's NDPA; we sign; the district posts it to the SDPC Registry, and every other district in that state can then subscribe to the same terms by accepting our Exhibit E. One unmodified signature per state covers that state for three years. For the first cohort that is roughly ten signatures.
+> We are about two weeks from returning it. Most answers are already in our drafts; the full checklist is on the Notes tab of the drafts site. What I need this week:
 >
-> To read now: the national Standard Version 1 and the Arizona version 1.2 (a representative state version, with its AI questionnaire). The standard clauses are not negotiable; the only parts we fill in are the services description, the data elements, the subprocessor list, and Exhibit E. Our own appendix was written to sit alongside either version.
+> 1. The signer and legal entity (Stand for Children Leadership Center, Inc.?), and a named privacy officer as designated representative.
+> 2. Counsel to read the standard clauses and the eighteen state exhibits. They cannot be redlined; the read is to know what we are agreeing to.
+> 3. Emily: the cybersecurity framework we align with (I recommend NIST CSF; New York requires it), the accessibility documentation for Navigator, four Exhibit B items, the teacher-data exhibit, and a privacy@ mailbox for incoming Exhibit Es.
+> 4. A go-ahead for me to draft our Data Security and Privacy Plan from the appendix and system specifications, for Emily to confirm and us to post at a CHSS URL. New York requires it, and it is the longest pole.
 >
-> - SDPC home and alliance list: https://privacy.a4l.org/ and https://sdpc.a4l.org/search_alliance.php
-> - Arizona NDPA v1.2 with Exhibit E (specimen): https://sdpc.a4l.org/agreements/AZ-NDPA-V1withExhibit%20E.pdf
-> - Missouri NDPA v1 (the one arriving first): https://sdpc.a4l.org/agreements/MO_NDPA_V1_no_exhibit.pdf
-> - Version 2 usage guide, for states that use it: https://files.a4l.org/privacy/NDPA/NDPAv2_Usage_Guide_and_Development_Process.pdf
-> - Vendor membership (optional, gives Registry access and the signatory badge): https://privacy.a4l.org/get-involved/
->
-> Order of operations: counsel reads the standard clauses once (a week); we sign Missouri with Exhibit E the day TEC sends it; then Ohio when Columbus is ready and California for San Diego; Emily joins A4L as a vendor member so she can see who subscribes. Decision needed from you: that we will sign unmodified, with Exhibit E, in every state. A modified agreement cannot be extended to other districts.
+> Two consequences worth knowing now: in six of these states we may use data only for the services we list in Exhibit A, so the description has to be complete (draft on the Notes tab); and six states require background checks for staff with direct student contact, which likely includes coaches.
 >
 > Luke
+:::
+
+:::details Earlier research: SDPC structure, membership, and versions
+### How the consortium works
+::src SDPC NDPA :: The Student Data Privacy Consortium (SDPC) is a special interest group of the Access 4 Learning (A4L) Community. Its NDPA is published in state and multi-state versions through alliances; signed agreements and their Exhibit Es are posted in the SDPC Resource Registry. Version 1 agreements carry a fixed three-year term; version 2 (2024) is in use in some states (Utah's current form is UT-NDPA-V2.1). Vendor membership in A4L is annual, priced on revenue, and gives Registry access and a Signatory Badge; it is not required to sign.
+::src af-dpa :: Registry rows are created by districts; the originating district uploads the signed agreement and a standalone Exhibit E; Registry search is members-only; a subscribing district accepts Exhibit E and must deliver notice of acceptance; cross-state acceptance is not valid; a vendor-modified agreement cannot carry Exhibit E.
+
+**There is no application.** A district or its consortium sends the provider its form; the provider signs; the district posts it. Turnaround is the district's routing, not the consortium's.
+
+**Outside the TEC group**, expect separate signatures as the first district in each state arrives: California (CA-NDPA via the California Student Privacy Alliance hosted by CITE, with its own Exhibit G), Arizona (AZ-NDPA v1.2 with Exhibit G and the AI questionnaire), Utah (UT-NDPA v2.1), and others. Each signature with Exhibit E covers the rest of that state.
+
+**Join A4L as a vendor member** so Emily can see the Registry and track Exhibit E subscriptions. Optional, but it is how CHSS will know who has subscribed.
+
+**Links:** SDPC home https://privacy.a4l.org/ · alliance list https://sdpc.a4l.org/search_alliance.php · Arizona NDPA v1 specimen https://sdpc.a4l.org/agreements/AZ-NDPA-V1withExhibit%20E.pdf · Missouri NDPA v1 https://sdpc.a4l.org/agreements/MO_NDPA_V1_no_exhibit.pdf · version 2 usage guide https://files.a4l.org/privacy/NDPA/NDPAv2_Usage_Guide_and_Development_Process.pdf · vendor membership https://privacy.a4l.org/get-involved/
 :::
 
 ## For Jonah: decisions and commitments
@@ -119,7 +164,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 ## For Demian and counsel: people, money, entity
 ::src District lens :: "If the appendix says every person with access passes a background check and completes annual training, show me the policy and the roster."
 
-1. Every person with access to Student Data, coaches included, passes a background check before access and completes privacy and security training at hire and annually. True today, or by when? (A.7, O5)
+1. Every person with access to Student Data, coaches included, passes a background check before access and completes privacy and security training at hire and annually. True today, or by when? (A.7, O5) This is now contractual in six TEC states for any employee with direct contact with students.
 2. Cyber liability: current limit, aggregate, and whether a two-year tail is available. Drafted at $2,000,000. CGL $1,000,000 / $2,000,000 and E&O $1,000,000. (A.14, O7)
 3. Stand for Children Leadership Center, Inc. is the correct 501(c)(3) signatory, and the no-advocacy clause in A.4(d) is acceptable as written. (O8)
 4. Stand will sign the NDPA's standard clauses without redline, in any state. (O12)
@@ -142,7 +187,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 2. Replace "no emails, no manual pulls, no file transfers" with "no manual file handling once your automated feed is running."
 3. **The 70 percent Kid Talk claim** (your 10/23 email: "when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal"). Before it appears in anything a board sees: what is the comparison group, how many schools, which years, and how was fidelity measured? Is it a correlation or a controlled result? Until then the case-making says "associated with" and cites "CHSS partner data," and the number carries a footnote with the method. (O16)
 4. Hold the Missouri reply until counsel confirms O12; if it goes sooner, drop the Exhibit E sentence.
-5. Ask Columbus for a 45-minute slot Nov 2 to 4 with the CTO and their data-agreement reviewer; send the data summary, the file specification outline, the security page, and the screener instruments ahead of it.
+5. Ask Columbus for a 45-minute slot Nov 2 to 4 with the CTO and their data-agreement reviewer; send the data summary, the file specification outline, the security page, and the screener instruments ahead of it. New: Ohio is one of the eighteen states in TEC's multi-state NDPA. Ask whether Columbus will subscribe through Exhibit E once CHSS has signed with Lewis County, in place of or alongside its own Student Data Sharing Agreement.
 6. Ask San Diego which instrument they use with outside partners that receive student-level data, without guessing the answer. Ask specifically whether SDUSD routes partner data agreements through CITE's data privacy services (CITE, California IT in Education, hosts the California Student Privacy Alliance and the California NDPA; many California districts outsource redlining to it), and expect purchasing and business services to review the MOU alongside the CTO. A California district lead's advice for a partner with its own strong appendix: expect to be asked to sign the state agreement too, and say yes.
 
 :::details Paste-ready email blocks for James

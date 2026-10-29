@@ -3,6 +3,16 @@
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
 
+## v1.4, Oct 29, 2026
+::src Lewis County :: TEC's 10/29 request to CHSS: its 18-state multi-state NDPA, with Lewis County C-1 as the originating district, and James's question "are we ready to fill this out?"
+
+- **The NDPA section on Notes is rewritten for TEC's 18-state agreement:** one signature with Exhibit E covers eighteen states, including Ohio for Columbus. A field-by-field readiness table, a draft Exhibit A, Exhibit B and Exhibit I mapped from Exhibit D-1, a reply for James to TEC, and an email to Jonah and Emily. Earlier SDPC research is collapsed beneath it.
+- **Three new gates in the register:** the Data Security and Privacy Plan (O18), accessibility documentation (O19), and the Exhibit F cybersecurity framework with New Hampshire's controls or a certification (O20). O12 now names the TEC signature.
+- **Gap analysis** gains five rows: the plan, accessibility, framework, teacher data, and contractual background checks.
+- **Exhibit D-1** now lists data created in the Services and staff data, so it matches what CHSS will declare on the NDPA.
+- **Appendix A.13** defers to the NDPA's audit clause wherever the NDPA is signed; Decisions M11 records it. Part A notes the TEC agreement in brackets until executed.
+- **Columbus ask** updated: subscribe through Ohio's place in the TEC agreement.
+
 ## v1.3, Oct 27, 2026
 ::src Conversation :: CHSS deliverable review call, 10/27 (Jonah, Tara, Emily, James, Luke).
 
