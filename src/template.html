@@ -115,6 +115,7 @@
   .doc th, .doc td { border: 1px solid var(--rule); padding: 8px 10px; vertical-align: top; text-align: left; }
   .doc th { background: var(--bg-2); font-weight: 600; }
   .doc hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+  .doc mark.pending { background: #fff1a8; color: #5c4400; font-family: var(--sans); font-size: .82em; font-weight: 600; padding: 1px 6px; border-radius: 4px; white-space: normal; }
   .doc details.fold { border: 1px solid var(--rule); border-radius: 8px; margin: 1em 0; background: var(--bg-2); }
   .doc details.fold > summary { cursor: pointer; padding: 10px 14px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink-2); list-style: none; }
   .doc details.fold > summary::-webkit-details-marker { display: none; }
@@ -227,6 +228,7 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
   var docs = Array.prototype.slice.call(document.querySelectorAll('.doc'));
   function show(key, push) {
+    if (key === 'district' || key === 'chss') key = 'mou';   // old links to the two commitment tabs
     var found = docs.some(function (d) { return d.dataset.doc === key; });
     if (!found) key = docs[0].dataset.doc;
     docs.forEach(function (d) { d.hidden = d.dataset.doc !== key; });

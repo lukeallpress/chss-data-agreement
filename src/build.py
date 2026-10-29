@@ -24,8 +24,7 @@ SITE = ROOT.parent                             # site root
 DOCS = [
     # key, tab title, content file, group, download basename (None = no downloads)
     ("case",      "Case-making",          "01-case-making.md",          "deliverable", "chss-case-making"),
-    ("district",  "District commitments", "02-district-commitments.md", "deliverable", "chss-district-commitments"),
-    ("chss",      "CHSS commitment",      "03-chss-commitment.md",      "deliverable", "chss-privacy-security-commitment"),
+    ("mou",       "Agreement (MOU)",      "08-agreement.md",            "deliverable", "chss-agreement-working-draft"),
     ("plan",      "Privacy plan",         "07-privacy-plan.md",         "deliverable", "chss-data-security-privacy-plan"),
     ("notes",     "Notes",                "04-notes-for-james.md",      "note",        None),
     ("decisions", "Decisions",            "05-decisions.md",            "note",        None),
@@ -69,6 +68,7 @@ def inline(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
+    s = re.sub(r"\[\[(.+?)\]\]", r'<mark class="pending">\1</mark>', s)
     return s
 
 
@@ -310,6 +310,8 @@ blockquote{margin:.8em 0;padding:.4em .9em;border-left:3px solid #cbd0d8;backgro
 .src b{color:#1f4e8c}
 .meta{font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:9pt;color:#6b7280;margin:0 0 1.4em}
 hr{border:0;border-top:1px solid #e5e7eb;margin:1.4em 0}
+mark.pending{background:#fff1a8;color:#5c4400;font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:.86em;font-weight:600;padding:0 .25em;border-radius:3px}
+.banner{font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:10pt;font-weight:700;color:#9a3412;background:#fff7ed;border:1px solid #fdba74;padding:6px 10px;margin:0 0 1em;border-radius:4px}
 @page{margin:.75in .7in}
 """
 
@@ -452,8 +454,12 @@ def md_to_docx(md, out_path, title, meta):
     style_names = {s.name for s in doc.styles}
 
     def add_runs(par, text):
-        for tok in re.split(r"(\*\*.+?\*\*|\*.+?\*|`.+?`)", text):
+        for tok in re.split(r"(\[\[.+?\]\]|\*\*.+?\*\*|\*.+?\*|`.+?`)", text):
             if not tok:
+                continue
+            if tok.startswith("[[") and tok.endswith("]]"):
+                from docx.enum.text import WD_COLOR_INDEX
+                r = par.add_run(tok[2:-2]); r.bold = True; r.font.highlight_color = WD_COLOR_INDEX.YELLOW
                 continue
             if tok.startswith("**") and tok.endswith("**") and len(tok) > 4:
                 par.add_run(tok[2:-2]).bold = True
@@ -538,12 +544,13 @@ def build_downloads(ver, date, chrome):
         h1 = re.search(r"^#\s+(.*)$", md, re.M)
         doc_title = h1.group(1).strip() if h1 else title
         meta = f"Draft v{ver} · {date} · Center for High School Success · for discussion; not legal advice"
+        stamp = ("<p class='banner'>WORKING DRAFT. NOT FOR SIGNATURE. Highlighted items await CHSS confirmation.</p>" if key == "mou" else "")
         files = {}
         printable = strip_blocks_for_print(md)
         for variant, with_src in (("", False), ("-with-sources", True)):
             body = convert_print(printable, with_src)
             page = (f"<!doctype html><html><head><meta charset='utf-8'><title>{html.escape(doc_title)}</title>"
-                    f"<style>{PRINT_CSS}</style></head><body><p class='meta'>{html.escape(meta)}</p>{body}</body></html>")
+                    f"<style>{PRINT_CSS}</style></head><body>{stamp}<p class='meta'>{html.escape(meta)}</p>{body}</body></html>")
             if chrome:
                 out_pdf = dl / f"{base}{variant}.pdf"
                 try:
@@ -552,7 +559,7 @@ def build_downloads(ver, date, chrome):
                 except Exception as e:
                     print("pdf skipped:", base, variant, e, file=sys.stderr)
         try:
-            md_to_docx(md, dl / f"{base}.docx", doc_title, meta)
+            md_to_docx(md, dl / f"{base}.docx", doc_title, ("WORKING DRAFT. NOT FOR SIGNATURE. " if key == "mou" else "") + meta)
             files["docx"] = f"{base}.docx"
         except Exception as e:
             print("docx skipped:", base, e, file=sys.stderr)

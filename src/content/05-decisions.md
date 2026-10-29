@@ -13,7 +13,7 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | O1 | What the December Navigator pilot runs on: which schools, which agreement, what data | Jonah, Emily | Stand counsel | Before the Leadership Summit (late Nov) | **Gate** before the Summit | |
 | O2 | Liability cap, indemnity, and breach-cost carve-out in Agreement Section Eight | Jonah | Stand counsel | Before Columbus review | **Gate** before signature | |
 | O3 | AI model provider: name, tier, data-use terms, no-training attestation, zero-retention arrangement | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
-| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Part C) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
+| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Attachment 1) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
 | O5 | Background checks and annual privacy training for every person with access to Student Data: coaching staff and technical staff | Demian, James | Jonah | Before any coach sees student-level data | **Gate** before signature | |
 | O6 | Screener consent classification, item by item, and the district authorization form | Tara, Stand counsel | Jonah | Before any screener runs in a new district | **Gate** for screeners | |
 | O7 | Insurance limits actually held; self-insurance posture | Demian, Stand counsel | Jonah | Before signature | **Gate** before signature | |
@@ -48,7 +48,7 @@ The new cohort is not sharing data in December. The pilot is existing partner sc
 ::src San Diego CCAP :: Mutual indemnification with defined allocation for sole, concurrent, and joint-defense cases; CGL $1M/$2M, E&O $1M, additional insured.
 ::src District lens :: A board attorney reading Appendix A's breach-cost promise next to Section Eight's cap asks which one wins. Until reconciled, the privacy promises read as capped at the insurance limit and excluding the losses a breach actually causes.
 
-Carve breach costs under A.8, confidentiality, and privacy indemnity out of the Section Eight cap, or give them a super-cap of not less than the cyber limit, and add a mutual indemnity for each party's own acts. Jonah's call because it is money; counsel's because it is drafting. **Evidence:** counsel's redline of Section Eight. **Documents:** District commitments, conforming edits; Appendix A.8, A.14.
+Carve breach costs under A.8, confidentiality, and privacy indemnity out of the Section Eight cap, or give them a super-cap of not less than the cyber limit, and add a mutual indemnity for each party's own acts. Jonah's call because it is money; counsel's because it is drafting. **Evidence:** counsel's redline of Section Eight. **Documents:** Agreement, conforming edits; Appendix A.8, A.14.
 :::
 
 :::why O3
@@ -56,21 +56,21 @@ Carve breach costs under A.8, confidentiality, and privacy indemnity out of the 
 ::src Luke's experience :: Arizona NDPA Exhibit G AI questionnaire: base model and provider, data shared with AI subprocessors, training on user data, human in the loop, query logging.
 ::src District lens :: A privacy officer will not accept a blank where the model provider's name belongs; a CTO wants the provider's data-use terms by URL and date.
 
-Emily returns the subprocessor table filled in: provider, product tier or API, data-use terms by URL and date, country of processing, zero-retention arrangement, and the provider's written no-training attestation. **Documents:** Appendix A.6, A.12; Part C.
+Emily returns the subprocessor table filled in: provider, product tier or API, data-use terms by URL and date, country of processing, zero-retention arrangement, and the provider's written no-training attestation. **Documents:** Appendix A.6, A.12; Attachment 1.
 :::
 
 :::why O4
-::src Emily's architecture :: Every platform fact in Appendix A and Part C is drawn from the diagram and the 10/26 call; none has been verified against a live tenant.
+::src Emily's architecture :: Every platform fact in Appendix A and Attachment 1 is drawn from the diagram and the 10/26 call; none has been verified against a live tenant.
 ::src District lens :: "This is a strong target-state security program. I still do not know which controls exist in the live tenant, which are scheduled, and which are aspirational."
 
-Line by line against Part C and A.7: true today, true by date, or no. Lines not true today are re-tensed to "by [date]" before any district reads them. **Evidence:** the control-readiness list with evidence per line. **Documents:** Appendix A.7, A.9, A.13; Part C; the Notes page's list for Emily.
+Line by line against Attachment 1 and A.7: true today, true by date, or no. Lines not true today are re-tensed to "by [date]" before any district reads them. **Evidence:** the control-readiness list with evidence per line. **Documents:** Appendix A.7, A.9, A.13; Attachment 1; the Notes page's list for Emily.
 :::
 
 :::why O5
 ::src Conversation :: Luke and Jonah (10/26): Phoenix Union required fingerprinting and onboarding of virtual Teach For America mentors; naming a CHSS background check removes one reason for a district to impose its own.
 ::src District lens :: "If the appendix says every person with access passes a background check and completes annual training, show me the policy and the roster." And: Option B coaches still receive student-level records visually, so the gate applies to them too.
 
-Demian confirms current practice for coaches and technical staff. If not current, A.7 becomes "by [date]" and no coach sees student-level data, under either option, until then. **Evidence:** HR confirmation or a dated plan. **Documents:** Appendix A.7; District commitments 5.4.
+Demian confirms current practice for coaches and technical staff. If not current, A.7 becomes "by [date]" and no coach sees student-level data, under either option, until then. **Evidence:** HR confirmation or a dated plan. **Documents:** Appendix A.7; Agreement 5.4.
 :::
 
 :::why O6
@@ -79,7 +79,7 @@ Demian confirms current practice for coaches and technical staff. If not current
 ::src District lens :: A privacy officer will not approve "notice, opt-out, or consent" without the instruments in hand.
 ::src District lens :: A California district technology and privacy lead (10/27 call): California districts run Panorama wellness surveys several times a year, with parent notification now required on gender-identity items; Arizona districts cannot run them at all. The agreement now lets a district decline a screener and keeps the Services running without it.
 
-Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. Plan for Arizona districts to decline the Belonging Screener. **Documents:** District commitments 6.7; Appendix A.15, A.17.
+Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. Plan for Arizona districts to decline the Belonging Screener. **Documents:** Agreement 6.7; Appendix A.15, A.17.
 :::
 
 :::why O7
@@ -87,21 +87,21 @@ Tara supplies the versioned instruments and the program purpose; counsel classif
 ::src af-dpa :: District practice research: "$1M for directory-only, $2M+ for SIS, assessment, special education or health data"; Beaverton requires $2M per claim and aggregate with a two-year tail.
 ::src District lens :: "A 'reasonable self-insurance program' is not the same as a policy carrying the stated limits."
 
-Drafted at $2,000,000 per claim and aggregate with a two-year tail, plus CGL $1M/$2M and E&O $1M; self-insurance only if documented and accepted by the district in writing. **Evidence:** certificate of insurance. **Documents:** Appendix A.14; District commitments conforming edits.
+Drafted at $2,000,000 per claim and aggregate with a two-year tail, plus CGL $1M/$2M and E&O $1M; self-insurance only if documented and accepted by the district in writing. **Evidence:** certificate of insurance. **Documents:** Appendix A.14; Agreement Section Eight.
 :::
 
 :::why O8
 ::src James's MOU draft :: Names "Stand for Children Leadership Center Inc." as the Organization.
 ::src Conversation :: James (10/23): Stand is both a (c)(3) and a (c)(4); "there doesn't actually have to be something wrong for people to raise a stink."
 
-Counsel confirms the Leadership Center is the correct 501(c)(3) signatory and that the no-advocacy clause in A.4(d) is acceptable as written. **Documents:** District commitments 5.1; Appendix Part A, A.4.
+Counsel confirms the Leadership Center is the correct 501(c)(3) signatory and that the no-advocacy clause in A.4(d) is acceptable as written. **Documents:** Agreement 5.1; Appendix A.19, A.4.
 :::
 
 :::why O9
 ::src Luke's experience :: AFUHSD's first ask of Teach For America (2025) was to strip names and keep the linking key; the district's own feeds use deterministic transformations or a mapping table.
 ::src District lens :: A "fallback without names" that the agreement does not contain is a promise a data manager will test and find missing.
 
-Emily answers whether a tenant can operate without names and which features would be off. If yes, Exhibit D-3 gets a pseudonymous election and the agreement says what the district loses. If no, the fallback is dropped from the pitch. **Documents:** District commitments 6.4, D-3.
+Emily answers whether a tenant can operate without names and which features would be off. If yes, Exhibit D-3 gets a pseudonymous election and the agreement says what the district loses. If no, the fallback is dropped from the pitch. **Documents:** Agreement 6.4, D-3.
 :::
 
 :::why O10
@@ -109,14 +109,14 @@ Emily answers whether a tenant can operate without names and which features woul
 ::src FERPA :: 34 C.F.R. § 99.31(b)(1); Department of Education guidance warns that removing direct identifiers is not enough and that complementary suppression may be needed.
 ::src District lens :: A privacy officer asks whether cohort-level results need row-level records at all, and what process makes retained rows not personally identifiable.
 
-Tara and Jonah describe the longitudinal analyses and the exact row-level fields, purpose, review method, and retention period, so A.10 can describe them. The clause already requires the documented reasonable-determination review. **Documents:** District commitments 5.5–5.6; Appendix A.10.
+Tara and Jonah describe the longitudinal analyses and the exact row-level fields, purpose, review method, and retention period, so A.10 can describe them. The clause already requires the documented reasonable-determination review. **Documents:** Agreement 5.5–5.6; Appendix A.10.
 :::
 
 :::why O11
 ::src Conversation :: Jonah (10/26): integration help is "almost like another form of coaching we're going to offer."
 ::src District lens :: A data manager's read of "two working sessions": "I still do not know whether support ends before the feed works."
 
-The agreement now promises support until the feed passes acceptance, plus maintenance on SIS, grading-scale, or term changes. That is a staffing cost. **Evidence:** staffing and hours decision. **Documents:** District commitments 6.9; case-making.
+The agreement now promises support until the feed passes acceptance, plus maintenance on SIS, grading-scale, or term changes. That is a staffing cost. **Evidence:** staffing and hours decision. **Documents:** Agreement 6.9; case-making.
 :::
 
 :::why O12
@@ -124,14 +124,14 @@ The agreement now promises support until the feed passes acceptance, plus mainte
 ::src af-dpa :: NDPA standard clauses cannot be redlined; Exhibit E extends a signed NDPA's privacy terms within a state for three years.
 ::src District lens :: "Page E says counsel has not approved Exhibit E, but the district-facing pages promise it without qualification." The district-facing pages now say "expects to offer" with a bracket until counsel confirms.
 
-Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** District commitments 5.2; Appendix Part A; Notes.
+Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** Agreement 5.2; Appendix A.19; Notes.
 :::
 
 :::why O18
 ::src State law :: New York Education Law § 2-d and 8 NYCRR Part 121 require a third-party contractor to maintain a data security and privacy plan; the TEC multi-state NDPA's New York terms incorporate the plan by its URL in Exhibit K and require it to cover: applicable legal requirements; operational safeguards; compliance with the district's Parents' Bill of Rights; training of employees and subprocessors; subprocessor obligations; incident management with prompt notice; and return, deletion, and destruction.
 ::src Lewis County :: TEC's 10/29 request: "provide a URL (or an attachment) to your Data Security and Privacy Plan ... A privacy policy is sufficient if it describes equivalent data security practices."
 
-Appendix A and Part C already contain nearly every element. Luke drafts the plan from them; Emily confirms every statement is true; CHSS posts it at a stable URL. **Evidence:** the URL. **Documents:** TEC Exhibit K; Appendix A.
+Appendix A and Attachment 1 already contain nearly every element. Luke drafts the plan from them; Emily confirms every statement is true; CHSS posts it at a stable URL. **Evidence:** the URL. **Documents:** TEC Exhibit K; Appendix A.
 :::
 
 :::why O19
@@ -145,27 +145,27 @@ An accessibility conformance report (often a VPAT) for Navigator: Salesforce pub
 ::src SDPC NDPA :: Article V.3: the provider "shall implement an adequate Cybersecurity Framework based on one of the nationally recognized standards set forth in Exhibit F"; the published list includes the NIST Cybersecurity Framework, NIST SP 800-53 and 800-171, the ISO 27000 series, the Secure Controls Framework, CIS Controls, and CMMC.
 ::src State law :: New York's terms require alignment with the NIST Cybersecurity Framework. New Hampshire's terms require either twenty-three listed controls (access limits, logon limits, audit logs, unique user accountability, baseline configurations, media sanitization under NIST SP 800-88, boundary protection, deny-by-default traffic, encryption at rest, flaw remediation, anti-malware, and others) or annual evidence of certification under NIST SP 800-171, NIST SP 800-53 low baseline, FedRAMP, ISO 27001, CIS IG1, SOC 2 Type 2, or PCI DSS.
 
-Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Part C.
+Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Attachment 1.
 :::
 
 :::why O17
 ::src Conversation :: Emily (10/27): the Navigator serves "many personas having access to it," so platform-login language in the access clause was "problematic" and should be struck; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. She will send bullets; Jonah asked that they be copied to him and Tara.
 
-Section 5.4 is already rewritten to that shape. When Emily's bullets arrive, they either confirm the clause or replace its purpose language. **Evidence:** Emily's bullets. **Documents:** District commitments 5.4; case-making "Who sees what"; Part C.
+Section 5.4 is already rewritten to that shape. When Emily's bullets arrive, they either confirm the clause or replace its purpose language. **Evidence:** Emily's bullets. **Documents:** Agreement 5.4; case-making "Who sees what"; Attachment 1.
 :::
 
 :::why O13
 ::src SDPC NDPA :: Sixty days from written request; v2: sixty days from termination.
 ::src District lens :: "Demonstrate deletion across the full platform," including backups and subprocessors.
 
-A runbook that returns or destroys a district's data within sixty days across every store, with backups expiring on a rotation of ninety days or less, never restored to production, and a certificate template; one tested dry run. **Documents:** District commitments 5.6, D-4; Appendix A.10.
+A runbook that returns or destroys a district's data within sixty days across every store, with backups expiring on a rotation of ninety days or less, never restored to production, and a certificate template; one tested dry run. **Documents:** Agreement 5.6, D-4; Appendix A.10.
 :::
 
 :::why O14
 ::src Emily's architecture :: Azure/Fabric, Salesforce Experience Cloud and CRM Analytics, Power BI, an AI provider.
 ::src Columbus City DSA :: "No student data is stored outside the United States without the District's written consent."
 
-Tenant settings or contract excerpts showing each subprocessor and its U.S. region, and confirmation that the list is complete. **Documents:** Appendix A.6, A.9; Part C.
+Tenant settings or contract excerpts showing each subprocessor and its U.S. region, and confirmation that the list is complete. **Documents:** Appendix A.6, A.9; Attachment 1.
 :::
 
 :::why O15
@@ -173,7 +173,7 @@ Tenant settings or contract excerpts showing each subprocessor and its U.S. regi
 ::src James's collateral :: "Current data. Dashboards update automatically, not once a grading period." The coaching model needs Friday's data on Tuesday.
 ::src Luke's decision :: Drafted as one rule, pending confirmation: once the feed is live for Year 1, updates are weekly; a Tier 2 district may run an approved interim cadence, not less than monthly, recorded in Exhibit D-3 with a dated target for Tier 1.
 
-Jonah and Emily confirm that weekly is the Year 1 standard and that CHSS will hold Tier 2 districts to an interim cadence with a target date. If marking-period delivery must remain acceptable indefinitely, the Friday-to-Tuesday promise comes out of the case-making. **Documents:** District commitments 6.5, D-2, D-3; case-making.
+Jonah and Emily confirm that weekly is the Year 1 standard and that CHSS will hold Tier 2 districts to an interim cadence with a target date. If marking-period delivery must remain acceptable indefinitely, the Friday-to-Tuesday promise comes out of the case-making. **Documents:** Agreement 6.5, D-2, D-3; case-making.
 :::
 
 :::why O16
@@ -224,7 +224,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
 ::src SDPC NDPA :: The NDPA's own priority clause places the state exhibit and standard clauses above any other writing.
 ::src Conversation :: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." The commitment to sign districts' agreements, including the NDPA, has a record. Exhibit E does not yet (O12).
 ::src District lens :: "If we sign both, 'the document the district signed controls' does not tell us which document controls." And: "Which custom AI, insurance, screener, and security commitments survive when we elect the NDPA?"
-::src Luke's decision :: One mechanical rule, stated the same way in 5.2, Part A, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
+::src Luke's decision :: One mechanical rule, stated the same way in 5.2, A.19, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
 ::src Conversation :: 10/27 call: Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year term, with Exhibit E, and asked for the shortest route through the consortium and realistic timelines. That research is on the Notes tab.
 ::src Lewis County :: 10/29: TEC sent its 18-state multi-state NDPA (version 1.0 family) with Lewis County as the originating district. One signature with Exhibit E covers Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington. The precedence rule here is unchanged; the NDPA simply becomes the primary instrument for most districts.
 

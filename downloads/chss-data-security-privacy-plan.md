@@ -1,11 +1,11 @@
 # Data Security and Privacy Plan
 ::src State law :: New York Education Law § 2-d and the Commissioner's regulations at 8 NYCRR Part 121 require every third-party contractor that receives student data, or teacher or principal data, from a New York educational agency to maintain a data security and privacy plan that the agency accepts (§ 121.6). The plan's required elements are followed section by section below.
 ::src SDPC NDPA :: TEC's multi-state NDPA (New York Exhibit G, paragraph 4) incorporates the provider's plan by its URL in Exhibit K and requires that it, "at a minimum": (a) implements applicable state, federal, and local requirements; (b) has operational technical safeguards and controls; (c) complies with the district's Parents' Bill of Rights; (d) requires training of employees, assignees, and subprocessors with access; (e) ensures subprocessors protect the data; (f) specifies how incidents are managed with prompt notice; and (g) addresses return, deletion, and destruction. TEC's 10/29 request: "A privacy policy is sufficient if it describes equivalent data security practices."
-::src Drafting choice :: Every commitment below is drawn from Appendix A and Part C of the CHSS privacy and security commitment, so the plan and the agreement say the same thing. Bracketed items need a name, a date, or a confirmation from CHSS before publication (Decisions O3, O4, O5, O18, O20).
+::src Drafting choice :: Every commitment below is drawn from Appendix A and Attachment 1 of the Agreement, so the plan and the agreement say the same thing. Bracketed items need a name, a date, or a confirmation from CHSS before publication (Decisions O3, O4, O5, O18, O20).
 ::src Needs CHSS confirmation :: Draft for CHSS review. This is not CHSS's published plan. Before it is posted at a CHSS URL and cited in Exhibit K, the technology office confirms every statement is true today or re-tenses it with a date.
 
 **Center for High School Success, a program of Stand for Children Leadership Center, Inc.**
-Effective date: [date] · Owner: [name], Privacy Officer · Reviewed annually · Published at: [CHSS URL]
+Effective date: [[Pending: effective date]] · Owner: [[Pending, Jonah: Privacy Officer name (O8)]] · Reviewed annually · Published at: [[Pending, Emily: CHSS URL (O18)]]
 
 This plan describes how the Center for High School Success (CHSS) protects the personally identifiable information it receives from school districts and other local education agencies (each, an "LEA") to provide ninth grade success coaching and the CHSS Navigator platform. It applies to student data, to data about LEA staff, and to data created in CHSS's services, from the time CHSS receives it until it is returned or destroyed. It supplements, and does not replace, CHSS's agreement with each LEA; where an LEA's agreement or its own data security and privacy policy imposes a stricter requirement, CHSS follows the stricter requirement.
 
@@ -32,21 +32,21 @@ CHSS does not sell or rent student data, does not use it for advertising or mark
 
 **Contract requirements.** CHSS signs the Student Data Privacy Consortium's National Data Privacy Agreement in the version adopted by the LEA's state, including multi-state versions and their state exhibits, and its own Data Privacy and Security Appendix. Where those documents differ, the stricter requirement governs. CHSS complies with each LEA's data security and privacy policy, which the LEA provides on signing.
 
-**Security framework.** CHSS aligns its security program with the NIST Cybersecurity Framework. [Confirm, Decisions O20.]
+**Security framework.** CHSS aligns its security program with the NIST Cybersecurity Framework. [[Pending, Emily: confirm NIST CSF alignment (O20)]]
 
-**Accountability.** CHSS designates a Privacy Officer, [name, title, email], responsible for this plan and for compliance with each LEA agreement, and a Security Officer, [name, title, email], responsible for the security program. The Privacy Officer reviews this plan at least annually and whenever CHSS's services, subprocessors, or applicable law change materially, and CHSS notifies LEAs of material changes.
+**Accountability.** CHSS designates a Privacy Officer, [[Pending, Jonah: name, title, email (O8)]], responsible for this plan and for compliance with each LEA agreement, and a Security Officer, [[Pending, Emily: name, title, email]], responsible for the security program. The Privacy Officer reviews this plan at least annually and whenever CHSS's services, subprocessors, or applicable law change materially, and CHSS notifies LEAs of material changes.
 
 ## 3. Safeguards
 ::src State law :: § 121.6(a)(2): the plan must "specify the administrative, operational and technical safeguards and practices it has in place to protect personally identifiable information." The TEC agreement's New Hampshire terms list twenty-three controls, or certification under a recognized standard, as the bar.
 ::src Columbus City DSA :: Encrypted storage, U.S.-only data, salted password hashes, seven-day patching, firewall segregation, annual third-party audit, documented access with logs.
-::src Drafting choice :: Taken from Appendix A.7 and Part C. Each bullet is a present-tense claim; any that is not yet true becomes "by [date]" before publication (Decisions O4).
+::src Drafting choice :: Taken from Appendix A.7 and Attachment 1. Each bullet is a present-tense claim; any that is not yet true becomes "by [date]" before publication (Decisions O4).
 
 **Administrative.**
 
 - Access to student data is limited by role to the people who need it to provide the services: the LEA's designated school staff; the CHSS coaching staff assigned to that school, for screening and intervention work only; and a small, named set of CHSS technical staff who administer the platform and investigate incidents. CHSS program and research staff see only de-identified and aggregate data.
-- Every CHSS employee with access to student data passes a criminal background check before access is granted, signs a confidentiality agreement, and completes the training described in Section 5. [Confirm, Decisions O5.]
+- Every CHSS employee with access to student data passes a criminal background check before access is granted, signs a confidentiality agreement, and completes the training described in Section 5. [[Pending, Demian and James: confirm current practice (O5)]]
 - CHSS documents every person with access, reviews the roster at least quarterly, and removes access within one business day of a change in role or separation.
-- CHSS completes an independent assessment of its security controls (SOC 2 Type II or equivalent) and a penetration test of the platform at least annually. [First assessment completion date.]
+- CHSS completes an independent assessment of its security controls (SOC 2 Type II or equivalent) and a penetration test of the platform at least annually. [[Pending, Emily: first assessment completion date (O4)]]
 
 **Technical.**
 
@@ -69,7 +69,7 @@ CHSS does not sell or rent student data, does not use it for advertising or mark
 ::src Columbus City DSA :: "No student data is stored outside the United States without the District's written consent."
 ::src Emily's architecture :: Microsoft Azure and Fabric for the data platform; Salesforce Experience Cloud for Navigator; Power BI for analytics.
 
-All student data is stored and processed in data centers located in the United States, operated by the subprocessors listed in Section 6. [Confirm U.S. region for each tenant, Decisions O14.] Data is encrypted in transit using TLS 1.2 or higher and at rest using AES-256 or equivalent, including in backups and in the file-transfer landing area.
+All student data is stored and processed in data centers located in the United States, operated by the subprocessors listed in Section 6. [[Pending, Emily: confirm U.S. region for each service (O14)]] Data is encrypted in transit using TLS 1.2 or higher and at rest using AES-256 or equivalent, including in backups and in the file-transfer landing area.
 
 ## 5. Training
 ::src State law :: § 121.6(a)(4): the plan must specify how officers and employees "who have access to student data, or teacher or principal data receive or will receive training on the federal and state laws governing confidentiality of such data prior to receiving access." The TEC agreement's New York terms extend the requirement to subprocessors.
@@ -89,7 +89,7 @@ CHSS uses the following subprocessors to host and process student data:
 | Microsoft (Azure, Fabric) | Cloud hosting, data platform, data warehouse | United States |
 | Salesforce (Experience Cloud, CRM Analytics) | Navigator platform, intervention records | United States |
 | Microsoft (Power BI) | Analytics and reporting | United States |
-| [AI model provider] | File-mapping assistance, data validation, intervention suggestions | United States |
+| [[Pending, Emily: AI model provider (O3)]] | File-mapping assistance, data validation, intervention suggestions | United States |
 
 Each subprocessor is bound by a written agreement that requires protections at least as strict as CHSS's own, prohibits any use of the data except to provide services to CHSS, gives it no ownership or license rights in the data, and, for the AI model provider, prohibits retaining or training on student data. CHSS reviews each subprocessor's security assurances before engaging it and annually. CHSS gives each LEA at least thirty days' notice before adding or replacing a subprocessor that will process its data. If a subprocessor fails to comply, CHSS will notify affected LEAs, remove the subprocessor's access, and retrieve the data or ensure it is destroyed.
 
@@ -151,4 +151,4 @@ CHSS complies with the Parents' Bill of Rights for Data Privacy and Security of 
 ## 12. Contacts
 ::src Drafting choice :: The Privacy Officer is also the NDPA designated representative and the Exhibit D-3 contact; the mailbox receives incoming Exhibit Es.
 
-Questions about this plan, requests from an LEA, and incident reports go to the CHSS Privacy Officer, [name], at [privacy@ mailbox] or [phone]. Security matters may also be sent to the Security Officer, [name], at [email].
+Questions about this plan, requests from an LEA, and incident reports go to the CHSS Privacy Officer, [[Pending: name, privacy@ mailbox, phone]]. Security matters may also be sent to the Security Officer, [[Pending: name and email]].

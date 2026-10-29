@@ -3,6 +3,15 @@
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
 
+## v1.6, Oct 29, 2026
+::src Conversation :: James (10/29) needs a full MOU in one place, downloadable, so Columbus City's legal review can start; Luke: only as a clearly marked working draft with pending items highlighted, and only with Jonah's blessing.
+
+- **One Agreement tab replaces the District commitments and CHSS commitment tabs.** It is the complete Agreement for Services: James's Sections One through Four and Seven through Ten with every conforming edit applied, Sections Five and Six, Appendix A (now A.1 through A.19, with the NDPA posture as A.19), Exhibits D-1 through D-4, and the system specifications as Attachment 1 for information. Old links to the two retired tabs open the Agreement.
+- **Pending items are highlighted** on the page and in the PDF and Word downloads, each naming its owner and Decisions number. The Agreement's downloads are stamped "Working draft. Not for signature."
+- **The privacy plan's placeholders** use the same highlights.
+- **Notes gains a list for counsel** of everything CHSS agrees to by signing (L1 through L20), each with its clause and status.
+- Cross-references across Notes and Decisions now point to the Agreement and Attachment 1.
+
 ## v1.5, Oct 29, 2026
 ::src State law :: New York Education Law § 2-d and 8 NYCRR Part 121 require a published data security and privacy plan; TEC's multi-state NDPA cites it by URL in Exhibit K.
 

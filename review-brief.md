@@ -1,4 +1,4 @@
-# Adversarial review brief: CHSS data agreement drafts, v1.5 (Oct 29, 2026)
+# Adversarial review brief: CHSS data agreement drafts, v1.6 (Oct 29, 2026)
 
 Live page with the same content and per-section source popovers: https://lukeallpress.github.io/chss-data-agreement/
 Generated 2026-10-29 from the site source. Everything after the
@@ -224,14 +224,80 @@ Records are matched using a consistent unique student identifier, so Navigator r
 
 ---
 
-# Page B. District commitments: replacement Sections Five and Six of the Agreement for Services
+# Page B. Agreement for Services, full MOU working draft: Sections One to Ten, Appendix A, Exhibits D-1 to D-4, Attachment 1
 
-## Agreement for Services: Sections Five and Six (replacement draft)
-    Source [James's MOU draft]: Replaces Section Five ("Confidential Information") and Section Six ("Data Access and Sharing") of the CHSS Accelerator Agreement for Services draft (Year 0 Readiness + Year 1 Implementation). Section numbering, party names ("CHSS," "Organization," "District"), and defined-term style follow that document.
-    Source [Conversation]: James (10/26): the existing data section "needs to be entirely trashed and redone"; what is needed is to "state our expectations as much as anything else." Jonah: the deliverable is "what they're committing to give, what we're committing to take care of, and why this is worth it."
-    Source [Drafting choice]: Three things in the current draft conflict with Navigator and will be marked up by any privacy officer: it describes the feed as "de-identified individual student data" while Navigator shows names to school teams; it keeps identifiable data for three years after termination; and it has no FERPA basis, breach, subprocessor, location, or audit terms. This draft fixes all three.
+## Agreement for Services: National 9th Grade Success Accelerator
+    Source [James's MOU draft]: The CHSS Accelerator Agreement for Services draft (Year 0 Readiness + Year 1 Implementation) is the frame. Its Sections One through Four and Seven through Ten are kept in substance, with the conforming edits listed in each Source note; Sections Five and Six are replaced; Appendix A, Exhibits D-1 through D-4, and Attachment 1 are added.
+    Source [Conversation]: James (10/29): "I need to send them a PDF MOU in full, so they can start to bring it through their legal review process"; asked for one tab with the whole agreement and a downloadable PDF. Luke: no downloadable file that looks final while items are pending; the middle ground is a working draft with pending items highlighted, which needs Jonah's blessing before it goes to a district.
+    Source [Drafting choice]: Every item still waiting on CHSS is highlighted and names who owns it and its Decisions number. Blanks in brackets without a highlight are filled in per district at signing.
 
-*Drafting note: bracketed fields are completed per district. Conforming edits to Sections Three and Eight are listed at the end.*
+> **Working draft for discussion. Not for signature.** This is the complete Agreement for Services, including Sections Five and Six, Appendix A, and Exhibits D-1 through D-4. Highlighted items await confirmation by the Center for High School Success and will be completed in the next version. Counsel for both parties reviews before execution.
+
+| Item | Entry |
+|---|---|
+| District/LEA | [District/LEA name] |
+| State | [State] |
+| Year 0 Term | [Start date] through [End date] |
+| Year 1 Term | [Start date] through [End date] |
+| Participating Schools | See Section Seven |
+
+### Agreement Overview
+    Source [James's MOU draft]: Kept as drafted. The cover table's cross-reference is corrected from "Section Eight" to "Section Seven," where the list of participating schools appears.
+
+This Agreement for Services ("Agreement") is between the Center for High School Success ("CHSS"), a program of Stand for Children Leadership Center, Inc. ("Organization"), and [District/LEA name] ("District"). CHSS and District may each be referred to as a "Party" and together as the "Parties." [[Pending, counsel: confirm the contracting entity and authorized signer (O8)]]
+
+The Parties enter into this Agreement to document the Year 0 readiness and Year 1 implementation support provided through the Center for High School Success National 9th Grade Success Accelerator ("Accelerator").
+
+### Section One: Vision and Purpose
+    Source [James's MOU draft]: Kept as drafted.
+
+CHSS partners with high schools and districts to improve graduation rates by raising 9th Grade On-Track Rates. The Accelerator is designed to help selected districts establish the drivers, leadership, data routines, and school-level practices needed to achieve significant gains in 9th grade on-track outcomes.
+
+### Section Two: Agreement Term and Accelerator Period
+    Source [James's MOU draft]: Kept as drafted, with one sentence added at the end.
+    Source [District lens]: Auto-renewal is the first item on a California district privacy lead's checklist; a data agreement that renews by silence is a finding in every district review (Decisions, M19).
+
+The Agreement covers two phases:
+
+- **Year 0 Readiness:** [Start date] through [End date]. During this phase, CHSS and District will complete readiness planning; master schedule adjustments to enable 9th grade student cohorting; weekly (preferred) or every-other-week 9th grade success team meetings; a full-year 9th Grade Seminar or Advisory class; data access and reporting setup as described in Section Six; leadership and staff alignment; 9th grade success team lead selection; and professional learning for district leaders, school leaders, 9th grade success team leads, and 9th grade success team participants.
+- **Year 1 Implementation:** [Start date] through [End date]. During this phase, CHSS will provide full implementation support for participating schools, and District and participating schools will implement the agreed-upon drivers that lead to major 9th Grade On-Track Rate and other progress.
+
+A Party may terminate this Agreement before the end of the Term if the other Party materially breaches an obligation under this Agreement and fails to cure the breach to the reasonable satisfaction of the non-breaching Party within ten (10) days after written notice. Because Year 0 and Year 1 services are fully subsidized, termination will not create a refund obligation for District-paid fees under this Agreement.
+
+This Agreement, including its data provisions and Appendix A, does not renew automatically. Continuation of Student Data sharing beyond the Term requires a new written agreement signed by both Parties.
+
+### Section Three: Working Agreements and Implementation Commitments
+    Source [James's MOU draft]: Kept as drafted, with two conforming edits: CHSS's seventh commitment now points to Section Five and Appendix A, and the District's two data bullets are combined into one that points to Section Six.
+
+**CHSS agrees to:**
+
+- Provide Year 0 readiness support, including readiness assessment, goal setting, leadership alignment, master schedule and intervention-time planning, school-team design, data readiness, and Year 1 implementation planning.
+- Provide foundational professional learning through the 9th Grade Success Institute for participating principals, administrators, 9th Grade Success Team Leads, teachers, and other relevant staff.
+- Provide Year 1 implementation support, including professional learning, job-embedded coaching, quarterly network learning opportunities, data support, and access to CHSS tools, protocols, screeners, technology resources, curricula, and other implementation resources.
+- Provide data analytics and visualization support that enables school and district teams to monitor student progress, identify trends and gaps, and translate findings into action.
+- Conduct regular implementation reviews with school and district leaders to assess implementation, outcomes, barriers, and next steps, including monthly reviews with designated district leaders and participating principals unless the Parties agree to a different cadence in writing.
+- Protect Student Data as provided in Section Five and Appendix A, and provide the integration support described in Section 6.9.
+- Promptly communicate material implementation concerns, barriers, and risks so the Parties can agree on appropriate corrective action.
+
+**District agrees to:**
+
+- Designate a senior district leader with sufficient responsibility and authority to oversee implementation across participating schools.
+- Provide a full-year (strongly preferred) or first-semester 9th Grade Seminar or Advisory using CHSS or another research-aligned curriculum, and build intervention time into the school day.
+- Administer CHSS or comparable belonging and skills screeners, subject to Section 6.7, and provide credit and concept recovery opportunities during the school year.
+- Organize 9th grade students into cohorts of approximately 120 to 150 students who share the same core teachers.
+- Designate a 9th Grade Success Team Lead for each team and include, at minimum, core 9th grade teachers and appropriate student-support staff on each team.
+- Provide protected 9th Grade Success Team meeting time during the school day. Weekly meetings are strongly preferred; meetings at least every other week are required.
+- Use CHSS resources, as appropriate, to support implementation, including the 9th Grade Success Navigator Platform, Kid Talk protocol, screeners, data tools, and 9th Grade Seminar Curriculum.
+- Provide Student Data as described in Section Six and Exhibit D-1, through the delivery tier elected in Exhibit D-3.
+- Notify CHSS promptly of material leadership, staffing, scheduling, policy, or data-system changes that may affect implementation.
+- Work in good faith with CHSS to address implementation concerns, barriers, and risks and take mutually agreed-upon corrective action.
+
+### Section Four: Statement of Intent Beyond Year 1
+    Source [James's MOU draft]: Kept as drafted.
+
+The Parties acknowledge that Year 0 readiness and Year 1 implementation are intended to establish the foundation for sustained improvement, but the work required to achieve and maintain breakthrough 9th grade outcomes must continue beyond Year 1. District states its intent to continue diligent implementation of the agreed-upon drivers after Year 1 and to work with CHSS in good faith to assess progress and remaining needs and partner to the extent feasible to achieve additional gains and embed effective practices.
+
+**No financial commitment beyond Year 1.** This statement of intent does not obligate District to purchase Year 2 or Year 3 CHSS services, does not establish a fee for future services, and does not require either Party to enter a future agreement. Any continued services, scope, pricing, subsidies, and payment obligations shall be documented in a separate written agreement signed by both Parties.
 
 ### Section Five: Student Data Privacy and Security
     Source [Drafting choice]: Section Five becomes the short, binding statement of the relationship and points to the appendix (or the NDPA) for the detailed terms, so the body of the agreement stays readable for the academic signers.
@@ -285,7 +351,7 @@ School Team members designated by the District may view student-level records, i
 
 CHSS program, research, and leadership staff, and Organization staff, may view only De-identified Data and Aggregate Data, except that CHSS technical and security personnel designated under Appendix A.7 may access Student Data on a minimum-necessary basis to administer the platform, resolve data-feed problems, and investigate incidents, with every such access logged.
 
-**CHSS coaching staff.** The Coach assigned to a participating school, and CHSS staff who directly support that school's screening and intervention work, may access student-level records, including names, for that school only, solely to prepare for and conduct ninth grade success team meetings, screening review, intervention planning, and progress monitoring with the School Team, and for no other purpose. Each such person is a CHSS employee acting as a school official under Section 5.1, bound by Appendix A, trained annually in FERPA and privacy, under a confidentiality obligation, and subject to the personnel requirements in Appendix A.7. Every access to student-level records is logged under Appendix A.7. The District may limit or revoke any individual's access at any time by written notice, including limiting a Coach to viewing student-level records only during meetings with the School Team.
+**CHSS coaching staff.** The Coach assigned to a participating school, and CHSS staff who directly support that school's screening and intervention work, may access student-level records, including names, for that school only, solely to prepare for and conduct ninth grade success team meetings, screening review, intervention planning, and progress monitoring with the School Team, and for no other purpose. Each such person is a CHSS employee acting as a school official under Section 5.1, bound by Appendix A, trained annually in FERPA and privacy, under a confidentiality obligation, and subject to the personnel requirements in Appendix A.7. Every access to student-level records is logged under Appendix A.7. The District may limit or revoke any individual's access at any time by written notice, including limiting a Coach to viewing student-level records only during meetings with the School Team. [[Pending, Emily: school-level access bullets may refine this paragraph (O17)]]
 
 #### 5.5 Permitted use and restrictions
     Source [James's MOU draft]: Builds on the current Section Five "Permitted Use and Restrictions" (use solely to perform services and evaluation; access limited to those performing work; no third-party disclosure).
@@ -354,7 +420,7 @@ Each record will include the District's student identifier (and the state studen
     Source [District lens]: "Is weekly delivery required, preferred, or only the Tier 1 target?" One rule now: weekly once live; Tier 2 is a dated interim exception with an approved cadence. Pending CHSS confirmation (Decisions, O15).
     Source [James's MOU draft]: The current Section Three already obligates the District to "make grades, attendance, and other agreed-upon key indicators available at least weekly." This subsection is how that happens.
 
-The District will choose one of the delivery tiers in Exhibit D-2. The target for every District is Tier 1 (automated feed) before the feed goes live. Once the feed is live for Year 1, the District will provide updates weekly during the school year, and a final update within two weeks after the end of the school year and of summer school. A District that cannot yet automate may use Tier 2 (scheduled secure upload) as an interim arrangement, recorded in Exhibit D-3 with an approved cadence not less than monthly and a target date for Tier 1, with CHSS support to get there. [Cadence rule pending CHSS confirmation; Decisions O15.]
+The District will choose one of the delivery tiers in Exhibit D-2. The target for every District is Tier 1 (automated feed) before the feed goes live. Once the feed is live for Year 1, the District will provide updates weekly during the school year, and a final update within two weeks after the end of the school year and of summer school. A District that cannot yet automate may use Tier 2 (scheduled secure upload) as an interim arrangement, recorded in Exhibit D-3 with an approved cadence not less than monthly and a target date for Tier 1, with CHSS support to get there. [[Pending, Jonah and Emily: confirm this cadence rule (O15)]]
 
 #### 6.6 Changes affecting the feed
     Source [Luke's experience]: Running district feeds to outside partners: SIS vendor changes, grading-scale changes, and term-structure changes are what break them.
@@ -372,7 +438,7 @@ The District will notify CHSS at least thirty days before a change in student in
     Source [Luke's decision]: Tara classifies program need; counsel classifies consent (Decisions, O6). The decline sentence is new: Arizona districts cannot administer emotional-wellness surveys at all, so the Services must be able to run without the Belonging Screener.
     Source [District lens]: A California district technology and privacy lead (10/27 call): California districts run Panorama wellness surveys several times a year and now give parents notice on gender-identity items; some districts also cover third-party consent through pre-permission language in annual online registration. Arizona, by contrast, bars asking students how they feel. The same instrument is routine in one state and prohibited in another, which is why the District, not CHSS, decides.
 
-The District will review the full content of the CHSS Belonging Screener and the Skills Screener, item by item, before either is administered, and will determine what parent notice, opt-out, or prior written consent is required by District policy, by the Protection of Pupil Rights Amendment (20 U.S.C. § 1232h), and by state law (in Arizona, A.R.S. §§ 15-104 and 15-117). CHSS will not open collection at a participating school until the District has authorized the instruments in writing and certified that any required notice has been given and any required consent is on file. The District administers the screeners through the School Team. CHSS will not add or change questions without the District's written approval and will provide each versioned instrument for that purpose. Where state law or District policy restricts or prohibits a screener's subject matter, the District may decline a screener in whole or in part, and the Services continue without it. Screening Data is Student Data for all purposes of this Agreement.
+The District will review the full content of the CHSS Belonging Screener and the Skills Screener, item by item, before either is administered, and will determine what parent notice, opt-out, or prior written consent is required by District policy, by the Protection of Pupil Rights Amendment (20 U.S.C. § 1232h), and by state law (in Arizona, A.R.S. §§ 15-104 and 15-117). CHSS will not open collection at a participating school until the District has authorized the instruments in writing and certified that any required notice has been given and any required consent is on file. The District administers the screeners through the School Team. CHSS will not add or change questions without the District's written approval and will provide each versioned instrument for that purpose. Where state law or District policy restricts or prohibits a screener's subject matter, the District may decline a screener in whole or in part, and the Services continue without it. Screening Data is Student Data for all purposes of this Agreement. [[Pending, Tara and counsel: screener instruments and consent classification (O6)]]
 
 #### 6.8 Navigator users
     Source [SDPC NDPA]: Districts remain responsible for their own users' credentials and for prompt notice of role changes; the NDPA places account-management duties on the LEA for its staff.
@@ -385,7 +451,7 @@ The District will designate which School Team members receive Navigator logins a
     Source [Luke's experience]: Monitoring: a daily failure report is what makes an automated feed trustworthy; the district should never be the one to notice a missed transfer.
     Source [District lens]: A data manager's read of "two working sessions": "I still do not know whether support ends before the feed works." Support now runs to acceptance, with maintenance when the SIS, grading scale, or terms change. Cost is an open decision (O11).
 
-CHSS will provide technical assistance to the District's technical contact to establish the data feed, including the file specification and data dictionary, SIS-specific report instructions where CHSS has them, mapping of the District's exports to the specification, a cleanup script where needed, and working sessions until the feed passes the acceptance test in Exhibit D-3. After acceptance, CHSS will provide assistance when the District's student information system, grading scale, or term structure changes. CHSS will monitor the feed, notify the technical contact within one business day when a transfer fails or expected data is missing, and provide a validation report for each load that distinguishes rejected files, rejected rows, and warnings.
+CHSS will provide technical assistance to the District's technical contact to establish the data feed, including the file specification and data dictionary, SIS-specific report instructions where CHSS has them, mapping of the District's exports to the specification, a cleanup script where needed, and working sessions until the feed passes the acceptance test in Exhibit D-3. After acceptance, CHSS will provide assistance when the District's student information system, grading scale, or term structure changes. CHSS will monitor the feed, notify the technical contact within one business day when a transfer fails or expected data is missing, and provide a validation report for each load that distinguishes rejected files, rejected rows, and warnings. [[Pending, Jonah: staffing for support through acceptance (O11)]]
 
 #### 6.10 Timeline
     Source [Conversation]: Jonah (10/26): starting in January "gives us the four or five months of let's get this set up before students start." James (10/23): "when we come to them in April and say, hey, it's time to engineer this SIS integration." Winners announced Dec 15; Columbus City needs about three months for board approval.
@@ -396,6 +462,269 @@ CHSS will provide technical assistance to the District's technical contact to es
 No Student Data is transferred before this Agreement and Appendix A (or the NDPA) are executed. During Year 0 the District will name its contacts, elect its delivery tier, and complete the mapping and acceptance test in Exhibit D-3; a test load of current-year data may be made after execution to validate the feed. The feed goes live for the ninth grade Cohort no later than [the first day of Year 1 instruction], and the Parties will complete acceptance by [thirty days before that date].
 
 **District Data/IT Liaison:** [TO BE COMPLETED] · **Privacy contact:** [TO BE COMPLETED]
+
+### Section Seven: Participating Schools and Cost of Services
+    Source [James's MOU draft]: Kept as drafted. Renumbering note: James's draft labels this Section Seven while its cover table pointed to Section Eight; the cover table is corrected.
+
+CHSS will provide the Year 0 and Year 1 services described in this Agreement to the participating schools listed below. Year 0 and Year 1 services are fully subsidized; the amount due from District under this Agreement is $0.
+
+| Participating High School | 9th Grade Enrollment | District Cost for Year 0 + Year 1 |
+|---|---|---|
+| [School name] | [Enrollment] | $0 |
+| [School name] | [Enrollment] | $0 |
+| [School name] | [Enrollment] | $0 |
+| **Total District cost** | | **$0** |
+
+Any travel subsidy, pass-through cost, or other expense not expressly included in this Agreement must be approved in writing by both Parties before it is incurred.
+
+### Section Eight: Disclaimer of Warranties and Liability; Hold Harmless
+    Source [James's MOU draft]: Kept as drafted, with two additions: the cyber-insurance sentence, and a carve-out reconciling the liability cap with Appendix A's breach and confidentiality promises.
+    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: district practice is to "carve out data breach, confidentiality and indemnity obligations, or set a breach super-cap." The NDPA has no liability or indemnity clause of its own.
+    Source [District lens]: "You promise breach costs and substantial insurance, but I cannot tell whether the main agreement caps those obligations." (Decisions, O2.)
+    Source [Columbus City DSA]: Cyber liability of at least $1,000,000 is required; $2,000,000 is drafted to meet the higher tier district practice applies to SIS data (Decisions, O7).
+
+DISTRICT ACKNOWLEDGES THAT SERVICES PROVIDED UNDER THIS AGREEMENT ARE PROVIDED ON AN "AS IS" OR "AS AVAILABLE" BASIS. ORGANIZATION MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, IN CONNECTION WITH THE SERVICES.
+
+Except as specifically provided in this Agreement or otherwise required by law, Organization's officers, directors, employees, agents, and contractors will not be liable for indirect, incidental, special, or consequential damages arising from the services. In no event will the liability of Organization and its affiliates, individually or combined, exceed applicable liability insurance proceeds. The limitations in this Section do not apply to Organization's obligations under Appendix A, Sections A.4, A.8, and A.10, or to either Party's breach of confidentiality. [[Pending, Jonah and counsel: whether these obligations are uncapped or subject to a stated super-cap, and the amount (O2)]]
+
+Each Party agrees to be responsible for its own wrongful or negligent acts or omissions, and those of its officers, agents, or employees, to the extent required by law. Each Party will maintain reasonable liability insurance coverage through commercial insurance or a reasonable self-insurance mechanism and will provide evidence of such coverage upon reasonable request. Upon reasonable request, CHSS will provide a certificate of insurance or other documentation evidencing applicable coverage, including any applicable cybersecurity or data-security coverage. Organization maintains cyber liability insurance of not less than $2,000,000 per claim, as further described in Appendix A. [[Pending, Demian and counsel: confirm limits against Stand's certificate (O7)]]
+
+### Section Nine: Additional Terms
+    Source [James's MOU draft]: Kept as drafted, with the District's privacy contact added as a required notice recipient for matters under Appendix A.
+
+**Assignment.** Neither Party may assign its rights or obligations under this Agreement without the other Party's written consent.
+
+**Relationship of the Parties.** Nothing in this Agreement creates an employer-employee relationship, joint venture, legal partnership, or principal-agent relationship between the Parties.
+
+**Force Majeure.** Neither Party is responsible for delay or failure caused by events beyond its reasonable control.
+
+**Sole Agreement.** This Agreement, including its Appendix and Exhibits, constitutes the complete agreement between the Parties regarding its subject matter and may be modified only in a writing signed by both Parties.
+
+**Waiver.** A Party's failure to enforce a provision does not waive that provision or any other provision.
+
+**Severability.** If a provision is unenforceable, it will be reformed to the maximum extent permitted by law or severed, and the remaining provisions will remain in effect.
+
+**Counterparts and Electronic Signatures.** This Agreement may be signed in counterparts and by electronic signature, each of which will be treated as an original.
+
+**Notices.** Formal notices under this Agreement will be sent to the contacts identified below or to an updated contact provided in writing. Notices concerning Student Data or Appendix A will also be sent to the District's privacy contact and to CHSS's Privacy Officer named in Exhibit D-3.
+
+### Section Ten: Signatures
+    Source [James's MOU draft]: Kept as drafted.
+
+The authorized representatives below acknowledge that they have read, understand, and agree to the terms of this Agreement.
+
+| District / LEA | |
+|---|---|
+| Authorized signature | Date |
+| Printed name | Title |
+
+| Center for High School Success / Organization | |
+|---|---|
+| Authorized signature | Date |
+| Printed name | Title |
+
+### Appendix A: Data Privacy and Security
+    Source [SDPC NDPA]: Section order follows the NDPA's articles (purpose and FERPA designation; data ownership and authorized access; duties of the LEA; duties of the provider; data provisions including security, breach, disposition, and advertising limits; general offer; miscellaneous) so a district privacy officer recognizes the shape immediately.
+    Source [Luke's experience]: AFUHSD's baseline is the Arizona NDPA Standard Version 1.2 with Exhibit G, which carries Arizona contract requirements and the AI questionnaire Luke co-wrote with the privacy leads from Mesa and Deer Valley.
+
+#### A.1 Definitions
+    Source [Drafting choice]: Defined terms are the same as in Agreement Sections Five and Six so the two documents never drift.
+
+Terms defined in Sections Five and Six (Student Data, Screening Data, De-identified Data, Aggregate Data, Navigator, School Team, Coach, Cohort) have the same meaning here. **Subprocessor** means a third party that hosts or processes Student Data on CHSS's behalf.
+
+#### A.2 Purpose and legal basis
+    Source [FERPA]: 34 C.F.R. § 99.31(a)(1)(i)(B) (school official exception) and § 99.33 (limits on redisclosure).
+    Source [PPRA]: 20 U.S.C. § 1232h applies to the screeners CHSS administers through schools.
+    Source [COPPA]: 15 U.S.C. §§ 6501–6506; Columbus City's DSA requires a COPPA warranty for any data collected directly from students. Navigator is not student-facing, but screener administration may be, so the commitment is stated "to the extent it applies."
+    Source [Columbus City DSA]: "agrees that it shall comply with all applicable Ohio laws ... regarding the collection, use and protection of data as if it were the District." The "as if CHSS were the District" standard is adopted for every state.
+    Source [State law]: California Education Code § 49073.1(b)(8) requires "a description of how the district and the third party will jointly ensure compliance with" FERPA. A California colleague shared the CETPA/Fagen Friedman & Fulfrost AB 1584 checklist (10/27), which lists the statute's nine required contract terms; the joint-compliance paragraph is written to that term. Decisions, M21.
+
+CHSS receives Student Data solely to provide the Services described in the Agreement. The District designates CHSS as a school official with a legitimate educational interest under 34 C.F.R. § 99.31(a)(1)(i)(B). CHSS is under the District's direct control with respect to the use and maintenance of education records and is subject to the redisclosure limits of 34 C.F.R. § 99.33. CHSS will comply with FERPA; with the Protection of Pupil Rights Amendment (20 U.S.C. § 1232h) as it applies to screeners; with the Children's Online Privacy Protection Act (15 U.S.C. §§ 6501–6506) to the extent it applies; and with the student privacy laws of the District's state listed in the State Exhibit, as if CHSS were the District.
+
+**Joint FERPA compliance.** The District and CHSS ensure compliance with FERPA together, as follows: the District includes contractors performing institutional services among the school officials named in its annual FERPA notification and determines which School Team members may access Student Data; CHSS limits its use of Student Data to the Services, restricts access to the roles in Section 5.4 and A.7, trains every person with access, refrains from redisclosure except as this Appendix permits, routes parent and eligible-student requests to the District under A.11, reports any unauthorized disclosure under A.8, and destroys Student Data under A.10. Either party may raise a compliance concern with the other's privacy contact, and the parties will resolve it before further data moves.
+
+#### A.3 Ownership and control
+    Source [Columbus City DSA]: "All information, data, and other content transmitted by the District ... will remain the sole property of the District. The District will retain exclusive control over student data, including determining who may access data and how it may be used."
+    Source [James's collateral]: "Your student data remains your district's property, and your district decides who can see it."
+
+All Student Data and Screening Data, and all records CHSS creates or receives on the District's behalf, are and remain the property of the District. The District retains exclusive control over its Student Data, including who may access it and for what purposes. CHSS acquires no rights in Student Data other than the limited license to use it to provide the Services.
+
+#### A.4 Authorized and prohibited uses
+    Source [SDPC NDPA]: Article IV prohibitions (no sale; no targeted advertising; no profiling beyond the educational purpose) and Article V on advertising limitations.
+    Source [Columbus City DSA]: "Company shall not use educational records for any commercial purpose outside the scope of the agreement, including but not limited to marketing or advertising to students or parents. Company agrees not to sell, share, or disseminate educational records."
+    Source [Conversation]: The 501(c)(4) clause (d) comes from James's 10/23 flag that Stand's dual structure invites questions "even when nothing is wrong."
+    Source [af-dpa]: knowledge/law/coppa.md and arizona.md: COPPA's "operator" definition excludes nonprofits exempt from § 5 of the FTC Act, and A.R.S. § 15-1046 reaches operators of services "designed and marketed for school purposes." A coaching nonprofit may sit outside both, so "the contract is the only enforcement." That is the reason clause (d) and clause (f) are written in rather than left to statute. NDPA v1.2 IV.2 limits use to "the Services outlined in Exhibit A or stated in the Service Agreement"; v2 4.2 closes that gap with "or as instructed by the LEA," which (a) through (f) mirror.
+    Source [af-dpa]: agents/exhibit-h-rider-draft.md, term 6 ("Partner and evaluator visibility"): "Where the approved service shares data with a program partner, evaluator, certifying body or sponsor, Provider will name the recipient and the data shared ... no other third-party visibility is permitted." Marked in the repo as an agent draft not yet adopted by the Director; reused here as clause (f) and restated in A.6.
+    Source [District lens]: "If we object to a subprocessor and your team cannot resolve it, the new provider still takes effect." A.6 now gives the district a remedy before the change becomes effective (Decisions, M12).
+
+CHSS will use Student Data only to provide the Services and as instructed by the District. CHSS will not: (a) sell, rent, or trade Student Data; (b) use Student Data for targeted advertising or marketing to students, parents, or staff; (c) build a profile of a student for any purpose other than the Services; (d) use Student Data in any advocacy, lobbying, political, or fundraising activity of Stand for Children Leadership Center, Inc. or any affiliated entity, including any entity organized under section 501(c)(4); (e) disclose Student Data to any third party other than a Subprocessor listed under A.6, except as required by law and, where lawful, with prior notice to the District; or (f) share Student Data with any program partner, evaluator, funder, certifying body, or sponsor unless the recipient and the data shared are named in Exhibit D-3 and approved by the District in writing.
+
+#### A.5 Data minimization
+    Source [SDPC NDPA]: The NDPA's Exhibit B is a checklist of data elements the provider collects; this clause ties CHSS to the equivalent list in Agreement Exhibit D-1.
+    Source [Emily's email]: "Asking for too much could create unnecessary objections and delays."
+    Source [Columbus City DSA]: Service "will not require a student to disclose more information than is reasonably necessary."
+    Source [af-dpa]: agents/exhibit-h-rider-draft.md, term 3 (data minimization): the provider "will not require Social Security numbers, government identification numbers, payment information, health or disability records" unless listed. Adopted here; IEP/504 status stays an optional element the District may elect.
+    Source [State law]: California Education Code § 49073.1(b)(2) requires a description of how pupils retain control of pupil-generated content "if applicable." Navigator holds none, and the clause says so rather than leaving a California reviewer to infer it.
+
+CHSS will collect only the elements listed in Exhibit D-1 and will not require the District to provide more data than is reasonably necessary to deliver the Services. CHSS will not request Social Security numbers, government identification numbers, payment information, or health records, and will receive disability-related status only where the District elects to provide it under Exhibit D-1. The Services do not collect, create, or store pupil-generated content (essays, portfolios, creative work, or similar); if a future feature does, CHSS will provide the District a description of how students retain possession and control of that content and may transfer it to a personal account before the feature is enabled. Changes to the element list require the District's written agreement.
+
+#### A.6 Subprocessors
+    Source [Emily's architecture]: The CHSS Data Platform diagram: Microsoft Azure / Fabric (data lake, SQL warehouse), Azure API Management, Salesforce Experience Cloud as Navigator (with CRM Analytics and Lightning components), Power BI for research and program analytics, and AI-assisted mapping, validation, and intervention recommendations.
+    Source [SDPC NDPA]: Article IV requires the provider to flow down the agreement's obligations to subprocessors and to maintain a list available to the LEA.
+    Source [Luke's experience]: From the Rescue Ready review (2026): the DPA goes with whoever actually hosts the data. Naming the platforms here is what lets a district CTO stop asking.
+
+CHSS uses the following Subprocessors, each bound by written terms at least as protective as this Appendix:
+
+| Subprocessor | Function | Location |
+|---|---|---|
+| Microsoft (Azure, Fabric) | Cloud hosting, data lake, data warehouse, API management | United States |
+| Salesforce (Experience Cloud, CRM Analytics) | Navigator user platform, student records and intervention workflows | United States |
+| Microsoft (Power BI) | Analytics and reporting | United States |
+| [[Pending, Emily: AI model provider (O3)]] | File-mapping assistance, data validation, intervention recommendations | United States |
+
+CHSS will give the District at least thirty days' written notice before adding or replacing a Subprocessor that will process Student Data. The District may object in writing, and the Parties will work in good faith to resolve the objection before the change takes effect. [[Pending, Emily: confirm the subprocessor list and a U.S. region for each (O14)]] If the objection is not resolved before the change takes effect, the District may require CHSS to exclude its Student Data from the new Subprocessor, disable the affected feature for the District, or terminate the data provisions of the Agreement without penalty, and CHSS will return or destroy the District's Student Data under A.10.
+
+CHSS does not share Student Data with any program partner, evaluator, funder, certifying body, or sponsor. Any such recipient must be named in Exhibit D-3 with the data to be shared and approved by the District in writing before any disclosure.
+
+#### A.7 Security program
+    Source [Columbus City DSA]: Sections 5 through 8: encrypted storage in monitored data centers; no storage outside the United States; passwords not visible to employees, salted hashes, SSL; patches "within one week of release"; anti-virus; firewall and DMZ; "third party audits of security operations are conducted annually"; access control lists; "the identity of all persons having access to student data is documented and access is logged"; employees bound by FERPA.
+    Source [San Diego CCAP]: "All staff involved in the data sharing process will be required to sign a confidentiality agreement"; passwords changed frequently; data kept in secure facilities.
+    Source [SDPC NDPA]: Article V and Exhibit F (data security requirements) call for a written security program, access controls, encryption, training, and an incident response plan.
+    Source [Conversation]: Luke and Jonah (10/26) on background checks: Phoenix Union required fingerprinting and onboarding of Teach For America mentors who were entirely virtual, which stalled the program for years. Stating a background check as a CHSS commitment removes one reason for a district to add its own.
+    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: "TLS 1.2+ in transit, AES-256 or equivalent at rest, including backups"; "MFA on vendor support access"; SOC 2 "does not test application code, does not require penetration testing," which is why the pen test is a separate line. NDPA v1.2 IV.3 binds "each employee or agent with access to Student Data" to confidentiality. The repo records no district position on background checks; that line is a drafting choice from the 10/26 discussion.
+    Source [State law]: California Education Code § 49073.1(b)(5): the contract must describe the third party's actions "including the designation and training of responsible individuals" to ensure security and confidentiality. The responsible-individuals bullet names the two roles; Exhibit D-3 carries the names.
+    Source [Needs CHSS confirmation]: Every control in this section is a commitment CHSS makes on signature. Which are true today and which are true by a date is an open decision for Emily (O4); background checks and annual training for all staff with access, coaches included, is an open decision for Demian and James (O5). Lines not confirmed before a district reads this are re-tensed to "by [date]."
+    Source [District lens]: "Are these implemented controls or your roadmap?" and "Somebody must administer Salesforce, troubleshoot imports, and investigate incidents." The technical-personnel role answers the second; the confirmation gate answers the first.
+
+CHSS maintains a written information security program with administrative, technical, and physical safeguards appropriate to the sensitivity of Student Data, including at minimum:
+
+- **Encryption.** Student Data is encrypted in transit (TLS 1.2 or higher) and at rest (AES-256 or equivalent). File transfers use SFTP or an HTTPS secure upload; email is never used to transfer Student Data.
+- **Access control.** Role-based access on the principle of least privilege. Multi-factor authentication for all CHSS staff and administrator accounts. The identity of every person with access to Student Data is documented, reviewed at least quarterly, and removed within one business day of role change or separation.
+- **Logging.** Every system access to student-level records by a logged-in user, and every administrative and maintenance action, is logged with user, time, and record; logs are protected from alteration and retained for at least twelve months. On written request, CHSS will provide the District with log data for end-user, administrative, and maintenance activity relating to its Student Data, including the access of CHSS coaching staff under Section 5.4.
+- **Passwords and sign-on.** Stored passwords are salted and hashed; passwords are never visible to CHSS staff; single sign-on is supported for District users where the District elects it.
+- **Infrastructure.** Production environments are segregated from the public internet by firewall and network controls; critical security patches are applied within seven days of release; anti-malware is current on all endpoints with access to Student Data; backups are encrypted and tested.
+- **Secure development.** Changes to Navigator and the data platform go through code review and testing; secrets are managed in a vault, never in code.
+- **Responsible individuals.** CHSS designates a privacy officer, responsible for compliance with this Appendix and for notices under A.8, and a security officer, responsible for the security program, both named in Exhibit D-3 and reachable by the District's privacy contact. CHSS notifies the District within ten business days when either designation changes.
+- **Personnel.** All CHSS staff with access to Student Data, including Coaches, pass a background check before access is granted, complete privacy and security training at hire and annually, and sign confidentiality obligations. [[Pending, Demian and James: confirm background checks and training are current practice (O5)]]
+- **Authorized technical and security personnel.** A small, named set of CHSS technical staff may access Student Data to administer the platform, resolve data-feed problems, and investigate incidents, on a minimum-necessary and time-limited basis, with multi-factor authentication, logging of every access, confidentiality obligations, and quarterly review of the roster. No other CHSS program, research, or leadership staff access identifiable Student Data.
+- **Independent assessment.** CHSS undergoes an independent third-party assessment of its security controls at least annually (SOC 2 Type II or an equivalent independent audit) and an annual penetration test of Navigator and the data platform. Summaries are available to the District under A.13.
+- **Incident response.** CHSS maintains and tests an incident response plan covering assessment, containment, evidence preservation, notification, recovery, documentation, and post-incident review.
+
+#### A.8 Breach notification
+    Source [Columbus City DSA]: Breach section lists the response steps (assess, communicate, contain, classify severity, protect evidence, notify external agencies, recover, document, assess cost, review, update policies) and gives the District the right to request logs; Ohio R.C. 1347.12 governs notification to affected persons.
+    Source [SDPC NDPA]: Article V requires notice to the LEA of any security breach, cooperation in the investigation, and provider responsibility for its own costs; the national form's notice window is the one most state versions keep.
+    Source [Luke's experience]: 10/19: "if you have a leak, you'll tell us, if we have a leak, we'll tell you ... those things make us feel a lot more comfortable." Districts do not want to learn of a breach from the press.
+    Source [State law]: California Education Code § 49073.1(b)(6) requires "a description of the procedures for notifying the affected parent, legal guardian, or eligible pupil in the event of an unauthorized disclosure." The earlier draft said only that the District decides; the procedure paragraph now describes who does what and by when.
+    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md, Arizona NDPA v1.2 Article V.4, verbatim: "the Provider shall provide notification to LEA within seventy-two (72) hours of confirmation of the incident, unless notification within this time limit would disrupt investigation of the incident by law enforcement." The repo's reverification notes recommend keeping v1.2's broad, undefined trigger (not v2's "in violation of applicable law" qualifier), saying who notifies families, and lifting the Illinois breach-cost allocation (parent notification, credit monitoring, "legal fees, audit costs, fines").
+
+If CHSS becomes aware of unauthorized access to, or acquisition, disclosure, or loss of, Student Data, whether or not it meets a statutory definition of breach (a "Breach"), CHSS will notify the District's privacy contact without unreasonable delay and in no event later than seventy-two hours after confirming the Breach, unless notification within that time would disrupt a law-enforcement investigation, by telephone and email, with the information then known: the nature of the Breach, a description of the Student Data involved, the students affected, steps taken to contain it, and a point of contact. CHSS will update the District as the investigation proceeds, cooperate fully, and comply with any breach-notification law applicable to the District's data.
+
+**Notifying affected parents, guardians, and eligible students.** Within five business days after CHSS's notice, or sooner where law requires, the District and CHSS will agree on the affected population, the content of the notice, and the method and timing of delivery. The District decides whether notice is required and sends it, or directs CHSS to send it in the District's name; either way the notice goes out within the time required by the law of the District's state, and CHSS provides the District the list of affected students, a draft notice, and a point of contact for questions. CHSS will not notify students, parents, or the public on its own, except where law requires otherwise. CHSS will bear the reasonable costs attributable to its Breach, including parent notification, credit monitoring where offered, forensic investigation, legal fees, and regulatory fines.
+
+#### A.9 Data location
+    Source [Columbus City DSA]: "No student data is stored outside the United States without the District's written consent."
+    Source [Conversation]: Jonah (10/26): "Don't store your data in Russia, et cetera."
+
+Student Data is stored and processed only in data centers located in the United States. CHSS will not transfer Student Data outside the United States without the District's prior written consent.
+
+#### A.10 Retention, de-identification, and destruction
+    Source [SDPC NDPA]: Article IV "Disposition of Data" and Exhibit D (Directive for Disposition of Data): sixty days from written request; duty does not extend to de-identified data.
+    Source [Columbus City DSA]: Ninety days after termination to destroy or return all educational records.
+    Source [FERPA]: De-identification standard at 34 C.F.R. § 99.31(b)(1); the attribute of "reasonable determination" that identity is not personally identifiable "taking into account other reasonably available information."
+    Source [Emily's architecture]: The platform already separates a "De-identification & Privacy" step (tokenization and pseudonymization for research datasets) from the identifiable warehouse. This clause makes that separation contractual.
+    Source [Drafting choice]: Cell suppression at fewer than ten students is a common state-reporting threshold; it keeps aggregate results publishable without re-identification risk at small schools.
+    Source [Conversation]: James (10/23): keep "Agua Fria High School went from 60% on track to 72%"; delete the student-level data. Luke: "That's a different thing."
+    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md, NDPA v1.2 IV.5: "Provider agrees not to attempt to re-identify De-Identified Student Data ... Provider's use of De-Identified Data shall survive termination of this DPA ... Provider agrees not to transfer de-identified Student Data to any party unless (a) that party agrees in writing not to attempt re-identification, and (b) prior written notice has been given to the LEA who has provided prior written consent." v2 4.5 adds that de-identification must "comply with either NIST de-identification standards or US Department of Education guidance." Both are adopted below.
+    Source [af-dpa]: knowledge/law/ferpa.md: § 99.31(b)(2) allows coded student-level releases only for education research, with a code "not based on" the student's SSN "or other personal information" and the method kept secret; a hash of the student number is a code based on personal information. PTAC: "simple removal of direct identifiers ... DOES NOT constitute adequate de-identification." Hence the random token and the destroyed key.
+    Source [af-dpa]: knowledge/law/deidentification-and-definitions.md: the captures "do not settle" a minimum cell size; PTAC uses "a minimum cell size" and "controlled rounding," and "a vendor's 'aggregate' effectiveness report with n=3 cells is PII." Ten is the drafting choice, matching common state reporting thresholds.
+    Source [State law]: California Education Code § 49073.1(b)(7) requires "a certification that a pupil's records shall not be retained or available to the third party upon completion of the terms of the contract and a description of how that certification will be enforced." The certification paragraph states both, and draws the line that de-identified data is not a pupil record.
+    Source [District lens]: A California district technology and privacy lead (10/27 call) confirmed that a partner may keep de-identified growth data after a contract ends "as long as we can't trace it back," and added the condition that matters: "make sure that's in any agreements you're signing, so after the fact they don't say 'you didn't tell us that.'" Her district de-identifies some data itself with a key its assessment office holds, which is the district-side pseudonym the Agreement allows in Section 6.4.
+
+- **During the term.** CHSS retains Student Data only as long as needed to provide the Services.
+- **On request.** On the District's written directive at any time, CHSS will return or destroy the Student Data specified within sixty days, on a schedule agreed with the District. The District may use the NDPA's Directive for Disposition of Data (Exhibit D) for this purpose with no further notice required.
+- **On termination.** Within sixty days after the Agreement ends, CHSS will destroy or return to the District all Student Data and Screening Data, including copies held by Subprocessors, and will certify destruction in writing signed by an officer. [[Pending, Emily: deletion runbook across every store (O13)]] Copies in encrypted backups expire on the documented rotation, not to exceed ninety days, are never restored to production, and are certified as expired when that date passes.
+- **Certification of non-retention.** CHSS certifies that, upon completion of the Agreement, no Student Data or Screening Data will be retained by or available to CHSS or its Subprocessors, and that this certification is enforced by the destruction process, the backup expiration, the officer's certificate, and the District's audit and evidence rights under A.13. De-identified Data and Aggregate Data are not pupil records and are governed by the next paragraph.
+- **De-identified and Aggregate Data.** CHSS may create De-identified Data in accordance with NIST de-identification standards or U.S. Department of Education guidance, by removing direct and indirect identifiers and replacing the student identifier with a random token that is not derived from any student identifier or other personal information, under a key that CHSS destroys with the identifiable data. Before retaining or releasing any De-identified Data, CHSS will make and document the reasonable determination required by 34 C.F.R. § 99.31(b)(1) that a student's identity is not personally identifiable, considering direct and indirect identifiers, other reasonably available information, the cumulative risk of repeated releases, and the need for complementary suppression, and will provide that record to the District on request. Aggregate Data is a subset of De-identified Data. CHSS may retain De-identified Data and Aggregate Data after termination to evaluate and improve the program, including following Cohort outcomes over time. CHSS will not attempt to re-identify any student and will not transfer De-identified Data to any third party other than a Subprocessor unless that party agrees in writing not to attempt re-identification and the District has given prior written consent. Aggregate Data will suppress any cell smaller than ten students. [[Pending, Tara and Jonah: confirm row-level de-identified retention is needed (O10)]]
+- **Research and publication.** CHSS may publish findings based on De-identified Data and Aggregate Data. No publication will identify a student. CHSS will not identify the District in any publication without the District's prior written consent and will provide the District a copy of any report that includes the District's aggregate results at least fifteen business days before publication. The District may always see its own data.
+
+#### A.11 Parent and eligible student rights
+    Source [FERPA]: Parents and eligible students have rights to inspect, review, and seek amendment of education records (34 C.F.R. §§ 99.10–99.22); those rights run against the District, which the provider must support.
+    Source [Columbus City DSA]: The company and District "shall establish reasonable procedures ... by which a parent, legal guardian or eligible student may review personally identifiable information on the pupil's records, correct erroneous information."
+    Source [SDPC NDPA]: Article II: the provider assists the LEA in responding to parent and eligible-student requests within a stated period.
+
+Requests by a parent or eligible student to inspect, review, or correct education records are handled by the District. CHSS will support the District by providing, within ten business days of request, the Student Data it holds about the student, and will correct or delete data as the District directs.
+
+#### A.12 Use of artificial intelligence
+    Source [Luke's experience]: The Arizona NDPA Exhibit G AI questionnaire, which Luke co-developed with the privacy leads from Mesa and Deer Valley with input from about a dozen privacy and technology professionals: how the vendor uses AI, what data goes to AI providers, whether user data trains models, and what safeguards and oversight exist. This clause answers those questions before they are asked.
+    Source [Emily's architecture]: AI-assisted mapping, anomaly detection, "risk models and intervention recommendations" are in the platform design; Jonah (10/19) described AI that "can help coach the team leads."
+    Source [af-dpa]: knowledge/practice/ai-dpa-clauses.md (marked in the repo as a drafting suggestion, not a standard): model-provider disclosure "by URL and date, and the country of processing," thirty days' notice before changing a model provider with a termination right; outputs "descriptive of an identifiable student are Student Data"; disclosure of any subprocessor personnel who may view prompts or outputs for abuse monitoring; outputs "require human review before use" and are not "the sole basis for any decision with legal or material effect on a student." The shortest proven binding wording is California NDPA v1.5 Exhibit G cl. 8: "Student Data ... shall not be used for training purposes or to develop synthetic and/or inferred data."
+    Source [af-dpa]: knowledge/sdpc/ai-addendum-and-checklist.md lists the Arizona checklist questions this clause pre-answers: base model and provider (1.1–1.2), opt-out of AI decision-making (1.4), data shared with an AI subprocessor (4.2), whether user data trains the model (4.7), human in the loop (5.6), and query logging (5.7).
+    Source [District lens]: An earlier draft's exception for "a model used solely to deliver the Services" could be read to permit training. Training and inference are now separated: no training by anyone; inferences only to deliver the Services, and treated as Student Data.
+    Source [Needs CHSS confirmation]: The model provider's name, tier, data-use terms, and zero-retention arrangement are Emily's to supply (Decisions, O3). The subprocessor table carries a bracket until then.
+    Source [District lens]: A California district technology and privacy lead (10/27 call): AI use is "not an automatic no," but she asks every vendor whether the system is proprietary or built on a third party's model, "what the AI agent looks like and what information you're putting into it," who else at the company or its maintenance contractors has access, and she asks to see the platform before signing. Clause (i) commits CHSS to those answers up front.
+
+CHSS uses automated and machine-learning tools within the data platform to assist with mapping incoming files to a common format, to flag data-quality problems, and to suggest interventions for the School Team's consideration. CHSS commits that: (a) neither CHSS nor any Subprocessor will use Student Data, De-identified Data, or any output derived from them to train, fine-tune, evaluate, or otherwise improve any machine-learning model, or to develop synthetic or inferred data for any purpose other than delivering the Services to the District; (b) the Services may generate student-specific inferences solely to deliver the Services, and such inferences are Student Data for all purposes of this Appendix; (c) each model provider is listed as a Subprocessor with the product tier used, the provider's data-use terms by URL and date, and the country of processing, is contractually prohibited from retaining or training on Student Data, and CHSS will provide the provider's written attestation on request; (d) intervention suggestions are recommendations for educators, who make all decisions about students, and are never the sole basis for any decision with a material effect on a student; (e) no Subprocessor personnel view prompts or outputs containing Student Data except as disclosed to the District in writing; (f) the District may request that AI-generated recommendations be disabled for its schools; (g) CHSS will give thirty days' written notice before adding or changing a model provider, and the District has the remedies in A.6; (h) CHSS will complete the District's AI questionnaire (for example, Arizona NDPA Exhibit G) on request; and (i) on request, CHSS will describe which data elements are sent to each model provider and at which step, whether the model is operated by CHSS or by a third party, and which CHSS or Subprocessor personnel can see model inputs and outputs, and will demonstrate the platform to the District's technology staff.
+
+#### A.13 Audit and assurance
+    Source [Columbus City DSA]: Annual third-party audits of security operations; District may request log data for incident investigation.
+    Source [Conversation]: Jonah (10/26) listed audits among the standard terms to include; James (10/23): "Columbus City requires a security audit every three years or something like that" (the document says annually).
+    Source [Drafting choice]: Evidence-on-request once a year, plus full cooperation after a breach, is the posture most CTOs accept in place of an unlimited audit right; an audit right is still offered where state law or policy demands it.
+    Source [SDPC NDPA]: The TEC multi-state NDPA (version 1.0) Article V.2: once a year or after unauthorized access, on ten business days' notice, the provider allows the LEA to audit its security and privacy measures; New York's terms add an independent audit at the provider's expense if the State Chief Privacy Officer requires it, or a SOC report from the prior twelve months instead. Those terms govern wherever the NDPA is signed.
+    Source [af-dpa]: knowledge/sdpc/article-crosswalk-v1-2-to-v2-1.md: NDPA v1.2 Article V.2 "gives the LEA the right to audit the Provider." knowledge/GAPS.md recommends the Utah audit-evidence menu (self-assessment, questionnaire, "SOC2 or SOC3" report, or on-site review by agreement), adopted below so a district can pick the form of evidence.
+
+On request, not more than once per year unless a Breach has occurred, CHSS will provide the District with any of the following at the District's election: a completed security self-assessment, responses to the District's security questionnaire within thirty days, its most recent independent assessment report (SOC 2 Type II, SOC 3, or equivalent) and penetration test summary under a confidentiality agreement, a description of its security program, and a certificate of insurance. If the District's state law or policy requires an audit right, CHSS will cooperate with an on-site or remote audit at a mutually agreed time, conducted so as not to compromise other districts' data. Where the District has executed the NDPA or accepted Exhibit E, the NDPA's audit provisions, including any state terms, govern in place of this paragraph.
+
+#### A.14 Insurance
+    Source [Columbus City DSA]: "Your company must carry cyber liability insurance of at least $1,000,000 to cover Crisis Management and Computer System Extortion, Media and Content Liability, and Security and Privacy Liability."
+    Source [San Diego CCAP]: Each party: commercial general liability $1,000,000 per occurrence / $2,000,000 aggregate; professional errors and omissions $1,000,000; other party as additional insured; certificate of insurance on request; self-insurance acceptable.
+    Source [James's MOU draft]: Section Eight currently promises "reasonable liability insurance" and a certificate "including any applicable cybersecurity or data-security coverage" on request; this clause states the limits.
+    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: "the NDPA has no insurance clause"; district practice research puts "$1M for directory-only, $2M+ for SIS, assessment, special education or health data," and Beaverton requires $2,000,000 per claim and aggregate "with the policy running two years past the contract." $2,000,000 is drafted; Columbus's $1,000,000 floor is satisfied. Stand's finance lead confirms the actual policy before this is sent.
+
+CHSS maintains, and will provide certificates on request for: cyber liability insurance of at least $2,000,000 per claim and in the aggregate, covering security and privacy liability, crisis management, network extortion, and media and content liability, maintained for two years after this Appendix ends; commercial general liability of $1,000,000 per occurrence and $2,000,000 aggregate; and professional errors and omissions liability of $1,000,000 per claim. A requirement may be met through self-insurance only where CHSS documents the program and its claims-paying capacity and the District accepts it in writing. [[Pending, Demian and counsel: confirm limits against Stand's certificate (O7)]]
+
+#### A.15 Screening Data
+    Source [Emily's email]: Area 3 of the four the agreement must cover: "the Belonging and Skills screeners we administer, including the collection, storage, analysis, and use of student-level screening data."
+    Source [PPRA]: 20 U.S.C. § 1232h; the District approves instruments and gives notice (Section 6.7). This clause covers what CHSS does with the responses.
+    Source [Conversation]: Jonah (10/19): screener results feed the Navigator so the team can see that "fifteen other kids have the same profile" and deliver one intervention to all of them. Student-level screening results therefore have to be visible to the School Team.
+
+Screening Data is collected by CHSS only after the District has approved the instruments and provided any required notice under Section 6.7. Screening Data is subject to every protection in this Appendix. Student-level screening results are visible to the School Team and to CHSS coaching staff on the terms of Section 5.4; CHSS program and research staff see only De-identified and Aggregate Screening Data.
+
+#### A.16 Term, termination, and survival
+    Source [Columbus City DSA]: Term "shall be co-terminus with the contract/agreement and shall terminate when all of the student data ... is destroyed and/or returned."
+    Source [James's MOU draft]: The Agreement's cure period is ten days (Section Two); thirty days is used here for data-specific breaches because remediation of a security finding usually takes longer than ten days.
+    Source [District lens]: "If there is an active security problem, I cannot wait through a thirty-day cure period while access and transfers continue." An immediate suspension right and immediate termination for an incurable or repeated breach are added (Decisions, M12).
+    Source [District lens]: A California district privacy lead's checklist (10/27 call) starts with auto-renewals. The no-renewal sentence makes the data term end with the agreement (Decisions, M19).
+
+This Appendix is coterminous with the Agreement and continues until all Student Data has been returned or destroyed under A.10. Sections A.3, A.4, A.8, A.10, and A.11 survive termination. The District may suspend data transfers and CHSS's access to its Student Data immediately, by notice to CHSS's privacy contact, when the District reasonably determines that suspension is necessary to protect Student Data, and may terminate the data provisions of the Agreement on thirty days' written notice if CHSS materially breaches this Appendix and does not cure within that period, or immediately for a breach that cannot be cured or that recurs. Suspension or termination of the data provisions suspends the Services that depend on Student Data; if those Services cannot lawfully continue, the District may terminate the Agreement without penalty, and CHSS will return or destroy Student Data under A.10. This Appendix does not renew automatically; continuation of Student Data sharing beyond the Agreement's term requires a new written agreement signed by both Parties.
+
+#### A.17 Governing law and State Exhibit
+    Source [State law]: Ohio: R.C. 3319.321 (confidentiality of student records), 3319.325–3319.327 (educational records and third-party contractors), and Chapter 1347 including R.C. 1347.12 (breach notification), all named in the Columbus City DSA. California: Education Code § 49073.1 (contract requirements for digital storage and educational software) and the Student Online Personal Information Protection Act, Business and Professions Code § 22584. Arizona: Arizona NDPA Exhibit G, including the AI questionnaire.
+    Source [District lens]: A California colleague shared the CETPA/Fagen Friedman & Fulfrost AB 1584 compliance checklist (10/27), the nine-item list California district counsel use to review any technology services agreement touching pupil records. Mapping each of the nine to a section of this Appendix is what a San Diego reviewer will do first, so the map is written into the exhibit.
+    Source [Lewis County]: Missouri districts will supply the Missouri NDPA state exhibit through their consortium; it is listed as "to be added" rather than drafted here.
+    Source [District lens]: Ohio counsel: "Ohio's definition of 'technology provider' is tied to providing a school-issued device or account. Tell me why CHSS falls within §§ 3319.325–327 when Navigator is staff-facing." CHSS adopts the protections contractually either way and leaves classification to Ohio counsel (Decisions, M15).
+
+This Appendix is governed by the laws of the District's state. The State Exhibit attached for the District's state sets out additional required terms, including: for Ohio, compliance with Ohio Revised Code 3319.321, 3319.325 through 3319.327, and Chapter 1347 (including breach notification under R.C. 1347.12) as if CHSS were the District, whether or not CHSS falls within the statutory definition of a technology provider; for California, the nine terms required by Education Code § 49073.1(b), which this Appendix carries as follows: (1) ownership and control, A.3; (2) pupil-generated content, A.5 (none held); (3) purpose limitation, A.4; (4) parent review and correction, A.11; (5) security actions and designated, trained individuals, A.7; (6) parent notification procedure, A.8; (7) non-retention certification and enforcement, A.10; (8) joint FERPA compliance, A.2; (9) no targeted advertising, A.4(b); together with the Student Online Personal Information Protection Act, Business and Professions Code § 22584; for Arizona, Arizona NDPA Exhibit G including the AI questionnaire, the screener consent requirements of A.R.S. §§ 15-104 and 15-117, and the District's determination under Section 6.7 whether the Belonging Screener may be administered at all; and for Missouri, Massachusetts, Utah, and other states, the state NDPA exhibit where one exists.
+
+#### A.18 Order of precedence
+    Source [Drafting choice]: Mirrors Section 5.2 of the Agreement so both documents say the same thing about which controls.
+
+This Appendix applies in every case. If this Appendix conflicts with the Agreement, this Appendix controls as to Student Data. If the District has executed the NDPA with CHSS or accepted Exhibit E, the NDPA and its state exhibits control as to any conflict with this Appendix, and this Appendix continues to apply as a supplement for every matter the NDPA does not address.
+
+#### A.19 National Data Privacy Agreement
+    Source [Lewis County]: A Missouri partner district's technology coordinator wrote on 10/26 that she had asked her consortium (TEC via MOREnet) and the SDPC Resource Registry to obtain an NDPA with CHSS. The NDPA will arrive whether or not CHSS writes its own appendix.
+    Source [SDPC NDPA]: Exhibit E (General Offer of Privacy Terms) lets a provider extend an agreement it has signed with one LEA to any other LEA in the same state that subscribes; the subscribing LEA signs Exhibit E rather than negotiating anew.
+    Source [Luke's experience]: AFUHSD extends other districts' signed NDPAs to itself through Exhibit E routinely; each vendor file holds "the DPA from another district, and then the Exhibit E attachment signed by either me or Lauren."
+    Source [Drafting choice]: Naming the Provider, the Service, and Provider staff up front answers the first three questions a consortium reviewer asks and settles that coaches are inside the agreement.
+    Source [Lewis County]: 10/29: TEC sent CHSS its 18-state multi-state NDPA with Lewis County C-1 as the originating district. The bracketed sentence becomes a statement of fact once it is executed.
+    Source [Conversation]: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." On the 10/27 call Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year review cycle, and to opt into Exhibit E; counsel reviews the text before signature. The Exhibit E sentence stays bracketed until counsel has (Decisions, O12).
+    Source [af-dpa]: knowledge/sdpc/exhibit-e-general-offer.md and resource-registry.md (captured 2026-10-26): Exhibit E is "a one-signature piggyback" that extends only privacy terms, within one state, for three years from the provider's signature; a subscribing district "must deliver notice of acceptance." Registry rows are created by districts, not providers ("One row = one district + one resource"), and the originating district uploads "the signed agreement file and a standalone Exhibit E file." So CHSS's job is to sign promptly and hand the first district in each state a clean standalone Exhibit E, not to "list itself."
+    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md: the v1.2 "Provider" definition is "provider of digital educational software or services ... for the digital storage, management, and retrieval of Student Data," a strained fit for a coaching nonprofit; the school-official recital in Article I is the real footing, which is why Section 5.1 states it independently.
+
+The Center for High School Success (CHSS), a program of Stand for Children Leadership Center, Inc., will execute the Student Data Privacy Consortium's National Data Privacy Agreement (NDPA), including any state-specific version and exhibits adopted in the District's state, on request from any partner district or its privacy consortium. [[Pending, counsel: TEC multi-state NDPA not yet executed (O12)]] CHSS is completing the multi-state NDPA offered through The Education Cooperative (TEC), which, once executed with its originating district, extends by Exhibit E to districts in Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington. [[Pending, counsel: Exhibit E general offer (O12)]] CHSS expects, subject to confirmation by its counsel, to sign the General Offer of Privacy Terms (NDPA Exhibit E) with the first executed NDPA in each state and to provide the originating district a standalone copy for the SDPC Resource Registry, so that other districts in that state may subscribe to the same terms by accepting Exhibit E and delivering notice of acceptance.
+
+For purposes of the NDPA: the **Provider** is Stand for Children Leadership Center, Inc. (CHSS program); the **Service** is the ninth grade success coaching and the data platform and dashboards that support it; **Provider staff** include CHSS coaching staff, who are bound by the agreement and trained accordingly. CHSS will sign the version of the NDPA the District's state alliance offers; where a choice exists, CHSS prefers the version with a fixed three-year term. CHSS does not operate a student-facing application other than the Belonging and Skills screeners administered through the District's School Team.
+
+This Appendix applies in every case. Where a district has executed the NDPA, or accepted Exhibit E, the NDPA and its state exhibits control as to any conflict, and Appendix A continues as a supplement for every matter the NDPA does not address.
 
 ### Exhibit D-1: Data elements
     Source [James's MOU draft]: All elements from the current Section Six appear here; the change is the Required/Optional split.
@@ -482,241 +811,13 @@ No Student Data is transferred before this Agreement and Appendix A (or the NDPA
 | Certification requested | ☐ Written certificate of destruction signed by an officer of CHSS, listing systems and backup expiration date |
 | Authorized by | [name, title, signature, date] |
 
-### Conforming edits elsewhere in the Agreement
-    Source [James's MOU draft]: Section Three, District bullets 8 and 9, and Section Eight's insurance and liability paragraphs are the other places the current draft touches data. Section Eight disclaims consequential damages and caps liability at insurance proceeds.
-    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: district practice is to "carve out data breach, confidentiality and indemnity obligations, or set a breach super-cap." The NDPA has no liability or indemnity clause of its own, so the main agreement's terms govern unless carved out.
-    Source [District lens]: "You promise breach costs and substantial insurance, but I cannot tell whether the main agreement caps those obligations." The carve-out is drafted as a proposal with the amount left open (Decisions, O2).
-    Source [District lens]: Auto-renewal is the first item on a California district privacy lead's checklist (10/27 call), because purchasing taught her to look for it; a data agreement that renews by silence is a finding in every district's review. Hence the renewal edit (Decisions, M19).
-    Source [Columbus City DSA]: Cyber liability of at least $1,000,000 is a stated requirement; Section Eight currently promises only "reasonable liability insurance" and a certificate on request.
-    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: "$1M for directory-only, $2M+ for SIS, assessment, special education or health data"; Beaverton requires $2,000,000 per claim and aggregate "when staff or student information is exchanged." Grades, attendance, and identifiers put CHSS in the $2M tier. Confirm current limits with Stand's finance lead before this number goes out.
-
-- **Section Three, District agrees:** replace "Make grades, attendance, and other agreed-upon key indicators available at least weekly in a user-friendly dashboard or other accessible format" and "Provide CHSS and participating school teams with timely, actionable data ... in accordance with Sections Six and Seven" with a single bullet: "Provide Student Data as described in Section Six and Exhibit D-1, through the delivery tier elected in Exhibit D-3."
-- **Section Three, CHSS agrees:** replace "Protect Confidential Information and use student data only as permitted by this Agreement and applicable law" with "Protect Student Data as provided in Section Five and Appendix A, and provide the integration support described in Section 6.9."
-- **Section Eight:** add after the certificate-of-insurance sentence: "Organization maintains cyber liability insurance of not less than $2,000,000 per claim, as further described in Appendix A." [Limit pending Stand's certificate; Decisions O7.]
-- **Section Eight, liability:** the disclaimer of consequential damages and the cap at "applicable liability insurance proceeds" must be reconciled with Appendix A. Proposed: "The limitations in this Section do not apply to Organization's obligations under Appendix A, Sections A.4, A.8, and A.10, or to either Party's breach of confidentiality, [or: and Organization's liability for those obligations is limited to $[X]]." [Open decision for Jonah and counsel; Decisions O2.]
-- **Section Nine, Notices:** add the privacy contact from Exhibit D-3 as a required notice recipient for matters under Appendix A.
-- **Section Two or Section Four, renewal:** add: "The data provisions of this Agreement and Appendix A do not renew automatically. Continuation of Student Data sharing beyond the Term requires a new written agreement signed by both Parties." Section Four already says no financial commitment survives Year 1; this makes the same true of the data.
-
----
-
-# Page C. CHSS commitment to privacy and security: NDPA posture, Appendix A, system specifications
-
-## CHSS Commitment to Student Data Privacy and Security
-    Source [Conversation]: Jonah (10/26): the second deliverable is "our commitment to data privacy and security" plus "a system specifications document ... based on the required specifications by the districts that we're trying to contract with," set so CHSS is "compliant no matter what a district asks." James (10/23): a "system improvement plan" of what CHSS must build to meet district agreements.
-    Source [Drafting choice]: Three parts: a short NDPA posture statement for districts that use the national agreement; Appendix A, CHSS's own terms, mapped to the NDPA's structure and set at the Columbus City Schools bar; and a one-page system specification a district CTO can read in five minutes.
-
-This commitment has three parts. Part A states how CHSS will work with the National Data Privacy Agreement. Part B is Appendix A, CHSS's own privacy and security terms, which apply where a district does not use the NDPA and which track its structure. Part C is the system specification a district's technology office reads before signing.
-
-### Part A: NDPA posture statement
-    Source [Lewis County]: A Missouri partner district's technology coordinator wrote on 10/26 that she had asked her consortium (TEC via MOREnet) and the SDPC Resource Registry to obtain an NDPA with CHSS. The NDPA will arrive whether or not CHSS writes its own appendix.
-    Source [SDPC NDPA]: Exhibit E (General Offer of Privacy Terms) lets a provider extend an agreement it has signed with one LEA to any other LEA in the same state that subscribes; the subscribing LEA signs Exhibit E rather than negotiating anew.
-    Source [Luke's experience]: AFUHSD extends other districts' signed NDPAs to itself through Exhibit E routinely; each vendor file holds "the DPA from another district, and then the Exhibit E attachment signed by either me or Lauren."
-    Source [Drafting choice]: Naming the Provider, the Service, and Provider staff up front answers the first three questions a consortium reviewer asks and settles that coaches are inside the agreement.
-    Source [Lewis County]: 10/29: TEC sent CHSS its 18-state multi-state NDPA with Lewis County C-1 as the originating district. The bracketed sentence becomes a statement of fact once it is executed.
-    Source [Conversation]: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." On the 10/27 call Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year review cycle, and to opt into Exhibit E; counsel reviews the text before signature. The Exhibit E sentence stays bracketed until counsel has (Decisions, O12).
-    Source [af-dpa]: knowledge/sdpc/exhibit-e-general-offer.md and resource-registry.md (captured 2026-10-26): Exhibit E is "a one-signature piggyback" that extends only privacy terms, within one state, for three years from the provider's signature; a subscribing district "must deliver notice of acceptance." Registry rows are created by districts, not providers ("One row = one district + one resource"), and the originating district uploads "the signed agreement file and a standalone Exhibit E file." So CHSS's job is to sign promptly and hand the first district in each state a clean standalone Exhibit E, not to "list itself."
-    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md: the v1.2 "Provider" definition is "provider of digital educational software or services ... for the digital storage, management, and retrieval of Student Data," a strained fit for a coaching nonprofit; the school-official recital in Article I is the real footing, which is why Section 5.1 of the Agreement states it independently.
-
-The Center for High School Success (CHSS), a program of Stand for Children Leadership Center, Inc., will execute the Student Data Privacy Consortium's National Data Privacy Agreement (NDPA), including any state-specific version and exhibits adopted in the District's state, on request from any partner district or its privacy consortium. [CHSS is completing the multi-state NDPA offered through The Education Cooperative (TEC), which, once executed with its originating district, extends by Exhibit E to districts in Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington.] [CHSS expects, subject to confirmation by its counsel, to sign the General Offer of Privacy Terms (NDPA Exhibit E) with the first executed NDPA in each state and to provide the originating district a standalone copy for the SDPC Resource Registry, so that other districts in that state may subscribe to the same terms by accepting Exhibit E and delivering notice of acceptance.]
-
-For purposes of the NDPA: the **Provider** is Stand for Children Leadership Center, Inc. (CHSS program); the **Service** is the ninth grade success coaching and the data platform and dashboards that support it; **Provider staff** include CHSS coaching staff, who are bound by the agreement and trained accordingly. CHSS will sign the version of the NDPA the District's state alliance offers; where a choice exists, CHSS prefers the version with a fixed three-year term. CHSS does not operate a student-facing application other than the Belonging and Skills screeners administered through the District's School Team.
-
-Appendix A (Part B) applies in every case. Where a district has executed the NDPA, or accepted Exhibit E, the NDPA and its state exhibits control as to any conflict, and Appendix A continues as a supplement for every matter the NDPA does not address.
-
-### Part B: Appendix A, Data Privacy and Security
-    Source [SDPC NDPA]: Section order follows the NDPA's articles (purpose and FERPA designation; data ownership and authorized access; duties of the LEA; duties of the provider; data provisions including security, breach, disposition, and advertising limits; general offer; miscellaneous) so a district privacy officer recognizes the shape immediately.
-    Source [Luke's experience]: AFUHSD's baseline is the Arizona NDPA Standard Version 1.2 with Exhibit G, which carries Arizona contract requirements and the AI questionnaire Luke co-wrote with the privacy leads from Mesa and Deer Valley.
-
-#### A.1 Definitions
-    Source [Drafting choice]: Defined terms are the same as in Agreement Sections Five and Six so the two documents never drift.
-
-Terms defined in Sections Five and Six of the Agreement (Student Data, Screening Data, De-identified Data, Aggregate Data, Navigator, School Team, Coach, Cohort) have the same meaning here. **Subprocessor** means a third party that hosts or processes Student Data on CHSS's behalf.
-
-#### A.2 Purpose and legal basis
-    Source [FERPA]: 34 C.F.R. § 99.31(a)(1)(i)(B) (school official exception) and § 99.33 (limits on redisclosure).
-    Source [PPRA]: 20 U.S.C. § 1232h applies to the screeners CHSS administers through schools.
-    Source [COPPA]: 15 U.S.C. §§ 6501–6506; Columbus City's DSA requires a COPPA warranty for any data collected directly from students. Navigator is not student-facing, but screener administration may be, so the commitment is stated "to the extent it applies."
-    Source [Columbus City DSA]: "agrees that it shall comply with all applicable Ohio laws ... regarding the collection, use and protection of data as if it were the District." The "as if CHSS were the District" standard is adopted for every state.
-    Source [State law]: California Education Code § 49073.1(b)(8) requires "a description of how the district and the third party will jointly ensure compliance with" FERPA. A California colleague shared the CETPA/Fagen Friedman & Fulfrost AB 1584 checklist (10/27), which lists the statute's nine required contract terms; the joint-compliance paragraph is written to that term. Decisions, M21.
-
-CHSS receives Student Data solely to provide the Services described in the Agreement. The District designates CHSS as a school official with a legitimate educational interest under 34 C.F.R. § 99.31(a)(1)(i)(B). CHSS is under the District's direct control with respect to the use and maintenance of education records and is subject to the redisclosure limits of 34 C.F.R. § 99.33. CHSS will comply with FERPA; with the Protection of Pupil Rights Amendment (20 U.S.C. § 1232h) as it applies to screeners; with the Children's Online Privacy Protection Act (15 U.S.C. §§ 6501–6506) to the extent it applies; and with the student privacy laws of the District's state listed in the State Exhibit, as if CHSS were the District.
-
-**Joint FERPA compliance.** The District and CHSS ensure compliance with FERPA together, as follows: the District includes contractors performing institutional services among the school officials named in its annual FERPA notification and determines which School Team members may access Student Data; CHSS limits its use of Student Data to the Services, restricts access to the roles in Section 5.4 of the Agreement and A.7, trains every person with access, refrains from redisclosure except as this Appendix permits, routes parent and eligible-student requests to the District under A.11, reports any unauthorized disclosure under A.8, and destroys Student Data under A.10. Either party may raise a compliance concern with the other's privacy contact, and the parties will resolve it before further data moves.
-
-#### A.3 Ownership and control
-    Source [Columbus City DSA]: "All information, data, and other content transmitted by the District ... will remain the sole property of the District. The District will retain exclusive control over student data, including determining who may access data and how it may be used."
-    Source [James's collateral]: "Your student data remains your district's property, and your district decides who can see it."
-
-All Student Data and Screening Data, and all records CHSS creates or receives on the District's behalf, are and remain the property of the District. The District retains exclusive control over its Student Data, including who may access it and for what purposes. CHSS acquires no rights in Student Data other than the limited license to use it to provide the Services.
-
-#### A.4 Authorized and prohibited uses
-    Source [SDPC NDPA]: Article IV prohibitions (no sale; no targeted advertising; no profiling beyond the educational purpose) and Article V on advertising limitations.
-    Source [Columbus City DSA]: "Company shall not use educational records for any commercial purpose outside the scope of the agreement, including but not limited to marketing or advertising to students or parents. Company agrees not to sell, share, or disseminate educational records."
-    Source [Conversation]: The 501(c)(4) clause (d) comes from James's 10/23 flag that Stand's dual structure invites questions "even when nothing is wrong."
-    Source [af-dpa]: knowledge/law/coppa.md and arizona.md: COPPA's "operator" definition excludes nonprofits exempt from § 5 of the FTC Act, and A.R.S. § 15-1046 reaches operators of services "designed and marketed for school purposes." A coaching nonprofit may sit outside both, so "the contract is the only enforcement." That is the reason clause (d) and clause (f) are written in rather than left to statute. NDPA v1.2 IV.2 limits use to "the Services outlined in Exhibit A or stated in the Service Agreement"; v2 4.2 closes that gap with "or as instructed by the LEA," which (a) through (f) mirror.
-    Source [af-dpa]: agents/exhibit-h-rider-draft.md, term 6 ("Partner and evaluator visibility"): "Where the approved service shares data with a program partner, evaluator, certifying body or sponsor, Provider will name the recipient and the data shared ... no other third-party visibility is permitted." Marked in the repo as an agent draft not yet adopted by the Director; reused here as clause (f) and restated in A.6.
-    Source [District lens]: "If we object to a subprocessor and your team cannot resolve it, the new provider still takes effect." A.6 now gives the district a remedy before the change becomes effective (Decisions, M12).
-
-CHSS will use Student Data only to provide the Services and as instructed by the District. CHSS will not: (a) sell, rent, or trade Student Data; (b) use Student Data for targeted advertising or marketing to students, parents, or staff; (c) build a profile of a student for any purpose other than the Services; (d) use Student Data in any advocacy, lobbying, political, or fundraising activity of Stand for Children Leadership Center, Inc. or any affiliated entity, including any entity organized under section 501(c)(4); (e) disclose Student Data to any third party other than a Subprocessor listed under A.6, except as required by law and, where lawful, with prior notice to the District; or (f) share Student Data with any program partner, evaluator, funder, certifying body, or sponsor unless the recipient and the data shared are named in Exhibit D-3 of the Agreement and approved by the District in writing.
-
-#### A.5 Data minimization
-    Source [SDPC NDPA]: The NDPA's Exhibit B is a checklist of data elements the provider collects; this clause ties CHSS to the equivalent list in Agreement Exhibit D-1.
-    Source [Emily's email]: "Asking for too much could create unnecessary objections and delays."
-    Source [Columbus City DSA]: Service "will not require a student to disclose more information than is reasonably necessary."
-    Source [af-dpa]: agents/exhibit-h-rider-draft.md, term 3 (data minimization): the provider "will not require Social Security numbers, government identification numbers, payment information, health or disability records" unless listed. Adopted here; IEP/504 status stays an optional element the District may elect.
-    Source [State law]: California Education Code § 49073.1(b)(2) requires a description of how pupils retain control of pupil-generated content "if applicable." Navigator holds none, and the clause says so rather than leaving a California reviewer to infer it.
-
-CHSS will collect only the elements listed in Exhibit D-1 of the Agreement and will not require the District to provide more data than is reasonably necessary to deliver the Services. CHSS will not request Social Security numbers, government identification numbers, payment information, or health records, and will receive disability-related status only where the District elects to provide it under Exhibit D-1. The Services do not collect, create, or store pupil-generated content (essays, portfolios, creative work, or similar); if a future feature does, CHSS will provide the District a description of how students retain possession and control of that content and may transfer it to a personal account before the feature is enabled. Changes to the element list require the District's written agreement.
-
-#### A.6 Subprocessors
-    Source [Emily's architecture]: The CHSS Data Platform diagram: Microsoft Azure / Fabric (data lake, SQL warehouse), Azure API Management, Salesforce Experience Cloud as Navigator (with CRM Analytics and Lightning components), Power BI for research and program analytics, and AI-assisted mapping, validation, and intervention recommendations.
-    Source [SDPC NDPA]: Article IV requires the provider to flow down the agreement's obligations to subprocessors and to maintain a list available to the LEA.
-    Source [Luke's experience]: From the Rescue Ready review (2026): the DPA goes with whoever actually hosts the data. Naming the platforms here is what lets a district CTO stop asking.
-
-CHSS uses the following Subprocessors, each bound by written terms at least as protective as this Appendix:
-
-| Subprocessor | Function | Location |
-|---|---|---|
-| Microsoft (Azure, Fabric) | Cloud hosting, data lake, data warehouse, API management | United States |
-| Salesforce (Experience Cloud, CRM Analytics) | Navigator user platform, student records and intervention workflows | United States |
-| Microsoft (Power BI) | Analytics and reporting | United States |
-| [AI model provider] | File-mapping assistance, data validation, intervention recommendations | United States |
-
-CHSS will give the District at least thirty days' written notice before adding or replacing a Subprocessor that will process Student Data. The District may object in writing, and the Parties will work in good faith to resolve the objection before the change takes effect. If the objection is not resolved before the change takes effect, the District may require CHSS to exclude its Student Data from the new Subprocessor, disable the affected feature for the District, or terminate the data provisions of the Agreement without penalty, and CHSS will return or destroy the District's Student Data under A.10.
-
-CHSS does not share Student Data with any program partner, evaluator, funder, certifying body, or sponsor. Any such recipient must be named in Exhibit D-3 of the Agreement with the data to be shared and approved by the District in writing before any disclosure.
-
-#### A.7 Security program
-    Source [Columbus City DSA]: Sections 5 through 8: encrypted storage in monitored data centers; no storage outside the United States; passwords not visible to employees, salted hashes, SSL; patches "within one week of release"; anti-virus; firewall and DMZ; "third party audits of security operations are conducted annually"; access control lists; "the identity of all persons having access to student data is documented and access is logged"; employees bound by FERPA.
-    Source [San Diego CCAP]: "All staff involved in the data sharing process will be required to sign a confidentiality agreement"; passwords changed frequently; data kept in secure facilities.
-    Source [SDPC NDPA]: Article V and Exhibit F (data security requirements) call for a written security program, access controls, encryption, training, and an incident response plan.
-    Source [Conversation]: Luke and Jonah (10/26) on background checks: Phoenix Union required fingerprinting and onboarding of Teach For America mentors who were entirely virtual, which stalled the program for years. Stating a background check as a CHSS commitment removes one reason for a district to add its own.
-    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: "TLS 1.2+ in transit, AES-256 or equivalent at rest, including backups"; "MFA on vendor support access"; SOC 2 "does not test application code, does not require penetration testing," which is why the pen test is a separate line. NDPA v1.2 IV.3 binds "each employee or agent with access to Student Data" to confidentiality. The repo records no district position on background checks; that line is a drafting choice from the 10/26 discussion.
-    Source [State law]: California Education Code § 49073.1(b)(5): the contract must describe the third party's actions "including the designation and training of responsible individuals" to ensure security and confidentiality. The responsible-individuals bullet names the two roles; Exhibit D-3 carries the names.
-    Source [Needs CHSS confirmation]: Every control in this section is a commitment CHSS makes on signature. Which are true today and which are true by a date is an open decision for Emily (O4); background checks and annual training for all staff with access, coaches included, is an open decision for Demian and James (O5). Lines not confirmed before a district reads this are re-tensed to "by [date]."
-    Source [District lens]: "Are these implemented controls or your roadmap?" and "Somebody must administer Salesforce, troubleshoot imports, and investigate incidents." The technical-personnel role answers the second; the confirmation gate answers the first.
-
-CHSS maintains a written information security program with administrative, technical, and physical safeguards appropriate to the sensitivity of Student Data, including at minimum:
-
-- **Encryption.** Student Data is encrypted in transit (TLS 1.2 or higher) and at rest (AES-256 or equivalent). File transfers use SFTP or an HTTPS secure upload; email is never used to transfer Student Data.
-- **Access control.** Role-based access on the principle of least privilege. Multi-factor authentication for all CHSS staff and administrator accounts. The identity of every person with access to Student Data is documented, reviewed at least quarterly, and removed within one business day of role change or separation.
-- **Logging.** Every system access to student-level records by a logged-in user, and every administrative and maintenance action, is logged with user, time, and record; logs are protected from alteration and retained for at least twelve months. On written request, CHSS will provide the District with log data for end-user, administrative, and maintenance activity relating to its Student Data, including the access of CHSS coaching staff under Section 5.4 of the Agreement.
-- **Passwords and sign-on.** Stored passwords are salted and hashed; passwords are never visible to CHSS staff; single sign-on is supported for District users where the District elects it.
-- **Infrastructure.** Production environments are segregated from the public internet by firewall and network controls; critical security patches are applied within seven days of release; anti-malware is current on all endpoints with access to Student Data; backups are encrypted and tested.
-- **Secure development.** Changes to Navigator and the data platform go through code review and testing; secrets are managed in a vault, never in code.
-- **Responsible individuals.** CHSS designates a privacy officer, responsible for compliance with this Appendix and for notices under A.8, and a security officer, responsible for the security program, both named in Exhibit D-3 of the Agreement and reachable by the District's privacy contact. CHSS notifies the District within ten business days when either designation changes.
-- **Personnel.** All CHSS staff with access to Student Data, including Coaches, pass a background check before access is granted, complete privacy and security training at hire and annually, and sign confidentiality obligations. [Subject to CHSS confirmation of current practice; Decisions O5.]
-- **Authorized technical and security personnel.** A small, named set of CHSS technical staff may access Student Data to administer the platform, resolve data-feed problems, and investigate incidents, on a minimum-necessary and time-limited basis, with multi-factor authentication, logging of every access, confidentiality obligations, and quarterly review of the roster. No other CHSS program, research, or leadership staff access identifiable Student Data.
-- **Independent assessment.** CHSS undergoes an independent third-party assessment of its security controls at least annually (SOC 2 Type II or an equivalent independent audit) and an annual penetration test of Navigator and the data platform. Summaries are available to the District under A.13.
-- **Incident response.** CHSS maintains and tests an incident response plan covering assessment, containment, evidence preservation, notification, recovery, documentation, and post-incident review.
-
-#### A.8 Breach notification
-    Source [Columbus City DSA]: Breach section lists the response steps (assess, communicate, contain, classify severity, protect evidence, notify external agencies, recover, document, assess cost, review, update policies) and gives the District the right to request logs; Ohio R.C. 1347.12 governs notification to affected persons.
-    Source [SDPC NDPA]: Article V requires notice to the LEA of any security breach, cooperation in the investigation, and provider responsibility for its own costs; the national form's notice window is the one most state versions keep.
-    Source [Luke's experience]: 10/19: "if you have a leak, you'll tell us, if we have a leak, we'll tell you ... those things make us feel a lot more comfortable." Districts do not want to learn of a breach from the press.
-    Source [State law]: California Education Code § 49073.1(b)(6) requires "a description of the procedures for notifying the affected parent, legal guardian, or eligible pupil in the event of an unauthorized disclosure." The earlier draft said only that the District decides; the procedure paragraph now describes who does what and by when.
-    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md, Arizona NDPA v1.2 Article V.4, verbatim: "the Provider shall provide notification to LEA within seventy-two (72) hours of confirmation of the incident, unless notification within this time limit would disrupt investigation of the incident by law enforcement." The repo's reverification notes recommend keeping v1.2's broad, undefined trigger (not v2's "in violation of applicable law" qualifier), saying who notifies families, and lifting the Illinois breach-cost allocation (parent notification, credit monitoring, "legal fees, audit costs, fines").
-
-If CHSS becomes aware of unauthorized access to, or acquisition, disclosure, or loss of, Student Data, whether or not it meets a statutory definition of breach (a "Breach"), CHSS will notify the District's privacy contact without unreasonable delay and in no event later than seventy-two hours after confirming the Breach, unless notification within that time would disrupt a law-enforcement investigation, by telephone and email, with the information then known: the nature of the Breach, a description of the Student Data involved, the students affected, steps taken to contain it, and a point of contact. CHSS will update the District as the investigation proceeds, cooperate fully, and comply with any breach-notification law applicable to the District's data.
-
-**Notifying affected parents, guardians, and eligible students.** Within five business days after CHSS's notice, or sooner where law requires, the District and CHSS will agree on the affected population, the content of the notice, and the method and timing of delivery. The District decides whether notice is required and sends it, or directs CHSS to send it in the District's name; either way the notice goes out within the time required by the law of the District's state, and CHSS provides the District the list of affected students, a draft notice, and a point of contact for questions. CHSS will not notify students, parents, or the public on its own, except where law requires otherwise. CHSS will bear the reasonable costs attributable to its Breach, including parent notification, credit monitoring where offered, forensic investigation, legal fees, and regulatory fines.
-
-#### A.9 Data location
-    Source [Columbus City DSA]: "No student data is stored outside the United States without the District's written consent."
-    Source [Conversation]: Jonah (10/26): "Don't store your data in Russia, et cetera."
-
-Student Data is stored and processed only in data centers located in the United States. CHSS will not transfer Student Data outside the United States without the District's prior written consent.
-
-#### A.10 Retention, de-identification, and destruction
-    Source [SDPC NDPA]: Article IV "Disposition of Data" and Exhibit D (Directive for Disposition of Data): sixty days from written request; duty does not extend to de-identified data.
-    Source [Columbus City DSA]: Ninety days after termination to destroy or return all educational records.
-    Source [FERPA]: De-identification standard at 34 C.F.R. § 99.31(b)(1); the attribute of "reasonable determination" that identity is not personally identifiable "taking into account other reasonably available information."
-    Source [Emily's architecture]: The platform already separates a "De-identification & Privacy" step (tokenization and pseudonymization for research datasets) from the identifiable warehouse. This clause makes that separation contractual.
-    Source [Drafting choice]: Cell suppression at fewer than ten students is a common state-reporting threshold; it keeps aggregate results publishable without re-identification risk at small schools.
-    Source [Conversation]: James (10/23): keep "Agua Fria High School went from 60% on track to 72%"; delete the student-level data. Luke: "That's a different thing."
-    Source [af-dpa]: knowledge/sdpc/ndpa-structure.md, NDPA v1.2 IV.5: "Provider agrees not to attempt to re-identify De-Identified Student Data ... Provider's use of De-Identified Data shall survive termination of this DPA ... Provider agrees not to transfer de-identified Student Data to any party unless (a) that party agrees in writing not to attempt re-identification, and (b) prior written notice has been given to the LEA who has provided prior written consent." v2 4.5 adds that de-identification must "comply with either NIST de-identification standards or US Department of Education guidance." Both are adopted below.
-    Source [af-dpa]: knowledge/law/ferpa.md: § 99.31(b)(2) allows coded student-level releases only for education research, with a code "not based on" the student's SSN "or other personal information" and the method kept secret; a hash of the student number is a code based on personal information. PTAC: "simple removal of direct identifiers ... DOES NOT constitute adequate de-identification." Hence the random token and the destroyed key.
-    Source [af-dpa]: knowledge/law/deidentification-and-definitions.md: the captures "do not settle" a minimum cell size; PTAC uses "a minimum cell size" and "controlled rounding," and "a vendor's 'aggregate' effectiveness report with n=3 cells is PII." Ten is the drafting choice, matching common state reporting thresholds.
-    Source [State law]: California Education Code § 49073.1(b)(7) requires "a certification that a pupil's records shall not be retained or available to the third party upon completion of the terms of the contract and a description of how that certification will be enforced." The certification paragraph states both, and draws the line that de-identified data is not a pupil record.
-    Source [District lens]: A California district technology and privacy lead (10/27 call) confirmed that a partner may keep de-identified growth data after a contract ends "as long as we can't trace it back," and added the condition that matters: "make sure that's in any agreements you're signing, so after the fact they don't say 'you didn't tell us that.'" Her district de-identifies some data itself with a key its assessment office holds, which is the district-side pseudonym the Agreement allows in Section 6.4.
-
-- **During the term.** CHSS retains Student Data only as long as needed to provide the Services.
-- **On request.** On the District's written directive at any time, CHSS will return or destroy the Student Data specified within sixty days, on a schedule agreed with the District. The District may use the NDPA's Directive for Disposition of Data (Exhibit D) for this purpose with no further notice required.
-- **On termination.** Within sixty days after the Agreement ends, CHSS will destroy or return to the District all Student Data and Screening Data, including copies held by Subprocessors, and will certify destruction in writing signed by an officer. Copies in encrypted backups expire on the documented rotation, not to exceed ninety days, are never restored to production, and are certified as expired when that date passes.
-- **Certification of non-retention.** CHSS certifies that, upon completion of the Agreement, no Student Data or Screening Data will be retained by or available to CHSS or its Subprocessors, and that this certification is enforced by the destruction process, the backup expiration, the officer's certificate, and the District's audit and evidence rights under A.13. De-identified Data and Aggregate Data are not pupil records and are governed by the next paragraph.
-- **De-identified and Aggregate Data.** CHSS may create De-identified Data in accordance with NIST de-identification standards or U.S. Department of Education guidance, by removing direct and indirect identifiers and replacing the student identifier with a random token that is not derived from any student identifier or other personal information, under a key that CHSS destroys with the identifiable data. Before retaining or releasing any De-identified Data, CHSS will make and document the reasonable determination required by 34 C.F.R. § 99.31(b)(1) that a student's identity is not personally identifiable, considering direct and indirect identifiers, other reasonably available information, the cumulative risk of repeated releases, and the need for complementary suppression, and will provide that record to the District on request. Aggregate Data is a subset of De-identified Data. CHSS may retain De-identified Data and Aggregate Data after termination to evaluate and improve the program, including following Cohort outcomes over time. CHSS will not attempt to re-identify any student and will not transfer De-identified Data to any third party other than a Subprocessor unless that party agrees in writing not to attempt re-identification and the District has given prior written consent. Aggregate Data will suppress any cell smaller than ten students.
-- **Research and publication.** CHSS may publish findings based on De-identified Data and Aggregate Data. No publication will identify a student. CHSS will not identify the District in any publication without the District's prior written consent and will provide the District a copy of any report that includes the District's aggregate results at least fifteen business days before publication. The District may always see its own data.
-
-#### A.11 Parent and eligible student rights
-    Source [FERPA]: Parents and eligible students have rights to inspect, review, and seek amendment of education records (34 C.F.R. §§ 99.10–99.22); those rights run against the District, which the provider must support.
-    Source [Columbus City DSA]: The company and District "shall establish reasonable procedures ... by which a parent, legal guardian or eligible student may review personally identifiable information on the pupil's records, correct erroneous information."
-    Source [SDPC NDPA]: Article II: the provider assists the LEA in responding to parent and eligible-student requests within a stated period.
-
-Requests by a parent or eligible student to inspect, review, or correct education records are handled by the District. CHSS will support the District by providing, within ten business days of request, the Student Data it holds about the student, and will correct or delete data as the District directs.
-
-#### A.12 Use of artificial intelligence
-    Source [Luke's experience]: The Arizona NDPA Exhibit G AI questionnaire, which Luke co-developed with the privacy leads from Mesa and Deer Valley with input from about a dozen privacy and technology professionals: how the vendor uses AI, what data goes to AI providers, whether user data trains models, and what safeguards and oversight exist. This clause answers those questions before they are asked.
-    Source [Emily's architecture]: AI-assisted mapping, anomaly detection, "risk models and intervention recommendations" are in the platform design; Jonah (10/19) described AI that "can help coach the team leads."
-    Source [af-dpa]: knowledge/practice/ai-dpa-clauses.md (marked in the repo as a drafting suggestion, not a standard): model-provider disclosure "by URL and date, and the country of processing," thirty days' notice before changing a model provider with a termination right; outputs "descriptive of an identifiable student are Student Data"; disclosure of any subprocessor personnel who may view prompts or outputs for abuse monitoring; outputs "require human review before use" and are not "the sole basis for any decision with legal or material effect on a student." The shortest proven binding wording is California NDPA v1.5 Exhibit G cl. 8: "Student Data ... shall not be used for training purposes or to develop synthetic and/or inferred data."
-    Source [af-dpa]: knowledge/sdpc/ai-addendum-and-checklist.md lists the Arizona checklist questions this clause pre-answers: base model and provider (1.1–1.2), opt-out of AI decision-making (1.4), data shared with an AI subprocessor (4.2), whether user data trains the model (4.7), human in the loop (5.6), and query logging (5.7).
-    Source [District lens]: An earlier draft's exception for "a model used solely to deliver the Services" could be read to permit training. Training and inference are now separated: no training by anyone; inferences only to deliver the Services, and treated as Student Data.
-    Source [Needs CHSS confirmation]: The model provider's name, tier, data-use terms, and zero-retention arrangement are Emily's to supply (Decisions, O3). The subprocessor table carries a bracket until then.
-    Source [District lens]: A California district technology and privacy lead (10/27 call): AI use is "not an automatic no," but she asks every vendor whether the system is proprietary or built on a third party's model, "what the AI agent looks like and what information you're putting into it," who else at the company or its maintenance contractors has access, and she asks to see the platform before signing. Clause (i) commits CHSS to those answers up front.
-
-CHSS uses automated and machine-learning tools within the data platform to assist with mapping incoming files to a common format, to flag data-quality problems, and to suggest interventions for the School Team's consideration. CHSS commits that: (a) neither CHSS nor any Subprocessor will use Student Data, De-identified Data, or any output derived from them to train, fine-tune, evaluate, or otherwise improve any machine-learning model, or to develop synthetic or inferred data for any purpose other than delivering the Services to the District; (b) the Services may generate student-specific inferences solely to deliver the Services, and such inferences are Student Data for all purposes of this Appendix; (c) each model provider is listed as a Subprocessor with the product tier used, the provider's data-use terms by URL and date, and the country of processing, is contractually prohibited from retaining or training on Student Data, and CHSS will provide the provider's written attestation on request; (d) intervention suggestions are recommendations for educators, who make all decisions about students, and are never the sole basis for any decision with a material effect on a student; (e) no Subprocessor personnel view prompts or outputs containing Student Data except as disclosed to the District in writing; (f) the District may request that AI-generated recommendations be disabled for its schools; (g) CHSS will give thirty days' written notice before adding or changing a model provider, and the District has the remedies in A.6; (h) CHSS will complete the District's AI questionnaire (for example, Arizona NDPA Exhibit G) on request; and (i) on request, CHSS will describe which data elements are sent to each model provider and at which step, whether the model is operated by CHSS or by a third party, and which CHSS or Subprocessor personnel can see model inputs and outputs, and will demonstrate the platform to the District's technology staff.
-
-#### A.13 Audit and assurance
-    Source [Columbus City DSA]: Annual third-party audits of security operations; District may request log data for incident investigation.
-    Source [Conversation]: Jonah (10/26) listed audits among the standard terms to include; James (10/23): "Columbus City requires a security audit every three years or something like that" (the document says annually).
-    Source [Drafting choice]: Evidence-on-request once a year, plus full cooperation after a breach, is the posture most CTOs accept in place of an unlimited audit right; an audit right is still offered where state law or policy demands it.
-    Source [SDPC NDPA]: The TEC multi-state NDPA (version 1.0) Article V.2: once a year or after unauthorized access, on ten business days' notice, the provider allows the LEA to audit its security and privacy measures; New York's terms add an independent audit at the provider's expense if the State Chief Privacy Officer requires it, or a SOC report from the prior twelve months instead. Those terms govern wherever the NDPA is signed.
-    Source [af-dpa]: knowledge/sdpc/article-crosswalk-v1-2-to-v2-1.md: NDPA v1.2 Article V.2 "gives the LEA the right to audit the Provider." knowledge/GAPS.md recommends the Utah audit-evidence menu (self-assessment, questionnaire, "SOC2 or SOC3" report, or on-site review by agreement), adopted below so a district can pick the form of evidence.
-
-On request, not more than once per year unless a Breach has occurred, CHSS will provide the District with any of the following at the District's election: a completed security self-assessment, responses to the District's security questionnaire within thirty days, its most recent independent assessment report (SOC 2 Type II, SOC 3, or equivalent) and penetration test summary under a confidentiality agreement, a description of its security program, and a certificate of insurance. If the District's state law or policy requires an audit right, CHSS will cooperate with an on-site or remote audit at a mutually agreed time, conducted so as not to compromise other districts' data. Where the District has executed the NDPA or accepted Exhibit E, the NDPA's audit provisions, including any state terms, govern in place of this paragraph.
-
-#### A.14 Insurance
-    Source [Columbus City DSA]: "Your company must carry cyber liability insurance of at least $1,000,000 to cover Crisis Management and Computer System Extortion, Media and Content Liability, and Security and Privacy Liability."
-    Source [San Diego CCAP]: Each party: commercial general liability $1,000,000 per occurrence / $2,000,000 aggregate; professional errors and omissions $1,000,000; other party as additional insured; certificate of insurance on request; self-insurance acceptable.
-    Source [James's MOU draft]: Section Eight currently promises "reasonable liability insurance" and a certificate "including any applicable cybersecurity or data-security coverage" on request; this clause states the limits.
-    Source [af-dpa]: knowledge/practice/dpa-review-checklist.md: "the NDPA has no insurance clause"; district practice research puts "$1M for directory-only, $2M+ for SIS, assessment, special education or health data," and Beaverton requires $2,000,000 per claim and aggregate "with the policy running two years past the contract." $2,000,000 is drafted; Columbus's $1,000,000 floor is satisfied. Stand's finance lead confirms the actual policy before this is sent.
-
-CHSS maintains, and will provide certificates on request for: cyber liability insurance of at least $2,000,000 per claim and in the aggregate, covering security and privacy liability, crisis management, network extortion, and media and content liability, maintained for two years after this Appendix ends; commercial general liability of $1,000,000 per occurrence and $2,000,000 aggregate; and professional errors and omissions liability of $1,000,000 per claim. A requirement may be met through self-insurance only where CHSS documents the program and its claims-paying capacity and the District accepts it in writing. [Limits pending Stand's certificate; Decisions O7.]
-
-#### A.15 Screening Data
-    Source [Emily's email]: Area 3 of the four the agreement must cover: "the Belonging and Skills screeners we administer, including the collection, storage, analysis, and use of student-level screening data."
-    Source [PPRA]: 20 U.S.C. § 1232h; the District approves instruments and gives notice (Agreement 6.7). This clause covers what CHSS does with the responses.
-    Source [Conversation]: Jonah (10/19): screener results feed the Navigator so the team can see that "fifteen other kids have the same profile" and deliver one intervention to all of them. Student-level screening results therefore have to be visible to the School Team.
-
-Screening Data is collected by CHSS only after the District has approved the instruments and provided any required notice under Section 6.7 of the Agreement. Screening Data is subject to every protection in this Appendix. Student-level screening results are visible to the School Team and to CHSS coaching staff on the terms of Section 5.4 of the Agreement; CHSS program and research staff see only De-identified and Aggregate Screening Data.
-
-#### A.16 Term, termination, and survival
-    Source [Columbus City DSA]: Term "shall be co-terminus with the contract/agreement and shall terminate when all of the student data ... is destroyed and/or returned."
-    Source [James's MOU draft]: The Agreement's cure period is ten days (Section Two); thirty days is used here for data-specific breaches because remediation of a security finding usually takes longer than ten days.
-    Source [District lens]: "If there is an active security problem, I cannot wait through a thirty-day cure period while access and transfers continue." An immediate suspension right and immediate termination for an incurable or repeated breach are added (Decisions, M12).
-    Source [District lens]: A California district privacy lead's checklist (10/27 call) starts with auto-renewals. The no-renewal sentence makes the data term end with the agreement (Decisions, M19).
-
-This Appendix is coterminous with the Agreement and continues until all Student Data has been returned or destroyed under A.10. Sections A.3, A.4, A.8, A.10, and A.11 survive termination. The District may suspend data transfers and CHSS's access to its Student Data immediately, by notice to CHSS's privacy contact, when the District reasonably determines that suspension is necessary to protect Student Data, and may terminate the data provisions of the Agreement on thirty days' written notice if CHSS materially breaches this Appendix and does not cure within that period, or immediately for a breach that cannot be cured or that recurs. Suspension or termination of the data provisions suspends the Services that depend on Student Data; if those Services cannot lawfully continue, the District may terminate the Agreement without penalty, and CHSS will return or destroy Student Data under A.10. This Appendix does not renew automatically; continuation of Student Data sharing beyond the Agreement's term requires a new written agreement signed by both Parties.
-
-#### A.17 Governing law and State Exhibit
-    Source [State law]: Ohio: R.C. 3319.321 (confidentiality of student records), 3319.325–3319.327 (educational records and third-party contractors), and Chapter 1347 including R.C. 1347.12 (breach notification), all named in the Columbus City DSA. California: Education Code § 49073.1 (contract requirements for digital storage and educational software) and the Student Online Personal Information Protection Act, Business and Professions Code § 22584. Arizona: Arizona NDPA Exhibit G, including the AI questionnaire.
-    Source [District lens]: A California colleague shared the CETPA/Fagen Friedman & Fulfrost AB 1584 compliance checklist (10/27), the nine-item list California district counsel use to review any technology services agreement touching pupil records. Mapping each of the nine to a section of this Appendix is what a San Diego reviewer will do first, so the map is written into the exhibit.
-    Source [Lewis County]: Missouri districts will supply the Missouri NDPA state exhibit through their consortium; it is listed as "to be added" rather than drafted here.
-    Source [District lens]: Ohio counsel: "Ohio's definition of 'technology provider' is tied to providing a school-issued device or account. Tell me why CHSS falls within §§ 3319.325–327 when Navigator is staff-facing." CHSS adopts the protections contractually either way and leaves classification to Ohio counsel (Decisions, M15).
-
-This Appendix is governed by the laws of the District's state. The State Exhibit attached for the District's state sets out additional required terms, including: for Ohio, compliance with Ohio Revised Code 3319.321, 3319.325 through 3319.327, and Chapter 1347 (including breach notification under R.C. 1347.12) as if CHSS were the District, whether or not CHSS falls within the statutory definition of a technology provider; for California, the nine terms required by Education Code § 49073.1(b), which this Appendix carries as follows: (1) ownership and control, A.3; (2) pupil-generated content, A.5 (none held); (3) purpose limitation, A.4; (4) parent review and correction, A.11; (5) security actions and designated, trained individuals, A.7; (6) parent notification procedure, A.8; (7) non-retention certification and enforcement, A.10; (8) joint FERPA compliance, A.2; (9) no targeted advertising, A.4(b); together with the Student Online Personal Information Protection Act, Business and Professions Code § 22584; for Arizona, Arizona NDPA Exhibit G including the AI questionnaire, the screener consent requirements of A.R.S. §§ 15-104 and 15-117, and the District's determination under Section 6.7 of the Agreement whether the Belonging Screener may be administered at all; and for Missouri, Massachusetts, Utah, and other states, the state NDPA exhibit where one exists.
-
-#### A.18 Order of precedence
-    Source [Drafting choice]: Mirrors Section 5.2 of the Agreement so both documents say the same thing about which controls.
-
-This Appendix applies in every case. If this Appendix conflicts with the Agreement, this Appendix controls as to Student Data. If the District has executed the NDPA with CHSS or accepted Exhibit E, the NDPA and its state exhibits control as to any conflict with this Appendix, and this Appendix continues to apply as a supplement for every matter the NDPA does not address.
-
-### Part C: System specifications (district-facing)
+### Attachment 1: System specifications (for information)
     Source [Conversation]: Jonah (10/26): "there's going to be a sheet that you design, where it's like, these are the systems we will have, but we're going to present it as, this is our system." Emily: leadership "can very quickly look at it and feel legit that we're behind it," and technical people see "these guys know what they're talking about."
     Source [Emily's architecture]: Every platform fact below is taken from the CHSS Data Platform diagram; items the diagram claims (RBAC, encryption, audit logging, retention policies) are stated here as commitments and should be confirmed by Emily before this page is shown to a district.
     Source [Drafting choice]: Written as present-tense statements where CHSS can confirm them and bracketed where a decision or build is still pending.
     Source [Needs CHSS confirmation]: This page does not go to a district until CHSS's technology office has marked every line as true today or given it a date (Decisions, O3 and O4). A CTO will ask for evidence of each line; the honest version of an unfinished control is "by [date]," not silence.
 
-*Readiness: each statement below is confirmed by CHSS's technology office before this page is shared with a district. Statements not yet confirmed carry a completion date in brackets.*
+*For information; not a contractual term beyond what Appendix A states.* [[Pending, Emily: each statement confirmed true today or given a date (O4)]]
 
 **Platform.** CHSS Navigator is a web application delivered on Salesforce Experience Cloud, backed by a CHSS data platform on Microsoft Azure and Microsoft Fabric. All environments are hosted in United States regions.
 
@@ -738,10 +839,10 @@ This Appendix applies in every case. If this Appendix conflicts with the Agreeme
 - Access and administrative logging retained twelve months and available to the District on request.
 - Production segregated from the internet by firewall and network controls; critical patches within seven days; anti-malware on all endpoints; encrypted, tested backups.
 - Background checks and annual privacy training for all staff with access, including Coaches.
-- Independent security assessment annually (SOC 2 Type II or equivalent) and an annual penetration test; summaries available on request. [First assessment scheduled for completion by: date.]
+- Independent security assessment annually (SOC 2 Type II or equivalent) and an annual penetration test; summaries available on request. [[Pending, Emily: first assessment completion date (O4)]]
 - Written, tested incident response plan; the District is notified within seventy-two hours of a confirmed breach.
 
-**Subprocessors.** Microsoft (Azure, Fabric, Power BI), Salesforce (Experience Cloud, CRM Analytics), and [AI model provider]. All U.S.-hosted, all under written terms at least as protective as CHSS's agreement with the District. The District receives thirty days' notice of any change.
+**Subprocessors.** Microsoft (Azure, Fabric, Power BI), Salesforce (Experience Cloud, CRM Analytics), and [[Pending, Emily: AI model provider (O3)]]. All U.S.-hosted, all under written terms at least as protective as CHSS's agreement with the District. The District receives thirty days' notice of any change.
 
 **Artificial intelligence.** Used for file-mapping assistance, data-quality checks, and intervention suggestions presented to educators. Student Data, de-identified data, and outputs derived from them are not used to train, fine-tune, evaluate, or improve any model, by CHSS or any subprocessor; the only inferences generated are to deliver the Services to the District, and they are treated as Student Data. Recommendations can be disabled at the District's request.
 
@@ -753,16 +854,16 @@ This Appendix applies in every case. If this Appendix conflicts with the Agreeme
 
 ---
 
-# Page C2. Data Security and Privacy Plan (draft for CHSS to publish; New York Education Law 2-d structure)
+# Page C. Data Security and Privacy Plan (draft for CHSS to publish; New York Education Law 2-d structure)
 
 ## Data Security and Privacy Plan
     Source [State law]: New York Education Law § 2-d and the Commissioner's regulations at 8 NYCRR Part 121 require every third-party contractor that receives student data, or teacher or principal data, from a New York educational agency to maintain a data security and privacy plan that the agency accepts (§ 121.6). The plan's required elements are followed section by section below.
     Source [SDPC NDPA]: TEC's multi-state NDPA (New York Exhibit G, paragraph 4) incorporates the provider's plan by its URL in Exhibit K and requires that it, "at a minimum": (a) implements applicable state, federal, and local requirements; (b) has operational technical safeguards and controls; (c) complies with the district's Parents' Bill of Rights; (d) requires training of employees, assignees, and subprocessors with access; (e) ensures subprocessors protect the data; (f) specifies how incidents are managed with prompt notice; and (g) addresses return, deletion, and destruction. TEC's 10/29 request: "A privacy policy is sufficient if it describes equivalent data security practices."
-    Source [Drafting choice]: Every commitment below is drawn from Appendix A and Part C of the CHSS privacy and security commitment, so the plan and the agreement say the same thing. Bracketed items need a name, a date, or a confirmation from CHSS before publication (Decisions O3, O4, O5, O18, O20).
+    Source [Drafting choice]: Every commitment below is drawn from Appendix A and Attachment 1 of the Agreement, so the plan and the agreement say the same thing. Bracketed items need a name, a date, or a confirmation from CHSS before publication (Decisions O3, O4, O5, O18, O20).
     Source [Needs CHSS confirmation]: Draft for CHSS review. This is not CHSS's published plan. Before it is posted at a CHSS URL and cited in Exhibit K, the technology office confirms every statement is true today or re-tenses it with a date.
 
 **Center for High School Success, a program of Stand for Children Leadership Center, Inc.**
-Effective date: [date] · Owner: [name], Privacy Officer · Reviewed annually · Published at: [CHSS URL]
+Effective date: [[Pending: effective date]] · Owner: [[Pending, Jonah: Privacy Officer name (O8)]] · Reviewed annually · Published at: [[Pending, Emily: CHSS URL (O18)]]
 
 This plan describes how the Center for High School Success (CHSS) protects the personally identifiable information it receives from school districts and other local education agencies (each, an "LEA") to provide ninth grade success coaching and the CHSS Navigator platform. It applies to student data, to data about LEA staff, and to data created in CHSS's services, from the time CHSS receives it until it is returned or destroyed. It supplements, and does not replace, CHSS's agreement with each LEA; where an LEA's agreement or its own data security and privacy policy imposes a stricter requirement, CHSS follows the stricter requirement.
 
@@ -789,21 +890,21 @@ CHSS does not sell or rent student data, does not use it for advertising or mark
 
 **Contract requirements.** CHSS signs the Student Data Privacy Consortium's National Data Privacy Agreement in the version adopted by the LEA's state, including multi-state versions and their state exhibits, and its own Data Privacy and Security Appendix. Where those documents differ, the stricter requirement governs. CHSS complies with each LEA's data security and privacy policy, which the LEA provides on signing.
 
-**Security framework.** CHSS aligns its security program with the NIST Cybersecurity Framework. [Confirm, Decisions O20.]
+**Security framework.** CHSS aligns its security program with the NIST Cybersecurity Framework. [[Pending, Emily: confirm NIST CSF alignment (O20)]]
 
-**Accountability.** CHSS designates a Privacy Officer, [name, title, email], responsible for this plan and for compliance with each LEA agreement, and a Security Officer, [name, title, email], responsible for the security program. The Privacy Officer reviews this plan at least annually and whenever CHSS's services, subprocessors, or applicable law change materially, and CHSS notifies LEAs of material changes.
+**Accountability.** CHSS designates a Privacy Officer, [[Pending, Jonah: name, title, email (O8)]], responsible for this plan and for compliance with each LEA agreement, and a Security Officer, [[Pending, Emily: name, title, email]], responsible for the security program. The Privacy Officer reviews this plan at least annually and whenever CHSS's services, subprocessors, or applicable law change materially, and CHSS notifies LEAs of material changes.
 
 ### 3. Safeguards
     Source [State law]: § 121.6(a)(2): the plan must "specify the administrative, operational and technical safeguards and practices it has in place to protect personally identifiable information." The TEC agreement's New Hampshire terms list twenty-three controls, or certification under a recognized standard, as the bar.
     Source [Columbus City DSA]: Encrypted storage, U.S.-only data, salted password hashes, seven-day patching, firewall segregation, annual third-party audit, documented access with logs.
-    Source [Drafting choice]: Taken from Appendix A.7 and Part C. Each bullet is a present-tense claim; any that is not yet true becomes "by [date]" before publication (Decisions O4).
+    Source [Drafting choice]: Taken from Appendix A.7 and Attachment 1. Each bullet is a present-tense claim; any that is not yet true becomes "by [date]" before publication (Decisions O4).
 
 **Administrative.**
 
 - Access to student data is limited by role to the people who need it to provide the services: the LEA's designated school staff; the CHSS coaching staff assigned to that school, for screening and intervention work only; and a small, named set of CHSS technical staff who administer the platform and investigate incidents. CHSS program and research staff see only de-identified and aggregate data.
-- Every CHSS employee with access to student data passes a criminal background check before access is granted, signs a confidentiality agreement, and completes the training described in Section 5. [Confirm, Decisions O5.]
+- Every CHSS employee with access to student data passes a criminal background check before access is granted, signs a confidentiality agreement, and completes the training described in Section 5. [[Pending, Demian and James: confirm current practice (O5)]]
 - CHSS documents every person with access, reviews the roster at least quarterly, and removes access within one business day of a change in role or separation.
-- CHSS completes an independent assessment of its security controls (SOC 2 Type II or equivalent) and a penetration test of the platform at least annually. [First assessment completion date.]
+- CHSS completes an independent assessment of its security controls (SOC 2 Type II or equivalent) and a penetration test of the platform at least annually. [[Pending, Emily: first assessment completion date (O4)]]
 
 **Technical.**
 
@@ -826,7 +927,7 @@ CHSS does not sell or rent student data, does not use it for advertising or mark
     Source [Columbus City DSA]: "No student data is stored outside the United States without the District's written consent."
     Source [Emily's architecture]: Microsoft Azure and Fabric for the data platform; Salesforce Experience Cloud for Navigator; Power BI for analytics.
 
-All student data is stored and processed in data centers located in the United States, operated by the subprocessors listed in Section 6. [Confirm U.S. region for each tenant, Decisions O14.] Data is encrypted in transit using TLS 1.2 or higher and at rest using AES-256 or equivalent, including in backups and in the file-transfer landing area.
+All student data is stored and processed in data centers located in the United States, operated by the subprocessors listed in Section 6. [[Pending, Emily: confirm U.S. region for each service (O14)]] Data is encrypted in transit using TLS 1.2 or higher and at rest using AES-256 or equivalent, including in backups and in the file-transfer landing area.
 
 ### 5. Training
     Source [State law]: § 121.6(a)(4): the plan must specify how officers and employees "who have access to student data, or teacher or principal data receive or will receive training on the federal and state laws governing confidentiality of such data prior to receiving access." The TEC agreement's New York terms extend the requirement to subprocessors.
@@ -846,7 +947,7 @@ CHSS uses the following subprocessors to host and process student data:
 | Microsoft (Azure, Fabric) | Cloud hosting, data platform, data warehouse | United States |
 | Salesforce (Experience Cloud, CRM Analytics) | Navigator platform, intervention records | United States |
 | Microsoft (Power BI) | Analytics and reporting | United States |
-| [AI model provider] | File-mapping assistance, data validation, intervention suggestions | United States |
+| [[Pending, Emily: AI model provider (O3)]] | File-mapping assistance, data validation, intervention suggestions | United States |
 
 Each subprocessor is bound by a written agreement that requires protections at least as strict as CHSS's own, prohibits any use of the data except to provide services to CHSS, gives it no ownership or license rights in the data, and, for the AI model provider, prohibits retaining or training on student data. CHSS reviews each subprocessor's security assurances before engaging it and annually. CHSS gives each LEA at least thirty days' notice before adding or replacing a subprocessor that will process its data. If a subprocessor fails to comply, CHSS will notify affected LEAs, remove the subprocessor's access, and retrieve the data or ensure it is destroyed.
 
@@ -908,7 +1009,7 @@ CHSS complies with the Parents' Bill of Rights for Data Privacy and Security of 
 ### 12. Contacts
     Source [Drafting choice]: The Privacy Officer is also the NDPA designated representative and the Exhibit D-3 contact; the mailbox receives incoming Exhibit Es.
 
-Questions about this plan, requests from an LEA, and incident reports go to the CHSS Privacy Officer, [name], at [privacy@ mailbox] or [phone]. Security matters may also be sent to the Security Officer, [name], at [email].
+Questions about this plan, requests from an LEA, and incident reports go to the CHSS Privacy Officer, [[Pending: name, privacy@ mailbox, phone]]. Security matters may also be sent to the Security Officer, [[Pending: name and email]].
 
 ---
 
@@ -922,7 +1023,7 @@ The drafts describe CHSS as it needs to be, not necessarily as it is today. Each
 
 ### For Emily: the gap analysis
     Source [Conversation]: Emily (10/27): "I want to see the gap of whether or not we have it today ... check, check, check, or okay, we need to tighten this up." Her example: a district requires 45-day retention and the platform does 30. She asked for the requirements that imply a policy, the measures each policy implies, and the technical items that must be in place, separate from the agreement text.
-    Source [Drafting choice]: The table lists the requirements that recur across the NDPA, the Columbus City agreement, California Education Code § 49073.1, and Appendix A, each with the measure it implies and a blank for CHSS's current state. Fill the last three columns; anything marked "gap" becomes a dated commitment in Part C.
+    Source [Drafting choice]: The table lists the requirements that recur across the NDPA, the Columbus City agreement, California Education Code § 49073.1, and Appendix A, each with the measure it implies and a blank for CHSS's current state. Fill the last three columns; anything marked "gap" becomes a dated commitment in Attachment 1.
 
 Fill in **Current practice**, **Gap**, and **Action / date**:
 
@@ -955,7 +1056,7 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 | G25 | Criminal background checks for every employee with direct contact with students | MA, ME, NH, NY, RI, VT Exhibit Gs; A.7 | HR policy; roster of who has student contact | | | |
 
 ### For Emily: technical claims to confirm
-    Source [Emily's architecture]: Every platform fact in Appendix A and Part C is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
+    Source [Emily's architecture]: Every platform fact in Appendix A and Attachment 1 is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
     Source [District lens]: A CTO will ask for evidence of each present-tense control; a privacy officer will not accept a blank where the model provider belongs.
 
 Answer each as **true today**, **true by [date]**, or **no**:
@@ -964,21 +1065,21 @@ Answer each as **true today**, **true by [date]**, or **no**:
 2. The AI model provider: name, product tier or API, the data-use terms by URL and date, country of processing, and whether a zero-retention arrangement is enabled. (A.6, A.12)
 3. No Student Data, de-identified data, or outputs are used to train or fine-tune any model, by CHSS or any subprocessor, and the provider will attest to that in writing on request. (A.12)
 4. Access to student-level records is logged (user, time, record), logs are tamper-protected and kept twelve months, and a per-district export is possible. (A.7)
-5. MFA on every CHSS staff and administrator account; SSO (SAML or OIDC) available to district users. (A.7, Part C)
+5. MFA on every CHSS staff and administrator account; SSO (SAML or OIDC) available to district users. (A.7, Attachment 1)
 6. Encryption in transit TLS 1.2 or higher and at rest AES-256 across the data lake, warehouse, Salesforce, Power BI, backups, and the SFTP landing zone. (A.7)
 7. Critical security patches within seven days; anti-malware on all endpoints with access; firewall and network segregation of production; encrypted, tested backups. (A.7)
 8. A documented access roster reviewed quarterly, with deprovisioning within one business day. (A.7)
 9. A written, tested incident response plan that can meet seventy-two-hour district notification. (A.8)
-10. Independent security assessment (SOC 2 Type II or equivalent) and annual penetration test: current status and the earliest honest completion date. (A.7, A.13, Part C)
+10. Independent security assessment (SOC 2 Type II or equivalent) and annual penetration test: current status and the earliest honest completion date. (A.7, A.13, Attachment 1)
 11. A deletion runbook that returns or destroys a district's data within sixty days across every store, with backups expiring on a rotation of ninety days or less and never restored to production, and a certificate template. (5.6, A.10)
 12. The de-identification step produces a random token not derived from any student identifier, with the key destroyed alongside identifiable data. (A.10)
-13. Deterministic matching on district or state ID is the rule; probabilistic matching only flags duplicates for human review. (6.4, Part C)
+13. Deterministic matching on district or state ID is the rule; probabilistic matching only flags duplicates for human review. (6.4, Attachment 1)
 14. Cell suppression below ten in every aggregate output and dashboard. (A.10)
 15. Whether a Navigator tenant can run without student names, and which features would be off. (O9)
 16. The December pilot: which schools, under which agreement, with what data. (O1)
 17. Integration support: what "support until the feed passes acceptance" costs in staff time, and who staffs it. (6.9, O11)
 18. Be ready to demo Navigator to a district's technology or privacy lead and answer the four questions they ask of any AI feature: is the model CHSS's own or a third party's; exactly what goes into the prompt; who at CHSS, the provider, or any maintenance contractor can see inputs and outputs; and what the agent does with the output. (A.12(i); a California district lead asks exactly these and says vendors are often surprised to be asked.)
-19. Part C is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
+19. Attachment 1 is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
 
 ### The NDPA: one signature, eighteen states
     Source [Lewis County]: On 10/29 TEC's SDPA coordinator, who represents the Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington alliances of the Student Data Privacy Consortium, sent CHSS the multi-state NDPA as a fillable PDF, with Lewis County C-1 as the originating district. CHSS signs once; TEC has Lewis County countersign; CHSS is posted as "Approved for Use" on the alliance databases; any district in those eighteen states subscribes by completing Exhibit E, which TEC forwards. "You only need to review and sign the DPA once regardless of the number of participating districts."
@@ -1001,7 +1102,7 @@ Answer each as **true today**, **true by [date]**, or **no**:
 | Exhibit F, cybersecurity framework | NIST Cybersecurity Framework recommended; New York requires alignment with it (O20) | Emily | Open |
 | Schedule 1, four questions incl. accessibility documentation link | An accessibility conformance report for Navigator (O19) | Emily | **Long pole** |
 | Exhibit I, teacher data | Applicable: staff names, work emails, usernames, roles, teacher of record | Emily | Draft below |
-| Exhibit K, Data Security and Privacy Plan URL | Drafted on the Privacy plan tab from Appendix A and Part C; needs Emily's confirmation, officer names, and a CHSS URL (O18) | Emily confirms, CHSS hosts | Draft ready |
+| Exhibit K, Data Security and Privacy Plan URL | Drafted on the Privacy plan tab from Appendix A and Attachment 1; needs Emily's confirmation, officer names, and a CHSS URL (O18) | Emily confirms, CHSS hosts | Draft ready |
 | Counsel's read | Standard clauses plus all eighteen state Exhibit Gs; not to redline, to know the obligations | Stand counsel | Open |
 
 **Draft Exhibit A.** Written to cover everything CHSS does with student data, because in six of the eighteen states nothing outside Exhibit A is permitted.
@@ -1060,6 +1161,35 @@ Answer each as **true today**, **true by [date]**, or **no**:
 **Join A4L as a vendor member** so Emily can see the Registry and track Exhibit E subscriptions. Optional, but it is how CHSS will know who has subscribed.
 
 **Links:** SDPC home https://privacy.a4l.org/ · alliance list https://sdpc.a4l.org/search_alliance.php · Arizona NDPA v1 specimen https://sdpc.a4l.org/agreements/AZ-NDPA-V1withExhibit%20E.pdf · Missouri NDPA v1 https://sdpc.a4l.org/agreements/MO_NDPA_V1_no_exhibit.pdf · version 2 usage guide https://files.a4l.org/privacy/NDPA/NDPAv2_Usage_Guide_and_Development_Process.pdf · vendor membership https://privacy.a4l.org/get-involved/
+
+### For counsel: everything CHSS agrees to by signing
+    Source [Conversation]: Luke to James (10/29): the agreement contains things CHSS commits to, "different specific security protocols," background checks, and more, which "needs to be reviewed by legal and by Emily"; "it's just my job to make sure that those action points are directly in front of the people that need to review them."
+    Source [Drafting choice]: Every obligation CHSS takes on in the Agreement, Appendix A, and the TEC multi-state NDPA, in one list, each with the clause it comes from and whether it is pending. Emily's technical obligations are itemized in the gap table above; this list is the legal view.
+
+Read this with the Agreement tab open. Items marked **pending** have a highlighted placeholder in the Agreement.
+
+| # | CHSS agrees to | Where | Status |
+|---|---|---|---|
+| L1 | Act as a FERPA school official under each district's direct control; no redisclosure except as permitted | 5.1; A.2; NDPA Art. I.1 | Drafted |
+| L2 | Use Student Data only for the listed Services; no sale, rent, advertising, profiling, or use by any advocacy, lobbying, political, or fundraising affiliate; no sharing with partners, evaluators, or funders without district approval | 5.5; A.4; NDPA Exhibit A in six states | Drafted |
+| L3 | Sign each state's NDPA unmodified, starting with TEC's 18-state agreement, and offer Exhibit E; the NDPA controls where signed | 5.2; A.18; A.19 | **Pending** (O12) |
+| L4 | Comply with each state's student privacy law "as if CHSS were the District": Ohio R.C. 3319.32x and 1347; California Ed. Code 49073.1's nine terms; Arizona Exhibit G and A.R.S. 15-104 and 15-117; New York Education Law 2-d and Part 121; the other TEC state exhibits | A.2; A.17; NDPA Exhibit G | Drafted; counsel reads the 18 exhibits |
+| L5 | Notify the district within 72 hours of confirming any unauthorized access; let the district control family notice; pay notification, credit monitoring, forensic, legal, and regulatory costs attributable to CHSS | A.8 | Drafted; cost exposure depends on L13 |
+| L6 | Return or destroy identifiable data within 60 days of a directive or of termination; backups expire within 90 days; officer certifies destruction and non-retention | 5.6; A.10; Exhibit D-4 | Drafted; runbook **pending** (O13) |
+| L7 | Keep only de-identified and aggregate data after termination, with a documented de-identification review; no re-identification; district consent before any transfer or any publication naming the district | 5.5; A.10; NDPA Art. IV.5 | Drafted; need **pending** (O10) |
+| L8 | Carry cyber liability of $2,000,000 per claim and aggregate with a two-year tail, CGL $1M/$2M, and E&O $1M; self-insurance only if the district accepts it | A.14; Section Eight | **Pending** (O7) |
+| L9 | Allow each district an annual audit on ten business days' notice; in New York, an independent audit at CHSS's expense if the State Chief Privacy Officer requires one | A.13; NDPA Art. V.2; NY Exhibit G | Drafted |
+| L10 | Accept a district's immediate suspension of data transfers; termination for incurable or repeated breach; termination without penalty if the Services cannot lawfully continue; remedies when a subprocessor objection is unresolved | A.6; A.16 | Drafted |
+| L11 | No automatic renewal of the data provisions | Section Two; A.16 | Drafted |
+| L12 | Background checks and annual privacy training for every person with access; in six TEC states, background checks for every employee with direct contact with students | A.7; NDPA Exhibit G | **Pending** (O5) |
+| L13 | Breach costs and confidentiality carved out of Section Eight's liability cap, or a stated super-cap | Section Eight | **Pending** (O2) |
+| L14 | Collect screener responses only after district authorization and certified consent | 6.7; A.15 | Instruments **pending** (O6) |
+| L15 | No training of any model on district data; AI outputs about a student are Student Data; disclose the model provider and demonstrate the platform on request | A.12 | Provider **pending** (O3) |
+| L16 | Support parent and eligible-student requests within ten business days through the district | A.11 | Drafted |
+| L17 | Name a Privacy Officer and Security Officer; publish a Data Security and Privacy Plan at a CHSS URL | A.7; NY Exhibit K | **Pending** (O8, O18) |
+| L18 | Provide executed copies and a 90-day expiration notice | 5.7 | Drafted |
+| L19 | Store and process data only in the United States | A.9 | Regions **pending** (O14) |
+| L20 | Governing law and venue of the district's state and county | A.17; NDPA Art. VII.6 | Drafted |
 
 ### For Jonah: decisions and commitments
     Source [Conversation]: Jonah (10/26) listed the standard terms to include: deletion on termination, storage location, audits, insurance levels. The items below are the ones that go beyond that list or cost money.
@@ -1160,7 +1290,7 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | O1 | What the December Navigator pilot runs on: which schools, which agreement, what data | Jonah, Emily | Stand counsel | Before the Leadership Summit (late Nov) | **Gate** before the Summit | |
 | O2 | Liability cap, indemnity, and breach-cost carve-out in Agreement Section Eight | Jonah | Stand counsel | Before Columbus review | **Gate** before signature | |
 | O3 | AI model provider: name, tier, data-use terms, no-training attestation, zero-retention arrangement | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
-| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Part C) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
+| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Attachment 1) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
 | O5 | Background checks and annual privacy training for every person with access to Student Data: coaching staff and technical staff | Demian, James | Jonah | Before any coach sees student-level data | **Gate** before signature | |
 | O6 | Screener consent classification, item by item, and the district authorization form | Tara, Stand counsel | Jonah | Before any screener runs in a new district | **Gate** for screeners | |
 | O7 | Insurance limits actually held; self-insurance posture | Demian, Stand counsel | Jonah | Before signature | **Gate** before signature | |
@@ -1193,26 +1323,26 @@ The new cohort is not sharing data in December. The pilot is existing partner sc
     Source [San Diego CCAP]: Mutual indemnification with defined allocation for sole, concurrent, and joint-defense cases; CGL $1M/$2M, E&O $1M, additional insured.
     Source [District lens]: A board attorney reading Appendix A's breach-cost promise next to Section Eight's cap asks which one wins. Until reconciled, the privacy promises read as capped at the insurance limit and excluding the losses a breach actually causes.
 
-Carve breach costs under A.8, confidentiality, and privacy indemnity out of the Section Eight cap, or give them a super-cap of not less than the cyber limit, and add a mutual indemnity for each party's own acts. Jonah's call because it is money; counsel's because it is drafting. **Evidence:** counsel's redline of Section Eight. **Documents:** District commitments, conforming edits; Appendix A.8, A.14.
+Carve breach costs under A.8, confidentiality, and privacy indemnity out of the Section Eight cap, or give them a super-cap of not less than the cyber limit, and add a mutual indemnity for each party's own acts. Jonah's call because it is money; counsel's because it is drafting. **Evidence:** counsel's redline of Section Eight. **Documents:** Agreement, conforming edits; Appendix A.8, A.14.
 
 **Details for O3:**
     Source [Emily's architecture]: AI-assisted mapping, validation, "risk models and intervention recommendations."
     Source [Luke's experience]: Arizona NDPA Exhibit G AI questionnaire: base model and provider, data shared with AI subprocessors, training on user data, human in the loop, query logging.
     Source [District lens]: A privacy officer will not accept a blank where the model provider's name belongs; a CTO wants the provider's data-use terms by URL and date.
 
-Emily returns the subprocessor table filled in: provider, product tier or API, data-use terms by URL and date, country of processing, zero-retention arrangement, and the provider's written no-training attestation. **Documents:** Appendix A.6, A.12; Part C.
+Emily returns the subprocessor table filled in: provider, product tier or API, data-use terms by URL and date, country of processing, zero-retention arrangement, and the provider's written no-training attestation. **Documents:** Appendix A.6, A.12; Attachment 1.
 
 **Details for O4:**
-    Source [Emily's architecture]: Every platform fact in Appendix A and Part C is drawn from the diagram and the 10/26 call; none has been verified against a live tenant.
+    Source [Emily's architecture]: Every platform fact in Appendix A and Attachment 1 is drawn from the diagram and the 10/26 call; none has been verified against a live tenant.
     Source [District lens]: "This is a strong target-state security program. I still do not know which controls exist in the live tenant, which are scheduled, and which are aspirational."
 
-Line by line against Part C and A.7: true today, true by date, or no. Lines not true today are re-tensed to "by [date]" before any district reads them. **Evidence:** the control-readiness list with evidence per line. **Documents:** Appendix A.7, A.9, A.13; Part C; the Notes page's list for Emily.
+Line by line against Attachment 1 and A.7: true today, true by date, or no. Lines not true today are re-tensed to "by [date]" before any district reads them. **Evidence:** the control-readiness list with evidence per line. **Documents:** Appendix A.7, A.9, A.13; Attachment 1; the Notes page's list for Emily.
 
 **Details for O5:**
     Source [Conversation]: Luke and Jonah (10/26): Phoenix Union required fingerprinting and onboarding of virtual Teach For America mentors; naming a CHSS background check removes one reason for a district to impose its own.
     Source [District lens]: "If the appendix says every person with access passes a background check and completes annual training, show me the policy and the roster." And: Option B coaches still receive student-level records visually, so the gate applies to them too.
 
-Demian confirms current practice for coaches and technical staff. If not current, A.7 becomes "by [date]" and no coach sees student-level data, under either option, until then. **Evidence:** HR confirmation or a dated plan. **Documents:** Appendix A.7; District commitments 5.4.
+Demian confirms current practice for coaches and technical staff. If not current, A.7 becomes "by [date]" and no coach sees student-level data, under either option, until then. **Evidence:** HR confirmation or a dated plan. **Documents:** Appendix A.7; Agreement 5.4.
 
 **Details for O6:**
     Source [State law]: Arizona A.R.S. § 15-104 requires prior written parental consent for mental health screening in schools, and § 15-117 exempts § 15-104 screenings from its separate survey regime. The Department of Education's August 26, 2026 letter treats behavioral health screeners that probe emotional or psychological states as requiring written consent; PPRA opt-out is not a substitute.
@@ -1220,52 +1350,52 @@ Demian confirms current practice for coaches and technical staff. If not current
     Source [District lens]: A privacy officer will not approve "notice, opt-out, or consent" without the instruments in hand.
     Source [District lens]: A California district technology and privacy lead (10/27 call): California districts run Panorama wellness surveys several times a year, with parent notification now required on gender-identity items; Arizona districts cannot run them at all. The agreement now lets a district decline a screener and keeps the Services running without it.
 
-Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. Plan for Arizona districts to decline the Belonging Screener. **Documents:** District commitments 6.7; Appendix A.15, A.17.
+Tara supplies the versioned instruments and the program purpose; counsel classifies each item against PPRA's protected areas and § 15-104; the district authorization and consent-certification form is drafted. Plan for Arizona districts to decline the Belonging Screener. **Documents:** Agreement 6.7; Appendix A.15, A.17.
 
 **Details for O7:**
     Source [Columbus City DSA]: At least $1,000,000 cyber liability.
     Source [af-dpa]: District practice research: "$1M for directory-only, $2M+ for SIS, assessment, special education or health data"; Beaverton requires $2M per claim and aggregate with a two-year tail.
     Source [District lens]: "A 'reasonable self-insurance program' is not the same as a policy carrying the stated limits."
 
-Drafted at $2,000,000 per claim and aggregate with a two-year tail, plus CGL $1M/$2M and E&O $1M; self-insurance only if documented and accepted by the district in writing. **Evidence:** certificate of insurance. **Documents:** Appendix A.14; District commitments conforming edits.
+Drafted at $2,000,000 per claim and aggregate with a two-year tail, plus CGL $1M/$2M and E&O $1M; self-insurance only if documented and accepted by the district in writing. **Evidence:** certificate of insurance. **Documents:** Appendix A.14; Agreement Section Eight.
 
 **Details for O8:**
     Source [James's MOU draft]: Names "Stand for Children Leadership Center Inc." as the Organization.
     Source [Conversation]: James (10/23): Stand is both a (c)(3) and a (c)(4); "there doesn't actually have to be something wrong for people to raise a stink."
 
-Counsel confirms the Leadership Center is the correct 501(c)(3) signatory and that the no-advocacy clause in A.4(d) is acceptable as written. **Documents:** District commitments 5.1; Appendix Part A, A.4.
+Counsel confirms the Leadership Center is the correct 501(c)(3) signatory and that the no-advocacy clause in A.4(d) is acceptable as written. **Documents:** Agreement 5.1; Appendix A.19, A.4.
 
 **Details for O9:**
     Source [Luke's experience]: AFUHSD's first ask of Teach For America (2025) was to strip names and keep the linking key; the district's own feeds use deterministic transformations or a mapping table.
     Source [District lens]: A "fallback without names" that the agreement does not contain is a promise a data manager will test and find missing.
 
-Emily answers whether a tenant can operate without names and which features would be off. If yes, Exhibit D-3 gets a pseudonymous election and the agreement says what the district loses. If no, the fallback is dropped from the pitch. **Documents:** District commitments 6.4, D-3.
+Emily answers whether a tenant can operate without names and which features would be off. If yes, Exhibit D-3 gets a pseudonymous election and the agreement says what the district loses. If no, the fallback is dropped from the pitch. **Documents:** Agreement 6.4, D-3.
 
 **Details for O10:**
     Source [Conversation]: Tara and Jonah (10/19): follow students "from ninth grade success to CTE enrollment, pathway completion, dual credit, graduation"; James (10/23): keep "went from 60% to 72%," delete student-level data.
     Source [FERPA]: 34 C.F.R. § 99.31(b)(1); Department of Education guidance warns that removing direct identifiers is not enough and that complementary suppression may be needed.
     Source [District lens]: A privacy officer asks whether cohort-level results need row-level records at all, and what process makes retained rows not personally identifiable.
 
-Tara and Jonah describe the longitudinal analyses and the exact row-level fields, purpose, review method, and retention period, so A.10 can describe them. The clause already requires the documented reasonable-determination review. **Documents:** District commitments 5.5–5.6; Appendix A.10.
+Tara and Jonah describe the longitudinal analyses and the exact row-level fields, purpose, review method, and retention period, so A.10 can describe them. The clause already requires the documented reasonable-determination review. **Documents:** Agreement 5.5–5.6; Appendix A.10.
 
 **Details for O11:**
     Source [Conversation]: Jonah (10/26): integration help is "almost like another form of coaching we're going to offer."
     Source [District lens]: A data manager's read of "two working sessions": "I still do not know whether support ends before the feed works."
 
-The agreement now promises support until the feed passes acceptance, plus maintenance on SIS, grading-scale, or term changes. That is a staffing cost. **Evidence:** staffing and hours decision. **Documents:** District commitments 6.9; case-making.
+The agreement now promises support until the feed passes acceptance, plus maintenance on SIS, grading-scale, or term changes. That is a staffing cost. **Evidence:** staffing and hours decision. **Documents:** Agreement 6.9; case-making.
 
 **Details for O12:**
     Source [Conversation]: James (10/26): "at a given, we are going to have to sign their data agreement. There's no negotiation there." That is the record for signing districts' agreements, including the NDPA. Exhibit E, a standing general offer in every state, is a new commitment with no record yet.
     Source [af-dpa]: NDPA standard clauses cannot be redlined; Exhibit E extends a signed NDPA's privacy terms within a state for three years.
     Source [District lens]: "Page E says counsel has not approved Exhibit E, but the district-facing pages promise it without qualification." The district-facing pages now say "expects to offer" with a bracket until counsel confirms.
 
-Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** District commitments 5.2; Appendix Part A; Notes.
+Counsel confirms that Stand will sign NDPA standard clauses without redline in any state and will sign Exhibit E. Until then the Missouri reply omits the Exhibit E sentence and the appendix brackets it. **Documents:** Agreement 5.2; Appendix A.19; Notes.
 
 **Details for O18:**
     Source [State law]: New York Education Law § 2-d and 8 NYCRR Part 121 require a third-party contractor to maintain a data security and privacy plan; the TEC multi-state NDPA's New York terms incorporate the plan by its URL in Exhibit K and require it to cover: applicable legal requirements; operational safeguards; compliance with the district's Parents' Bill of Rights; training of employees and subprocessors; subprocessor obligations; incident management with prompt notice; and return, deletion, and destruction.
     Source [Lewis County]: TEC's 10/29 request: "provide a URL (or an attachment) to your Data Security and Privacy Plan ... A privacy policy is sufficient if it describes equivalent data security practices."
 
-Appendix A and Part C already contain nearly every element. Luke drafts the plan from them; Emily confirms every statement is true; CHSS posts it at a stable URL. **Evidence:** the URL. **Documents:** TEC Exhibit K; Appendix A.
+Appendix A and Attachment 1 already contain nearly every element. Luke drafts the plan from them; Emily confirms every statement is true; CHSS posts it at a stable URL. **Evidence:** the URL. **Documents:** TEC Exhibit K; Appendix A.
 
 **Details for O19:**
     Source [Lewis County]: TEC's 10/29 request: complete Schedule 1's four questions, including "a link to your Accessibility Documentation or provide an attachment."
@@ -1277,31 +1407,31 @@ An accessibility conformance report (often a VPAT) for Navigator: Salesforce pub
     Source [SDPC NDPA]: Article V.3: the provider "shall implement an adequate Cybersecurity Framework based on one of the nationally recognized standards set forth in Exhibit F"; the published list includes the NIST Cybersecurity Framework, NIST SP 800-53 and 800-171, the ISO 27000 series, the Secure Controls Framework, CIS Controls, and CMMC.
     Source [State law]: New York's terms require alignment with the NIST Cybersecurity Framework. New Hampshire's terms require either twenty-three listed controls (access limits, logon limits, audit logs, unique user accountability, baseline configurations, media sanitization under NIST SP 800-88, boundary protection, deny-by-default traffic, encryption at rest, flaw remediation, anti-malware, and others) or annual evidence of certification under NIST SP 800-171, NIST SP 800-53 low baseline, FedRAMP, ISO 27001, CIS IG1, SOC 2 Type 2, or PCI DSS.
 
-Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Part C.
+Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Attachment 1.
 
 **Details for O17:**
     Source [Conversation]: Emily (10/27): the Navigator serves "many personas having access to it," so platform-login language in the access clause was "problematic" and should be struck; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. She will send bullets; Jonah asked that they be copied to him and Tara.
 
-Section 5.4 is already rewritten to that shape. When Emily's bullets arrive, they either confirm the clause or replace its purpose language. **Evidence:** Emily's bullets. **Documents:** District commitments 5.4; case-making "Who sees what"; Part C.
+Section 5.4 is already rewritten to that shape. When Emily's bullets arrive, they either confirm the clause or replace its purpose language. **Evidence:** Emily's bullets. **Documents:** Agreement 5.4; case-making "Who sees what"; Attachment 1.
 
 **Details for O13:**
     Source [SDPC NDPA]: Sixty days from written request; v2: sixty days from termination.
     Source [District lens]: "Demonstrate deletion across the full platform," including backups and subprocessors.
 
-A runbook that returns or destroys a district's data within sixty days across every store, with backups expiring on a rotation of ninety days or less, never restored to production, and a certificate template; one tested dry run. **Documents:** District commitments 5.6, D-4; Appendix A.10.
+A runbook that returns or destroys a district's data within sixty days across every store, with backups expiring on a rotation of ninety days or less, never restored to production, and a certificate template; one tested dry run. **Documents:** Agreement 5.6, D-4; Appendix A.10.
 
 **Details for O14:**
     Source [Emily's architecture]: Azure/Fabric, Salesforce Experience Cloud and CRM Analytics, Power BI, an AI provider.
     Source [Columbus City DSA]: "No student data is stored outside the United States without the District's written consent."
 
-Tenant settings or contract excerpts showing each subprocessor and its U.S. region, and confirmation that the list is complete. **Documents:** Appendix A.6, A.9; Part C.
+Tenant settings or contract excerpts showing each subprocessor and its U.S. region, and confirmation that the list is complete. **Documents:** Appendix A.6, A.9; Attachment 1.
 
 **Details for O15:**
     Source [District lens]: "Is weekly delivery required, preferred, or only the Tier 1 target? Tier 2 says every marking period is acceptable, while the onboarding timeline says weekly updates begin on day one."
     Source [James's collateral]: "Current data. Dashboards update automatically, not once a grading period." The coaching model needs Friday's data on Tuesday.
     Source [Luke's decision]: Drafted as one rule, pending confirmation: once the feed is live for Year 1, updates are weekly; a Tier 2 district may run an approved interim cadence, not less than monthly, recorded in Exhibit D-3 with a dated target for Tier 1.
 
-Jonah and Emily confirm that weekly is the Year 1 standard and that CHSS will hold Tier 2 districts to an interim cadence with a target date. If marking-period delivery must remain acceptable indefinitely, the Friday-to-Tuesday promise comes out of the case-making. **Documents:** District commitments 6.5, D-2, D-3; case-making.
+Jonah and Emily confirm that weekly is the Year 1 standard and that CHSS will hold Tier 2 districts to an interim cadence with a target date. If marking-period delivery must remain acceptable indefinitely, the Friday-to-Tuesday promise comes out of the case-making. **Documents:** Agreement 6.5, D-2, D-3; case-making.
 
 **Details for O16:**
     Source [James's collateral]: James's 10/23 email: "Our own data shows us that when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal."
@@ -1350,7 +1480,7 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
     Source [SDPC NDPA]: The NDPA's own priority clause places the state exhibit and standard clauses above any other writing.
     Source [Conversation]: James (10/26): "we are going to have to sign their data agreement. There's no negotiation there." The commitment to sign districts' agreements, including the NDPA, has a record. Exhibit E does not yet (O12).
     Source [District lens]: "If we sign both, 'the document the district signed controls' does not tell us which document controls." And: "Which custom AI, insurance, screener, and security commitments survive when we elect the NDPA?"
-    Source [Luke's decision]: One mechanical rule, stated the same way in 5.2, Part A, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
+    Source [Luke's decision]: One mechanical rule, stated the same way in 5.2, A.19, and A.18: Appendix A applies in every case; where the state NDPA is executed or Exhibit E is accepted, the NDPA controls as to any conflict and Appendix A continues as a supplement for everything the NDPA does not address. The election form offers "Appendix A," "Appendix A plus state NDPA," and "Appendix A plus Exhibit E acceptance."
     Source [Conversation]: 10/27 call: Jonah and Emily agreed to prepare to sign version 1 of the NDPA, for its three-year term, with Exhibit E, and asked for the shortest route through the consortium and realistic timelines. That research is on the Notes tab.
     Source [Lewis County]: 10/29: TEC sent its 18-state multi-state NDPA (version 1.0 family) with Lewis County as the originating district. One signature with Exhibit E covers Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington. The precedence rule here is unchanged; the NDPA simply becomes the primary instrument for most districts.
 
@@ -1436,6 +1566,15 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
     Source [Drafting choice]: One entry per published version, newest first: what changed, why, and what prompted it. Internal draft numbers appear here and in the version pill only; the documents themselves never cite them.
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
+
+### v1.6, Oct 29, 2026
+    Source [Conversation]: James (10/29) needs a full MOU in one place, downloadable, so Columbus City's legal review can start; Luke: only as a clearly marked working draft with pending items highlighted, and only with Jonah's blessing.
+
+- **One Agreement tab replaces the District commitments and CHSS commitment tabs.** It is the complete Agreement for Services: James's Sections One through Four and Seven through Ten with every conforming edit applied, Sections Five and Six, Appendix A (now A.1 through A.19, with the NDPA posture as A.19), Exhibits D-1 through D-4, and the system specifications as Attachment 1 for information. Old links to the two retired tabs open the Agreement.
+- **Pending items are highlighted** on the page and in the PDF and Word downloads, each naming its owner and Decisions number. The Agreement's downloads are stamped "Working draft. Not for signature."
+- **The privacy plan's placeholders** use the same highlights.
+- **Notes gains a list for counsel** of everything CHSS agrees to by signing (L1 through L20), each with its clause and status.
+- Cross-references across Notes and Decisions now point to the Agreement and Attachment 1.
 
 ### v1.5, Oct 29, 2026
     Source [State law]: New York Education Law § 2-d and 8 NYCRR Part 121 require a published data security and privacy plan; TEC's multi-state NDPA cites it by URL in Exhibit K.
