@@ -2,8 +2,9 @@
 ::src James's MOU draft :: The CHSS Accelerator Agreement for Services draft (Year 0 Readiness + Year 1 Implementation) is the frame. Its Sections One through Four and Seven through Ten are kept in substance, with the conforming edits listed in each Source note; Sections Five and Six are replaced; Appendix A, Exhibits D-1 through D-4, and Attachment 1 are added.
 ::src Conversation :: James (10/29): "I need to send them a PDF MOU in full, so they can start to bring it through their legal review process"; asked for one tab with the whole agreement and a downloadable PDF. Luke: no downloadable file that looks final while items are pending; the middle ground is a working draft with pending items highlighted, which needs Jonah's blessing before it goes to a district.
 ::src Drafting choice :: Every item still waiting on CHSS is highlighted and names who owns it and its Decisions number. Blanks in brackets without a highlight are filled in per district at signing.
+::src Conversation :: James (10/29, thread): uploaded the Word copy of this page to Google Drive as "CHSS - District Agreement - GOLD" so the team can track changes in one place; Jonah's edits and comments followed on 10/30, and Stand's counsel received that file the same day. From 11/2 this page is frozen at the text GOLD started from.
 
-> **Working draft for discussion. Not for signature.** This is the complete Agreement for Services, including Sections Five and Six, Appendix A, and Exhibits D-1 through D-4. Highlighted items await confirmation by the Center for High School Success and will be completed in the next version. Counsel for both parties reviews before execution.
+> **The agreement of record is now the GOLD draft in Google Drive:** https://docs.google.com/document/d/1fzfoHGZ85KcOrhghz-xDh4apZXrGCqCn/edit. Edits, tracked changes, and comments happen there. This page keeps the October 29 text that GOLD started from, with the source note for every section, and is not edited further; the Decisions, Notes, and Changelog tabs record what changes in GOLD and why. **Working draft for discussion. Not for signature.**
 
 | Item | Entry |
 |---|---|

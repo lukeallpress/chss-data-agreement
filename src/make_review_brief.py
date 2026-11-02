@@ -18,6 +18,7 @@ DOCS = [
     ("A", "Case-making (goes up front; audience: superintendent, head of academics, board)", "01-case-making.md"),
     ("B", "Agreement for Services, full MOU working draft: Sections One to Ten, Appendix A, Exhibits D-1 to D-4, Attachment 1", "08-agreement.md"),
     ("C", "Data Security and Privacy Plan (draft for CHSS to publish; New York Education Law 2-d structure)", "07-privacy-plan.md"),
+    ("G", "Technical commitments (what the agreement should guarantee: NDPA baseline, CHSS supplement, district exhibit, technical documentation)", "09-technical-commitments.md"),
     ("D", "Notes (CHSS-internal working page: claims each person must confirm, then paste-ready email blocks)", "04-notes-for-james.md"),
     ("E", "Decisions (register of open decisions with owners and gates, then decisions made)", "05-decisions.md"),
     ("F", "Changelog (what changed in each version and why)", "06-changelog.md"),

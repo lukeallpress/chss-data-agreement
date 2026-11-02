@@ -42,6 +42,8 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 ::src Emily's architecture :: Every platform fact in Appendix A and Attachment 1 is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
 ::src District lens :: A CTO will ask for evidence of each present-tense control; a privacy officer will not accept a blank where the model provider belongs.
 
+> **November 2.** Emily's October 30 recommendation is adopted: the NDPA as the baseline, a concise CHSS supplement that states each obligation once, and implementation detail in separate technical documentation. The list below becomes the control inventory for that documentation, to be written in the 1EdTech Security Practices Rubric's forty-two-item format. Which items stay contractual is decided row by row on the Technical commitments tab at the Tuesday, November 3 working session.
+
 Answer each as **true today**, **true by [date]**, or **no**:
 
 1. Microsoft Azure / Fabric, Salesforce Experience Cloud and CRM Analytics, and Power BI are the complete subprocessor list for Student Data, and every tenant is in a U.S. region. (A.6, A.9)

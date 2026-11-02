@@ -1,7 +1,7 @@
-# Adversarial review brief: CHSS data agreement drafts, v1.6 (Oct 29, 2026)
+# Adversarial review brief: CHSS data agreement drafts, v1.7 (Nov 2, 2026)
 
 Live page with the same content and per-section source popovers: https://lukeallpress.github.io/chss-data-agreement/
-Generated 2026-10-29 from the site source. Everything after the
+Generated 2026-11-02 from the site source. Everything after the
 instructions is the full text of the five pages, with each section's provenance shown as
 an indented *Source* note so you can judge the reasoning, not just the words.
 
@@ -230,8 +230,9 @@ Records are matched using a consistent unique student identifier, so Navigator r
     Source [James's MOU draft]: The CHSS Accelerator Agreement for Services draft (Year 0 Readiness + Year 1 Implementation) is the frame. Its Sections One through Four and Seven through Ten are kept in substance, with the conforming edits listed in each Source note; Sections Five and Six are replaced; Appendix A, Exhibits D-1 through D-4, and Attachment 1 are added.
     Source [Conversation]: James (10/29): "I need to send them a PDF MOU in full, so they can start to bring it through their legal review process"; asked for one tab with the whole agreement and a downloadable PDF. Luke: no downloadable file that looks final while items are pending; the middle ground is a working draft with pending items highlighted, which needs Jonah's blessing before it goes to a district.
     Source [Drafting choice]: Every item still waiting on CHSS is highlighted and names who owns it and its Decisions number. Blanks in brackets without a highlight are filled in per district at signing.
+    Source [Conversation]: James (10/29, thread): uploaded the Word copy of this page to Google Drive as "CHSS - District Agreement - GOLD" so the team can track changes in one place; Jonah's edits and comments followed on 10/30, and Stand's counsel received that file the same day. From 11/2 this page is frozen at the text GOLD started from.
 
-> **Working draft for discussion. Not for signature.** This is the complete Agreement for Services, including Sections Five and Six, Appendix A, and Exhibits D-1 through D-4. Highlighted items await confirmation by the Center for High School Success and will be completed in the next version. Counsel for both parties reviews before execution.
+> **The agreement of record is now the GOLD draft in Google Drive:** https://docs.google.com/document/d/1fzfoHGZ85KcOrhghz-xDh4apZXrGCqCn/edit. Edits, tracked changes, and comments happen there. This page keeps the October 29 text that GOLD started from, with the source note for every section, and is not edited further; the Decisions, Notes, and Changelog tabs record what changes in GOLD and why. **Working draft for discussion. Not for signature.**
 
 | Item | Entry |
 |---|---|
@@ -1013,6 +1014,147 @@ Questions about this plan, requests from an LEA, and incident reports go to the 
 
 ---
 
+# Page G. Technical commitments (what the agreement should guarantee: NDPA baseline, CHSS supplement, district exhibit, technical documentation)
+
+## Technical commitments: what the agreement should guarantee
+    Source [Emily's email]: Emily (10/30): the GOLD draft "spells out too many technical details and repeats much of the same language across the agreement, Appendix A, and system specifications attachment," and "goes beyond the NDPA in several areas, including annual independent audits and penetration testing, detailed record-access logging, specific patching and backup deletion deadlines, and AI provider restrictions as well as shorter time/limit on certain responses and requirements." Her recommendation: "the NDPA as the baseline, with a concise CHSS supplement where needed, stating each obligation once, and keeping implementation details in separate technical documentation."
+    Source [Lewis County]: The Education Cooperative's eighteen-state NDPA (version 1.0 family), received 10/29: standard clauses Articles II, IV, and V, and the state terms for Colorado, Idaho, Iowa, New Hampshire, New York, Ohio, and Washington, read in full.
+    Source [Columbus City DSA]: Columbus City Schools, Student Data Sharing Agreement, revised 3/17/2025, forwarded by James 10/30: services items 5 through 10 and the termination section.
+    Source [District lens]: 1EdTech's Data Privacy and Security Agreement template (version 1.0, 2024), written by a task force of districts and suppliers including Fresno Unified, Scottsdale Unified, Albuquerque, and Loudoun County, and 1EdTech's Security Practices Rubric (version 1.0, 42 items). Both are public. Districts that use the 1EdTech template will hand CHSS that document in place of the NDPA.
+    Source [Luke's decision]: Emily's structure is adopted. This page is the clause-by-clause application of it: for each technical commitment in the current draft, what the NDPA, Columbus, and the 1EdTech template require, and a recommendation on whether it stays in the contract, moves to a district exhibit, moves to technical documentation, or comes out.
+
+> **Purpose.** This page answers one question for each technical commitment in the agreement: how much should CHSS guarantee in the contract? It applies the structure Emily proposed on October 30: the National Data Privacy Agreement (NDPA) as the baseline, a concise CHSS supplement that states each obligation once, and implementation detail in separate technical documentation. Decisions are marked for the Tuesday working session.
+
+### Summary
+
+- **The structure changes; the commitments mostly survive in a different place.** Of the commitments Emily flagged, two are required by Columbus City Schools in writing (annual third-party audit of security operations, and documented, logged access with log data on request), one is required for the agreement's first district under the NDPA's New Hampshire and New York terms (audit logs and a cybersecurity framework), and the rest are stronger than any first-cohort district requires. Those move to technical documentation or come out.
+- **Three layers, one statement per obligation.** Layer one is the NDPA, where executed. Layer two is the CHSS supplement, which carries only what the NDPA lacks: coach access, screeners, the AI commitments, who notifies families after a breach and who pays, de-identified retention, insurance, no automatic renewal, and the state terms. Layer three is technical documentation, provided on request under the evidence clause, which holds the control inventory, the deletion runbook, and the system specifications now in Attachment 1.
+- **A fourth layer for district variations.** A one-page district exhibit, in the three-column form the 1EdTech template uses (section, original text, revised text), records any requirement a district adds. Columbus is the first entry. The body of the agreement stays identical across districts.
+- **The rule for how much to guarantee.** A technical commitment belongs in the contract only if one of three tests is met: the NDPA already requires it; a named district requires it in writing; or CHSS can evidence it today, or by a date it is willing to put in the agreement. Everything else is documentation, not promise.
+- **One decision for Jonah and Emily on the AI clause.** The current clause bars using district data, even de-identified, to improve any machine-learning model. Jonah asked whether that stops Navigator from getting smarter. It does. The recommended revision allows CHSS to improve the Services with de-identified data under the existing review process, while keeping the ban on any outside provider training on student data. The NDPA permits the first; Colorado's state terms require the second.
+
+### The rule for how much to guarantee
+
+A commitment in a signed agreement is a promise a district may audit, and in several states a breach of it carries statutory penalties. The test for each technical commitment is therefore not "is this good practice" but "can CHSS show it, and does anyone require it."
+
+| Test | If it is met | Example |
+|---|---|---|
+| The NDPA already requires it | Do not restate it. The supplement must not contradict it. | Breach notice within seventy-two hours; sixty-day disposition; subprocessor flow-down; de-identified data rules; the LEA's annual audit right. |
+| A named district requires it in writing | Carry it in that district's exhibit, in the district's own words, after Emily confirms CHSS can meet it. | Columbus: annual third-party audit of security operations; critical patches within one week "where reasonable and applicable." |
+| CHSS can evidence it today, or by a date it will commit to | State it once, in the supplement, with the date if needed. | Encryption in transit and at rest; multi-factor authentication for CHSS staff; hosting on Microsoft Azure and Salesforce, each with a current SOC 2 Type 2 report. |
+| None of the above | Technical documentation, dated, provided on request. Not a contractual term. | Penetration testing; backup rotation periods; patch windows; deprovisioning clocks; log retention periods. |
+
+Technical documentation is still read by districts. Anything in it must be accurate on the date it is given, and the evidence clause should say that documentation describes current practice and may change with notice.
+
+### Commitment by commitment
+
+The first column is the commitment as drafted (clause numbers refer to the GOLD draft). "NDPA" means the eighteen-state agreement's standard clauses, with state terms noted where they add to them. "Columbus" is the Columbus City Schools agreement. "1EdTech" is the Data Privacy and Security Agreement template.
+
+| Commitment as drafted | NDPA | Columbus | 1EdTech template | Recommendation |
+|---|---|---|---|---|
+| **Annual independent assessment** (SOC 2 Type II or equivalent). A.7, A.13, Attachment 1 | Not required. Article V.2 gives the LEA an audit right once a year on ten business days' notice. New York: the state Chief Privacy Officer may require an independent audit at the provider's expense, or accept an industry-standard independent audit report from the prior twelve months. New Hampshire: twenty-three listed controls, or annual evidence of a certification such as SOC 2 Type 2 or ISO 27001. | **Required.** Item 7: "Third party audits of security operations are conducted annually." | Audit once per twelve months on thirty days' notice, or an annual audit summary or bridge letter in its place (4.7). | **Remove the annual-assessment promise from the supplement; keep the evidence-on-request clause.** Columbus's requirement goes in the Columbus exhibit. Emily decides what satisfies it: the SOC 2 Type 2 reports of Microsoft Azure and Salesforce cover the hosting operations today, and a CHSS assessment of its own configuration is a cost decision with a date. |
+| **Annual penetration test** of Navigator and the data platform. A.7, A.13, Attachment 1 | Not required. New Hampshire control 16: periodically assess security controls and correct deficiencies, or hold a certification. | Not required. James's recollection was audit, not penetration testing; the document requires the audit only. | Required: a third-party penetration test dated within twelve months, with high and above findings remediated (4.7(a)). | **Move to technical documentation.** State the testing practice and its date there. A district that hands CHSS the 1EdTech template takes it in that district's exhibit. |
+| **Record-level access logging:** every access to student-level records logged with user, time, and record; logs retained twelve months; log data on request; "every access ... is logged" repeated in 5.4. A.7, 5.4 | Not in the standard clauses. New Hampshire controls 5 and 6: audit logs sufficient to investigate unauthorized activity, and actions traceable to individual users, unless a certification is held instead. | **Required.** Item 8: "The identity of all persons having access to student data is documented and access is logged." Item 9: the District may request "log data for end user, administrative and maintenance activity." | Not in the body; the supplier's own security standards are attached as Exhibit A. | **Keep one sentence in the supplement; drop the detail.** "Access to Student Data is logged, and CHSS will provide log data for end-user, administrative, and maintenance activity on request in connection with an incident." Delete the twelve-month retention, the per-record specification, and the repeated sentence in 5.4. Retention and format go in technical documentation. Columbus and New Hampshire are both satisfied. |
+| **Critical patches within seven days.** A.7, Attachment 1 | Not required. New Hampshire control 20: "identify, report, and correct system flaws in a timely manner," or a certification. | **Required, qualified.** Item 7: "Deploy critical security patches within one week of release where reasonable and applicable." | Not required. | **Remove from the supplement.** The Columbus exhibit carries Columbus's own words, including "where reasonable and applicable." Technical documentation states the actual patch policy. |
+| **Backups expire within ninety days and are never restored to production.** A.10, Attachment 1 | Not required. Article IV.6: disposition within sixty days of request; de-identified data exempt. | Not required. Destroy or return within ninety days of termination. | Deletion within ninety days after termination or thirty days on request; a deletion certificate (4.9, Exhibit C). | **Remove the ninety-day backup clause.** Keep the NDPA's sixty days, and add one clause: backup copies are overwritten in the ordinary rotation and are not restored to production. The rotation period goes in technical documentation after Emily confirms it. |
+| **AI commitments (a) through (i):** no training on district data; inferences are Student Data; provider named with terms and country; human decisions; provider personnel; opt-out; thirty days' notice of a provider change; questionnaire on request; description and demonstration on request. A.12, A.6 | Not in the standard clauses. Colorado: "The Provider shall not use Student Data to train Artificial Intelligence (AI) models of systems." New Hampshire: data may not be used to develop commercial products, but adaptive and customized learning is permitted. Article IV.5: de-identified data may be used for "research and development of the Provider's educational sites, services, or applications." | Not addressed. | Not addressed in the agreement; 1EdTech's separate AI rubric asks whether prompts improve the model and where training data comes from. | **Keep four, move five.** Keep in the supplement: no outside provider trains on Student Data; the provider is named as a subprocessor; recommendations go to educators, who decide; notice before a provider changes. Move to technical documentation and the privacy plan: provider personnel access, the questionnaire, the description and demonstration. The training sentence itself needs Jonah's and Emily's decision; see the next section. |
+| **Breach notice within seventy-two hours;** family notice agreed within five business days; CHSS bears costs for its breach. A.8 | **Required:** seventy-two hours after confirmation (Article V.4); New York the same. The NDPA leaves family notice to the LEA and does not allocate costs. | Required: the District "will be notified"; response steps listed; no fixed period. | Seventy-two hours (4.6). | **Keep seventy-two hours (it is the NDPA's number), keep who notifies families and who pays, drop the five-business-day clock.** The division of labor is the part the NDPA lacks and California's § 49073.1 requires. |
+| **Deprovisioning within one business day; quarterly access review.** A.7 | Not required. | Not required. | Not required. | **Technical documentation.** |
+| **Parent-request support within ten business days.** A.11 | Article II: the provider supports the LEA's response; no fixed period in the standard clauses. | The parties "shall establish reasonable procedures." | Not addressed. | **Keep, with "promptly" unless Emily is comfortable with ten business days.** California's § 49073.1 requires a described procedure, not a number. |
+| **Feed-failure notice within one business day; validation report per load.** 6.9 | Not addressed; a service level, not a privacy term. | Not addressed. | Not addressed. | **Move to the onboarding guide.** Jonah has agreed to the support commitment itself; the service levels belong with the specification. |
+| **Security questionnaire answered within thirty days.** A.13 | Article V.2: ten business days' notice for an audit. | Not addressed. | Thirty days' notice for an audit (4.7). | **Keep.** It is the district's main evidence request, and thirty days is the common figure. |
+| **Encryption (TLS 1.2 or higher in transit; AES-256 at rest); MFA for CHSS staff; SSO for district users; salted and hashed passwords.** A.7, Attachment 1 | Article V.3 requires a cybersecurity framework from Exhibit F; New Hampshire control 18 requires encryption at rest. | Item 6 requires salted hashes and SSL. | Framework alignment (NIST CSF, SOC 2, or ISO 27001) and no material decrease during the term (4.5(a)). | **Keep as one sentence in the supplement, because CHSS can evidence it today on Azure and Salesforce.** Name the framework once (NIST Cybersecurity Framework, which New York requires). Everything else in the A.7 bullets goes to technical documentation. |
+| **Background checks and annual training for everyone with access, coaches included.** A.7 | Article IV.3: confidentiality agreements for every employee with access. Six of the state terms require criminal background checks for employees with direct student contact. | Item 8: employees comply with FERPA. | Not addressed. | **Keep, after Demian confirms current practice.** It is a state requirement for coaches, not a technical control. |
+| **Incident response plan, maintained and tested.** A.7 | Implied by Article V.3 and the framework. | Item 9 lists the response steps. | Implied by 4.5. | **Keep as one clause.** The steps go in technical documentation. |
+| **Disaster recovery plan, tested annually.** Not in the draft | Not required. | Not required. | Security rubric item DOC-05. | **Technical documentation.** Not a contractual term. |
+| **U.S.-only storage and processing.** A.9 | Article V.1: within the United States where required by law. New York: United States or Canada. | **Required.** Item 5: no storage outside the United States without written consent. | Continental United States (3.2). | **Keep as one sentence.** CHSS can evidence it by tenant region. |
+| **Insurance: cyber $2,000,000; general liability $1,000,000 per occurrence and $2,000,000 aggregate; errors and omissions $1,000,000.** A.14 | Not addressed. | **Required:** cyber liability of at least $1,000,000 covering crisis management, extortion, media and content, and security and privacy liability. | Exhibit E: cyber $1,000,000; general liability $1,000,000 per occurrence and $3,000,000 aggregate; carrier rated A or better by A.M. Best; the institution as additional insured. | **Keep in the supplement at the limits Demian confirms.** The draft's $2,000,000 cyber exceeds Columbus. Districts using the 1EdTech template start from a $3,000,000 general liability aggregate; Demian decides whether to match it. |
+| **Attachment 1, system specifications.** | Not addressed. | Not addressed. | The supplier's security standards are attached as part of Exhibit A. | **Remove from the contract.** It becomes the first technical document, provided under the evidence clause. Its contents are already the twenty-five-row list on the Notes tab. |
+
+### The AI training clause under the microscope
+
+Jonah's comment on A.12(a) asks whether the clause prevents CHSS from using the data to make Navigator smarter. It does, and it was written to. The decision is whether that is the position CHSS wants.
+
+**The clause as drafted.** "Neither CHSS nor any Subprocessor will use Student Data, De-identified Data, or any output derived from them to train, fine-tune, evaluate, or otherwise improve any machine-learning model, or to develop synthetic or inferred data for any purpose other than delivering the Services to the District."
+
+**Why each phrase is there.**
+
+- "Neither CHSS nor any Subprocessor": the model provider is bound through CHSS. A district cannot contract with the provider, so it holds CHSS responsible.
+- "Student Data, De-identified Data, or any output derived from them": this closes the de-identify-then-train route. It is the first thing a privacy officer looks for, because most model training on education data happens on data that has been de-identified first. California's NDPA version 1.5 (Exhibit G, clause 8) bars training and the development of synthetic or inferred data; Colorado's terms in the TEC agreement bar training on Student Data outright.
+- "train, fine-tune, evaluate, or otherwise improve": evaluation sets are how models are tuned without "training" in name. The list is written so that the restriction cannot be met by relabeling the activity.
+- "for any purpose other than delivering the Services": this exception attaches to synthetic and inferred data, not to training. Clause (b) then permits student-specific inferences, which are what Navigator produces, as long as they are treated as Student Data.
+
+**What the clause prevents.** Using one district's data, in any form, to make a model better for other districts. That includes using de-identified outcomes to tune the intervention-recommendation model.
+
+**What it does not prevent.** Evaluating the program with de-identified and aggregate data (5.5, A.10); learning from results and encoding what works as rules, content, or configuration; improving the product by any means other than training a model on district data.
+
+**The decision.** Three positions are available.
+
+| Position | District reaction | Legal footing | Cost to CHSS |
+|---|---|---|---|
+| **1. Keep the clause as drafted.** No training on district data in any form. | The strongest position a district can be offered. Matches Colorado's terms and California's Exhibit G. Arizona's AI questionnaire is answered "no" on every training question. | NDPA Article IV.5 allows more than this; the clause gives it up. | Navigator's models cannot learn from district data. Improvement comes from evaluation and design. |
+| **2. Split the rule (recommended).** Student Data and outputs: never used to train any model, by anyone. De-identified Data: CHSS may use it to evaluate and improve the Services, including models used only within the Services, after the documented review in A.10, and never shared with a provider for training. | Accepted by most districts when the de-identification review is documented and a minimum dataset size is stated. A privacy officer will ask how the de-identified set is built; A.10 already answers. | NDPA Article IV.5 expressly permits de-identified data for "research and development of the Provider's educational sites, services, or applications" and for "adaptive learning." New Hampshire's terms permit adaptive and customized learning. Colorado's bar applies to Student Data, which under the NDPA's definition excludes de-identified data. | A de-identification pipeline that meets the A.10 review before any training use. Add "evaluation and improvement of the Services using de-identified data" to the NDPA's Exhibit A, because most of the eighteen state terms, Ohio and Colorado among them, limit use to the services listed there. |
+| **3. Allow training on Student Data for CHSS-operated models.** | Refused by Colorado under the TEC terms and by California under Exhibit G; the first question on Arizona's questionnaire. Expect this to stop signature in several states. | None in the NDPA family. | Lowest engineering cost; highest signature cost. |
+
+**Recommended wording for position 2.** "(a) Neither CHSS nor any Subprocessor will use Student Data, or any output derived from Student Data, to train, fine-tune, or otherwise improve any machine-learning model, or to develop synthetic or inferred data for any purpose other than delivering the Services. CHSS may use De-identified Data, created and reviewed under A.10, to evaluate and improve the Services, including models used only within the Services, provided that no model provider or other Subprocessor retains De-identified Data or uses it for its own purposes. No dataset of fewer than twenty students is treated as de-identified for this purpose."
+
+The twenty-student floor is the 1EdTech template's definition of de-identified data. Adopting it answers the question before a district raises it, and pairs with the existing rule that published cells under ten are suppressed.
+
+**Two consequences to flag for Tara.** Iowa's terms state that the NDPA "does not provide approval for use of Student Data for research or audit/evaluation purposes" and require the district's institutional review board approval before research or evaluation data is collected. And in the states that limit use to Exhibit A, the evaluation design has to be described there, so the outcomes Jonah asked Tara to list also belong in Exhibit A.
+
+### What goes where
+
+| Layer | Carries | Form |
+|---|---|---|
+| **NDPA** (where executed) | Authorized use; employee obligations; no disclosure; de-identified data; sixty-day disposition; advertising limits; data storage; the audit right; the cybersecurity framework; seventy-two-hour breach notice; law-enforcement requests; subprocessor flow-down; the state terms. | TEC's eighteen-state form with Exhibit E, then each remaining state's version. |
+| **CHSS supplement** | School-official basis and coach access (5.1, 5.4). Permitted use, including no advocacy or political use (5.5). Screeners (6.7, A.15). The AI commitments, trimmed to four. Who notifies families after a breach and who pays (A.8). De-identified retention with the documented review and the twenty-student floor (A.10). One security sentence: framework, encryption, MFA, logging with log data on request, U.S. hosting on named providers. Evidence on request (A.13). Insurance (A.14). Immediate suspension and no automatic renewal (A.16). State terms (A.17). Order of precedence (5.2, A.18). | Appendix A, roughly half its current length, with each obligation stated once. |
+| **District exhibit** | Any requirement a district adds, in the district's words: section, original text, revised text. | One page per district. Columbus is the first entry. |
+| **Technical documentation** | The control inventory (the twenty-five rows on the Notes tab, in the 1EdTech Security Practices Rubric's forty-two-item format so that any district technology director recognizes it); the system specifications now in Attachment 1; the deletion runbook; patch, backup, logging, and deprovisioning practice with dates; penetration testing practice; disaster recovery; the hosting providers' SOC 2 Type 2 reports. | Dated documents provided on request under A.13. Not contractual terms. |
+
+**Where no NDPA is executed.** CHSS signs the state's NDPA version on request (A.19), so the baseline exists in every state with an alliance. For a district in a state without one, the NDPA's standard clauses are attached as the baseline exhibit, so that the supplement never has to stand alone and nothing the baseline provides is lost.
+
+### The Columbus exhibit
+
+A first draft of the district exhibit, in the three-column form. Each entry takes effect only if Emily confirms CHSS can meet it.
+
+| Section | Columbus requirement (Student Data Sharing Agreement, rev. 3/17/2025) | Supplement text | Variation for Columbus |
+|---|---|---|---|
+| A.13 | "Third party audits of security operations are conducted annually." | Evidence on request, once a year. | CHSS will provide annually the third-party audit reports covering the security operations of its hosting providers (SOC 2 Type 2 for Microsoft Azure and Salesforce) and [its own independent assessment once completed] [a documented annual review of its configuration]. |
+| A.7 | "Deploy critical security patches within one week of release where reasonable and applicable." | Not stated; in technical documentation. | Adopt Columbus's sentence verbatim. |
+| A.7 | "The identity of all persons having access to student data is documented and access is logged"; the District may request log data for end-user, administrative, and maintenance activity. | One sentence, as recommended above. | None needed. |
+| A.7 | Stored passwords protected by salted hashes; authentication over SSL/HTTPS. | Not stated; in technical documentation. | Adopt Columbus's sentence verbatim. |
+| A.14 | Cyber liability of at least $1,000,000 covering crisis management and extortion, media and content, and security and privacy liability. | $2,000,000, pending Demian. | None needed. |
+| A.10 | Destroy or return all educational records within ninety days. | Sixty days. | None needed; the supplement is stricter. |
+| A.17 | Comply with Ohio Revised Code 3319.321, 3319.325 through 3319.327, and Chapter 1347 "as if it were the District," including breach notification under R.C. 1347.12. | Already in the Ohio bullet. | None needed. |
+| A.5 | Warrant COPPA conformity for data collected directly from students. | Not addressed. | Add: the Services collect no information online from children under thirteen; the screeners are administered by the District under 6.7. |
+
+### What this means for the TEC form
+
+- **Exhibit F:** the NIST Cybersecurity Framework, which New York's terms require in any case. Emily confirms that CHSS can truthfully claim alignment, and any exclusions are listed in the attachment the form provides for.
+- **New Hampshire:** either the twenty-three listed controls or an annual certification. The technical documentation, written in the rubric format, doubles as the New Hampshire attachment.
+- **New York:** alignment with the NIST framework, the published Data Security and Privacy Plan, and the audit provision described above.
+- **Exhibit A:** add evaluation and improvement using de-identified data, and the outcome measures Tara names, so that the use is authorized in the states that limit use to Exhibit A.
+
+### For the Tuesday working session
+
+1. Confirm the three-layer structure and the rule for what belongs in the contract.
+2. Decide each row of the commitment table: supplement, district exhibit, technical documentation, or out.
+3. Decide the AI training clause: position 1 or 2.
+4. Agree the format of the technical documentation (the 1EdTech rubric's forty-two items), who writes it, and when the first dated version exists. Confirm what CHSS can evidence today: tenant regions, encryption settings, MFA, the hosting providers' SOC 2 Type 2 reports.
+5. Confirm the TEC form answers: Exhibit F, the New Hampshire path, Schedule 1 accessibility documentation.
+6. Set the date for the restructured draft to counsel.
+
+### Sources
+
+- The Education Cooperative, eighteen-state NDPA for the Center for High School Success, originating district Lewis County C-1 (Missouri), received October 29, 2026.
+- Columbus City Schools, Student Data Sharing Agreement, fillable form revised March 17, 2025.
+- 1EdTech Consortium, Data Privacy and Security Agreement template, version 1.0 (2024), as published by Prince George's County Public Schools: https://www.pgcps.org/contentassets/0d463a5c451f40fcba26c2796d7a59c8/appendix-m-data-privacy-and-security-agreement.pdf; template page https://www.1edtech.org/resource/dpsa.
+- 1EdTech Consortium, TrustEd Apps Security Practices Rubric, version 1.0: https://www.imsglobal.org/spec/security-rubric/v1.
+- California Education Code § 49073.1(b); Ohio Revised Code 3319.321, 3319.325 through 3319.327, and 1347.12; New York Education Law § 2-d and 8 NYCRR Part 121.
+- The Arizona NDPA Exhibit G artificial-intelligence questionnaire and the California NDPA version 1.5 Exhibit G, clause 8.
+
+---
+
 # Page D. Notes (CHSS-internal working page: claims each person must confirm, then paste-ready email blocks)
 
 ## Notes
@@ -1058,6 +1200,8 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 ### For Emily: technical claims to confirm
     Source [Emily's architecture]: Every platform fact in Appendix A and Attachment 1 is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
     Source [District lens]: A CTO will ask for evidence of each present-tense control; a privacy officer will not accept a blank where the model provider belongs.
+
+> **November 2.** Emily's October 30 recommendation is adopted: the NDPA as the baseline, a concise CHSS supplement that states each obligation once, and implementation detail in separate technical documentation. The list below becomes the control inventory for that documentation, to be written in the 1EdTech Security Practices Rubric's forty-two-item format. Which items stay contractual is decided row by row on the Technical commitments tab at the Tuesday, November 3 working session.
 
 Answer each as **true today**, **true by [date]**, or **no**:
 
@@ -1288,25 +1432,28 @@ Nothing goes to a district until every open decision marked **Gate** is closed. 
 | # | Decision | Owner | Approver | Needed by | Gate | Closed on / evidence |
 |---|---|---|---|---|---|---|
 | O1 | What the December Navigator pilot runs on: which schools, which agreement, what data | Jonah, Emily | Stand counsel | Before the Leadership Summit (late Nov) | **Gate** before the Summit | |
-| O2 | Liability cap, indemnity, and breach-cost carve-out in Agreement Section Eight | Jonah | Stand counsel | Before Columbus review | **Gate** before signature | |
-| O3 | AI model provider: name, tier, data-use terms, no-training attestation, zero-retention arrangement | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
-| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Attachment 1) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | |
+| O2 | Liability cap, indemnity, and breach-cost carve-out in Agreement Section Eight | Jonah | Stand counsel | Before Columbus review | **Gate** before signature | GOLD with Stand's counsel since 10/30 (Demian). Jonah (GOLD, 10/30): "need legal review for this." |
+| O3 | AI model provider: name, tier, data-use terms, no-training attestation, zero-retention arrangement | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | Emily (10/30) is restructuring the technical sections in her own copy of GOLD; working session Tue 11/3. |
+| O4 | Which security controls are true today; dates for the rest (Appendix A.7, A.9, A.13; Attachment 1) | Emily | Jonah | Before any district sees the package | **Gate** before external distribution | Emily (10/30): NDPA baseline, concise supplement, technical documentation (M23). The per-control answer now feeds the technical documentation; which controls stay contractual is O24. |
 | O5 | Background checks and annual privacy training for every person with access to Student Data: coaching staff and technical staff | Demian, James | Jonah | Before any coach sees student-level data | **Gate** before signature | |
-| O6 | Screener consent classification, item by item, and the district authorization form | Tara, Stand counsel | Jonah | Before any screener runs in a new district | **Gate** for screeners | |
+| O6 | Screener consent classification, item by item, and the district authorization form | Tara, Stand counsel | Jonah | Before any screener runs in a new district | **Gate** for screeners | Jonah (GOLD, 10/30) asked Tara whether 9th Grade Seminar teachers administer the screeners; see O23. |
 | O7 | Insurance limits actually held; self-insurance posture | Demian, Stand counsel | Jonah | Before signature | **Gate** before signature | |
-| O8 | Stand for Children Leadership Center, Inc. as the 501(c)(3) signatory; no-advocacy clause acceptable | Stand counsel | Jonah | Before external distribution | **Gate** before external distribution | |
+| O8 | Stand for Children Leadership Center, Inc. as the 501(c)(3) signatory; no-advocacy clause acceptable | Stand counsel | Jonah | Before external distribution | **Gate** before external distribution | GOLD with Stand's counsel since 10/30 (Demian); a revised draft promised to her within days. |
 | O9 | Whether a Navigator tenant can run without student names (pseudonymous election) | Emily | Jonah, Tara | Before Columbus review | Bracket | |
-| O10 | Row-level de-identified retention is needed for the evaluation design, and the retained-data inventory | Tara, Jonah | Stand counsel | Before Columbus review | Bracket | |
-| O11 | Integration support through acceptance plus maintenance: staffing and hours | Jonah | Emily | Before external distribution | Bracket | |
-| O12 | Exhibit E general offer, and signing NDPA standard clauses without redline, starting with TEC's 18-state agreement | Stand counsel | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | In principle 10/27 (version 1 with Exhibit E). TEC's 18-state form received 10/29. Counsel's read of the standard clauses and eighteen state exhibits pending. |
+| O10 | Row-level de-identified retention is needed for the evaluation design, and the retained-data inventory | Tara, Jonah | Stand counsel | Before Columbus review | Bracket | Jonah (GOLD, 10/30) asked Tara to confirm that Exhibit D-1 lists every outcome the evaluation needs. Two constraints noted on the Technical commitments tab: Exhibit A in most TEC states; Iowa's IRB requirement. |
+| O11 | Integration support through acceptance plus maintenance: staffing and hours | Emily | Jonah | Before external distribution | Bracket | The commitment itself is agreed: Jonah (GOLD, 10/30) on 6.9, "this makes sense." Staffing and hours remain with Emily. |
+| O12 | Exhibit E general offer, and signing NDPA standard clauses without redline, starting with TEC's 18-state agreement | Stand counsel | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | In principle 10/27 (version 1 with Exhibit E). TEC's 18-state form received 10/29. Counsel has GOLD (10/30) but not yet the TEC form; her read of the standard clauses and eighteen state exhibits is pending. |
 | O17 | Emily's bullets binding coaching-staff access to the school level and to screening and intervention purposes, to replace or refine Section 5.4 | Emily | Jonah, Tara | Before external distribution | Bracket | |
 | O13 | Deletion runbook across Salesforce, Azure/Fabric, Power BI, backups, subprocessors, within sixty days | Emily | Jonah | Before signature | **Gate** before signature | |
 | O14 | Complete subprocessor list and U.S. region for every tenant | Emily | Jonah | Before signature | **Gate** before signature | |
-| O15 | One delivery cadence rule for Year 1: weekly required, with Tier 2 as a dated interim exception | Jonah, Emily | Tara | Before external distribution | Bracket | |
 | O16 | The Kid Talk outcome claim: calculation, denominator, period, sample, and permitted wording | James, Tara | Jonah | Before the case-making goes to any district | **Gate** for the claim | |
 | O18 | Data Security and Privacy Plan published at a CHSS URL (TEC Exhibit K; New York Education Law § 2-d) | Emily (Luke drafts) | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | Draft written 10/29 (Privacy plan tab). Emily confirms each statement; CHSS names its officers and posts it at a CHSS URL. |
 | O19 | Accessibility documentation for Navigator (TEC Schedule 1) | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
-| O20 | Exhibit F cybersecurity framework CHSS can claim alignment with, and New Hampshire's control list or a certification | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | |
+| O20 | Exhibit F cybersecurity framework CHSS can claim alignment with, and New Hampshire's control list or a certification | Emily | Jonah | Before returning the TEC agreement | **Gate** for the TEC signature | Recommended: NIST Cybersecurity Framework; the technical documentation doubles as the New Hampshire attachment. Emily confirms Tue 11/3. |
+| O21 | The AI training sentence in A.12(a): keep the full ban (position 1) or allow CHSS to improve the Services with de-identified data under the A.10 review (position 2) | Jonah, Emily | Stand counsel | Before external distribution | **Gate** before external distribution | Raised by Jonah (GOLD, 10/30): "does this prevent us from utilizing the data to make the Navigator smarter?" Recommendation: position 2. Analysis on the Technical commitments tab. |
+| O22 | Exhibit D-1 rows Jonah marked Required on 10/30: summer school, demographics, discipline, and assessments and program participation; and the named outcomes list | Jonah, Tara | Emily | Before external distribution | Bracket | Caveats placed as comments in GOLD: discipline should stay optional; assessments and program participation need named elements, several of which live outside the SIS. |
+| O23 | Screeners marked "(required)" in Section Three against the District's right in 6.7 to decline a screener; and who administers them | Jonah, Tara | Stand counsel | Before external distribution | Bracket | Contradiction introduced 10/30. Recommended: "required where permitted by state law and District policy." Jonah asked Tara whether Seminar teachers administer. |
+| O24 | Row by row: which technical commitments stay in the supplement, which go to the Columbus exhibit, which become technical documentation, and which come out | Emily | Jonah | Tue 11/3 working session | **Gate** before the next draft goes to counsel | Emily's structure adopted 10/30 (M23). The table and recommendations are on the Technical commitments tab. |
 
 **Details for O1:**
     Source [Conversation]: Jonah (10/26): starting with districts in January "gives us the four or five months of let's get this set up before students start." James (10/23): "when we come to them in April and say, hey, it's time to engineer this SIS integration."
@@ -1409,6 +1556,36 @@ An accessibility conformance report (often a VPAT) for Navigator: Salesforce pub
 
 Recommend checking the NIST Cybersecurity Framework, since New York requires it and it maps cleanly to Microsoft and Salesforce controls. Emily confirms CHSS can truthfully claim alignment and either meets New Hampshire's twenty-three controls or names the certification and its date. **Evidence:** a framework mapping. **Documents:** TEC Exhibit F; Appendix A.7; Attachment 1.
 
+**Details for O21:**
+    Source [Conversation]: Jonah (GOLD comment, 10/30) on A.12(a): "does this prevent us from utilizing the data to make the Navigator smarter? If so we don't want that phrase."
+    Source [SDPC NDPA]: TEC eighteen-state NDPA, Article IV.5: de-identified data may be used for "research and development of the Provider's educational sites, services, or applications, and to demonstrate the effectiveness of the Services; and (3) for adaptive learning purpose and for customized student learning." Colorado's terms add: "The Provider shall not use Student Data to train Artificial Intelligence (AI) models of systems." New Hampshire permits adaptive and customized learning uses.
+    Source [State law]: California NDPA version 1.5, Exhibit G clause 8: Student Data "shall not be used for training purposes or to develop synthetic and/or inferred data."
+    Source [District lens]: The de-identify-then-train route is the first thing a privacy officer checks; the Arizona AI questionnaire asks whether user data trains the model before anything else.
+
+The clause as drafted bars training on district data in any form, which is the strongest position a district can be offered and gives up what the NDPA allows. Recommendation: split the rule. Nobody trains on Student Data or its outputs; CHSS may use De-identified Data, built and reviewed under A.10 and never retained by a provider, to evaluate and improve the Services, with a twenty-student floor on any de-identified dataset. Allowing training on identifiable data would be refused in Colorado and California. **Evidence:** Jonah's choice, recorded in GOLD. **Documents:** A.12, A.10; NDPA Exhibit A (add the de-identified evaluation and improvement use).
+
+**Details for O22:**
+    Source [Conversation]: Jonah (GOLD, 10/30) changed Summer school, Demographics, Discipline, and Assessments/program participation from Optional to Required, asked Tara to confirm the outcomes list, and asked what "assessments" and "program participation" mean and whether to request ACT/SAT.
+    Source [Luke's decision]: Decisions M3 (discipline optional) and M9 (minimum dataset): a Required element a district cannot produce is a reason to decline, so Required rows must be ones every district can supply from its SIS.
+    Source [District lens]: A California district privacy lead (10/27) refused a partner's request for comparable sensitive data with the district attorney's backing; Tara (10/19): behavior data "we typically don't get."
+    Source [SDPC NDPA]: Most of the eighteen state terms, Ohio and Colorado among them, delete "or stated in the Service Agreement" from Article IV.2, limiting use to the services in Exhibit A. Iowa: the NDPA "does not provide approval for use of Student Data for research or audit/evaluation purposes" without IRB approval.
+
+Summer school and demographics can be Required with a note that the District supplies them where it holds them in the SIS. Discipline should return to Optional unless Tara names the outcome that depends on it. Assessments and program participation become named rows: state accountability scores (Required where held), ACT/SAT, CTE pathway enrollment and completion, industry certifications, and dual-credit completion (Optional, where held). **Evidence:** Tara's outcomes list and Jonah's confirmation in GOLD. **Documents:** Exhibit D-1; NDPA Exhibit A draft on Notes.
+
+**Details for O23:**
+    Source [Conversation]: Jonah (GOLD, 10/30) added "(required)" after screeners in Section Three, deleted "The District administers the screeners through the School Team" from 6.7, and asked Tara whether the Seminar teacher administers them.
+    Source [State law]: Arizona A.R.S. § 15-104 (prior written consent for mental health screening); the Department of Education's August 26, 2026 letter on behavioral health screeners. Idaho's TEC terms bar any "well-being questionnaire, or health screening" without the LEA's written pre-approval.
+    Source [Luke's decision]: 6.7's decline sentence exists because Arizona districts cannot administer the Belonging Screener at all (see O6); the Services have to run without it.
+
+Section Three and 6.7 cannot both stand as written. Recommended: Section Three reads "screeners (required where permitted by state law and District policy)," and 6.7 names the administering District staff (Seminar teachers or others the District designates), because the consent and notice mechanics depend on a District employee administering. **Evidence:** Jonah's and Tara's answers in GOLD. **Documents:** Section Three; 6.7; A.15.
+
+**Details for O24:**
+    Source [Emily's email]: Emily (10/30): the draft "goes beyond the NDPA in several areas, including annual independent audits and penetration testing, detailed record-access logging, specific patching and backup deletion deadlines, and AI provider restrictions as well as shorter time/limit on certain responses and requirements. These are significant operational and financial commitments that may not be necessary."
+    Source [Columbus City DSA]: Two of the flagged commitments are required by Columbus in writing: annual third-party audits of security operations (item 7) and documented, logged access with log data on request (items 8 and 9).
+    Source [Lewis County]: New Hampshire's terms require audit logs and timely flaw correction unless a certification is held; New York's require NIST CSF alignment and allow the state to require an independent audit.
+
+Each commitment is tested against three questions: does the NDPA already require it; does a named district require it in writing; can CHSS evidence it today or by a date. The row-by-row recommendation is on the Technical commitments tab. **Evidence:** the settled table after the Tue 11/3 session. **Documents:** Appendix A; the Columbus exhibit; technical documentation.
+
 **Details for O17:**
     Source [Conversation]: Emily (10/27): the Navigator serves "many personas having access to it," so platform-login language in the access clause was "problematic" and should be struck; bind access "to the school level" and "to the purpose and only for the purpose of" screening and intervention. She will send bullets; Jonah asked that they be copied to him and Tara.
 
@@ -1425,13 +1602,6 @@ A runbook that returns or destroys a district's data within sixty days across ev
     Source [Columbus City DSA]: "No student data is stored outside the United States without the District's written consent."
 
 Tenant settings or contract excerpts showing each subprocessor and its U.S. region, and confirmation that the list is complete. **Documents:** Appendix A.6, A.9; Attachment 1.
-
-**Details for O15:**
-    Source [District lens]: "Is weekly delivery required, preferred, or only the Tier 1 target? Tier 2 says every marking period is acceptable, while the onboarding timeline says weekly updates begin on day one."
-    Source [James's collateral]: "Current data. Dashboards update automatically, not once a grading period." The coaching model needs Friday's data on Tuesday.
-    Source [Luke's decision]: Drafted as one rule, pending confirmation: once the feed is live for Year 1, updates are weekly; a Tier 2 district may run an approved interim cadence, not less than monthly, recorded in Exhibit D-3 with a dated target for Tier 1.
-
-Jonah and Emily confirm that weekly is the Year 1 standard and that CHSS will hold Tier 2 districts to an interim cadence with a target date. If marking-period delivery must remain acceptable indefinitely, the Friday-to-Tuesday promise comes out of the case-making. **Documents:** Agreement 6.5, D-2, D-3; case-making.
 
 **Details for O16:**
     Source [James's collateral]: James's 10/23 email: "Our own data shows us that when teams do a Kid Talk with fidelity they are 70%+ more likely to hit their on-track goal."
@@ -1558,6 +1728,23 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
     Source [District lens]: A California colleague shared the CETPA/Fagen Friedman & Fulfrost AB 1584 compliance checklist (10/27), which is how California district counsel review a partner agreement: nine boxes. A San Diego reviewer will tick them in order.
     Source [Luke's decision]: Six of the nine were already in Appendix A. Three were implicit and are now explicit: a described parent-notification procedure after a breach (A.8), named responsible individuals with a line in Exhibit D-3 (A.7), and a joint FERPA compliance paragraph (A.2). The pupil-generated-content term is answered "none held" (A.5) rather than left to inference. The California bullet in A.17 maps all nine to their sections so the review takes five minutes instead of an afternoon.
 
+#### M22. The automated feed is the only option offered; the upload capability is an unadvertised fallback
+    Source [Conversation]: Jonah (GOLD comments, 10/30) on 6.5: the automated feed "should be the only option and we should indicate that this approach is safer and will drive substantially increased 9th Grade On-Track rate impact, district staff efficiency, 9th Grade Success Team Lead efficiency and effectiveness, and CHSS staff efficiency (which enables CHSS to offer the district lower cost services in Year 2 and Year 3)"; and on the Tier 2 sentence: "I do not want to offer this option to any Accelerator district."
+    Source [Luke's decision]: The Tier 2 sentence leaves 6.5 and Exhibit D-2, and 6.5 states the reasons in one sentence. CHSS still builds the scheduled-upload capability, because Lewis County, the originating district for the eighteen-state agreement, is small and its SIS vendor may not automate on the timeline; an exception is granted by CHSS and recorded on the district's exhibit, never offered in the agreement. This closes O15.
+
+**What would reverse it:** a first-cohort district whose SIS cannot produce an automated export at all, in which case the exception is used and the agreement is unchanged.
+
+#### M23. Three layers: the NDPA as baseline, a concise CHSS supplement, technical documentation outside the contract
+    Source [Emily's email]: Emily (10/30): "I recommend using the NDPA as the baseline, with a concise CHSS supplement where needed, stating each obligation once, and keeping implementation details in separate technical documentation." She also found the draft "repeats much of the same language across the agreement, Appendix A, and system specifications attachment."
+    Source [Luke's decision]: Adopted 11/2. The supplement carries only what the NDPA lacks; a one-page district exhibit, in the three-column form of the 1EdTech template's variations table, records anything a district adds; Attachment 1 leaves the contract and becomes the first technical document, provided on request under A.13. This answers the earlier open question about Attachment 1. Where a district's state has an NDPA version, CHSS signs it (A.19); where none exists, the NDPA's standard clauses are attached as the baseline exhibit so the supplement never stands alone.
+    Source [District lens]: The 1EdTech template keeps the supplier's security standards as an attachment to its data schedule and its district-specific terms in a separate exhibit, which is the same separation.
+
+**What would reverse it:** counsel preferring a single self-contained agreement for every district, in which case the current Appendix A is retained and only the duplication is removed.
+
+#### M24. GOLD in Google Drive is the document of record; this site tracks versions, decisions, and reasoning
+    Source [Conversation]: James (10/29, thread): "I uploaded it into Google Drive so that Luke can also collaborate on it ... Can we track changes here as we move towards a final version?" Jonah's tracked changes and comments (10/30) and Emily's edits are in or against that file, and Demian sent it to counsel (10/30).
+    Source [Luke's decision]: From 11/2 the Agreement tab is frozen at the October 29 text GOLD started from, with its source notes. Edits happen in GOLD. The Decisions register, Notes, and Changelog continue here for the reasoning that is too long for a comment.
+
 ---
 
 # Page F. Changelog (what changed in each version and why)
@@ -1566,6 +1753,15 @@ James and Tara validate the calculation, denominator, period, and sample, and ap
     Source [Drafting choice]: One entry per published version, newest first: what changed, why, and what prompted it. Internal draft numbers appear here and in the version pill only; the documents themselves never cite them.
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
+
+### v1.7, Nov 2, 2026
+    Source [Emily's email]: Emily (10/30): the draft repeats technical language in three places and goes beyond the NDPA on audits, penetration testing, logging, patching and backup deadlines, AI restrictions, and response times; use the NDPA as the baseline, a concise CHSS supplement, and separate technical documentation.
+    Source [Conversation]: James (10/29, thread) moved the Word copy to Google Drive as GOLD for tracked changes; Jonah marked it up 10/30; Stand's counsel received it 10/30.
+
+- **New tab: Technical commitments.** Every technical commitment in the draft tested against the eighteen-state NDPA, the Columbus City agreement, and the 1EdTech district agreement template, with a recommendation for each: supplement, district exhibit, technical documentation, or out. Includes the AI training clause analysis, a first Columbus exhibit, and the agenda for the November 3 working session. PDF, Word, and Markdown downloads.
+- **The Agreement tab now points to GOLD** as the document of record and is frozen at the October 29 text. Edits happen in GOLD; this site tracks versions, decisions, and reasoning (M24).
+- **Decisions:** O15 closed as M22 (automated feed only; upload capability kept as an unadvertised fallback). New open items O21 (AI training), O22 (Required data elements), O23 (screeners required versus the decline right), and O24 (row-by-row placement of the technical commitments). M23 records the three-layer structure and settles Attachment 1. Evidence updated for O2, O3, O4, O6, O8, O10, O11, O12, and O20 from the thread and Jonah's GOLD comments.
+- **Notes:** the list for Emily is now the control inventory for the technical documentation, in the 1EdTech Security Practices Rubric format.
 
 ### v1.6, Oct 29, 2026
     Source [Conversation]: James (10/29) needs a full MOU in one place, downloadable, so Columbus City's legal review can start; Luke: only as a clearly marked working draft with pending items highlighted, and only with Jonah's blessing.

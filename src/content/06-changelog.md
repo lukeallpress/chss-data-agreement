@@ -3,6 +3,15 @@
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
 
+## v1.7, Nov 2, 2026
+::src Emily's email :: Emily (10/30): the draft repeats technical language in three places and goes beyond the NDPA on audits, penetration testing, logging, patching and backup deadlines, AI restrictions, and response times; use the NDPA as the baseline, a concise CHSS supplement, and separate technical documentation.
+::src Conversation :: James (10/29, thread) moved the Word copy to Google Drive as GOLD for tracked changes; Jonah marked it up 10/30; Stand's counsel received it 10/30.
+
+- **New tab: Technical commitments.** Every technical commitment in the draft tested against the eighteen-state NDPA, the Columbus City agreement, and the 1EdTech district agreement template, with a recommendation for each: supplement, district exhibit, technical documentation, or out. Includes the AI training clause analysis, a first Columbus exhibit, and the agenda for the November 3 working session. PDF, Word, and Markdown downloads.
+- **The Agreement tab now points to GOLD** as the document of record and is frozen at the October 29 text. Edits happen in GOLD; this site tracks versions, decisions, and reasoning (M24).
+- **Decisions:** O15 closed as M22 (automated feed only; upload capability kept as an unadvertised fallback). New open items O21 (AI training), O22 (Required data elements), O23 (screeners required versus the decline right), and O24 (row-by-row placement of the technical commitments). M23 records the three-layer structure and settles Attachment 1. Evidence updated for O2, O3, O4, O6, O8, O10, O11, O12, and O20 from the thread and Jonah's GOLD comments.
+- **Notes:** the list for Emily is now the control inventory for the technical documentation, in the 1EdTech Security Practices Rubric format.
+
 ## v1.6, Oct 29, 2026
 ::src Conversation :: James (10/29) needs a full MOU in one place, downloadable, so Columbus City's legal review can start; Luke: only as a clearly marked working draft with pending items highlighted, and only with Jonah's blessing.
 
