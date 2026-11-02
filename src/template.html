@@ -104,6 +104,14 @@
   .titlewrap > .srcwrap { grid-column: 2; justify-self: start; margin-top: 10px; }
   .firstwrap > :first-child { grid-column: 1; }
   .firstwrap > .srcwrap { grid-column: 2; justify-self: start; margin-top: calc(.7em + 4px); }
+  /* wide pages: no right-hand source column; the only Source pill sits in the title row */
+  .doc.wide > *:not(.sec), .doc.wide .sec > *:not(.sec-head) { max-width: none; }
+  .doc.wide .sec-head, .doc.wide .firstwrap { grid-template-columns: 1fr; }
+  .doc.wide .sec-head > .srcwrap, .doc.wide .firstwrap > .srcwrap { display: none; }
+  .doc.wide .titlewrap { grid-template-columns: 1fr auto; }
+  .doc.wide .titlewrap > .pills { grid-column: 2; display: flex; gap: 8px; align-items: start; margin-top: 10px; }
+  .doc.wide .titlewrap > .pills .pop { left: auto; right: 0; }
+  .doc.wide table { font-size: 14px; }
   .doc p { margin: .7em 0; }
   .doc ul, .doc ol { margin: .5em 0 .9em; padding-left: 1.4em; }
   .doc li { margin: .28em 0; }

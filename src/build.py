@@ -44,6 +44,7 @@ LABEL_CLASS = {
     "Drafting choice": "src-choice", "Needs CHSS confirmation": "src-other",
 }
 PEOPLE = ["Jonah", "Emily", "Tara", "Demian", "James", "Counsel"]
+WIDE = {"technical"}   # full-width pages: one Source pill in the title row, no right-hand column
 
 HOWTO = (
     '<div class="srcwrap howto"><button class="pillbtn" type="button" aria-expanded="false" '
@@ -152,7 +153,7 @@ def render_why(md):
 
 
 # ---------------------------------------------------------------- converter
-def convert(md, plain=False, title_extra=""):
+def convert(md, plain=False, title_extra="", wide=False):
     whys, lines, src_lines = {}, [], md.splitlines()
     i = 0
     while i < len(src_lines):
@@ -207,11 +208,14 @@ def convert(md, plain=False, title_extra=""):
             sec_open = True
             out.append(f'<div class="sec-head"><h{level}>{inline(text)}</h{level}>{render_sources(srcs)}</div>')
         else:
-            out.append(f'<div class="titlewrap"><h1>{inline(text)}</h1>{HOWTO}</div>')
+            if wide:
+                out.append(f'<div class="titlewrap"><h1>{inline(text)}</h1><div class="pills">{render_sources(srcs)}{HOWTO}</div></div>')
+            else:
+                out.append(f'<div class="titlewrap"><h1>{inline(text)}</h1>{HOWTO}</div>')
             if title_extra:
                 out.append(title_extra)
             doc_srcs = srcs
-            first_block = bool(srcs)
+            first_block = bool(srcs) and not wide
         pending = None
 
     while i < len(lines):
@@ -603,8 +607,9 @@ def main():
     downloads = build_downloads(ver, date, chrome)
     panels, tabs, notetabs = [], [], []
     for key, title, fn, group, base in DOCS:
-        body = convert((ROOT / "content" / fn).read_text(), title_extra=download_row(downloads.get(key)))
-        panels.append(f'<article class="doc" id="doc-{key}" data-doc="{key}" hidden>{body}</article>')
+        body = convert((ROOT / "content" / fn).read_text(), title_extra=download_row(downloads.get(key)), wide=key in WIDE)
+        cls = "doc wide" if key in WIDE else "doc"
+        panels.append(f'<article class="{cls}" id="doc-{key}" data-doc="{key}" hidden>{body}</article>')
         t = f'<button class="tab" type="button" data-doc="{key}" role="tab" aria-selected="false">{html.escape(title)}</button>'
         (notetabs if group == "note" else tabs).append(t)
 
