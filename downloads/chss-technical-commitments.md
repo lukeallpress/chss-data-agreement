@@ -66,10 +66,10 @@ Jonah asked whether A.12(a) prevents CHSS from using the data to make Navigator 
 | Position | What it means | Where it lands |
 |---|---|---|
 | **1. Keep the clause as drafted.** | No training on district data in any form. Navigator improves through evaluation and design, not through models trained on district data. | The strongest offer a district can receive. Gives up what the NDPA allows. |
-| **2. Split the rule (recommended).** | Nobody trains on Student Data or its outputs. CHSS may use De-identified Data, built and reviewed under A.10, to evaluate and improve the Services, including models used only inside the Services, as long as no provider keeps it. | Permitted by NDPA Article IV.5 ("research and development of the Provider's educational sites, services, or applications"). Satisfies Colorado's ban, which covers Student Data only. Accepted by most districts when the review is documented and a minimum dataset size is stated. |
+| **2. Split the rule (recommended; drafted into v1.7).** | No model is trained on Student Data or its outputs. CHSS may use De-identified Data, built and reviewed under A.10, for research and development of the Services, as long as the work stays inside CHSS and no provider receives it. | Permitted by NDPA Article IV.5 ("research and development of the Provider's educational sites, services, or applications"). Satisfies Colorado's ban, which covers Student Data only. Accepted by most districts when the review is documented and a minimum dataset size is stated. |
 | **3. Allow training on Student Data for CHSS-operated models.** | Identifiable data trains the models. | Refused in Colorado under the TEC terms and in California under Exhibit G. Expect it to stop signature in several states. |
 
-**Recommended wording for position 2.** "(a) Neither CHSS nor any Subprocessor will use Student Data, or any output derived from Student Data, to train, fine-tune, or otherwise improve any machine-learning model, or to develop synthetic or inferred data for any purpose other than delivering the Services. CHSS may use De-identified Data, created and reviewed under A.10, to evaluate and improve the Services, including models used only within the Services, provided that no model provider or other Subprocessor retains De-identified Data or uses it for its own purposes. No dataset of fewer than twenty students is treated as de-identified for this purpose."
+**Wording now in v1.7 (position 2).** "(a) neither CHSS nor any Subprocessor will use Student Data, or any output derived from Student Data, to train, fine-tune, or otherwise improve any artificial-intelligence or machine-learning model, and neither will develop synthetic or inferred data from Student Data for any purpose other than delivering the Services to the District; this paragraph does not limit CHSS's use of De-identified Data and Aggregate Data, created and reviewed under A.10, for research and development of the Services and to demonstrate their effectiveness, including improving the on-track indicators, screeners, and intervention suggestions the Services provide, provided that this work stays within CHSS and no model provider or other Subprocessor receives or retains De-identified Data for it." The line is drawn at the model, not at the Services: nothing identifiable trains any model anywhere, and what CHSS learns from de-identified data stays inside CHSS.
 
 :::details Why each phrase is there, and two consequences for Tara
 
@@ -78,7 +78,7 @@ Jonah asked whether A.12(a) prevents CHSS from using the data to make Navigator 
 - "train, fine-tune, evaluate, or otherwise improve": evaluation sets are how models are tuned without "training" in name; the list prevents relabeling.
 - "for any purpose other than delivering the Services": attaches to synthetic and inferred data, not to training. Clause (b) then permits the student-specific inferences Navigator produces, treated as Student Data.
 - What the clause does not prevent: evaluating the program with de-identified and aggregate data (5.5, A.10); learning from results and encoding what works as rules, content, or configuration.
-- The twenty-student floor is the 1EdTech template's definition of de-identified data. It pairs with the existing rule that published cells under ten are suppressed.
+- No separate dataset floor: A.10 already requires the documented 34 C.F.R. § 99.31(b)(1) determination before any De-identified Data is retained, and suppresses cells under ten. The 1EdTech template's twenty-individual floor is an alternative if a district asks for a number.
 - **For Tara, two consequences.** Most of the eighteen state terms, Ohio and Colorado among them, limit use to the services described in the NDPA's Exhibit A, so "evaluation and improvement of the Services using de-identified data" and the outcome measures she names must appear there. Iowa's terms say the NDPA "does not provide approval for use of Student Data for research or audit/evaluation purposes" and require the district's institutional review board approval first.
 
 :::
@@ -124,7 +124,7 @@ Each entry takes effect only if Emily confirms CHSS can meet it.
 
 1. Confirm the three layers and the rule.
 2. Decide each row of the table above.
-3. Decide the AI training clause: position 1 or 2.
+3. Confirm the AI training clause as reworded in v1.7 (position 2), or revert to position 1.
 4. Agree the format of the technical documentation (the rubric's forty-two items), who writes it, and the date of the first version. Confirm what CHSS can evidence today: tenant regions, encryption, MFA, the Azure and Salesforce SOC 2 Type 2 reports, the AI provider's name.
 5. Confirm the TEC form answers: Exhibit F, the New Hampshire path, Schedule 1 accessibility documentation.
 6. Set the date for the restructured draft to counsel.
