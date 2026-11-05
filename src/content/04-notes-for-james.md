@@ -12,35 +12,37 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 
 | # | Requirement | Where it comes from | Measure it implies | Current practice | Gap | Action / date |
 |---|---|---|---|---|---|---|
-| G1 | Student Data stored and processed only in U.S. regions | Columbus; NDPA state exhibits; A.9 | Tenant region settings for Azure, Fabric, Salesforce, Power BI, AI provider | | | |
-| G2 | Complete, named subprocessor list; 30 days' notice of changes; district remedy on objection | NDPA; A.6 | Subprocessor register; contract flow-down clauses; notice procedure | | | |
-| G3 | AI provider named; no training on district data; zero-retention arrangement; human review of suggestions | Arizona Exhibit G; A.12 | Provider contract excerpt; feature design; written attestation | | | |
-| G4 | Encryption in transit (TLS 1.2+) and at rest (AES-256) on every store including backups and the SFTP landing zone | NDPA Exhibit F; A.7 | Platform configuration; key management | | | |
-| G5 | MFA for all CHSS accounts; SSO for district users | A.7 | Identity configuration; SAML/OIDC support | | | |
-| G6 | Every access to student-level records logged; logs tamper-protected, kept 12 months, exportable per district | Columbus §8; A.7 | Salesforce event monitoring or equivalent; log retention; export procedure | | | |
-| G7 | Documented access roster, quarterly review, one-business-day deprovisioning | Columbus §8; A.7 | Access review process; offboarding checklist | | | |
-| G8 | Critical patches within 7 days; anti-malware; firewall segregation; encrypted, tested backups | Columbus §7; A.7 | Patch management SLA; endpoint protection; backup test records | | | |
-| G9 | Annual independent assessment (SOC 2 Type II or equivalent) and annual penetration test | Columbus §7; A.7, A.13 | Audit engagement; pen test engagement; first completion date | | | |
-| G10 | Written, tested incident response plan; district notified within 72 hours of confirmation | NDPA v1.2 V.4; Ohio R.C. 1347.12; A.8 | Plan document; tabletop exercise; notification template | | | |
-| G11 | Parent-notification procedure after a breach: affected list, draft notice, district sends or directs, costs borne by CHSS | Cal. Ed Code 49073.1(b)(6); A.8 | Runbook section; notice template | | | |
-| G12 | Return or destroy Student Data within 60 days of directive or termination, across every store; backups expire within 90 days; officer's certificate | NDPA Art. IV; Columbus; A.10 | Deletion runbook across Salesforce, Azure/Fabric, Power BI, backups, subprocessors; certificate template; dry run | | | |
-| G13 | De-identification: random token not derived from the student ID, key destroyed with identifiable data, documented reasonable-determination review, cell suppression under 10 | FERPA § 99.31(b); A.10 | Tokenization step; review checklist; dashboard suppression rule | | | |
-| G14 | Background checks and annual privacy training for all staff with access, coaches included | A.7; O5 | HR policy; training records | | | |
-| G15 | Named privacy officer and security officer | Cal. Ed Code 49073.1(b)(5); A.7 | Two names on Exhibit D-3 | | | |
-| G16 | Cyber liability $2M per claim and aggregate with two-year tail; CGL $1M/$2M; E&O $1M; certificates on request | Columbus §9; A.14 | Policy limits; certificate | | | |
-| G17 | No automatic renewal; data term ends with the agreement | District checklists; A.16 | Contract term language | | | |
-| G18 | Per-load validation report (rejected files, rejected rows, warnings); failure notice within one business day; acceptance test | 6.9, D-3 | Ingestion validation; monitoring and alerting; acceptance procedure | | | |
-| G19 | Screener collection opens only after district authorization and consent certification; instruments versioned | 6.7; A.15 | Feature gate per district; instrument versioning | | | |
-| G20 | A Navigator tenant can run without student names (if a district requires it) | O9 | Platform answer: yes, no, or with which features off | | | |
-| G21 | Published Data Security and Privacy Plan at a CHSS URL | NY Education Law § 2-d; 8 NYCRR Part 121; TEC NDPA Exhibit K | Plan document covering requirements, safeguards, Parents' Bill of Rights compliance, training, subprocessors, incidents, disposition | | | |
-| G22 | Accessibility conformance report for Navigator (WCAG 2.1 AA) | TEC NDPA Schedule 1 | Salesforce platform VPAT plus a report for CHSS's custom pages; remediation plan | | | |
-| G23 | A named cybersecurity framework CHSS can claim alignment with; New Hampshire's 23 controls or an annual certification | TEC NDPA Exhibit F; NH Exhibit G; NY Exhibit G (NIST CSF) | Framework mapping; control evidence or certification | | | |
-| G24 | Teacher and staff data protected like student data | NH Exhibit G and Exhibit I | Inventory of staff data in Navigator; same controls | | | |
-| G25 | Criminal background checks for every employee with direct contact with students | MA, ME, NH, NY, RI, VT Exhibit Gs; A.7 | HR policy; roster of who has student contact | | | |
+| G1 | Student Data stored and processed only in U.S. regions | Columbus; NDPA state exhibits; A.9 | Tenant region settings for Azure, Fabric, Salesforce, Power BI, AI provider | | | Kept, A.9. Regions recorded in the technical documentation (O4). |
+| G2 | Complete, named subprocessor list; 30 days' notice of changes; district remedy on objection | NDPA; A.6 | Subprocessor register; contract flow-down clauses; notice procedure | | | Kept in substance, 5.4 and A.7 Access bullet. Role matrix in the technical documentation. |
+| G3 | AI provider named; no training on district data; zero-retention arrangement; human review of suggestions | Arizona Exhibit G; A.12 | Provider contract excerpt; feature design; written attestation | | | Resolved 11/4: provider named by category in A.6; name, tier, terms, retention in the technical documentation (M25). |
+| G4 | Encryption in transit (TLS 1.2+) and at rest (AES-256) on every store including backups and the SFTP landing zone | NDPA Exhibit F; A.7 | Platform configuration; key management | | | Resolved 11/4: generic encryption sentence in A.7; versions in documentation. |
+| G5 | MFA for all CHSS accounts; SSO for district users | A.7 | Identity configuration; SAML/OIDC support | | | MFA generic in A.7. SSO still owed by Emily (Jonah's 6.8 question). |
+| G6 | Every access to student-level records logged; logs tamper-protected, kept 12 months, exportable per district | Columbus §8; A.7 | Salesforce event monitoring or equivalent; log retention; export procedure | | | Resolved 11/4: ninety-day logs, log data on request after an incident (A.7). Columbus's wording on Exhibit D-5. |
+| G7 | Documented access roster, quarterly review, one-business-day deprovisioning | Columbus §8; A.7 | Access review process; offboarding checklist | | | Resolved 11/4: access removed promptly (A.7); roster and timing in documentation. |
+| G8 | Critical patches within 7 days; anti-malware; firewall segregation; encrypted, tested backups | Columbus §7; A.7 | Patch management SLA; endpoint protection; backup test records | | | Resolved 11/4: severity-based patching and endpoint protection (A.7); Columbus's one-week sentence on Exhibit D-5; backups per retention schedule (A.10). |
+| G9 | Annual independent assessment (SOC 2 Type II or equivalent) and annual penetration test | Columbus §7; A.7, A.13 | Audit engagement; pen test engagement; first completion date | | | Resolved 11/4: no SOC 2, no penetration-test promise; annual self-assessment against CIS v8.1 IG1 (A.13, M26); Columbus third-party audit on Exhibit D-5 (O24). |
+| G10 | Written, tested incident response plan; district notified within 72 hours of confirmation | NDPA v1.2 V.4; Ohio R.C. 1347.12; A.8 | Plan document; tabletop exercise; notification template | | | Resolved 11/4: plan kept and tested (A.7); seventy-two hours after a validated and confirmed incident (A.8). |
+| G11 | Parent-notification procedure after a breach: affected list, draft notice, district sends or directs, costs borne by CHSS | Cal. Ed Code 49073.1(b)(6); A.8 | Runbook section; notice template | | | Kept, A.8, with the five-day clock dropped. |
+| G12 | Return or destroy Student Data within 60 days of directive or termination, across every store; backups expire within 90 days; officer's certificate | NDPA Art. IV; Columbus; A.10 | Deletion runbook across Salesforce, Azure/Fabric, Power BI, backups, subprocessors; certificate template; dry run | | | Sixty days kept (A.10); backups per retention schedule with the deletion duty following restored data. Runbook still open (O13). |
+| G13 | De-identification: random token not derived from the student ID, key destroyed with identifiable data, documented reasonable-determination review, cell suppression under 10 | FERPA § 99.31(b); A.10 | Tokenization step; review checklist; dashboard suppression rule | | | Resolved 11/4: FERPA standard kept in A.10; the cell-size number moved to documentation. |
+| G14 | Background checks and annual privacy training for all staff with access, coaches included | A.7; O5 | HR policy; training records | | | Open (O5, Demian). |
+| G15 | Named privacy officer and security officer | Cal. Ed Code 49073.1(b)(5); A.7 | Two names on Exhibit D-3 | | | Kept, A.7. Two names still needed (Exhibit D-3). |
+| G16 | Cyber liability $2M per claim and aggregate with two-year tail; CGL $1M/$2M; E&O $1M; certificates on request | Columbus §9; A.14 | Policy limits; certificate | | | Open (O7, Demian). |
+| G17 | No automatic renewal; data term ends with the agreement | District checklists; A.16 | Contract term language | | | Kept, A.16. |
+| G18 | Per-load validation report (rejected files, rejected rows, warnings); failure notice within one business day; acceptance test | 6.9, D-3 | Ingestion validation; monitoring and alerting; acceptance procedure | | | Kept as a service commitment (6.9); detail in the data-intake guide (sample sent 11/4). |
+| G19 | Screener collection opens only after district authorization and consent certification; instruments versioned | 6.7; A.15 | Feature gate per district; instrument versioning | | | Kept, 6.7 and A.15. Emily (11/4) described students entering date of birth and answering the screeners in Navigator; D-1 and 6.7 to be aligned once the flow is confirmed Friday. |
+| G20 | A Navigator tenant can run without student names (if a district requires it) | O9 | Platform answer: yes, no, or with which features off | | | Open (O9). |
+| G21 | Published Data Security and Privacy Plan at a CHSS URL | NY Education Law § 2-d; 8 NYCRR Part 121; TEC NDPA Exhibit K | Plan document covering requirements, safeguards, Parents' Bill of Rights compliance, training, subprocessors, incidents, disposition | | | Open (O18). stand.org/privacy-policy is a website and donor policy and does not serve; the plan needs its own Stand or CHSS URL. |
+| G22 | Accessibility conformance report for Navigator (WCAG 2.1 AA) | TEC NDPA Schedule 1 | Salesforce platform VPAT plus a report for CHSS's custom pages; remediation plan | | | Open (O19). |
+| G23 | A named cybersecurity framework CHSS can claim alignment with; New Hampshire's 23 controls or an annual certification | TEC NDPA Exhibit F; NH Exhibit G; NY Exhibit G (NIST CSF) | Framework mapping; control evidence or certification | | | Resolved 11/4: CIS Controls v8.1 IG1 on Exhibit F (M26); NIST CSF mapping for New York in documentation; IG1 is also on New Hampshire's certification list. |
+| G24 | Teacher and staff data protected like student data | NH Exhibit G and Exhibit I | Inventory of staff data in Navigator; same controls | | | Kept, Exhibit D-1 staff row. |
+| G25 | Criminal background checks for every employee with direct contact with students | MA, ME, NH, NY, RI, VT Exhibit Gs; A.7 | HR policy; roster of who has student contact | | | Open (O5). |
 
 ## For Emily: technical claims to confirm
 ::src Emily's architecture :: Every platform fact in Appendix A and Attachment 1 is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
 ::src District lens :: A CTO will ask for evidence of each present-tense control; a privacy officer will not accept a blank where the model provider belongs.
+
+> **November 4.** Emily and Phil's matrix and the 8:30 call settled the list below; v1.8 carries the result. The last column records where each row landed. Rows still open are marked. The matrix, returned with status, task, and effort columns, replaces this table as the control inventory; the technical-specification supplement (sample sent 11/4) is where the evidence goes.
 
 > **November 2.** Emily's October 30 recommendation is adopted: the NDPA as the baseline, a concise CHSS supplement that states each obligation once, and implementation detail in separate technical documentation. The list below becomes the control inventory for that documentation, to be written in the 1EdTech Security Practices Rubric's forty-two-item format. Which items stay contractual is decided row by row on the Technical commitments tab at the Tuesday, November 3 working session.
 
@@ -163,20 +165,20 @@ Read this with the Agreement tab open. Items marked **pending** have a highlight
 | L3 | Sign each state's NDPA unmodified, starting with TEC's 18-state agreement, and offer Exhibit E; the NDPA controls where signed | 5.2; A.18; A.19 | **Pending** (O12) |
 | L4 | Comply with each state's student privacy law "as if CHSS were the District": Ohio R.C. 3319.32x and 1347; California Ed. Code 49073.1's nine terms; Arizona Exhibit G and A.R.S. 15-104 and 15-117; New York Education Law 2-d and Part 121; the other TEC state exhibits | A.2; A.17; NDPA Exhibit G | Drafted; counsel reads the 18 exhibits |
 | L5 | Notify the district within 72 hours of confirming any unauthorized access; let the district control family notice; pay notification, credit monitoring, forensic, legal, and regulatory costs attributable to CHSS | A.8 | Drafted; cost exposure depends on L13 |
-| L6 | Return or destroy identifiable data within 60 days of a directive or of termination; backups expire within 90 days; officer certifies destruction and non-retention | 5.6; A.10; Exhibit D-4 | Drafted; runbook **pending** (O13) |
+| L6 | Return or destroy identifiable data within 60 days of a directive or of termination; backups per the documented retention schedule, with the deletion duty following any restored data; officer certifies destruction and non-retention | 5.6; A.10; Exhibit D-4 | Drafted; runbook **pending** (O13) |
 | L7 | Keep only de-identified and aggregate data after termination, with a documented de-identification review; no re-identification; district consent before any transfer or any publication naming the district | 5.5; A.10; NDPA Art. IV.5 | Drafted; need **pending** (O10) |
 | L8 | Carry cyber liability of $2,000,000 per claim and aggregate with a two-year tail, CGL $1M/$2M, and E&O $1M; self-insurance only if the district accepts it | A.14; Section Eight | **Pending** (O7) |
 | L9 | Allow each district an annual audit on ten business days' notice; in New York, an independent audit at CHSS's expense if the State Chief Privacy Officer requires one | A.13; NDPA Art. V.2; NY Exhibit G | Drafted |
-| L10 | Accept a district's immediate suspension of data transfers; termination for incurable or repeated breach; termination without penalty if the Services cannot lawfully continue; remedies when a subprocessor objection is unresolved | A.6; A.16 | Drafted |
+| L10 | Accept a district's immediate suspension of data transfers; termination for incurable or repeated breach; termination without penalty if the Services cannot lawfully continue | A.16 | Drafted |
 | L11 | No automatic renewal of the data provisions | Section Two; A.16 | Drafted |
 | L12 | Background checks and annual privacy training for every person with access; in six TEC states, background checks for every employee with direct contact with students | A.7; NDPA Exhibit G | **Pending** (O5) |
 | L13 | Breach costs and confidentiality carved out of Section Eight's liability cap, or a stated super-cap | Section Eight | **Pending** (O2) |
 | L14 | Collect screener responses only after district authorization and certified consent | 6.7; A.15 | Instruments **pending** (O6) |
-| L15 | No training of any model on district data; AI outputs about a student are Student Data; disclose the model provider and demonstrate the platform on request | A.12 | Provider **pending** (O3) |
-| L16 | Support parent and eligible-student requests within ten business days through the district | A.11 | Drafted |
+| L15 | No training of any model on identifiable Student Data, by CHSS or any Subprocessor; de-identified data may improve the Services within CHSS; providers named by category, listed in the technical documentation | A.6; A.12 | Drafted (M25); clause length **pending** (O21) |
+| L16 | Support parent and eligible-student requests through the district, in a timely manner | A.11 | Drafted |
 | L17 | Name a Privacy Officer and Security Officer; publish a Data Security and Privacy Plan at a CHSS URL | A.7; NY Exhibit K | **Pending** (O8, O18) |
 | L18 | Provide executed copies and a 90-day expiration notice | 5.7 | Drafted |
-| L19 | Store and process data only in the United States | A.9 | Regions **pending** (O14) |
+| L19 | Store and process data only in the United States | A.9 | Drafted; regions recorded in the technical documentation (O4) |
 | L20 | Governing law and venue of the district's state and county | A.17; NDPA Art. VII.6 | Drafted |
 
 ## For Jonah: decisions and commitments
