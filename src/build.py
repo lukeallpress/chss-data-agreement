@@ -25,8 +25,10 @@ DOCS = [
     # key, tab title, content file, group, download basename (None = no downloads)
     ("case",      "Case-making",          "01-case-making.md",          "deliverable", "chss-case-making"),
     ("mou",       "Agreement (MOU)",      "08-agreement.md",            "deliverable", "chss-agreement-working-draft"),
-    ("plan",      "Privacy plan",         "07-privacy-plan.md",         "deliverable", "chss-data-security-privacy-plan"),
-    ("technical", "Technical commitments","09-technical-commitments.md","deliverable", "chss-technical-commitments"),
+    ("techdoc",   "Technical documentation", "10-technical-documentation.md", "deliverable", "chss-technical-documentation"),
+    ("intake",    "Data intake guide",    "11-data-intake-guide.md",    "deliverable", "chss-data-intake-guide"),
+    ("technical", "Technical commitments","09-technical-commitments.md","archive",     "chss-technical-commitments"),
+    ("plan",      "Privacy plan (NY)",    "07-privacy-plan.md",         "archive",     "chss-data-security-privacy-plan"),
     ("notes",     "Notes",                "04-notes-for-james.md",      "note",        None),
     ("decisions", "Decisions",            "05-decisions.md",            "note",        None),
     ("changelog", "Changelog",            "06-changelog.md",            "note",        None),
@@ -40,11 +42,12 @@ LABEL_CLASS = {
     "FERPA": "src-law", "PPRA": "src-law", "COPPA": "src-law", "State law": "src-law", "Case law / guidance": "src-law",
     "SDPC NDPA": "src-sdpc",
     "Columbus City DSA": "src-district", "San Diego CCAP": "src-district", "Lewis County": "src-district", "District lens": "src-district",
-    "af-dpa": "src-afdpa",
+    "af-dpa": "src-afdpa", "SchooLinks": "src-district",
     "Drafting choice": "src-choice", "Needs CHSS confirmation": "src-other",
 }
 PEOPLE = ["Jonah", "Emily", "Tara", "Demian", "James", "Counsel"]
-WIDE = {"technical"}   # full-width pages: one Source pill in the title row, no right-hand column
+WIDE = {"technical", "techdoc", "intake"}
+LANDSCAPE = {"techdoc"}   # Word download in landscape with fixed column widths   # full-width pages: one Source pill in the title row, no right-hand column
 
 HOWTO = (
     '<div class="srcwrap howto"><button class="pillbtn" type="button" aria-expanded="false" '
@@ -71,6 +74,7 @@ def inline(s):
     s = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", s)
     s = re.sub(r"`(.+?)`", r"<code>\1</code>", s)
     s = re.sub(r"\[\[(.+?)\]\]", r'<mark class="pending">\1</mark>', s)
+    s = re.sub(r"\[([^\]]+?)\]\((#[^)]+|https?://[^)]+)\)", r'<a href="\2">\1</a>', s)
     return s
 
 
@@ -96,7 +100,16 @@ def parse_table(table_lines):
 def table_html(cells):
     if not cells:
         return "<table></table>"
-    t = ["<table>", "<thead><tr>" + "".join(f"<th>{inline(c)}</th>" for c in cells[0]) + "</tr></thead><tbody>"]
+    head = cells[0]
+    if all(not c.strip() for c in head):                       # key/value card: no header row
+        t = ['<table class="kv"><tbody>']
+        for r in cells[1:]:
+            t.append("<tr>" + "".join(f"<{'th' if ci == 0 else 'td'}>{inline(c)}</{'th' if ci == 0 else 'td'}>" for ci, c in enumerate(r)) + "</tr>")
+        t.append("</tbody></table>")
+        return "".join(t)
+    h0 = head[0].strip().lower()
+    cls = ' class="schema"' if h0.startswith("column name") else (' class="inv"' if h0 == "id" else "")
+    t = [f"<table{cls}>", "<thead><tr>" + "".join(f"<th>{inline(c)}</th>" for c in head) + "</tr></thead><tbody>"]
     for r in cells[1:]:
         t.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
     t.append("</tbody></table>")
@@ -450,10 +463,15 @@ def make_pdf(html_text, out_pdf, chrome_app, workdir):
         raise RuntimeError("no PDF produced within 60s")
 
 
-def md_to_docx(md, out_path, title, meta):
+def md_to_docx(md, out_path, title, meta, landscape=False):
     from docx import Document
-    from docx.shared import Pt
+    from docx.shared import Pt, Inches
     doc = Document()
+    if landscape:
+        from docx.enum.section import WD_ORIENT
+        for s in doc.sections:
+            s.orientation = WD_ORIENT.LANDSCAPE; s.page_width, s.page_height = Inches(11), Inches(8.5)
+            s.left_margin = s.right_margin = s.top_margin = s.bottom_margin = Inches(0.7)
     doc.styles["Normal"].font.name = "Georgia"
     doc.styles["Normal"].font.size = Pt(11)
     style_names = {s.name for s in doc.styles}
@@ -503,15 +521,35 @@ def md_to_docx(md, out_path, title, meta):
                 t = doc.add_table(rows=0, cols=ncol)
                 if "Table Grid" in style_names:
                     t.style = "Table Grid"
-                for ri, r in enumerate(cells):
+                kv = all(not c.strip() for c in cells[0])
+                for ri, r in enumerate(cells[1:] if kv else cells):
                     row = t.add_row().cells
                     for ci in range(ncol):
                         row[ci].text = ""
                         par = row[ci].paragraphs[0]
                         add_runs(par, r[ci] if ci < len(r) else "")
-                        if ri == 0:
+                        if (ri == 0 and not kv) or (kv and ci == 0):
                             for run in par.runs:
                                 run.bold = True
+                        if landscape:
+                            for run in par.runs:
+                                run.font.size = Pt(9)
+                if landscape:
+                    widths = {7: [0.55, 1.2, 0.9, 3.5, 1.6, 1.1, 0.75], 6: [1.4, 1.7, 1.9, 1.6, 1.0, 2.0], 5: [1.8, 3.2, 1.2, 1.9, 1.5],
+                              4: [1.0, 1.5, 5.6, 1.5], 3: [2.0, 3.6, 4.0], 2: [2.2, 7.4]}.get(ncol)
+                    if widths:
+                        from docx.oxml.ns import qn
+                        from docx.oxml import OxmlElement
+                        grid = t._tbl.find(qn("w:tblGrid"))
+                        for gc, inch in zip(grid.findall(qn("w:gridCol")), widths):
+                            gc.set(qn("w:w"), str(int(inch * 1440)))
+                        tw = t._tbl.tblPr.find(qn("w:tblW"))
+                        if tw is None:
+                            tw = OxmlElement("w:tblW"); t._tbl.tblPr.append(tw)
+                        tw.set(qn("w:type"), "dxa"); tw.set(qn("w:w"), str(int(sum(widths) * 1440)))
+                        for row in t.rows:
+                            for ci, c in enumerate(row.cells):
+                                c.width = Inches(widths[ci])
                 doc.add_paragraph("")
             continue
         if ln.startswith("> "):
@@ -564,7 +602,7 @@ def build_downloads(ver, date, chrome):
                 except Exception as e:
                     print("pdf skipped:", base, variant, e, file=sys.stderr)
         try:
-            md_to_docx(md, dl / f"{base}.docx", doc_title, ("WORKING DRAFT. NOT FOR SIGNATURE. " if key == "mou" else "") + meta)
+            md_to_docx(md, dl / f"{base}.docx", doc_title, ("WORKING DRAFT. NOT FOR SIGNATURE. " if key == "mou" else "") + meta, landscape=key in LANDSCAPE)
             files["docx"] = f"{base}.docx"
         except Exception as e:
             print("docx skipped:", base, e, file=sys.stderr)
@@ -610,6 +648,8 @@ def main():
         body = convert((ROOT / "content" / fn).read_text(), title_extra=download_row(downloads.get(key)), wide=key in WIDE)
         cls = "doc wide" if key in WIDE else "doc"
         panels.append(f'<article class="{cls}" id="doc-{key}" data-doc="{key}" hidden>{body}</article>')
+        if group == "archive":          # built and linkable (#key), but not in the nav
+            continue
         t = f'<button class="tab" type="button" data-doc="{key}" role="tab" aria-selected="false">{html.escape(title)}</button>'
         (notetabs if group == "note" else tabs).append(t)
 

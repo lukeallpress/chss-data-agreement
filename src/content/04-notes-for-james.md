@@ -4,6 +4,10 @@
 
 The drafts describe CHSS as it needs to be, not necessarily as it is today. Each line below is a statement a district will test. Confirm it, date it, or strike it before the package leaves the building.
 
+> **What is live, Nov 4.** The documents CHSS staff review are the four tabs on the left: [Case-making](#case), the [Agreement](#mou), the [Technical documentation](#techdoc), and the [Data intake guide](#intake). What still needs a decision is the open table on the [Decisions](#decisions) tab. Everything else on this page is either a current working note (the NDPA, the counsel list, the asks by person) or an archive fold you can open if you want to see how a settled point was settled.
+
+:::details Archive (settled Nov 4): the gap analysis that became the control inventory
+
 ## For Emily: the gap analysis
 ::src Conversation :: Emily (10/27): "I want to see the gap of whether or not we have it today ... check, check, check, or okay, we need to tighten this up." Her example: a district requires 45-day retention and the platform does 30. She asked for the requirements that imply a policy, the measures each policy implies, and the technical items that must be in place, separate from the agreement text.
 ::src Drafting choice :: The table lists the requirements that recur across the NDPA, the Columbus City agreement, California Education Code § 49073.1, and Appendix A, each with the measure it implies and a blank for CHSS's current state. Fill the last three columns; anything marked "gap" becomes a dated commitment in Attachment 1.
@@ -38,6 +42,10 @@ Fill in **Current practice**, **Gap**, and **Action / date**:
 | G24 | Teacher and staff data protected like student data | NH Exhibit G and Exhibit I | Inventory of staff data in Navigator; same controls | | | Kept, Exhibit D-1 staff row. |
 | G25 | Criminal background checks for every employee with direct contact with students | MA, ME, NH, NY, RI, VT Exhibit Gs; A.7 | HR policy; roster of who has student contact | | | Open (O5). |
 
+:::
+
+:::details Archive (settled Nov 4): the technical claims to confirm, now the technical documentation
+
 ## For Emily: technical claims to confirm
 ::src Emily's architecture :: Every platform fact in Appendix A and Attachment 1 is drawn from the CHSS Data Platform diagram and the 10/26 call; none has been verified against a live tenant.
 ::src District lens :: A CTO will ask for evidence of each present-tense control; a privacy officer will not accept a blank where the model provider belongs.
@@ -67,6 +75,8 @@ Answer each as **true today**, **true by [date]**, or **no**:
 17. Integration support: what "support until the feed passes acceptance" costs in staff time, and who staffs it. (6.9, O11)
 18. Be ready to demo Navigator to a district's technology or privacy lead and answer the four questions they ask of any AI feature: is the model CHSS's own or a third party's; exactly what goes into the prompt; who at CHSS, the provider, or any maintenance contractor can see inputs and outputs; and what the agent does with the output. (A.12(i); a California district lead asks exactly these and says vendors are often surprised to be asked.)
 19. Attachment 1 is written in the present tense. Besides the two visible brackets (`[AI model provider]` and the first assessment date), the following are also claims that may need re-tensing or a bracket until confirmed: U.S.-only processing for every tenant, record-level access logging, seven-day patching, the deletion runbook, the personnel practice in A.7, and the insurance limits. Mark each one.
+
+:::
 
 ## The NDPA: one signature, eighteen states
 ::src Lewis County :: On 10/29 TEC's SDPA coordinator, who represents the Massachusetts, Maine, Colorado, Idaho, Illinois, Iowa, Kentucky, Missouri, Nebraska, New Hampshire, New Jersey, New York, Ohio, Rhode Island, Tennessee, Vermont, Virginia, and Washington alliances of the Student Data Privacy Consortium, sent CHSS the multi-state NDPA as a fillable PDF, with Lewis County C-1 as the originating district. CHSS signs once; TEC has Lewis County countersign; CHSS is posted as "Approved for Use" on the alliance databases; any district in those eighteen states subscribes by completing Exhibit E, which TEC forwards. "You only need to review and sign the DPA once regardless of the number of participating districts."

@@ -3,6 +3,8 @@
 ::src SDPC NDPA :: TEC's multi-state NDPA (New York Exhibit G, paragraph 4) incorporates the provider's plan by its URL in Exhibit K and requires that it, "at a minimum": (a) implements applicable state, federal, and local requirements; (b) has operational technical safeguards and controls; (c) complies with the district's Parents' Bill of Rights; (d) requires training of employees, assignees, and subprocessors with access; (e) ensures subprocessors protect the data; (f) specifies how incidents are managed with prompt notice; and (g) addresses return, deletion, and destruction. TEC's 10/29 request: "A privacy policy is sufficient if it describes equivalent data security practices."
 ::src Drafting choice :: Every commitment below is drawn from Appendix A and Attachment 1 of the Agreement, so the plan and the agreement say the same thing. Bracketed items need a name, a date, or a confirmation from CHSS before publication (Decisions O3, O4, O5, O18, O20).
 ::src Needs CHSS confirmation :: Draft for CHSS review. This is not CHSS's published plan. Before it is posted at a CHSS URL and cited in Exhibit K, the technology office confirms every statement is true today or re-tenses it with a date.
+> **Archive, Nov 4.** Kept for the New York Part 121 element map and the Exhibit K citation. For public use, the plan is now Part A of the [Technical documentation](#techdoc) tab, in the shorter register districts expect. Open items here are tracked on the [Decisions](#decisions) tab.
+
 
 **Center for High School Success, a program of Stand for Children Leadership Center, Inc.**
 Effective date: [[Pending: effective date]] · Owner: [[Pending, Jonah: Privacy Officer name (O8)]] · Reviewed annually · Published at: [[Pending, Emily: CHSS URL (O18)]]

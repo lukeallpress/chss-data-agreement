@@ -4,6 +4,8 @@
 ::src Columbus City DSA :: Columbus City Schools, Student Data Sharing Agreement, revised 3/17/2025, forwarded by James 10/30: services items 5 through 10 and the termination section.
 ::src District lens :: 1EdTech's Data Privacy and Security Agreement template (version 1.0, 2024), written by a task force of districts and suppliers including Fresno Unified, Scottsdale Unified, Albuquerque, and Loudoun County, and 1EdTech's Security Practices Rubric (version 1.0, 42 items). Both are public. A district that uses the 1EdTech template will hand CHSS that document in place of the NDPA.
 ::src Luke's decision :: Emily's structure is adopted. This page applies it clause by clause: for each technical commitment in the draft, who requires it, and whether it stays in the contract, moves to a district exhibit, moves to technical documentation, or comes out.
+> **Archive, Nov 4.** This is the analysis that produced v1.8's Appendix A. Its rows were settled on the November 4 call (the "Decided November 4" section below); the result lives in the [Agreement](#mou), the [Technical documentation](#techdoc), and the [Decisions](#decisions) register. Kept so the reasoning can be found.
+
 
 > **Purpose.** One question for each technical commitment in the agreement: how much should CHSS guarantee in the contract? The answer follows the structure Emily proposed on October 30: the NDPA as the baseline, a short CHSS supplement that states each obligation once, and implementation detail in separate technical documentation. The rows below are decided at the Tuesday, November 3 working session.
 

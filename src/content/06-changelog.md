@@ -11,6 +11,7 @@ Each version is frozen under its own URL (the draft tag in the header lists them
 - **Attachment 1 retired.** A reference paragraph says the technical documentation and the data-intake guide exist, are dated, and are provided on request under A.13 (O4).
 - **Decisions:** O3, O14, O20 closed into M25 and M26; O24 narrowed to the Columbus audit question; M27 records the row-by-row outcome; O4 restated as the technical documentation's first dated version.
 - **Technical commitments tab:** the November 4 outcome, and the AI clause in three lengths for Jonah and Emily.
+- **Two new tabs, Nov 4 evening:** Technical documentation (Part A, a two-page plan in the register of SchooLinks' published plan; Part B, the control inventory in Emily's matrix format) and the Technical and Data Integration Guide (one schema page per file, modeled on SchooLinks' public guide). Technical commitments and the New York privacy plan leave the nav and become archive pages, still reachable at #technical and #plan and linked from Notes; the Notes page opens with what is live and folds the settled sections. Section links inside a page now work (for example, the guide's contents).
 
 ## v1.7, Nov 2, 2026
 ::src Emily's email :: Emily (10/30): the draft repeats technical language in three places and goes beyond the NDPA on audits, penetration testing, logging, patching and backup deadlines, AI restrictions, and response times; use the NDPA as the baseline, a concise CHSS supplement, and separate technical documentation.

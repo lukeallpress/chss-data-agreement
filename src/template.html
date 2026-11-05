@@ -123,6 +123,26 @@
   .doc th, .doc td { border: 1px solid var(--rule); padding: 8px 10px; vertical-align: top; text-align: left; }
   .doc th { background: var(--bg-2); font-weight: 600; }
   .doc hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+  .sec { scroll-margin-top: 118px; }
+  /* key/value card (a table whose header row is empty): schema headers, document info */
+  .doc table.kv { font-size: 14px; border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; background: var(--bg-2); max-width: 760px; }
+  .doc table.kv th { width: 180px; font-weight: 600; color: var(--ink-2); background: transparent; border: 0; border-bottom: 1px solid var(--rule); padding: 7px 12px; font-size: 12.5px; letter-spacing: .02em; }
+  .doc table.kv td { border: 0; border-bottom: 1px solid var(--rule); padding: 7px 12px; background: #fff; }
+  .doc table.kv tr:last-child th, .doc table.kv tr:last-child td { border-bottom: 0; }
+  /* schema tables (column name / required / type / description) */
+  .doc table.schema { font-size: 13.5px; }
+  .doc table.schema th:nth-child(1) { width: 24%; } .doc table.schema th:nth-child(2) { width: 9%; } .doc table.schema th:nth-child(3) { width: 14%; }
+  .doc table.schema td:nth-child(1) code { background: none; padding: 0; font-size: .95em; color: #0f3d78; font-weight: 600; white-space: nowrap; }
+  .doc table.schema td:nth-child(2) { white-space: nowrap; }
+  .doc table.schema tbody tr:nth-child(even) td { background: #fbfbfc; }
+  /* control inventory (ID / topic / agreement / specifics / evidence / status / owner) */
+  .doc table.inv { font-size: 13px; }
+  .doc table.inv td:nth-child(1) { white-space: nowrap; font-weight: 600; font-family: var(--mono); font-size: 12px; }
+  .doc table.inv th:nth-child(2) { width: 13%; } .doc table.inv th:nth-child(3) { width: 9%; } .doc table.inv th:nth-child(4) { width: 36%; }
+  .doc table.inv th:nth-child(5) { width: 16%; } .doc table.inv th:nth-child(6) { width: 10%; }
+  .doc.wide ol, .doc.wide ul { max-width: 760px; }
+  .doc.wide p, .doc.wide blockquote { max-width: 760px; }
+  .doc.wide .lede { max-width: none; }
   .doc mark.pending { background: #fff1a8; color: #5c4400; font-family: var(--sans); font-size: .82em; font-weight: 600; padding: 1px 6px; border-radius: 4px; white-space: normal; }
   .doc details.fold { border: 1px solid var(--rule); border-radius: 8px; margin: 1em 0; background: var(--bg-2); }
   .doc details.fold > summary { cursor: pointer; padding: 10px 14px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink-2); list-style: none; }
@@ -238,11 +258,16 @@
   function show(key, push) {
     if (key === 'district' || key === 'chss') key = 'mou';   // old links to the two commitment tabs
     var found = docs.some(function (d) { return d.dataset.doc === key; });
-    if (!found) key = docs[0].dataset.doc;
+    var target = null;
+    if (!found) {                                   // a section anchor inside one of the documents
+      var el = key ? document.getElementById(key) : null;
+      var host = el ? el.closest('.doc') : null;
+      if (host) { target = el; key = host.dataset.doc; } else { key = docs[0].dataset.doc; }
+    }
     docs.forEach(function (d) { d.hidden = d.dataset.doc !== key; });
     tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.doc === key ? 'true' : 'false'); });
     if (push) { try { history.replaceState(null, '', '#' + key); } catch (e) {} }
-    window.scrollTo({ top: 0 });
+    if (target) { target.scrollIntoView(); } else { window.scrollTo({ top: 0 }); }
   }
   tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.doc, true); }); });
   window.addEventListener('hashchange', function () { show(location.hash.replace('#', ''), false); });
