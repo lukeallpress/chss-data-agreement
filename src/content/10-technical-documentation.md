@@ -3,11 +3,11 @@
 ::src SchooLinks :: Shape taken from the two-page Data Security and Privacy Plan SchooLinks filed with the Student Data Privacy Consortium (January 2023) and its public security page: plain prose, hosting named, what is encrypted, who can see what, how data moves, deletion at termination, "more detail is in the agreement signed with the district." Part A follows that register; Part B is the on-request detail behind it.
 ::src Needs CHSS confirmation :: Every platform fact below comes from the platform diagram and the October 26 and November 4 calls and has not been verified against a live tenant. Bracketed entries are CHSS's to fill; "Confirm" in the status column means stated from design, not evidence (Decisions, O4).
 
-> **Two documents in one.** Part A is the public-facing plan, two pages, the piece the TEC form asks for by URL and the piece a district privacy officer reads first. Part B is the control inventory in the matrix format Emily and Phil are working in, with specifics, evidence, status, and owner, provided to a district on request under Appendix A.13. **Draft 0.2, Nov 4, 2026.** Nothing here is a contractual term beyond what Appendix A states.
+> **Two documents in one.** Part A is the district-facing plan, two pages, provided with the agreement package and linkable for the TEC form, and the piece a district privacy officer reads first. It does not replace or revise Stand's website privacy policy. Part B is the control inventory in the matrix format Emily and Phil are working in, with specifics, evidence, status, and owner, provided to a district on request under Appendix A.13. **Draft 0.2, Nov 4, 2026.** Nothing here is a contractual term beyond what Appendix A states.
 
 ## Part A. CHSS Data Security and Privacy Plan
 
-*Center for High School Success, a program of Stand for Children Leadership Center, Inc. Last updated [date]. This plan describes how CHSS protects the student data school districts share with it. Protocols and procedures may change as practices improve; the current version is always at [URL]. More detailed information about how CHSS handles a particular district's data is specified in the data sharing agreement signed with that district.*
+*Center for High School Success, a program of Stand for Children Leadership Center, Inc. Last updated [date]. This plan describes how CHSS protects the student data school districts share with it. Protocols and procedures may change as practices improve; CHSS provides the current version with its district agreement package and at a stable link for the forms that ask for one. Stand for Children's website privacy policy (stand.org/privacy-policy) governs the website and is not changed by this plan. More detailed information about how CHSS handles a particular district's data is specified in the data sharing agreement signed with that district.*
 
 ### What CHSS receives and why
 
@@ -55,7 +55,7 @@ CHSS keeps a district's student data only for the term of the agreement. On the 
 
 ### Who to contact
 
-Privacy: [CHSS privacy officer, email]. Security: [CHSS security officer, email]. Vulnerability reports: [email]. Public privacy policy: [URL]. This plan: [URL].
+Privacy: [CHSS privacy officer, email]. Security: [CHSS security officer, email]. Vulnerability reports: [email]. Stand for Children website privacy policy: stand.org/privacy-policy. This plan: [stable link].
 
 ---
 
