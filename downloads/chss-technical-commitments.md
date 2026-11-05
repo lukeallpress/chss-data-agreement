@@ -88,8 +88,8 @@ Jonah asked whether A.12(a) prevents CHSS from using the data to make Navigator 
 | Layer | Carries |
 |---|---|
 | **NDPA** (where executed) | Authorized use; employee obligations; no disclosure; de-identified data; sixty-day disposition; advertising limits; data storage; the audit right; the cybersecurity framework; seventy-two-hour breach notice; law-enforcement requests; subprocessor flow-down; the state terms. |
-| **CHSS supplement** (Appendix A, about half its current length) | Coach access (5.1, 5.4). Permitted use, including no advocacy or political use (5.5). Screeners (6.7, A.15). Four AI commitments. Who notifies families after a breach and who pays (A.8). De-identified retention with the documented review and the twenty-student floor (A.10). One security sentence: framework, encryption, MFA, logging with log data on request, U.S. hosting on named providers. Evidence on request (A.13). Insurance (A.14). Immediate suspension and no automatic renewal (A.16). State terms (A.17). Order of precedence (5.2, A.18). |
-| **District exhibit** (one page per district) | Anything a district adds, in its own words: section, original text, revised text. Columbus is the first entry. |
+| **CHSS supplement** (Appendix A, rewritten in v1.8) | Coach access (5.1, 5.4). Permitted use, including no advocacy or political use (5.5). Screeners (6.7, A.15). Four AI commitments. Who notifies families after a breach and who pays (A.8). De-identified retention with the documented review and the twenty-student floor (A.10). One security sentence: framework, encryption, MFA, logging with log data on request, U.S. hosting on named providers. Evidence on request (A.13). Insurance (A.14). Immediate suspension and no automatic renewal (A.16). State terms (A.17). Order of precedence (5.2, A.18). |
+| **District exhibit** (Exhibit D-5, one entry per district) | Anything a district adds, in its own words: section, requirement, CHSS's commitment for that district. Columbus is the first entry, drafted in v1.8. |
 | **Technical documentation** (dated; provided on request under A.13; not contractual) | The control inventory (the twenty-five rows on the Notes tab, in the 1EdTech Security Practices Rubric's forty-two-item format); the system specifications now in Attachment 1; the deletion runbook; patch, backup, logging, and deprovisioning practice; penetration testing; disaster recovery; the hosting providers' SOC 2 Type 2 reports. |
 
 Where a district's state has an NDPA version, CHSS signs it (A.19). Where none exists, the NDPA's standard clauses are attached as the baseline exhibit, so the supplement never stands alone.
@@ -113,14 +113,32 @@ Each entry takes effect only if Emily confirms CHSS can meet it.
 
 :::details What this means for the TEC form
 
-- **Exhibit F:** the NIST Cybersecurity Framework, which New York requires in any case; exclusions listed in the attachment the form provides for.
+- **Exhibit F:** CIS Controls v8.1 Implementation Group 1, CHSS's internal baseline (Phil, 11/4), which is on the Exhibit F list; New York's NIST Cybersecurity Framework alignment is met by a mapping page in the technical documentation.
 - **New Hampshire:** the twenty-three listed controls or an annual certification. The technical documentation, in the rubric format, doubles as the New Hampshire attachment.
 - **New York:** NIST alignment, the published Data Security and Privacy Plan, and the audit provision above.
 - **Exhibit A:** add evaluation and improvement using de-identified data, and the outcome measures Tara names.
 
 :::
 
-## Tuesday, November 3
+## Decided November 4 (Emily, Phil, Luke)
+
+::src Conversation :: Emily's "Gold Baseline Matrix" (33 rows, G-01 to G-33) and the 8:30 call. Transcript and Gemini notes in Luke's meeting records; the summary is in the Deliverables folder.
+
+Emily's matrix lands where this page did on nearly every row, in shorter sentences, and v1.8 takes her language. Three rows were decided against the matrix on the call: the incident response plan stays mentioned (G-26); sixty days stays (G-24); seventy-two hours stays, triggered by a validated and confirmed incident (G-27). SOC 2 is out, replaced by an annual self-assessment against CIS Controls v8.1 IG1 and a hired audit where a district requires one (M26). Providers are named by category; the list is in the technical documentation (M25). Columbus's written requirements are on Exhibit D-5. The AI training line is agreed; the clause's length is the open question (O21).
+
+:::details The AI clause: three lengths for Jonah and Emily to choose from
+
+**One sentence (Emily's preference).** "No Student Data will be used to train any artificial-intelligence model." Answers the Colorado requirement and the first question on every AI questionnaire. Leaves for the questionnaire: whether the Services use AI at all, whether outputs are Student Data, who decides about students, and what happens when the provider changes.
+
+**Two sentences.** The sentence above, plus: "CHSS may use approved artificial-intelligence and data-analytics capabilities to analyze Student Data and support educational analysis, next-step planning, and intervention recommendations when those activities are part of the Services." Discloses the use, which Colorado's statute expressly permits for educational recommendations within a school service, so the district is not surprised by the demo. Leaves the rest for the questionnaire.
+
+**Four commitments (in v1.8).** The two sentences, plus: outputs about a student are Student Data and educators decide, with an off switch; notice before the provider category changes; questionnaire answered on request. Pre-answers the Arizona Exhibit G questions a privacy officer asks first. Costs CHSS nothing it does not already do.
+
+Phil asked for Google's education terms as the model. Google's Workspace for Education terms say customer data is not used to train or improve generative AI models without permission; that is the one-sentence version, which is why option one reads the way it does.
+
+:::
+
+## Tuesday, November 3 (superseded by the November 4 call)
 
 1. Confirm the three layers and the rule.
 2. Decide each row of the table above.

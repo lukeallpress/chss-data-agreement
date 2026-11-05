@@ -3,6 +3,15 @@
 
 Each version is frozen under its own URL (the draft tag in the header lists them). The current version is always at the root link.
 
+## v1.8, Nov 4, 2026
+::src Conversation :: Emily Phan and Phil Toynton's 33-row "Gold Baseline Matrix" (11/4) and the 8:30 call that walked its contested rows. Emily: simplify the agreement, remove technical complexity, keep the commitments practical; Luke to return an updated version the same day, review Friday 11/6.
+
+- **Appendix A rewritten to the generic baseline.** A.7 is eight short commitments in Emily's register (framework, access, authentication, encryption and transfer, logging, vulnerabilities and endpoints, incident response, responsible individuals, personnel); named versions, protocols, network controls, development practice, the penetration test, and the fixed clocks move to the technical documentation. A.6 names providers by category and keeps the thirty-day notice for a change of category (M25). A.8 triggers on a validated and confirmed incident and keeps seventy-two hours; the five-day family-notice clock is gone. A.10 keeps sixty days, takes Emily's backup sentence, and moves the cell-size number to documentation. A.11 drops ten business days. A.12 is four commitments with the training line agreed; length open (O21). A.13 is an annual self-assessment with a summary on request, no SOC 2 (M26).
+- **Exhibit D-5, District-specific terms,** with Columbus City Schools as the first entry: the third-party audit sentence (bracketed, O24), one-week critical patches, salted hashes and SSL, COPPA, and the rows Appendix A already meets.
+- **Attachment 1 retired.** A reference paragraph says the technical documentation and the data-intake guide exist, are dated, and are provided on request under A.13 (O4).
+- **Decisions:** O3, O14, O20 closed into M25 and M26; O24 narrowed to the Columbus audit question; M27 records the row-by-row outcome; O4 restated as the technical documentation's first dated version.
+- **Technical commitments tab:** the November 4 outcome, and the AI clause in three lengths for Jonah and Emily.
+
 ## v1.7, Nov 2, 2026
 ::src Emily's email :: Emily (10/30): the draft repeats technical language in three places and goes beyond the NDPA on audits, penetration testing, logging, patching and backup deadlines, AI restrictions, and response times; use the NDPA as the baseline, a concise CHSS supplement, and separate technical documentation.
 ::src Conversation :: James (10/29, thread) moved the Word copy to Google Drive as GOLD for tracked changes; Jonah marked it up 10/30; Stand's counsel received it 10/30.
