@@ -246,6 +246,7 @@ Files marked 🎯 feed the on-track indicators and are Required under Exhibit D-
 | `cte_flag` | No | Integer | `1` where the District's catalog flags the course CTE. |
 | `dual_credit_flag` | No | Integer | `1` where the catalog flags dual credit or dual enrollment. Many catalogs do not carry this; leave blank and use program_participation.csv for dual-credit completion. |
 | `pathway_code` | No | String | Where the catalog carries it. |
+| `credit_recovery_flag` | No | Integer | `1` where the enrollment is a credit-recovery course, including mid-year recovery (Exhibit D-1). |
 
 ### 8.2 🎯 progress_marks.csv (marks by grading period)
 
@@ -315,7 +316,7 @@ Files marked 🎯 feed the on-track indicators and are Required under Exhibit D-
 
 ### 8.5 🎯 Summer school
 
-Summer school is sent in student_courses.csv with `academic_term` = `summer` and `school_year` = the ending year of the school year the credit applies to, with `credit_awarded` and `grade_achieved` filled in when the course closes. No separate file. Districts whose summer school runs on a separate SIS instance may send a separate `student_courses_summer.csv` with the same schema.
+Summer school and credit recovery are sent in student_courses.csv: summer school with `academic_term` = `summer`, credit recovery with `credit_recovery_flag` = `1` in whatever term it ran, and `school_year` = the ending year of the school year the credit applies to, with `credit_awarded` and `grade_achieved` filled in when the course closes. No separate file. Districts whose summer school runs on a separate SIS instance may send a separate `student_courses_summer.csv` with the same schema.
 
 ### 8.6 🎯 state_assessments.csv
 
@@ -405,7 +406,7 @@ Summer school is sent in student_courses.csv with `academic_term` = `summer` and
 
 ### 8.10 Screening data
 
-The Belonging and Skills screeners are collected by CHSS, not sent by the District (Exhibit D-1). The District approves the instruments and provides any required notice or consent before collection opens at a school (Agreement Section 6.7). [Emily to confirm the flow: students complete the screener in Navigator; what the student enters to be matched to the roster (date of birth, a claim code, or a roster-generated link); whether staff administer it in class. This section is written once that is confirmed.]
+The Belonging and Skills screeners are student surveys completed in Navigator, collected by CHSS rather than sent by the District (Exhibit D-1). The District approves the instruments and provides any required notice or consent before collection opens at a school, and District staff (Seminar teachers, Team Leads, or administrators) open each screening window (Agreement Section 6.7). [Emily to confirm what the student enters to be matched to the roster (date of birth, a claim code, or a roster-generated link). If it is date of birth, `date_of_birth` in students.csv becomes Required. This section is completed once that is confirmed.]
 
 ### 8.11 Code tables (sent once, in `/code_tables`)
 
